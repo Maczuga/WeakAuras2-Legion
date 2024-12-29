@@ -480,7 +480,7 @@ local function RunOverlayFuncs(event, state, id, errorHandler)
   for i, overlayFunc in ipairs(event.overlayFuncs) do
     state.additionalProgress[i] = state.additionalProgress[i] or {};
     local additionalProgress = state.additionalProgress[i];
-    local ok, a, b, c = xpcall(overlayFunc, errorHandler or Private.GetErrorHandlerId(id, L["Overlay %s"]:format(i)), event.trigger, state);
+    local ok, a, b, c = Private.SafeCall(overlayFunc, errorHandler or Private.GetErrorHandlerId(id, L["Overlay %s"]:format(i)), event.trigger, state);
     if (not ok) then
       additionalProgress.min = nil;
       additionalProgress.max = nil;
@@ -527,7 +527,7 @@ local function callFunctionForActivateEvent(func, trigger, state, property, erro
   if not func then
     return
   end
-  local ok, value = xpcall(func, errorHandler, trigger)
+  local ok, value = Private.SafeCall(func, errorHandler, trigger)
   if ok then
     if state[property] ~= value then
       state[property] = value
@@ -567,7 +567,7 @@ function Private.ActivateEvent(id, triggernum, data, state, errorHandler)
     state.inverse = nil;
     state.autoHide = autoHide;
   elseif (data.durationFunc) then
-    local ok, arg1, arg2, arg3, inverse = xpcall(data.durationFunc, errorHandler or Private.GetErrorHandlerId(id, L["Duration Function"]), data.trigger);
+    local ok, arg1, arg2, arg3, inverse = Private.SafeCall(data.durationFunc, errorHandler or Private.GetErrorHandlerId(id, L["Duration Function"]), data.trigger);
     arg1 = ok and type(arg1) == "number" and arg1 or 0;
     arg2 = ok and type(arg2) == "number" and arg2 or 0;
 
@@ -666,9 +666,9 @@ local function RunTriggerFunc(allStates, data, id, triggernum, event, arg1, arg2
     if (data.statesParameter == "full") then
       local ok, returnValue
       if data.counter then
-        ok, returnValue = xpcall(data.triggerFunc, errorHandler, allStates, data.counter, event, arg1, arg2, ...);
+        ok, returnValue = Private.SafeCall(data.triggerFunc, errorHandler, allStates, data.counter, event, arg1, arg2, ...);
       else
-        ok, returnValue = xpcall(data.triggerFunc, errorHandler, allStates, event, arg1, arg2, ...);
+        ok, returnValue = Private.SafeCall(data.triggerFunc, errorHandler, allStates, event, arg1, arg2, ...);
       end
       if (ok and returnValue) then
         updateTriggerState = true;
@@ -683,9 +683,9 @@ local function RunTriggerFunc(allStates, data, id, triggernum, event, arg1, arg2
     elseif (data.statesParameter == "all") then
       local ok, returnValue
       if data.counter then
-        ok, returnValue = xpcall(data.triggerFunc, errorHandler, allStates, data.counter, event, arg1, arg2, ...);
+        ok, returnValue = Private.SafeCall(data.triggerFunc, errorHandler, allStates, data.counter, event, arg1, arg2, ...);
       else
-        ok, returnValue = xpcall(data.triggerFunc, errorHandler, allStates, event, arg1, arg2, ...);
+        ok, returnValue = Private.SafeCall(data.triggerFunc, errorHandler, allStates, event, arg1, arg2, ...);
       end
       if( (ok and returnValue) or optionsEvent) then
         for id, state in pairs(allStates) do
@@ -715,9 +715,9 @@ local function RunTriggerFunc(allStates, data, id, triggernum, event, arg1, arg2
         local state = allStates[cloneIdForUnitTrigger];
         local ok, returnValue
         if data.counter then
-          ok, returnValue = xpcall(data.triggerFunc, errorHandler, state, data.counter, event, unitForUnitTrigger, arg1, arg2, ...);
+          ok, returnValue = Private.SafeCall(data.triggerFunc, errorHandler, state, data.counter, event, unitForUnitTrigger, arg1, arg2, ...);
         else
-          ok, returnValue = xpcall(data.triggerFunc, errorHandler, state, event, unitForUnitTrigger, arg1, arg2, ...);
+          ok, returnValue = Private.SafeCall(data.triggerFunc, errorHandler, state, event, unitForUnitTrigger, arg1, arg2, ...);
         end
         if (ok and returnValue) or optionsEvent then
           if(Private.ActivateEvent(id, triggernum, data, state)) then
@@ -732,9 +732,9 @@ local function RunTriggerFunc(allStates, data, id, triggernum, event, arg1, arg2
       local state = allStates[""];
       local ok, returnValue
       if data.counter then
-        ok, returnValue = xpcall(data.triggerFunc, errorHandler, state, data.counter, event, arg1, arg2, ...);
+        ok, returnValue = Private.SafeCall(data.triggerFunc, errorHandler, state, data.counter, event, arg1, arg2, ...);
       else
-        ok, returnValue = xpcall(data.triggerFunc, errorHandler, state, event, arg1, arg2, ...);
+        ok, returnValue = Private.SafeCall(data.triggerFunc, errorHandler, state, event, arg1, arg2, ...);
       end
       if (ok and returnValue) or optionsEvent then
         if(Private.ActivateEvent(id, triggernum, data, state, (optionsEvent and data.ignoreOptionsEventErrors) and ignoreErrorHandler or nil)) then
@@ -746,9 +746,9 @@ local function RunTriggerFunc(allStates, data, id, triggernum, event, arg1, arg2
     else
       local ok, returnValue
       if data.counter then
-        ok, returnValue = xpcall(data.triggerFunc, errorHandler, data.counter, event, arg1, arg2, ...);
+        ok, returnValue = Private.SafeCall(data.triggerFunc, errorHandler, data.counter, event, arg1, arg2, ...);
       else
-        ok, returnValue = xpcall(data.triggerFunc, errorHandler, event, arg1, arg2, ...);
+        ok, returnValue = Private.SafeCall(data.triggerFunc, errorHandler, event, arg1, arg2, ...);
       end
       if (ok and returnValue) or optionsEvent then
         allStates[""] = allStates[""] or {};
@@ -764,7 +764,7 @@ local function RunTriggerFunc(allStates, data, id, triggernum, event, arg1, arg2
       errorHandler = (optionsEvent and data.ignoreOptionsEventErrors) and ignoreErrorHandler or Private.GetErrorHandlerId(id, L["Untrigger %s"]:format(triggernum))
       if (data.statesParameter == "all") then
         if data.untriggerFunc then
-          local ok, returnValue = xpcall(data.untriggerFunc, errorHandler, allStates, event, arg1, arg2, ...);
+          local ok, returnValue = Private.SafeCall(data.untriggerFunc, errorHandler, allStates, event, arg1, arg2, ...);
           if ok and returnValue then
             for id, state in pairs(allStates) do
               if (state.changed) then
@@ -798,7 +798,7 @@ local function RunTriggerFunc(allStates, data, id, triggernum, event, arg1, arg2
         allStates[""] = allStates[""] or {};
         local state = allStates[""];
         if data.untriggerFunc then
-          local ok, returnValue = xpcall(data.untriggerFunc, errorHandler, state, event, arg1, arg2, ...);
+          local ok, returnValue = Private.SafeCall(data.untriggerFunc, errorHandler, state, event, arg1, arg2, ...);
           if (ok and returnValue) then
             if (Private.EndEvent(state)) then
               updateTriggerState = true;
@@ -807,7 +807,7 @@ local function RunTriggerFunc(allStates, data, id, triggernum, event, arg1, arg2
         end
       else
         if data.untriggerFunc then
-          local ok, returnValue = xpcall(data.untriggerFunc, errorHandler, event, arg1, arg2, ...);
+          local ok, returnValue = Private.SafeCall(data.untriggerFunc, errorHandler, event, arg1, arg2, ...);
           if ok and returnValue then
             allStates[""] = allStates[""] or {};
             local state = allStates[""];
@@ -1208,7 +1208,7 @@ function HandleEvent(frame, event, arg1, arg2, ...)
       Private.CheckCooldownReady();
       Private.StopProfileSystem("generictrigger WA_DELAYED_PLAYER_ENTERING_WORLD");
       Private.PreShowModels()
-      if WeakAuras.IsRetail() then
+      if WeakAuras.IsRetail() and C_Traits ~= nil then
         Private.CheckTalentsForLoad("WA_DELAYED_PLAYER_ENTERING_WORLD")
       end
     end,
@@ -4442,7 +4442,7 @@ function GenericTrigger.GetDelay(data)
 end
 
 function GenericTrigger.GetTsuConditionVariables(id, triggernum)
-  local ok, variables = xpcall(events[id][triggernum].tsuConditionVariables, Private.GetErrorHandlerId(id, L["Custom Variables"]));
+  local ok, variables = Private.SafeCall(events[id][triggernum].tsuConditionVariables, Private.GetErrorHandlerId(id, L["Custom Variables"]));
   if ok then
     return variables
   end
@@ -4926,32 +4926,32 @@ function GenericTrigger.CreateFallbackState(data, triggernum, state)
   local trigger = data.triggers[triggernum].trigger
 
   if event.GetNameAndIcon then
-    local ok, name, icon = xpcall(event.GetNameAndIcon, Private.GetErrorHandlerUid(data.uid, L["GetNameAndIcon Function (fallback state)"]), trigger);
+    local ok, name, icon = Private.SafeCall(event.GetNameAndIcon, Private.GetErrorHandlerUid(data.uid, L["GetNameAndIcon Function (fallback state)"]), trigger);
     state.name = ok and name or nil;
     state.icon = ok and icon or nil;
   else
     if (event.nameFunc) then
-      local ok, name = xpcall(event.nameFunc, Private.GetErrorHandlerUid(data.uid, L["Name Function (fallback state)"]), trigger);
+      local ok, name = Private.SafeCall(event.nameFunc, Private.GetErrorHandlerUid(data.uid, L["Name Function (fallback state)"]), trigger);
       state.name = ok and name or nil;
     end
     if (event.iconFunc) then
-      local ok, icon = xpcall(event.iconFunc, Private.GetErrorHandlerUid(data.uid, L["Icon Function (fallback state)"]), trigger);
+      local ok, icon = Private.SafeCall(event.iconFunc, Private.GetErrorHandlerUid(data.uid, L["Icon Function (fallback state)"]), trigger);
       state.icon = ok and icon or nil;
     end
   end
 
   if (event.textureFunc ) then
-    local ok, texture = xpcall(event.textureFunc, Private.GetErrorHandlerUid(data.uid, L["Texture Function (fallback state)"]), trigger);
+    local ok, texture = Private.SafeCall(event.textureFunc, Private.GetErrorHandlerUid(data.uid, L["Texture Function (fallback state)"]), trigger);
     state.texture = ok and texture or nil;
   end
 
   if (event.stacksFunc) then
-    local ok, stacks = xpcall(event.stacksFunc, Private.GetErrorHandlerUid(data.uid, L["Stacks Function (fallback state)"]), trigger);
+    local ok, stacks = Private.SafeCall(event.stacksFunc, Private.GetErrorHandlerUid(data.uid, L["Stacks Function (fallback state)"]), trigger);
     state.stacks = ok and stacks or nil;
   end
 
   if (event.durationFunc) then
-    local ok, arg1, arg2, arg3, inverse = xpcall(event.durationFunc, Private.GetErrorHandlerUid(data.uid, L["Duration Function (fallback state)"]), trigger);
+    local ok, arg1, arg2, arg3, inverse = Private.SafeCall(event.durationFunc, Private.GetErrorHandlerUid(data.uid, L["Duration Function (fallback state)"]), trigger);
     if (not ok) then
       state.progressType = "timed";
       state.duration = 0;

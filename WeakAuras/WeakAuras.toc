@@ -23,7 +23,6 @@
 
 # External code + initialization
 embeds.xml
-CustomCode.lua
 
 # TaintLess
 Libs\TaintLess\TaintLess.xml
@@ -33,6 +32,7 @@ Libs\LibSpecialization\LibSpecialization.lua
 Libs\LibDispel\LibDispel.lua
 
 Init.lua
+CustomCode.lua
 Compatibility.lua
 locales.xml
 ArchiveTypes\Repository.lua

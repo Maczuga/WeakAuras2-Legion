@@ -213,7 +213,7 @@ function Private.ExecEnv.ScheduleConditionCheck(time, uid, cloneId)
 end
 
 function Private.ExecEnv.CallCustomConditionTest(uid, testFunctionNumber, ...)
-  local ok, result = xpcall(Private.ExecEnv.conditionHelpers[uid].customTestFunctions[testFunctionNumber],
+  local ok, result = Private.SafeCall(Private.ExecEnv.conditionHelpers[uid].customTestFunctions[testFunctionNumber],
                             Private.GetErrorHandlerUid(uid, L["Condition Custom Test"]), ...)
   if (ok) then
     return result

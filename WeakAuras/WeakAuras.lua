@@ -2681,7 +2681,7 @@ function Private.AddMany(tbl, takeSnapshots)
       bads[data.id] = true
     else
       local oldSnapshot = oldSnapshots[data.uid] or nil
-      local ok = xpcall(WeakAuras.PreAdd, Private.GetErrorHandlerUid(data.uid, "PreAdd"), data, oldSnapshot)
+      local ok = Private.SafeCall(WeakAuras.PreAdd, Private.GetErrorHandlerUid(data.uid, "PreAdd"), data, oldSnapshot)
       if not ok then
         prettyPrint(L["Unable to modernize aura '%s'. This is probably due to corrupt data or a bad migration, please report this to the WeakAuras team."]:format(data.id))
         if data.regionType == "dynamicgroup" or data.regionType == "group" then
@@ -2700,7 +2700,7 @@ function Private.AddMany(tbl, takeSnapshots)
       if data.parent and bads[data.parent] then
         bads[data.id] = true
       else
-        local ok = xpcall(pAdd, Private.GetErrorHandlerUid(data.uid, "pAdd"), data)
+        local ok = Private.SafeCall(pAdd, Private.GetErrorHandlerUid(data.uid, "pAdd"), data)
         if not ok then
           bads[data.id] = true
         end
@@ -3305,7 +3305,7 @@ function WeakAuras.Add(data, simpleChange)
   if (data.internalVersion or 0) < internalVersion then
     Private.SetMigrationSnapshot(data.uid, data)
   end
-  local ok = xpcall(WeakAuras.PreAdd, Private.GetErrorHandlerUid(data.uid, "PreAdd"), data, oldSnapshot)
+  local ok = Private.SafeCall(WeakAuras.PreAdd, Private.GetErrorHandlerUid(data.uid, "PreAdd"), data, oldSnapshot)
   if ok then
     pAdd(data, simpleChange)
   end
@@ -4823,7 +4823,7 @@ local function evaluateTriggerStateTriggers(id)
   else
     if (triggerState[id].disjunctive == "custom" and triggerState[id].triggerLogicFunc) then
       Private.ActivateAuraEnvironment(id)
-      local ok, returnValue = xpcall(triggerState[id].triggerLogicFunc, Private.GetErrorHandlerId(id, L["Custom Trigger Combination"]), triggerState[id].triggers);
+      local ok, returnValue = Private.SafeCall(triggerState[id].triggerLogicFunc, Private.GetErrorHandlerId(id, L["Custom Trigger Combination"]), triggerState[id].triggers);
       Private.ActivateAuraEnvironment()
       result = ok and returnValue;
     end
@@ -5977,7 +5977,7 @@ local function GetAnchorFrame(data, region, parent)
     Private.StartProfileSystem("custom region anchor")
     Private.StartProfileAura(region.id)
     Private.ActivateAuraEnvironment(region.id, region.cloneId, region.state)
-    local ok, frame = xpcall(region.customAnchorFunc, Private.GetErrorHandlerId(region.id, L["Custom Anchor"]))
+    local ok, frame = Private.SafeCall(region.customAnchorFunc, Private.GetErrorHandlerId(region.id, L["Custom Anchor"]))
     Private.ActivateAuraEnvironment()
     Private.StopProfileSystem("custom region anchor")
     Private.StopProfileAura(region.id)

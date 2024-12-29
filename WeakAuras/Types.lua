@@ -1151,7 +1151,7 @@ do
 end
 
 ---@type table<number, string>
-if WeakAuras.IsRetail() then
+if WeakAuras.IsRetail() and C_Covenants ~= nil then
   Private.covenant_types = {}
   Private.covenant_types[0] = L["None"]
   for i = 1, 4 do

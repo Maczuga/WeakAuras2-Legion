@@ -28,7 +28,7 @@ function WeakAuras.IsSpellInRange(spellId, unit)
   return SpellRange.IsSpellInRange(spellId, unit)
 end
 
-local LibRangeCheck = LibStub("LibRangeCheck-3.0")
+local LibRangeCheck = LibStub("LibRangeCheck-2.0")
 
 function WeakAuras.GetRange(unit, checkVisible)
   return LibRangeCheck:GetRange(unit, checkVisible);
@@ -716,7 +716,7 @@ if WeakAuras.IsClassicOrCata() then
   end
 end
 
-if WeakAuras.IsRetail() then
+if WeakAuras.IsRetail() and C_Traits ~= nil then
   local talentCheckFrame = CreateFrame("Frame")
   Private.frames["WeakAuras talentCheckFrame"] = talentCheckFrame
   talentCheckFrame:RegisterEvent("TRAIT_CONFIG_CREATED")
