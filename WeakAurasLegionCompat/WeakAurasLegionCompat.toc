@@ -1,0 +1,52 @@
+## Interface: 70300
+## Title: WeakAuras Legion Compatibility
+## Author: Maczuga
+## Version: @project-version@
+## IconTexture: Interface\AddOns\WeakAuras\Media\Textures\icon.blp
+## Notes: Compatibility layer between Retail and Legion 7.3.5 for WeakAuras
+## Notes-esES: Capa de compatibilidad entre Retail y Legion 7.3.5 para WeakAuras
+## Notes-deDE: Kompatibilitätsschicht zwischen Retail und Legion 7.3.5 für WeakAuras
+## Notes-ruRU: Слой совместимости между Retail и Legion 7.3.5 для WeakAuras
+## Notes-zhTW: 為WeakAuras提供Retail與Legion 7.3.5之間的相容層
+## X-Category: Interface Enhancements
+## Globe-Main: WeakAuras
+## DefaultState: Enabled
+## LoadOnDemand: 1
+## OptionalDeps: HereBeDragons-1.0
+
+embeds.xml
+
+Frame/BackdropTemplateMixin.lua
+Frame/CreateFrame.lua
+Frame/FrameExtensions.lua
+
+EnvironmentUtil.lua
+TimeUtil.lua
+
+Color.lua
+ColorUtil.lua
+
+Templates/TextureUtil.lua
+Templates/NineSliceLayouts.lua
+Templates/NineSlice.lua
+Templates/SharedUIPanelTemplates.xml
+Templates/SharedTooltipTemplates.xml
+Templates/SharedTooltipTemplates.lua
+Templates/Backdrop.xml
+Templates/Backdrop.lua
+
+C_CVar.lua
+C_AddOns.lua
+C_Map.lua
+C_ChatInfo.lua
+C_Texture.lua
+C_SpecializationInfo.lua
+C_CreatureInfo.lua
+C_CurrencyInfo.lua
+C_Spell.lua
+C_VoiceChat.lua
+C_Item.lua
+
+GetClassAtlas.lua
+
+AddonCompartmentFrame.lua
