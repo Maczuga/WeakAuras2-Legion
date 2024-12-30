@@ -3,7 +3,8 @@ if not C_Map then
   C_Map = {
     GetBestMapForUnit = function(unit)
       if unit ~= "player" then return nil end
-      return HBD:GetPlayerZone()
+      local mapId = GetCurrentMapAreaID(unit)
+      return mapId
     end,
 
     -- None of the following functions are implemented, but they are here to prevent errors

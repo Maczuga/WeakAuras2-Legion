@@ -57,11 +57,4 @@ if not C_AddOns then
             return loaded
         end
     }
-
-    if not Enum then Enum = {} end
-    Enum.AddOnEnableState = {
-        None = 0, -- AddOn is not enabled
-        Some = 1, -- AddOn is partially enabled (e.g., for some characters)
-        All  = 2, -- AddOn is fully enabled
-    }
 end
