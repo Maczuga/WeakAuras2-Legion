@@ -219,7 +219,10 @@ function OptionsPrivate.CreateFrame()
 
   if not frame.TitleContainer then
     frame.TitleContainer = CreateFrame("Frame", nil, frame)
-    frame.TitleContainer:SetAllPoints(frame.TitleBg)
+    -- frame.TitleContainer:SetAllPoints(frame.TitleBg)
+    -- TitleBg does not work in 735 and TitleText is a bit too small on height
+    frame.TitleContainer:SetPoint("TOPLEFT", frame.TitleText, "TOPLEFT", 0, 6)
+    frame.TitleContainer:SetPoint("BOTTOMRIGHT", frame.TitleText, "BOTTOMRIGHT", 0, -6)
   end
 
   frame.TitleContainer:SetScript("OnMouseDown", function()
