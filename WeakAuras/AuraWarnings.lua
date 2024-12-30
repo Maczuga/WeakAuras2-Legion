@@ -86,6 +86,11 @@ local icons = {
   error = [[Interface/HELPFRAME/HelpIcon-Bug]]
 }
 
+if WeakAuras.IsLegion() then
+  icons.sound = [[groupfinder-icon-voice]]
+  icons.tts = [[transmog-icon-chat]]
+end
+
 --- @type table<AuraWarningSeverity, string>
 local titles = {
   info = L["Information"],
