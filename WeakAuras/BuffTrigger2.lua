@@ -4293,7 +4293,7 @@ function BuffTrigger.HandleMultiEvent(frame, event, ...)
   local system = "bufftrigger2 - multi - " .. event
   Private.StartProfileSystem(system)
   if event == "COMBAT_LOG_EVENT_UNFILTERED" then
-    CombatLog(CombatLogGetCurrentEventInfo())
+    CombatLog(...)
   elseif event == "UNIT_TARGET" then
     TrackUid(...)
   elseif Private.player_target_events[event] then

@@ -246,7 +246,7 @@ end
 local function RunCode(self, func)
   if func and not WeakAuras.IsOptionsOpen() then
     Private.ActivateAuraEnvironment(self.id, self.cloneId, self.state, self.states);
-    Private.SafeCall(func, Private.GetErrorHandlerId(self.id, L["Custom Condition Code"]));
+    XpCall(func, Private.GetErrorHandlerId(self.id, L["Custom Condition Code"]));
     Private.ActivateAuraEnvironment(nil);
   end
 end
@@ -267,7 +267,7 @@ local function UpdatePosition(self)
   local yOffset = self.yOffset + (self.yOffsetAnim or 0) + (self.yOffsetRelative or 0)
   self:RealClearAllPoints();
 
-  Private.SafeCall(self.SetPoint, Private.GetErrorHandlerId(self.id, L["Update Position"]), self, self.anchorPoint, self.relativeTo, self.relativePoint, xOffset, yOffset);
+  XpCall(self.SetPoint, Private.GetErrorHandlerId(self.id, L["Update Position"]), self, self.anchorPoint, self.relativeTo, self.relativePoint, xOffset, yOffset);
 end
 
 local function ResetPosition(self)
@@ -635,9 +635,9 @@ local function SetAnimAlpha(self, alpha)
   self.animAlpha = alpha;
   local errorHandler = Private.GetErrorHandlerId(self.id, L["Custom Fade Animation"])
   if (WeakAuras.IsOptionsOpen()) then
-    Private.SafeCall(self.SetAlpha, errorHandler, self, max(self.animAlpha or self.alpha or 1, 0.5))
+    XpCall(self.SetAlpha, errorHandler, self, max(self.animAlpha or self.alpha or 1, 0.5))
   else
-    Private.SafeCall(self.SetAlpha, errorHandler, self, self.animAlpha or self.alpha or 1)
+    XpCall(self.SetAlpha, errorHandler, self, self.animAlpha or self.alpha or 1)
   end
   self.subRegionEvents:Notify("AlphaChanged")
 end

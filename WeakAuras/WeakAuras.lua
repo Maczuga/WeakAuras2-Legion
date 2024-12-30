@@ -2681,7 +2681,7 @@ function Private.AddMany(tbl, takeSnapshots)
       bads[data.id] = true
     else
       local oldSnapshot = oldSnapshots[data.uid] or nil
-      local ok = Private.SafeCall(WeakAuras.PreAdd, Private.GetErrorHandlerUid(data.uid, "PreAdd"), data, oldSnapshot)
+      local ok = XpCall(WeakAuras.PreAdd, Private.GetErrorHandlerUid(data.uid, "PreAdd"), data, oldSnapshot)
       if not ok then
         prettyPrint(L["Unable to modernize aura '%s'. This is probably due to corrupt data or a bad migration, please report this to the WeakAuras team."]:format(data.id))
         if data.regionType == "dynamicgroup" or data.regionType == "group" then
@@ -2700,7 +2700,7 @@ function Private.AddMany(tbl, takeSnapshots)
       if data.parent and bads[data.parent] then
         bads[data.id] = true
       else
-        local ok = Private.SafeCall(pAdd, Private.GetErrorHandlerUid(data.uid, "pAdd"), data)
+        local ok = XpCall(pAdd, Private.GetErrorHandlerUid(data.uid, "pAdd"), data)
         if not ok then
           bads[data.id] = true
         end
@@ -3086,7 +3086,7 @@ function WeakAuras.PreAdd(data, snapshot)
     Private.validate(data, oldDataStub2)
   end
 
-  Private.SafeCall(Private.Modernize, Private.GetErrorHandlerId(data.id, L["Modernize"]), data, snapshot)
+  XpCall(Private.Modernize, Private.GetErrorHandlerId(data.id, L["Modernize"]), data, snapshot)
 
   local default = data.regionType and Private.regionTypes[data.regionType] and Private.regionTypes[data.regionType].default
   if default then
@@ -3305,7 +3305,7 @@ function WeakAuras.Add(data, simpleChange)
   if (data.internalVersion or 0) < internalVersion then
     Private.SetMigrationSnapshot(data.uid, data)
   end
-  local ok = Private.SafeCall(WeakAuras.PreAdd, Private.GetErrorHandlerUid(data.uid, "PreAdd"), data, oldSnapshot)
+  local ok = XpCall(WeakAuras.PreAdd, Private.GetErrorHandlerUid(data.uid, "PreAdd"), data, oldSnapshot)
   if ok then
     pAdd(data, simpleChange)
   end
@@ -3855,7 +3855,7 @@ function Private.PerformActions(data, when, region)
     local func = Private.customActionsFunctions[data.id][when]
     if func then
       Private.ActivateAuraEnvironment(region.id, region.cloneId, region.state, region.states);
-      Private.SafeCall(func, Private.GetErrorHandlerId(data.id, L["Custom Action"]));
+      XpCall(func, Private.GetErrorHandlerId(data.id, L["Custom Action"]));
       Private.ActivateAuraEnvironment(nil);
     end
   end
@@ -4823,7 +4823,7 @@ local function evaluateTriggerStateTriggers(id)
   else
     if (triggerState[id].disjunctive == "custom" and triggerState[id].triggerLogicFunc) then
       Private.ActivateAuraEnvironment(id)
-      local ok, returnValue = Private.SafeCall(triggerState[id].triggerLogicFunc, Private.GetErrorHandlerId(id, L["Custom Trigger Combination"]), triggerState[id].triggers);
+      local ok, returnValue = XpCall(triggerState[id].triggerLogicFunc, Private.GetErrorHandlerId(id, L["Custom Trigger Combination"]), triggerState[id].triggers);
       Private.ActivateAuraEnvironment()
       result = ok and returnValue;
     end
@@ -5041,7 +5041,7 @@ function Private.RunCustomTextFunc(region, customFunc)
     end
   end
 
-  local custom = {select(2, Private.SafeCall(customFunc, Private.GetErrorHandlerId(region.id, L["Custom Text Function"]), expirationTime or math.huge, duration or 0, progress, dur, name, icon, stacks))}
+  local custom = {select(2, XpCall(customFunc, Private.GetErrorHandlerId(region.id, L["Custom Text Function"]), expirationTime or math.huge, duration or 0, progress, dur, name, icon, stacks))}
   Private.ActivateAuraEnvironment(nil)
 
   return custom
@@ -5977,7 +5977,7 @@ local function GetAnchorFrame(data, region, parent)
     Private.StartProfileSystem("custom region anchor")
     Private.StartProfileAura(region.id)
     Private.ActivateAuraEnvironment(region.id, region.cloneId, region.state)
-    local ok, frame = Private.SafeCall(region.customAnchorFunc, Private.GetErrorHandlerId(region.id, L["Custom Anchor"]))
+    local ok, frame = XpCall(region.customAnchorFunc, Private.GetErrorHandlerId(region.id, L["Custom Anchor"]))
     Private.ActivateAuraEnvironment()
     Private.StopProfileSystem("custom region anchor")
     Private.StopProfileAura(region.id)
@@ -6010,7 +6010,7 @@ function Private.AnchorFrame(data, region, parent, force)
     if not anchorParent then return end
     if (data.anchorFrameParent or data.anchorFrameParent == nil
         or data.anchorFrameType == "SCREEN" or data.anchorFrameType == "UIPARENT" or data.anchorFrameType == "MOUSE") then
-      Private.SafeCall(region.SetParent, Private.GetErrorHandlerId(data.id, L["Anchoring"]), region, anchorParent);
+      XpCall(region.SetParent, Private.GetErrorHandlerId(data.id, L["Anchoring"]), region, anchorParent);
     else
       region:SetParent(parent or WeakAurasFrame);
     end

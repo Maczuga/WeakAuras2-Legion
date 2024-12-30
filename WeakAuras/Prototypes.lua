@@ -1350,8 +1350,8 @@ Private.load_prototype = {
       init = WeakAuras.IsRetail() and "arg" or nil,
       width = WeakAuras.normalWidth,
       optional = true,
-      enable = WeakAuras.IsRetail(),
-      hidden = not WeakAuras.IsRetail(),
+      enable = WeakAuras.IsRetail() and not WeakAuras.IsLegion(),
+      hidden = not WeakAuras.IsRetail() or WeakAuras.IsLegion(),
       events = {"PLAYER_FLAGS_CHANGED"}
     },
     {
@@ -1393,8 +1393,8 @@ Private.load_prototype = {
       init = WeakAuras.IsRetail() and "arg" or nil,
       width = WeakAuras.normalWidth,
       optional = true,
-      enable = WeakAuras.IsRetail(),
-      hidden = not WeakAuras.IsRetail(),
+      enable = WeakAuras.IsRetail() and not WeakAuras.IsLegion(),
+      hidden = not WeakAuras.IsRetail() or WeakAuras.IsLegion(),
       events = {"WA_DRAGONRIDING_UPDATE"}
     },
     {

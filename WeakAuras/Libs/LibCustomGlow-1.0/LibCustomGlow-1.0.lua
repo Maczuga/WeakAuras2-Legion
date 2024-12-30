@@ -753,6 +753,8 @@ lib.stopList["Action Button Glow"] = lib.ButtonGlow_Stop
 
 
 -- ProcGlow
+local build = select(4, GetBuildInfo())
+local procGlowSupported = build >= 100105;
 
 local function ProcGlowResetter(framePool, frame)
     frame:Hide()
@@ -898,6 +900,9 @@ local ProcGlowDefaults = {
 }
 
 function lib.ProcGlow_Start(r, options)
+    if not procGlowSupported then
+        return
+    end
     if not r then
         return
     end
@@ -928,6 +933,10 @@ function lib.ProcGlow_Start(r, options)
 end
 
 function lib.ProcGlow_Stop(r, key)
+    if not procGlowSupported then
+        return
+    end
+
     key = key or ""
     local f = r["_ProcGlow" .. key]
     if f then

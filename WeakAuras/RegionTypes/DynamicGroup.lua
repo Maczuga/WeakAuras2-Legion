@@ -340,7 +340,7 @@ local sorters = {
     end
     return function(a, b)
       Private.ActivateAuraEnvironment(data.id)
-      local ok, result = Private.SafeCall(sortFunc, Private.GetErrorHandlerId(data.id, L["Custom Sort"]), a, b)
+      local ok, result = XpCall(sortFunc, Private.GetErrorHandlerId(data.id, L["Custom Sort"]), a, b)
       Private.ActivateAuraEnvironment()
       if ok then
         return result
@@ -429,7 +429,7 @@ local anchorers = {
 
     return function(frames, activeRegions)
       Private.ActivateAuraEnvironment(data.id)
-      Private.SafeCall(anchorFunc, Private.GetErrorHandlerUid(data.uid, L["Custom Anchor"]), frames, activeRegions)
+      XpCall(anchorFunc, Private.GetErrorHandlerUid(data.uid, L["Custom Anchor"]), frames, activeRegions)
       Private.ActivateAuraEnvironment()
     end, anchorOn
   end
@@ -982,7 +982,7 @@ local growers = {
     end
     return function(newPositions, activeRegions)
       Private.ActivateAuraEnvironment(data.id)
-      local ok = Private.SafeCall(growFunc, Private.GetErrorHandlerId(data.id, L["Custom Grow"]), newPositions, activeRegions)
+      local ok = XpCall(growFunc, Private.GetErrorHandlerId(data.id, L["Custom Grow"]), newPositions, activeRegions)
       Private.ActivateAuraEnvironment()
       if not ok then
         wipe(newPositions)
@@ -1001,7 +1001,7 @@ local nullErrorHandler = function()
 end
 
 local function SafeGetPos(region, func)
-  local ok, value1, value2 = Private.SafeCall(func, nullErrorHandler, region)
+  local ok, value1, value2 = XpCall(func, nullErrorHandler, region)
   if ok then
     return value1, value2
   end
