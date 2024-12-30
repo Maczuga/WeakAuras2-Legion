@@ -52,7 +52,7 @@ local function Wrap(id, cloneId, system, funcs)
           local region = WeakAuras.GetRegion(id, cloneId)
           if region then
             Private.ActivateAuraEnvironmentForRegion(region)
-            xpcall(oldArg, Private.GetErrorHandlerId(id, L["Callback function"]), ...)
+            Private.SafeCall(oldArg, Private.GetErrorHandlerId(id, L["Callback function"]), ...)
             Private.ActivateAuraEnvironment()
           else
             oldArg(...)

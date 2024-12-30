@@ -429,7 +429,7 @@ local anchorers = {
 
     return function(frames, activeRegions)
       Private.ActivateAuraEnvironment(data.id)
-      xpcall(anchorFunc, Private.GetErrorHandlerUid(data.uid, L["Custom Anchor"]), frames, activeRegions)
+      Private.SafeCall(anchorFunc, Private.GetErrorHandlerUid(data.uid, L["Custom Anchor"]), frames, activeRegions)
       Private.ActivateAuraEnvironment()
     end, anchorOn
   end

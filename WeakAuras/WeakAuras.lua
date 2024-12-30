@@ -3086,7 +3086,7 @@ function WeakAuras.PreAdd(data, snapshot)
     Private.validate(data, oldDataStub2)
   end
 
-  xpcall(Private.Modernize, Private.GetErrorHandlerId(data.id, L["Modernize"]), data, snapshot)
+  Private.SafeCall(Private.Modernize, Private.GetErrorHandlerId(data.id, L["Modernize"]), data, snapshot)
 
   local default = data.regionType and Private.regionTypes[data.regionType] and Private.regionTypes[data.regionType].default
   if default then
@@ -3855,7 +3855,7 @@ function Private.PerformActions(data, when, region)
     local func = Private.customActionsFunctions[data.id][when]
     if func then
       Private.ActivateAuraEnvironment(region.id, region.cloneId, region.state, region.states);
-      xpcall(func, Private.GetErrorHandlerId(data.id, L["Custom Action"]));
+      Private.SafeCall(func, Private.GetErrorHandlerId(data.id, L["Custom Action"]));
       Private.ActivateAuraEnvironment(nil);
     end
   end
@@ -5041,7 +5041,7 @@ function Private.RunCustomTextFunc(region, customFunc)
     end
   end
 
-  local custom = {select(2, xpcall(customFunc, Private.GetErrorHandlerId(region.id, L["Custom Text Function"]), expirationTime or math.huge, duration or 0, progress, dur, name, icon, stacks))}
+  local custom = {select(2, Private.SafeCall(customFunc, Private.GetErrorHandlerId(region.id, L["Custom Text Function"]), expirationTime or math.huge, duration or 0, progress, dur, name, icon, stacks))}
   Private.ActivateAuraEnvironment(nil)
 
   return custom
@@ -6010,7 +6010,7 @@ function Private.AnchorFrame(data, region, parent, force)
     if not anchorParent then return end
     if (data.anchorFrameParent or data.anchorFrameParent == nil
         or data.anchorFrameType == "SCREEN" or data.anchorFrameType == "UIPARENT" or data.anchorFrameType == "MOUSE") then
-      xpcall(region.SetParent, Private.GetErrorHandlerId(data.id, L["Anchoring"]), region, anchorParent);
+      Private.SafeCall(region.SetParent, Private.GetErrorHandlerId(data.id, L["Anchoring"]), region, anchorParent);
     else
       region:SetParent(parent or WeakAurasFrame);
     end

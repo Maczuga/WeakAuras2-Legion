@@ -780,7 +780,7 @@ local function RunTriggerFunc(allStates, data, id, triggernum, event, arg1, arg2
           if arg1 then
             local state = allStates[cloneIdForUnitTrigger]
             if state then
-              local ok, returnValue =  xpcall(data.untriggerFunc, errorHandler, state, event, unitForUnitTrigger, arg1, arg2, ...);
+              local ok, returnValue =  Private.SafeCall(data.untriggerFunc, errorHandler, state, event, unitForUnitTrigger, arg1, arg2, ...);
               if ok and returnValue then
                 if (Private.EndEvent(state)) then
                   updateTriggerState = true;
@@ -1492,7 +1492,7 @@ function GenericTrigger.LoadDisplays(toLoad, loadEvent, ...)
   end
 
   for event in pairs(eventsToRegister) do
-    xpcall(frame.RegisterEvent, trueFunction, frame, event)
+    Private.SafeCall(frame.RegisterEvent, trueFunction, frame, event)
     genericTriggerRegisteredEvents[event] = true;
   end
 
@@ -1503,7 +1503,7 @@ function GenericTrigger.LoadDisplays(toLoad, loadEvent, ...)
         frame.unitFrames[unit].unit = unit
         frame.unitFrames[unit]:SetScript("OnEvent", HandleUnitEvent);
       end
-      xpcall(frame.unitFrames[unit].RegisterUnitEvent, trueFunction, frame.unitFrames[unit], event, unit)
+      Private.SafeCall(frame.unitFrames[unit].RegisterUnitEvent, trueFunction, frame.unitFrames[unit], event, unit)
       genericTriggerRegisteredUnitEvents[unit] = genericTriggerRegisteredUnitEvents[unit] or {};
       genericTriggerRegisteredUnitEvents[unit][event] = true;
     end

@@ -112,7 +112,7 @@ local function RunAnimation(key, anim, elapsed, time)
                                   anim.colorR, anim.colorG, anim.colorB, anim.colorA)
     if (ok) then
       local errorHandler = Private.GetErrorHandlerId(anim.region.id, "Custom Color")
-      xpcall(anim.region.ColorAnim, errorHandler, anim.region, r, g, b, a)
+      Private.SafeCall(anim.region.ColorAnim, errorHandler, anim.region, r, g, b, a)
     end
   end
   Private.ActivateAuraEnvironment(nil)

@@ -27,7 +27,7 @@ local lib = LibStub:NewLibrary(MAJOR_VERSION, MINOR_VERSION)
 if not lib then return end
 
 -- Determine WoW TOC Version
-local WoWClassicEra, WoWClassicTBC, WoWWOTLKC, WoWRetail
+local WoWClassicEra, WoWClassicTBC, WoWWOTLKC, WoWLegion, WoWRetail
 local wowversion  = select(4, GetBuildInfo())
 if wowversion < 20000 then
 	WoWClassicEra = true
@@ -35,6 +35,8 @@ elseif wowversion < 30000 then
 	WoWClassicTBC = true
 elseif wowversion < 40000 then
 	WoWWOTLKC = true
+elseif wowversion > 70000 and wowversion < 80000 then
+	WoWLegion = true
 elseif wowversion > 90000 then
 	WoWRetail = true
 
@@ -42,16 +44,14 @@ else
 	-- n/a
 end
 
-GameTooltip = _G.GameTooltip
-tooltip = GameTooltip
--- if WoWClassicEra or WoWClassicTBC or WoWWOTLKC then
--- 	GameTooltip = _G.GameTooltip
--- 	tooltip = GameTooltip
--- else -- Retail
--- 	GetAppropriateTooltip = _G.GetAppropriateTooltip
--- 	tooltip = GetAppropriateTooltip()
--- 	GetValueOrCallFunction = _G.GetValueOrCallFunction
--- end
+if WoWClassicEra or WoWClassicTBC or WoWWOTLKC or WoWLegion then
+	GameTooltip = _G.GameTooltip
+	tooltip = GameTooltip
+else -- Retail
+	GetAppropriateTooltip = _G.GetAppropriateTooltip
+	tooltip = GetAppropriateTooltip()
+	GetValueOrCallFunction = _G.GetValueOrCallFunction
+end
 
 -- //////////////////////////////////////////////////////////////
 L_UIDROPDOWNMENU_MINBUTTONS = 8; -- classic only
@@ -140,7 +140,7 @@ local function create_MenuButton(name, parent)
 			lib:CloseDropDownMenus(self:GetParent():GetID() + 1);
 		end
 		self.Highlight:Show();
-		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC) then
+		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC or WoWLegion) then
 	    		lib:UIDropDownMenu_StopCounting(self:GetParent());
 		end
 		-- To check: do we need special handle for classic since there is no UIDropDownMenuButton_ShouldShowIconTooltip()?
@@ -179,7 +179,7 @@ local function create_MenuButton(name, parent)
 
 	local function button_OnLeave(self)
 		self.Highlight:Hide();
-		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC) then
+		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC or WoWLegion) then
 			lib:UIDropDownMenu_StartCounting(self:GetParent());
 		end
 
@@ -405,7 +405,7 @@ local function create_MenuButton(name, parent)
 	fib:SetPoint("BOTTOMLEFT", f, 0, 0)
 	fib:SetPoint("RIGHT", fcw, "LEFT", 0, 0)
 	fib:SetScript("OnEnter", function(self, motion)
-		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC) then
+		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC or WoWLegion) then
 			lib:UIDropDownMenu_StopCounting(self:GetParent():GetParent());
 		end
 		lib:CloseDropDownMenus(self:GetParent():GetParent():GetID() + 1);
@@ -431,7 +431,7 @@ local function create_MenuButton(name, parent)
 		end
 	end)
 	fib:SetScript("OnLeave", function(self, motion)
-		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC) then
+		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC or WoWLegion) then
 			lib:UIDropDownMenu_StartCounting(self:GetParent():GetParent());
 		end
 		tooltip:Hide();
@@ -540,12 +540,12 @@ local function creatre_DropDownList(name, parent)
 		self:Hide()
 	end)
 	f:SetScript("OnEnter", function(self, motion)
-		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC) then
+		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC or WoWLegion) then
 			lib:UIDropDownMenu_StopCounting(self, motion)
 		end
 	end)
 	f:SetScript("OnLeave", function(self, motion)
-		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC) then
+		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC or WoWLegion) then
 			lib:UIDropDownMenu_StartCounting(self, motion)
 		end
 	end)
@@ -555,7 +555,7 @@ local function creatre_DropDownList(name, parent)
 			lib:UIDropDownMenu_RefreshDropDownSize(self);
 			self.shouldRefresh = false;
 		end
-		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC) then
+		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC or WoWLegion) then
 			if ( not self.showTimer or not self.isCounting ) then
 				return;
 			elseif ( self.showTimer < 0 ) then
@@ -582,7 +582,7 @@ local function creatre_DropDownList(name, parent)
 		if (not self.noResize) then
 			self:SetWidth(self.maxWidth+25);
 		end
-		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC) then
+		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC or WoWLegion) then
 			self.showTimer = nil;
 		end
 		if ( self:GetID() > 1 ) then
@@ -1280,7 +1280,7 @@ function lib:UIDropDownMenu_AddButton(info, level)
 			uncheck:SetDesaturated(false);
 			uncheck:SetAlpha(1);
 		end
-		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC) then
+		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC or WoWLegion) then
 			check:SetSize(16,16);
 			uncheck:SetSize(16,16);
 			normalText:SetPoint("LEFT", check, "RIGHT", 0, 0);
@@ -1348,7 +1348,7 @@ function lib:UIDropDownMenu_AddButton(info, level)
 	-- If has a colorswatch, show it and vertex color it
 	local colorSwatch = _G[listFrameName.."Button"..index.."ColorSwatch"];
 	if ( info.hasColorSwatch ) then
-		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC) then
+		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC or WoWLegion) then
 			_G["L_DropDownList"..level.."Button"..index.."ColorSwatch".."NormalTexture"]:SetVertexColor(info.r, info.g, info.b);
 		else
 			_G["L_DropDownList"..level.."Button"..index.."ColorSwatch"].Color:SetVertexColor(info.r, info.g, info.b);
@@ -1621,7 +1621,7 @@ function lib:UIDropDownMenu_GetSelectedID(frame)
 	else
 		-- If no explicit selectedID then try to send the id of a selected value or name
 --[[		local maxNum;
-		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC) then
+		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC or WoWLegion) then
 			maxNum = L_UIDROPDOWNMENU_MAXBUTTONS
 		else
 			local listFrame = _G["L_DropDownList"..L_UIDROPDOWNMENU_MENU_LEVEL];
@@ -1798,7 +1798,7 @@ function lib:ToggleDropDownMenu(level, value, dropDownFrame, anchorName, xOffset
 				_G[listFrameName.."MenuBackdrop"]:Hide();
 			end
 		end
-		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC) then
+		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC or WoWLegion) then
 			dropDownFrame.menuList = menuList;
 		end
 
@@ -1893,7 +1893,7 @@ function lib:ToggleDropDownMenu(level, value, dropDownFrame, anchorName, xOffset
 			listFrame:SetPoint(point, anchorFrame, relativePoint, xOffset, yOffset);
 		end
 
-		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC) then
+		if (WoWClassicEra or WoWClassicTBC or WoWWOTLKC or WoWLegion) then
 			if ( autoHideDelay and tonumber(autoHideDelay)) then
 				listFrame.showTimer = autoHideDelay;
 				listFrame.isCounting = 1;

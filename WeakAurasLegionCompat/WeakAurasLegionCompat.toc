@@ -16,6 +16,8 @@
 
 embeds.xml
 
+Utils/Lua.lua
+
 Frame/BackdropTemplateMixin.lua
 Frame/CreateFrame.lua
 Frame/FrameExtensions.lua
@@ -46,7 +48,10 @@ C_CurrencyInfo.lua
 C_Spell.lua
 C_VoiceChat.lua
 C_Item.lua
+C_PvP.lua
 
 GetClassAtlas.lua
+UnitPowerBarID.lua
+FindBaseSpellByID.lua
 
 AddonCompartmentFrame.lua
