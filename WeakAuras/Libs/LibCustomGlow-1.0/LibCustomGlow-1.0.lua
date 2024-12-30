@@ -12,7 +12,7 @@ local lib, oldversion = LibStub:NewLibrary(MAJOR_VERSION, MINOR_VERSION)
 if not lib then return end
 local Masque = LibStub("Masque", true)
 
-local isRetail = true
+local isRetail = false
 local textureList = {
     empty = [[Interface\AdventureMap\BrokenIsles\AM_29]],
     white = [[Interface\BUTTONS\WHITE8X8]],
