@@ -30,7 +30,7 @@ local WA_GetUnitAura = function(unit, spell, filter)
       filter = filter.."|HELPFUL"
   end
   for i = 1, 255 do
-    local name, _, _, _, _, _, _, _, _, spellId = UnitAura(unit, i, filter)
+    local name, _, _, _, _, _, _, _, _, _, spellId = UnitAura(unit, i, filter)
     if not name then return end
     if spell == spellId or spell == name then
       return UnitAura(unit, i, filter)
