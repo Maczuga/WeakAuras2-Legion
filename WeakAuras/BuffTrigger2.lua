@@ -86,7 +86,7 @@ local tinsert, wipe = table.insert, wipe
 local pairs, next, type = pairs, next, type
 local UnitAura = UnitAura
 
-local newAPI = WeakAuras.IsRetail()
+local newAPI = WeakAuras.IsRetail() and not WeakAuras.IsLegion()
 
 ---@class WeakAuras
 local WeakAuras = WeakAuras
