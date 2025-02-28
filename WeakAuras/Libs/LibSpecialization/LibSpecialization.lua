@@ -10,48 +10,7 @@ LS.callbackMap = LS.callbackMap or {}
 LS.frame = LS.frame or CreateFrame("Frame")
 
 -- Positions of roles
-local positionTable = wowID == cataWowID and {
-	-- Death Knight
-	[398] = "MELEE", -- Blood (Tank)
-	[399] = "MELEE", -- Frost (DPS)
-	[400] = "MELEE", -- Unholy (DPS)
-	-- Druid
-	[752] = "RANGED", -- Balance (DPS Owl)
-	[750] = "MELEE", -- Feral Combat (DPS Cat AND Tank Bear)
-	[748] = "RANGED", -- Restoration (Heal)
-	-- Hunter
-	[811] = "RANGED", -- Beast Mastery
-	[807] = "RANGED", -- Marksmanship
-	[809] = "RANGED", -- Survival
-	-- Mage
-	[799] = "RANGED", -- Arcane
-	[851] = "RANGED", -- Fire
-	[823] = "RANGED", -- Frost
-	-- Paladin
-	[831] = "RANGED", -- Holy (Heal)
-	[839] = "MELEE", -- Protection (Tank)
-	[855] = "MELEE", -- Retribution (DPS)
-	-- Priest
-	[760] = "RANGED", -- Discipline (Heal)
-	[813] = "RANGED", -- Holy (Heal)
-	[795] = "RANGED", -- Shadow (DPS)
-	-- Rogue
-	[182] = "MELEE", -- Assassination
-	[181] = "MELEE", -- Combat
-	[183] = "MELEE", -- Subtlety
-	-- Shaman
-	[261] = "RANGED", -- Elemental (DPS)
-	[263] = "MELEE", -- Enhancement (DPS)
-	[262] = "RANGED", -- Restoration (Heal)
-	-- Warlock
-	[871] = "RANGED", -- Affliction
-	[867] = "RANGED", -- Demonology
-	[865] = "RANGED", -- Destruction
-	-- Warrior
-	[746] = "MELEE", -- Arms (DPS)
-	[815] = "MELEE", -- Fury (DPS)
-	[845] = "MELEE", -- Protection (Tank)
-} or {
+local positionTable = {
 	-- Death Knight
 	[250] = "MELEE", -- Blood (Tank)
 	[251] = "MELEE", -- Frost (DPS)
@@ -64,10 +23,6 @@ local positionTable = wowID == cataWowID and {
 	[103] = "MELEE", -- Feral (DPS Cat)
 	[104] = "MELEE", -- Guardian (Tank Bear)
 	[105] = "RANGED", -- Restoration (Heal)
-	-- Evoker
-	-- [1467] = "RANGED", -- Devastation (DPS)
-	-- [1468] = "RANGED", -- Preservation (Heal)
-	-- [1473] = "RANGED", -- Augmentation (DPS)
 	-- Hunter
 	[253] = "RANGED", -- Beast Mastery
 	[254] = "RANGED", -- Marksmanship
@@ -106,48 +61,7 @@ local positionTable = wowID == cataWowID and {
 	[73] = "MELEE", -- Protection (Tank)
 }
 -- Player roles
-local roleTable = wowID == cataWowID and {
-	-- Death Knight
-	[398] = "TANK", -- Blood (Tank)
-	[399] = "DAMAGER", -- Frost (DPS)
-	[400] = "DAMAGER", -- Unholy (DPS)
-	-- Druid
-	[752] = "DAMAGER", -- Balance (DPS Owl)
-	[750] = "TANK", -- Feral Combat (DPS Cat AND Tank Bear) Oh noooooooooooooooooooooooooooooo, talent checks incoming
-	[748] = "HEALER", -- Restoration (Heal)
-	-- Hunter
-	[811] = "DAMAGER", -- Beast Mastery
-	[807] = "DAMAGER", -- Marksmanship
-	[809] = "DAMAGER", -- Survival
-	-- Mage
-	[799] = "DAMAGER", -- Arcane
-	[851] = "DAMAGER", -- Fire
-	[823] = "DAMAGER", -- Frost
-	-- Paladin
-	[831] = "HEALER", -- Holy (Heal)
-	[839] = "TANK", -- Protection (Tank)
-	[855] = "DAMAGER", -- Retribution (DPS)
-	-- Priest
-	[760] = "HEALER", -- Discipline (Heal)
-	[813] = "HEALER", -- Holy (Heal)
-	[795] = "DAMAGER", -- Shadow (DPS)
-	-- Rogue
-	[182] = "DAMAGER", -- Assassination
-	[181] = "DAMAGER", -- Combat
-	[183] = "DAMAGER", -- Subtlety
-	-- Shaman
-	[261] = "DAMAGER", -- Elemental (DPS)
-	[263] = "DAMAGER", -- Enhancement (DPS)
-	[262] = "HEALER", -- Restoration (Heal)
-	-- Warlock
-	[871] = "DAMAGER", -- Affliction
-	[867] = "DAMAGER", -- Demonology
-	[865] = "DAMAGER", -- Destruction
-	-- Warrior
-	[746] = "DAMAGER", -- Arms (DPS)
-	[815] = "DAMAGER", -- Fury (DPS)
-	[845] = "TANK", -- Protection (Tank)
-} or {
+local roleTable = {
 	-- Death Knight
 	[250] = "TANK", -- Blood (Tank)
 	[251] = "DAMAGER", -- Frost (DPS)

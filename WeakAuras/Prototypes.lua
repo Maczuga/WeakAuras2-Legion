@@ -98,7 +98,12 @@ else
   WeakAuras.UnitCastingInfo = UnitCastingInfo
 end
 
-if WeakAuras.IsRetail() then
+if WeakAuras.IsLegion() then
+  WeakAuras.UnitChannelInfo = function(unit)
+    local name, _, text, texture, startTime, endTime, isTradeSkill, notInterruptible = UnitChannelInfo(unit)
+    return name, text, texture, startTime, endTime, isTradeSkill, notInterruptible
+  end
+elseif WeakAuras.IsRetail() then
   local cacheEmpowered = {}
   WeakAuras.UnitChannelInfo = function(unit)
     local name, text, texture, startTime, endTime, isTradeSkill, notInterruptible, spellID, _, numStages = UnitChannelInfo(unit)
@@ -146,11 +151,6 @@ if WeakAuras.IsRetail() then
     end
     Private.ScanUnitEvents(event.."_FAKE", unit, ...)
   end)
-elseif WeakAuras.IsLegion() then
-  WeakAuras.UnitChannelInfo = function(unit)
-    local name, _, text, texture, startTime, endTime, isTradeSkill, notInterruptible = UnitChannelInfo(unit)
-    return name, text, texture, startTime, endTime, isTradeSkill, notInterruptible
-  end
 else
   WeakAuras.UnitChannelInfo = UnitChannelInfo
 end
@@ -1237,7 +1237,7 @@ local function valuesForTalentFunction(trigger)
     end
 
     -- If a single specific class was found, load the specific list for it
-    if WeakAuras.IsRetail() then
+    if WeakAuras.IsRetailTalents() then
       local single_class_and_spec = Private.checkForSingleLoadCondition(trigger, "class_and_spec")
       if single_class_and_spec then
         return Private.GetTalentData(single_class_and_spec)
@@ -1245,6 +1245,9 @@ local function valuesForTalentFunction(trigger)
         -- this should never happen
         return {}
       end
+    elseif WeakAuras.IsLegion() then
+      local single_class_and_spec = Private.checkForSingleLoadCondition(trigger, "class_and_spec")
+      return Private.talentInfo[single_class_and_spec]
     elseif WeakAuras.IsCataClassic() then
       return Private.talentInfo[single_class]
     else -- classic & tbc
@@ -1360,11 +1363,11 @@ Private.load_prototype = {
       name = "warmode",
       display = L["In War Mode"],
       type = "tristate",
-      init = WeakAuras.IsRetail() and "arg" or nil,
+      init = WeakAuras.HasWarMode() and "arg" or nil,
       width = WeakAuras.normalWidth,
       optional = true,
-      enable = WeakAuras.IsRetail() and not WeakAuras.IsLegion(),
-      hidden = not WeakAuras.IsRetail() or WeakAuras.IsLegion(),
+      enable = WeakAuras.HasWarMode(),
+      hidden = not WeakAuras.HasWarMode(),
       events = {"PLAYER_FLAGS_CHANGED"}
     },
     {
@@ -1403,11 +1406,11 @@ Private.load_prototype = {
       name = "dragonriding",
       display = L["Skyriding"],
       type = "tristate",
-      init = WeakAuras.IsRetail() and "arg" or nil,
+      init = WeakAuras.HasSkyriding() and "arg" or nil,
       width = WeakAuras.normalWidth,
       optional = true,
-      enable = WeakAuras.IsRetail() and not WeakAuras.IsLegion(),
-      hidden = not WeakAuras.IsRetail() or WeakAuras.IsLegion(),
+      enable = WeakAuras.HasSkyriding(),
+      hidden = not WeakAuras.HasSkyriding(),
       events = {"WA_DRAGONRIDING_UPDATE"}
     },
     {
@@ -1456,7 +1459,7 @@ Private.load_prototype = {
       display = L["Class and Specialization"],
       type = "multiselect",
       values = "spec_types_all",
-      init = WeakAuras.IsCataOrRetail() and "arg" or nil,
+      init = "arg" or nil,
       enable = WeakAuras.IsCataOrRetail(),
       hidden = not WeakAuras.IsCataOrRetail(),
       events = {"PLAYER_TALENT_UPDATE"},
@@ -1468,9 +1471,9 @@ Private.load_prototype = {
       display = L["Talent"],
       type = "multiselect",
       values = valuesForTalentFunction,
-      test = WeakAuras.IsRetail() and "WeakAuras.CheckTalentId(%d) == (%d == 4)" or "WeakAuras.CheckTalentByIndex(%d, %d)",
+      test = WeakAuras.IsRetailTalents() and "WeakAuras.CheckTalentId(%d) == (%d == 4)" or "WeakAuras.CheckTalentByIndex(%d, %d)",
       enableTest = function(trigger, talent, arg)
-        if WeakAuras.IsRetail() then
+        if WeakAuras.IsRetailTalents() then
           local specId = Private.checkForSingleLoadCondition(trigger, "class_and_spec")
           if specId then
             local talentData = Private.GetTalentData(specId)
@@ -1486,7 +1489,7 @@ Private.load_prototype = {
           return WeakAuras.CheckTalentByIndex(talent, arg) ~= nil
         end
       end,
-      multiConvertKey = WeakAuras.IsRetail() and function(trigger, key)
+      multiConvertKey = WeakAuras.IsRetailTalents() and function(trigger, key)
         local specId = Private.checkForSingleLoadCondition(trigger, "class_and_spec")
         if specId then
           local talentData = Private.GetTalentData(specId)
@@ -1762,8 +1765,8 @@ Private.load_prototype = {
         end
       end,
       test = "WeakAuras.CheckPvpTalentBySpellId(%d)",
-      enable = WeakAuras.IsRetail(),
-      hidden = not WeakAuras.IsRetail(),
+      enable = WeakAuras.IsRetail() or WeakAuras.IsLegion(),
+      hidden = not (WeakAuras.IsRetail() or WeakAuras.IsLegion()),
       events = {"PLAYER_PVP_TALENT_UPDATE"}
     },
     {

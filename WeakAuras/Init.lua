@@ -446,7 +446,7 @@ end
 
 ---@return boolean result
 function WeakAuras.IsCataOrRetail()
-  return WeakAuras.IsCataClassic() or WeakAuras.IsLegion() or WeakAuras.IsRetail()
+  return WeakAuras.BuildInfo >= 40000
 end
 
 ---@return boolean result

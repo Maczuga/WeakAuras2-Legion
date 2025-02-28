@@ -43,7 +43,7 @@ DefaultOptions.lua
 SubscribableObject.lua
 Features.lua
 Atlas_Retail.lua
-Types_Retail.lua
+Types_Legion.lua
 Types.lua
 Prototypes.lua
 Profiling.lua
