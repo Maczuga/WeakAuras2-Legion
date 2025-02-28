@@ -143,6 +143,19 @@ local function IsAnchoringRestricted(frame)
     end
 end
 
+-- SetFixedFrameXXX compatibility
+local function SetFixedFrameXXX(frame)
+    if not frame.SetFixedFrameStrata then
+        function frame:SetFixedFrameStrata(isFixed)
+        end
+    end
+
+    if not frame.SetFixedFrameLevel then
+        function frame:SetFixedFrameLevel(level)
+        end
+    end
+end
+
 function ApplyFrameExtensions(frame)
     AddResizeBoundsCompatibility(frame)
     AddTextureCompatibility(frame)
@@ -151,4 +164,5 @@ function ApplyFrameExtensions(frame)
     -- AddWindowCompatibility(frame)
     GetPointByName(frame)
     IsAnchoringRestricted(frame)
+    SetFixedFrameXXX(frame)
 end
