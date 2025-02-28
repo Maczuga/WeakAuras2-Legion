@@ -29,7 +29,7 @@ for lineNr, member in ftcsv.parseLine("UiTextureAtlasMember.csv", ",") do
   local uiTextureAtlasID = member.UiTextureAtlasID
   local uiTextureAtlasElementId = member.UiTextureAtlasElementID
 
-  if validAtlasIds[uiTextureAtlasID] and not validAtlasElementIds[uiTextureAtlasElementId] then
+  if uiTextureAtlasElementId and validAtlasIds[uiTextureAtlasID] and not validAtlasElementIds[uiTextureAtlasElementId] then
     validAtlasElementIds[uiTextureAtlasElementId] = true
   end
 end
