@@ -16,10 +16,34 @@ end
 local function AddTextureCompatibility(frame)
     -- Backup the original CreateTexture method for this frame
     local OriginalFrame_CreateTexture = frame.CreateTexture
+    local OriginalFrame_CreateMaskTexture = frame.CreateMaskTexture
 
+    -- CreateTexture
     function frame:CreateTexture(name, layer, template, subLayer)
         -- Call the original CreateTexture method
         local texture = OriginalFrame_CreateTexture(self, name, layer, template, subLayer)
+
+        -- Add SetTexelSnappingBias compatibility to textures
+        if not texture.SetTexelSnappingBias then
+            function texture:SetTexelSnappingBias(bias)
+                -- No-op implementation for 7.3.5
+            end
+        end
+
+        -- Add SetSnapToPixelGrid compatibility to textures
+        if not texture.SetSnapToPixelGrid then
+            function texture:SetSnapToPixelGrid(enable)
+                -- No-op implementation for 7.3.5
+            end
+        end
+
+        return texture
+    end
+
+    -- CreateMaskTexture
+    function frame:CreateMaskTexture(name, layer, template, subLayer)
+        -- Call the original CreateMaskTexture method
+        local texture = OriginalFrame_CreateMaskTexture(self, name, layer, template, subLayer)
 
         -- Add SetTexelSnappingBias compatibility to textures
         if not texture.SetTexelSnappingBias then
@@ -110,6 +134,15 @@ local function GetPointByName(frame)
     end
 end
 
+-- IsAnchoringRestricted compatibility
+local function IsAnchoringRestricted(frame)
+    if not frame.IsAnchoringRestricted then
+        function frame:IsAnchoringRestricted()
+            return false
+        end
+    end
+end
+
 function ApplyFrameExtensions(frame)
     AddResizeBoundsCompatibility(frame)
     AddTextureCompatibility(frame)
@@ -117,4 +150,5 @@ function ApplyFrameExtensions(frame)
     EnableMouseMotionCompat(frame)
     -- AddWindowCompatibility(frame)
     GetPointByName(frame)
+    IsAnchoringRestricted(frame)
 end

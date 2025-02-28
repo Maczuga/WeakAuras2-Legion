@@ -52,7 +52,7 @@ function WeakAurasProfilingReportMixin:OnShow()
   self.initialised = true
 
   ButtonFrameTemplate_HidePortrait(self)
-  self:SetTitle(L["WeakAuras Profiling Report"])
+  -- self:SetTitle(L["WeakAuras Profiling Report"])
   self:SetSize(500, 300)
 end
 
@@ -482,6 +482,11 @@ function WeakAurasProfilingMixin:OnShow()
     return
   end
   self.initialised = true
+
+  if true then
+    print("Profiling is not yet implemented in this backport, sorry.")
+    return
+  end
 
   ButtonFrameTemplate_HidePortrait(self)
   self:SetTitle(L["WeakAuras Profiling"])

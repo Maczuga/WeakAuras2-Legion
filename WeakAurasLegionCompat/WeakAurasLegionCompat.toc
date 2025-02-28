@@ -28,6 +28,8 @@ Globals\FindBaseSpellByID.lua
 Frame\CreateFrame.lua
 Frame\FrameExtensions.lua
 
+Enum.lua
+
 EnvironmentUtil.lua
 TimeUtil.lua
 
@@ -42,6 +44,12 @@ Templates/SharedTooltipTemplates.xml
 Templates/SharedTooltipTemplates.lua
 Templates/Backdrop.xml
 Templates/Backdrop.lua
+
+Blizzard_SharedXMLBase\TableUtil.lua
+Blizzard_SharedXMLBase\EnumUtil.lua
+Blizzard_SharedXMLBase\MathUtil.lua
+Blizzard_SharedXMLBase\CallbackRegistry.lua
+Blizzard_SharedXMLBase\GlobalCallbackRegistry.lua
 
 API/C_CVar.lua
 API/C_AddOns.lua
