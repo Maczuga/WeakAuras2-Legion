@@ -6,7 +6,8 @@ exclude_files = {
 	"WeakAuras_Options.lua",
 	"WeakAuras_Templates.lua",
 	"WeakAuras/Libs/",
-	"WeakAurasLegionCompat/Libs/",
+	"WeakAurasOptions/Libs/",
+	"WeakAurasLegionCompat/",
 	".luacheckrc"
 }
 ignore = {
@@ -19554,5 +19555,6 @@ globals = {
 	"C_ChatInfo",
 	"C_XMLUtil",
 	"GetAtlasInfo",
-
+	"tInvert",
+	"EnumUtil",
 }
