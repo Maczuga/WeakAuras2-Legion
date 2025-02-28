@@ -40,8 +40,6 @@ Templates/TextureUtil.lua
 Templates/NineSliceLayouts.lua
 Templates/NineSlice.lua
 Templates/SharedUIPanelTemplates.xml
-Templates/SharedTooltipTemplates.xml
-Templates/SharedTooltipTemplates.lua
 Templates/Backdrop.xml
 Templates/Backdrop.lua
 
