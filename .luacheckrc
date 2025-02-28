@@ -6,6 +6,7 @@ exclude_files = {
 	"WeakAuras_Options.lua",
 	"WeakAuras_Templates.lua",
 	"WeakAuras/Libs/",
+	"WeakAurasLegionCompat/Libs/",
 	".luacheckrc"
 }
 ignore = {
@@ -3986,7 +3987,7 @@ globals = {
 	"type",
 	"unpack",
 	"wipe",
-	"xpcall",
+	-- "xpcall", -- not working properly in 735
 
 	-- framexml functions
 	"AbbreviateLargeNumbers",
@@ -19545,4 +19546,13 @@ globals = {
 	"ZOOM_OUT",
 	"ZOOM_OUT_BUTTON_TEXT",
 	"_RECORDING_WARNING_CORRUPTED",
+
+	-- 735 compat
+	"XpCall",
+	"DoesAddOnExist",
+	"IsAddOnLoadable",
+	"C_ChatInfo",
+	"C_XMLUtil",
+	"GetAtlasInfo",
+
 }

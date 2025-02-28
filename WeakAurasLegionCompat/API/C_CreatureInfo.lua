@@ -38,7 +38,7 @@ if not C_CreatureInfo then
 
   C_CreatureInfo = {
     GetClassInfo = function(classID)
-      className, classFile, classID = GetClassInfo(classID)
+      local className, classFile, classID = GetClassInfo(classID)
       if not className then return nil end
 
       return {

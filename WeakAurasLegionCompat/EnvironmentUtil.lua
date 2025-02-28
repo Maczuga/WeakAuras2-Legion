@@ -1,6 +1,7 @@
-function InGlue()
-	return C_Glue and C_Glue.IsOnGlueScreen and C_Glue.IsOnGlueScreen();
-end
+-- Available in UIParent.lua
+-- function InGlue()
+-- 	return C_Glue and C_Glue.IsOnGlueScreen and C_Glue.IsOnGlueScreen();
+-- end
 
 function nop()
 end
@@ -23,4 +24,4 @@ function SwapToGlobalEnvironment()
 	-- 2 because we want to swap the environment of the caller, not this function
 	setfenv(2, GetGlobalEnvironment());
 end
-	
+

@@ -8,7 +8,7 @@ if not C_Spell then
     GetSpellTexture = GetSpellTexture,
     IsSpellUsable = IsUsableSpell,
     GetSpellCooldown = function (spellIdentifier)
-      startTime, duration, isEnabled, modRate = GetSpellCooldown(spellIdentifier)
+      local startTime, duration, isEnabled, modRate = GetSpellCooldown(spellIdentifier)
       return {
         startTime = startTime,
         duration = duration,
