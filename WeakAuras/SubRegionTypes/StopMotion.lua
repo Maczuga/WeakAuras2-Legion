@@ -247,6 +247,8 @@ local function modify(parent, region, parentData, data, first)
     customFrameHeight = data.customFrameHeight,
   })
 
+  region.stopMotion:SetColor(unpack(data.stopmotionColor))
+
   Private.regionPrototype.AddMinMaxProgressSource(true, region, parentData, data)
 
   region.FrameTick = nil
@@ -276,6 +278,7 @@ local function supports(regionType)
          or regionType == "icon"
          or regionType == "aurabar"
          or regionType == "text"
+         or regionType == "empty"
 end
 
 WeakAuras.RegisterSubRegionType("substopmotion", L["Stop Motion"], supports, create, modify, onAcquire, onRelease, default, nil, properties)

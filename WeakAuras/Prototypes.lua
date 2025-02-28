@@ -1092,7 +1092,7 @@ end
 ---@param spell string|number
 ---@return boolean result
 function WeakAuras.IsPlayerSpellOrOverridesAndBaseIsPlayerSpell(spell)
-  if spell == 0 then return false end
+  if spell == 0 or spell >= 2^31 then return false end
   if IsPlayerSpell(spell) then
     return true
   end
@@ -1107,7 +1107,7 @@ end
 
 ---@private
 function WeakAuras.IsSpellKnownForLoad(spell, exact)
-  if spell == 0 then return false end
+  if spell == 0 or spell >= 2^31 then return false end
   local result = IsPlayerSpell(spell)
                  or IsSpellKnownOrOverridesAndBaseIsKnown(spell, false)
                  or IsSpellKnownOrOverridesAndBaseIsKnown(spell, true)
@@ -1128,7 +1128,7 @@ end
 ---@param pet boolean?
 ---@return boolean result
 function WeakAuras.IsSpellKnown(spell, pet)
-  if spell == 0 then return false end
+  if spell == 0 or spell >= 2^31 then return false end
   if (pet) then
     return IsSpellKnownOrOverridesAndBaseIsKnown(spell, true)
   end
@@ -2195,6 +2195,8 @@ local function AddTargetConditionEvents(result, useFocus)
   return result
 end
 
+Private.AddTargetConditionEvents = AddTargetConditionEvents
+
 local unitHelperFunctions = {
   UnitChangedForceEventsWithPets = function(trigger)
     local events = {}
@@ -2430,9 +2432,6 @@ Private.event_prototypes = {
         values = "role_types",
         store = true,
         conditionType = "select",
-        enable = function(trigger)
-          return WeakAuras.IsCataOrRetail() and (trigger.unit == "group" or trigger.unit == "raid" or trigger.unit == "party")
-        end
       },
       {
         name = "raid_role",
@@ -3427,7 +3426,7 @@ Private.event_prototypes = {
         store = true,
         conditionType = "select",
         enable = function(trigger)
-          return WeakAuras.IsCataOrRetail() and (trigger.unit == "group" or trigger.unit == "raid" or trigger.unit == "party")
+          return trigger.unit == "group" or trigger.unit == "raid" or trigger.unit == "party"
         end
       },
       {
@@ -3997,7 +3996,7 @@ Private.event_prototypes = {
         store = true,
         conditionType = "select",
         enable = function(trigger)
-          return WeakAuras.IsCataOrRetail() and (trigger.unit == "group" or trigger.unit == "raid" or trigger.unit == "party")
+          return trigger.unit == "group" or trigger.unit == "raid" or trigger.unit == "party"
         end
       },
       {
@@ -5835,7 +5834,7 @@ Private.event_prototypes = {
       local ret = [=[
         local itemname = %s;
         local name = C_Item.GetItemInfo(itemname or 0) or "Invalid"
-        local _, _, _, _, icon = C_Item.GetItemInfoInstant(itemname or 0)
+        local itemId, _, _, _, icon = C_Item.GetItemInfoInstant(itemname or 0)
         local showgcd = %s
         local startTime, duration, enabled, gcdCooldown = WeakAuras.GetItemCooldown(itemname, showgcd);
         local expirationTime = startTime + duration
@@ -5870,6 +5869,16 @@ Private.event_prototypes = {
         display = L["Item"],
         type = "item",
         test = "true"
+      },
+      {
+        name = "itemId",
+        display = WeakAuras.newFeatureString .. L["ItemId"],
+        hidden = true,
+        init = "itemId",
+        test = "true",
+        store = true,
+        conditionType = "number",
+        operator_types = "only_equal",
       },
       {
         name = "remaining",
@@ -5926,25 +5935,6 @@ Private.event_prototypes = {
         conditionTest = function(state, needle)
           return state and state.show and (not state.gcdCooldown and state.expirationTime and state.expirationTime > GetTime() or state.enabled == 0) == (needle == 1)
         end,
-      },
-      {
-        name = "itemInRange",
-        display = L["Item in Range"],
-        hidden = true,
-        test = "true",
-        conditionType = "bool",
-        conditionTest = function(state, needle)
-          if not state or not state.show or not UnitExists('target') then
-            return false
-          end
-          if InCombatLockdown() and not UnitCanAttack('player', 'target') then
-            return false
-          end
-          return C_Item.IsItemInRange(state.itemname, 'target') == (needle == 1)
-        end,
-        conditionEvents = AddTargetConditionEvents({
-          "WA_SPELL_RANGECHECK",
-        })
       },
       {
         hidden = true,
@@ -6081,6 +6071,16 @@ Private.event_prototypes = {
     statesParameter = "one",
     args = {
       {
+        name = "itemId",
+        display = WeakAuras.newFeatureString .. L["ItemId"],
+        hidden = true,
+        init = "item",
+        test = "true",
+        store = true,
+        conditionType = "number",
+        operator_types = "only_equal",
+      },
+      {
         name = "itemSlot",
         required = true,
         display = L["Equipment Slot"],
@@ -6165,6 +6165,16 @@ Private.event_prototypes = {
         conditionType = "string"
       },
       {
+        name = "itemId",
+        display = L["ItemId"],
+        hidden = true,
+        init = "item",
+        test = "true",
+        store = true,
+        conditionType = "number",
+        operator_types = "only_equal",
+      },
+      {
         name = "icon",
         hidden = true,
         init = "icon",
@@ -6204,6 +6214,7 @@ Private.event_prototypes = {
       }
     },
     automaticrequired = true,
+    hasItemID = true,
     progressType = "timed"
   },
   ["Cooldown Ready (Item)"] = {
@@ -6220,7 +6231,7 @@ Private.event_prototypes = {
       local ret = [[
         local itemName = %s
         local name = C_Item.GetItemInfo(itemName) or "Invalid"
-        local _, _, _, _, icon = C_Item.GetItemInfoInstant(itemName)
+        local itemId, _, _, _, icon = C_Item.GetItemInfoInstant(itemName)
       ]]
 
       local itemName = type(trigger.itemName) == "number" and trigger.itemName or string.format("%q", trigger.itemName or "0")
@@ -6239,6 +6250,16 @@ Private.event_prototypes = {
         display = L["Item"],
         type = "item",
         init = "arg"
+      },
+      {
+        name = "itemId",
+        display = WeakAuras.newFeatureString .. L["ItemId"],
+        hidden = true,
+        init = "itemId",
+        test = "true",
+        store = true,
+        conditionType = "number",
+        operator_types = "only_equal",
       },
       {
         name = "name",
@@ -6301,6 +6322,16 @@ Private.event_prototypes = {
         type = "select",
         values = "item_slot_types",
         init = "arg"
+      },
+      {
+        name = "itemId",
+        display = WeakAuras.newFeatureString .. L["ItemId"],
+        hidden = true,
+        init = "item",
+        test = "true",
+        store = true,
+        conditionType = "number",
+        operator_types = "only_equal",
       },
       {
         name = "name",
@@ -7504,8 +7535,9 @@ Private.event_prototypes = {
       local ret = [[
         local itemName = %s
         local exactSpellMatch = %s
+        local itemId = C_Item.GetItemInfo(itemName)
         if not exactSpellMatch and tonumber(itemName) then
-          itemName = C_Item.GetItemInfo(itemName)
+          itemName = itemId
         end
         local count = C_Item.GetItemCount(itemName or "", %s, %s, %s, %s);
         local reagentQuality, reagentQualityTexture
@@ -7533,6 +7565,16 @@ Private.event_prototypes = {
         type = "item",
         showExactOption = true,
         test = "true"
+      },
+      {
+        name = "itemId",
+        display = WeakAuras.newFeatureString .. L["ItemId"],
+        hidden = true,
+        init = "itemId",
+        test = "true",
+        store = true,
+        conditionType = "number",
+        operator_types = "only_equal",
       },
       {
         name = "name",
@@ -8655,7 +8697,7 @@ Private.event_prototypes = {
       local ret = [[
         local inverse = %s
         local triggerItemName = %s
-        local _, _, _, _, icon = C_Item.GetItemInfoInstant(triggerItemName)
+        local itemId, _, _, _, icon = C_Item.GetItemInfoInstant(triggerItemName)
         local itemSlot = %s
       ]]
 
@@ -8687,6 +8729,16 @@ Private.event_prototypes = {
         required = true,
         test = "true",
         showExactOption = true
+      },
+      {
+        name = "itemId",
+        display = WeakAuras.newFeatureString .. L["ItemId"],
+        hidden = true,
+        init = "itemId",
+        test = "true",
+        store = true,
+        conditionType = "number",
+        operator_types = "only_equal",
       },
       {
         name = "itemSlot",
@@ -9063,7 +9115,6 @@ Private.event_prototypes = {
         test = "(inverse and itemSetName == nil) or (not inverse and itemSetName)"
       }
     },
-    hasItemID = true,
     automaticrequired = true,
     progressType = "static"
   },
@@ -9764,7 +9815,7 @@ Private.event_prototypes = {
         store = true,
         conditionType = "select",
         enable = function(trigger)
-          return WeakAuras.IsCataOrRetail() and (trigger.unit == "group" or trigger.unit == "raid" or trigger.unit == "party")
+          return trigger.unit == "group" or trigger.unit == "raid" or trigger.unit == "party"
                  and not trigger.use_inverse
         end
       },
@@ -11321,6 +11372,73 @@ Private.event_prototypes = {
     },
     automaticrequired = true,
     progressType = "none"
+  },
+  ["Money"] = {
+    type = "unit",
+    statesParameter = "one",
+    progressType = "none",
+    automaticrequired = true,
+    events = {
+      ["events"] = {"PLAYER_MONEY"}
+    },
+    internal_events = {"WA_DELAYED_PLAYER_ENTERING_WORLD"},
+    force_events = "WA_DELAYED_PLAYER_ENTERING_WORLD",
+    name = WeakAuras.newFeatureString..L["Player Money"],
+    init = function()
+      return [=[
+        local money = GetMoney()
+        local gold = floor(money / 1e4)
+        local silver = floor(money / 100 % 100)
+        local copper = money % 100
+      ]=]
+    end,
+    args = {
+      {
+        name = "money",
+        init = "money",
+        type = "number",
+        display = L["Money"],
+        store = true,
+        hidden = true,
+        test = "true",
+      },
+      {
+        name = "gold",
+        init = "gold",
+        type = "number",
+        display = Private.coin_icons.gold .. L["Gold"],
+        store = true,
+        conditionType = "number",
+      },
+      {
+        name = "silver",
+        init = "silver",
+        type = "number",
+        display = Private.coin_icons.silver .. L["Silver"],
+        store = true,
+        hidden = true,
+        test = "true",
+      },
+      {
+        name = "copper",
+        init = "copper",
+        type = "number",
+        display = Private.coin_icons.copper .. L["Copper"],
+        store = true,
+        hidden = true,
+        test = "true",
+      },
+      {
+        name = "icon",
+        init = "C_CurrencyInfo.GetCoinIcon(money)",
+        store = true,
+        hidden = true,
+        test = "true",
+      },
+    },
+    GetNameAndIcon = function()
+      return MONEY, C_CurrencyInfo.GetCoinIcon(GetMoney())
+    end,
   },
   ["Currency"] = {
     type = "unit",

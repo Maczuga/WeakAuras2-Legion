@@ -3,7 +3,7 @@ local AddonName = ...
 ---@class Private
 local Private = select(2, ...)
 
-local internalVersion = 81
+local internalVersion = 83
 
 -- Lua APIs
 local insert = table.insert
@@ -1341,9 +1341,9 @@ else
   loadedFrame:RegisterEvent("CHARACTER_POINTS_CHANGED");
   loadedFrame:RegisterEvent("SPELLS_CHANGED");
 end
-loadedFrame:SetScript("OnEvent", function(self, event, addon)
+loadedFrame:SetScript("OnEvent", function(self, event, ...)
   if(event == "ADDON_LOADED") then
-    if(addon == ADDON_NAME) then
+    if(... == ADDON_NAME) then
       ---@type WeakAurasSaved
       WeakAurasSaved = WeakAurasSaved or {};
       db = WeakAurasSaved;
@@ -1364,7 +1364,6 @@ loadedFrame:SetScript("OnEvent", function(self, event, addon)
       db.migrationCutoff = db.migrationCutoff or 730
       db.historyCutoff = db.historyCutoff or 730
 
-      Private.UpdateCurrentInstanceType();
       Private.SyncParentChildRelationships();
       local isFirstUIDValidation = db.dbVersion == nil or db.dbVersion < 26;
       Private.ValidateUniqueDataIds(isFirstUIDValidation);
@@ -1410,6 +1409,7 @@ loadedFrame:SetScript("OnEvent", function(self, event, addon)
   else
     local callback
     if(event == "PLAYER_ENTERING_WORLD") then
+      local isInitialLogin, isReloadingUi = ...
       -- Schedule events that need to be handled some time after login
       local now = GetTime()
       callback = function()
@@ -1419,10 +1419,11 @@ loadedFrame:SetScript("OnEvent", function(self, event, addon)
           timer:ScheduleTimer(function() squelch_actions = false; end, remainingSquelch); -- No sounds while loading
         end
         CreateTalentCache() -- It seems that GetTalentInfo might give info about whatever class was previously being played, until PLAYER_ENTERING_WORLD
-        Private.UpdateCurrentInstanceType();
         Private.InitializeEncounterAndZoneLists()
       end
-      Private.PostAddCompanion()
+      if isInitialLogin or isReloadingUi then
+        Private.PostAddCompanion()
+      end
     elseif(event == "PLAYER_PVP_TALENT_UPDATE") then
       callback = CreatePvPTalentCache;
     elseif(event == "ACTIVE_TALENT_GROUP_CHANGED" or event == "CHARACTER_POINTS_CHANGED" or event == "SPELLS_CHANGED") then
@@ -1545,48 +1546,6 @@ local function CreateEncounterTable(encounter_id)
   timer:ScheduleTimer(StoreBossGUIDs, 2)
 
   return WeakAuras.CurrentEncounter
-end
-
-local encounterScriptsDeferred = {}
-local function LoadEncounterInitScriptsImpl(id)
-  if (currentInstanceType ~= "raid") then
-    return
-  end
-  if (id) then
-    local data = db.displays[id]
-    if (data and data.load.use_encounterid and not Private.IsEnvironmentInitialized(id) and data.actions.init and data.actions.init.do_custom) then
-      Private.ActivateAuraEnvironment(id)
-      Private.ActivateAuraEnvironment(nil)
-    end
-    encounterScriptsDeferred[id] = nil
-  else
-    for id, data in pairs(db.displays) do
-      if (data.load.use_encounterid and not Private.IsEnvironmentInitialized(id) and data.actions.init and data.actions.init.do_custom) then
-        Private.ActivateAuraEnvironment(id)
-        Private.ActivateAuraEnvironment(nil)
-      end
-    end
-  end
-end
-
-local function LoadEncounterInitScripts(id)
-  if not WeakAuras.IsLoginFinished() then
-    if encounterScriptsDeferred[id] then
-      return
-    end
-    loginQueue[#loginQueue + 1] = {LoadEncounterInitScriptsImpl, {id}}
-    encounterScriptsDeferred[id] = true
-    return
-  end
-  LoadEncounterInitScriptsImpl(id)
-end
-
-function Private.UpdateCurrentInstanceType(instanceType)
-  if (not IsInInstance()) then
-    currentInstanceType = "none"
-  else
-    currentInstanceType = instanceType or select (2, GetInstanceInfo())
-  end
 end
 
 local pausedOptionsProcessing = false;
@@ -1736,18 +1695,13 @@ local function scanForLoadsImpl(toCheck, event, arg1, ...)
     specId, role, position = Private.LibSpecWrapper.SpecRolePositionForUnit("player")
   end
 
-  local size, difficulty, instanceType, instanceId, difficultyIndex= GetInstanceTypeAndSize()
-  Private.UpdateCurrentInstanceType(instanceType)
+  local size, difficulty, instanceType, instanceId, difficultyIndex = GetInstanceTypeAndSize()
 
   if (WeakAuras.CurrentEncounter) then
     if (instanceId ~= WeakAuras.CurrentEncounter.zone_id and not inCombat) then
       encounter_id = 0
       DestroyEncounterTable()
     end
-  end
-
-  if (event == "ZONE_CHANGED_NEW_AREA") then
-    LoadEncounterInitScripts();
   end
 
   local group = Private.ExecEnv.GroupType()
@@ -3280,8 +3234,6 @@ function pAdd(data, simpleChange)
         activatedConditions = {},
       };
 
-      LoadEncounterInitScripts(id);
-
       if (WeakAuras.IsOptionsOpen()) then
         Private.FakeStatesFor(id, visible)
       end
@@ -3376,8 +3328,9 @@ function Private.SetRegion(data, cloneId)
 
       local parent = WeakAurasFrame;
       if(data.parent) then
-        if WeakAuras.GetData(data.parent) then
-          parent = Private.EnsureRegion(data.parent)
+        local parentRegion = WeakAuras.GetRegion(data.parent)
+        if parentRegion then
+          parent = parentRegion
         else
           data.parent = nil;
         end
@@ -3446,6 +3399,10 @@ local function EnsureRegion(id)
       local data = WeakAuras.GetData(id)
       tinsert(aurasToCreate, data.id)
       id = data.parent
+
+      if WeakAuras.GetRegion(id) then
+        break
+      end
     end
 
     for _, toCreateId in ipairs_reverse(aurasToCreate) do
@@ -4586,7 +4543,9 @@ function WeakAuras.GetTriggerStateForTrigger(id, triggernum)
   if (triggernum == -1) then
     return Private.GetGlobalConditionState();
   end
-  triggerState[id][triggernum] = triggerState[id][triggernum] or {}
+  if triggerState[id][triggernum] == nil then
+    triggerState[id][triggernum] = setmetatable({}, Private.allstatesMetatable)
+  end
   return triggerState[id][triggernum];
 end
 
@@ -4625,10 +4584,16 @@ do
       local changed = false
       for triggernum, triggerData in ipairs(triggers) do
         for id, state in pairs(triggerData) do
-          if state.progressType == "timed" and state.expirationTime and state.expirationTime < t and state.duration and state.duration > 0 then
-            state.expirationTime = t + state.duration
-            state.changed = true
-            changed = true
+          if state.progressType == "timed" then
+            local expirationTime = state.expirationTime
+            local duration = state.duration
+            if expirationTime and type(expirationTime) == "number" and expirationTime < t
+               and duration and type(duration) == "number" and duration > 0
+            then
+              state.expirationTime = t + state.duration
+              state.changed = true
+              changed = true
+            end
           end
         end
       end
@@ -4752,7 +4717,7 @@ local function startStopTimers(id, cloneId, triggernum, state)
       timer:CancelTimer(record.handle);
     end
 
-    if expirationTime then
+    if expirationTime and type(expirationTime) == "number" then
       record.handle = timer:ScheduleTimerFixed(
         function()
           if (state.show ~= false and state.show ~= nil) then
@@ -4763,7 +4728,6 @@ local function startStopTimers(id, cloneId, triggernum, state)
             if Private.watched_trigger_events[id] and Private.watched_trigger_events[id][triggernum] then
               Private.AddToWatchedTriggerDelay(id, triggernum)
             end
-
             Private.UpdatedTriggerState(id);
           end
         end,
@@ -4910,7 +4874,7 @@ function Private.UpdatedTriggerState(id)
 
   local changed = false;
   for triggernum = 1, triggerState[id].numTriggers do
-    triggerState[id][triggernum] = triggerState[id][triggernum] or {};
+    triggerState[id][triggernum] = triggerState[id][triggernum] or setmetatable({}, Private.allstatesMetatable)
 
     local anyStateShown = false;
 
@@ -5001,7 +4965,6 @@ function Private.UpdatedTriggerState(id)
   end
 
   for triggernum = 1, triggerState[id].numTriggers do
-    triggerState[id][triggernum] = triggerState[id][triggernum] or {};
     for cloneId, state in pairs(triggerState[id][triggernum]) do
       if (not state.show) then
         triggerState[id][triggernum][cloneId] = nil;
@@ -5249,7 +5212,7 @@ function Private.ReplacePlaceHolders(textStr, region, customFunc, useHiddenState
   local regionState = region.state or {};
   local regionStates = region.states or {};
   if (not regionState and not regionValues) then
-    return;
+    return ""
   end
   local endPos = textStr:len();
   if (endPos < 2) then

@@ -131,6 +131,10 @@ if WeakAuras.IsClassicEra() then
   Private.big_number_types.BreakUpLargeNumbers = nil
 end
 ---@type table<string, string>
+Private.big_number_types_with_disable = CopyTable(Private.big_number_types)
+Private.big_number_types_with_disable["disable"] = L["Disabled"]
+
+---@type table<string, string>
 Private.round_types = {
   floor = L["Floor"],
   ceil = L["Ceil"],
@@ -500,6 +504,61 @@ Private.format_types = {
         end, next(timePointProperty) ~= nil
       else
         return formatter, next(timePointProperty) ~= nil
+      end
+    end
+  },
+  Money = {
+    display = L["Money"],
+    AddOptions = function(symbol, hidden, addOption)
+      addOption(symbol .. "_money_format", {
+        type = "select",
+        name = L["Format Gold"],
+        width = WeakAuras.normalWidth,
+        values = Private.big_number_types_with_disable,
+        hidden = hidden
+      })
+      addOption(symbol .. "_money_precision", {
+        type = "select",
+        name = L["Coin Precision"],
+        width = WeakAuras.normalWidth,
+        values = Private.money_precision_types,
+        hidden = hidden
+      })
+    end,
+    CreateFormatter = function(symbol, get)
+      local format = get(symbol .. "_money_format", "AbbreviateNumbers")
+      local precision = get(symbol .. "_money_precision", 3)
+
+      return function(value)
+        if type(value) ~= "number" then
+          return ""
+        end
+        local gold = floor(value / 1e4)
+        local silver = floor(value / 100 % 100)
+        local copper = value % 100
+
+        if (format == "AbbreviateNumbers") then
+          gold = simpleFormatters.AbbreviateNumbers(gold)
+        elseif (format == "BreakUpLargeNumbers") then
+          gold = simpleFormatters.BreakUpLargeNumbers(gold)
+        elseif (format == "AbbreviateLargeNumbers") then
+          gold = simpleFormatters.AbbreviateLargeNumbers(gold)
+        end
+
+        local formatCode
+        if precision == 1 then
+          formatCode = "%s%s"
+        elseif precision == 2 then
+          formatCode = "%s%s %d%s"
+        else
+          formatCode = "%s%s %d%s %d%s"
+        end
+
+        return string.format(formatCode,
+          tostring(gold), Private.coin_icons.gold,
+          silver, Private.coin_icons.silver,
+          copper, Private.coin_icons.copper
+        )
       end
     end
   },
@@ -1529,6 +1588,20 @@ Private.combatlog_spell_school_types_for_ui = {}
 for id, str in pairs(Private.combatlog_spell_school_types) do
   Private.combatlog_spell_school_types_for_ui[id] = ("%.3d - %s"):format(id, str)
 end
+
+---@type table<string, string>
+Private.coin_icons = {
+  ["gold"] = "|Tinterface/moneyframe/ui-goldicon:0|t",
+  ["silver"] = "|Tinterface/moneyframe/ui-silvericon:0|t",
+  ["copper"] = "|Tinterface/moneyframe/ui-coppericon:0|t"
+}
+
+---@type table<number, string>
+Private.money_precision_types = {
+  [1] = "123 " .. Private.coin_icons.gold,
+  [2] = "123 " .. Private.coin_icons.gold .. " 45 " .. Private.coin_icons.silver,
+  [3] = "123 " .. Private.coin_icons.gold .. " 45 " .. Private.coin_icons.silver .. " 67 " .. Private.coin_icons.copper
+}
 
 if WeakAuras.IsRetail() then
   Private.GetCurrencyListSize = C_CurrencyInfo.GetCurrencyListSize
@@ -2894,13 +2967,11 @@ if WeakAuras.IsClassicOrCata() then
 end
 
 ---@type table<string, string>
-if WeakAuras.IsCataOrRetail() then
-  Private.role_types = {
-    TANK = INLINE_TANK_ICON.." "..TANK,
-    DAMAGER = INLINE_DAMAGER_ICON.." "..DAMAGER,
-    HEALER = INLINE_HEALER_ICON.." "..HEALER
-  }
-end
+Private.role_types = {
+  TANK = INLINE_TANK_ICON.." "..TANK,
+  DAMAGER = INLINE_DAMAGER_ICON.." "..DAMAGER,
+  HEALER = INLINE_HEALER_ICON.." "..HEALER
+}
 
 ---@type table<string, string>
 Private.group_member_types = {
@@ -3329,7 +3400,9 @@ Private.bufftrigger_2_progress_behavior_types = {
 ---@type table<string, string>
 Private.bufftrigger_2_preferred_match_types = {
   showLowest = L["Least remaining time"],
-  showHighest = L["Most remaining time"]
+  showHighest = L["Most remaining time"],
+  showLowestSpellId = L["Lowest Spell Id"],
+  showHighestSpellId = L["Highest Spell Id"],
 }
 
 ---@type table<string, string>
@@ -3735,7 +3808,6 @@ Private.author_option_fields = {
   header = {
     useName = false,
     text = "",
-    noMerge = false
   },
   group = {
     groupType = "simple",

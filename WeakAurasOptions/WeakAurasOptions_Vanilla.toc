@@ -1,9 +1,10 @@
-## Interface: 11505
+## Interface: 11506
 ## Title: WeakAuras Options
 ## Author: The WeakAuras Team
 ## Version: @project-version@
 ## Notes: Options for WeakAuras
 ## Notes-esES: Opciones para WeakAuras
+## Notes-esMX: Opciones para WeakAuras
 ## Notes-deDE: Optionen für WeakAuras
 ## Notes-ruRU: Опции WeakAuras
 ## Notes-zhTW: WeakAuras的設定
@@ -19,6 +20,7 @@ locales.xml
 
 ForAllIndentsAndPurposes.lua
 
+RegionOptions\Empty.lua
 RegionOptions\AuraBar.lua
 RegionOptions\Texture.lua
 RegionOptions\Icon.lua
@@ -58,6 +60,8 @@ GenericTrigger.lua
 WeakAurasOptions.lua
 ConditionOptions.lua
 AuthorOptions.lua
+
+Changelog.lua
 
 OptionsFrames\OptionsFrame.lua
 

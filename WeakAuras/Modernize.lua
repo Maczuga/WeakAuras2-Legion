@@ -2367,6 +2367,35 @@ function Private.Modernize(data, oldSnapshot)
     end
   end
 
+  if data.internalVersion < 82 then
+    -- noMerge for separator custom option doesn't make sense,
+    -- and groups achieve the desired effect better,
+    -- so drop the feature
+    if data.authorOptions then
+      for _, optionData in ipairs(data.authorOptions) do
+        if optionData.type == "header" then
+          optionData.noMerge = nil
+        end
+      end
+    end
+  end
+
+  if data.internalVersion < 83 then
+    local propertyRenames = {
+      cooldownText = "cooldownTextDisabled",
+    }
+
+    if data.conditions then
+      for conditionIndex, condition in ipairs(data.conditions) do
+        for changeIndex, change in ipairs(condition.changes) do
+          if propertyRenames[change.property] then
+            change.property = propertyRenames[change.property]
+          end
+        end
+      end
+    end
+  end
+
   data.internalVersion = max(data.internalVersion or 0, WeakAuras.InternalVersion())
 end
 
