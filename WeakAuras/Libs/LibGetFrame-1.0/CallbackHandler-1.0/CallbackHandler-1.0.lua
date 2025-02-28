@@ -26,7 +26,7 @@ local function Dispatch(handlers, ...)
 	local index, method = next(handlers)
 	if not method then return end
 	repeat
-		xpcall(method, errorhandler, ...)
+		XpCall(method, errorhandler, ...)
 		index, method = next(handlers, index)
 	until not method
 end
