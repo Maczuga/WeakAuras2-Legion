@@ -12,7 +12,6 @@ local purgeKey do
 	local e = {}
 	function purgeKey(t, k)
 		e.textures, t[k] = t, 0
-		TextureLoadingGroupMixin.RemoveTexture(e, k)
 	end
 end
 

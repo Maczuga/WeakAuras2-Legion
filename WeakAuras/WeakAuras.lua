@@ -1018,14 +1018,24 @@ local function CreatePvPTalentCache()
     return spellId, "|T"..icon..":0|t "..name
   end
 
-  local slotInfo = C_SpecializationInfo.GetPvpTalentSlotInfo(1);
-  if (slotInfo) then
-    Private.pvp_talent_types_specific[player_class][spec] = {};
+  if WeakAuras.IsLegion() then
+    for tier = 1, MAX_PVP_TALENT_TIERS do
+      for column = 1, MAX_PVP_TALENT_COLUMNS do
+        local talentId = GetPvpTalentInfo(tier, column, 1);
+        local index, displayText = formatTalent(talentId)
+        Private.pvp_talent_types_specific[player_class][spec][index] = displayText
+      end
+    end
+  else
+    local slotInfo = C_SpecializationInfo.GetPvpTalentSlotInfo(1);
+    if (slotInfo) then
+      Private.pvp_talent_types_specific[player_class][spec] = {};
 
-    local pvpSpecTalents = slotInfo.availableTalentIDs;
-    for _, talentId in ipairs(pvpSpecTalents) do
-      local index, displayText = formatTalent(talentId)
-      Private.pvp_talent_types_specific[player_class][spec][index] = displayText
+      local pvpSpecTalents = slotInfo.availableTalentIDs;
+      for _, talentId in ipairs(pvpSpecTalents) do
+        local index, displayText = formatTalent(talentId)
+        Private.pvp_talent_types_specific[player_class][spec][index] = displayText
+      end
     end
   end
 end
