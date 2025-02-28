@@ -88,7 +88,15 @@ function WeakAuras.UnitDetailedThreatSituation(unit1, unit2)
   end
 end
 
-WeakAuras.UnitCastingInfo = UnitCastingInfo
+if WeakAuras.IsLegion() then
+  -- Omit 2nd return value of UnitCastingInfo and pass the rest in the same order
+  WeakAuras.UnitCastingInfo = function(unit)
+    local spell, _, displayName, icon, startTime, endTime, isTradeSkill, castID, notInterruptible, spellID = UnitCastingInfo(unit)
+    return spell, displayName, icon, startTime, endTime, isTradeSkill, castID, notInterruptible, spellID
+  end
+else
+  WeakAuras.UnitCastingInfo = UnitCastingInfo
+end
 
 if WeakAuras.IsRetail() then
   local cacheEmpowered = {}
@@ -138,6 +146,11 @@ if WeakAuras.IsRetail() then
     end
     Private.ScanUnitEvents(event.."_FAKE", unit, ...)
   end)
+elseif WeakAuras.IsLegion() then
+  WeakAuras.UnitChannelInfo = function(unit)
+    local name, _, text, texture, startTime, endTime, isTradeSkill, notInterruptible = UnitChannelInfo(unit)
+    return name, text, texture, startTime, endTime, isTradeSkill, notInterruptible
+  end
 else
   WeakAuras.UnitChannelInfo = UnitChannelInfo
 end
