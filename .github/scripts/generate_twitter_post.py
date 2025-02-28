@@ -5,7 +5,7 @@ import re
 import subprocess
 from pathlib import Path
 
-WEAKAURAS_URL_RELEASE_URL = "https://github.com/WeakAuras/WeakAuras2/releases/tag/{tag}"
+WEAKAURAS_URL_RELEASE_URL = "https://github.com/Maczuga/WeakAuras2-Legion/releases/tag/{tag}"
 MAX_POST_LENGTH = 280
 
 POST_TEMPLATE = """WeakAuras {tag} released:
