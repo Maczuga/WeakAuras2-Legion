@@ -16,11 +16,17 @@
 
 embeds.xml
 
-Utils/Lua.lua
+Globals\Lua\ipairs_reverse.lua
+Globals\XpCall.lua
+Globals\GetClassAtlas.lua
+Globals\UnitPowerBarID.lua
+Globals\FindBaseSpellByID.lua
+Globals\GetClassAtlas.lua
+Globals\UnitPowerBarID.lua
+Globals\FindBaseSpellByID.lua
 
-Frame/BackdropTemplateMixin.lua
-Frame/CreateFrame.lua
-Frame/FrameExtensions.lua
+Frame\CreateFrame.lua
+Frame\FrameExtensions.lua
 
 EnvironmentUtil.lua
 TimeUtil.lua
@@ -37,21 +43,18 @@ Templates/SharedTooltipTemplates.lua
 Templates/Backdrop.xml
 Templates/Backdrop.lua
 
-C_CVar.lua
-C_AddOns.lua
-C_Map.lua
-C_ChatInfo.lua
-C_Texture.lua
-C_SpecializationInfo.lua
-C_CreatureInfo.lua
-C_CurrencyInfo.lua
-C_Spell.lua
-C_VoiceChat.lua
-C_Item.lua
-C_PvP.lua
-
-GetClassAtlas.lua
-UnitPowerBarID.lua
-FindBaseSpellByID.lua
+API/C_CVar.lua
+API/C_AddOns.lua
+API/C_Map.lua
+API/C_ChatInfo.lua
+API/C_Texture.lua
+API/C_SpecializationInfo.lua
+API/C_CreatureInfo.lua
+API/C_CurrencyInfo.lua
+API/C_Spell.lua
+API/C_VoiceChat.lua
+API/C_Item.lua
+API/C_PvP.lua
+API/C_BattleNet.lua
 
 AddonCompartmentFrame.lua

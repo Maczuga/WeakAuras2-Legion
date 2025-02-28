@@ -6,9 +6,7 @@ function CreateFrame(frameType, frameName, parent, template, id)
     -- Create the frame using the original function
     local frame = OriginalCreateFrame(frameType, frameName, parent, template, id)
 
-    -- Apply compatibility methods from FrameExtensions
-    FrameExtensions.AddResizeBoundsCompatibility(frame)
-    FrameExtensions.AddTextureCompatibility(frame)
+    ApplyFrameExtensions(frame)
 
     return frame
 end
