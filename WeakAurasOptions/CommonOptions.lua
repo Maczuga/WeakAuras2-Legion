@@ -1981,7 +1981,7 @@ local function AddCodeOption(args, data, name, prefix, url, order, hiddenFunc, p
         return false;
       else
         if options.validator then
-          local ok, validate = Private.SafeCall(loadedFunction, noop)
+          local ok, validate = XpCall(loadedFunction, noop)
           if ok then
             return options.validator(validate)
           end

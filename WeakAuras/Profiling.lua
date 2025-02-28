@@ -483,10 +483,9 @@ function WeakAurasProfilingMixin:OnShow()
   end
   self.initialised = true
 
-  if true then
-    print("Profiling is not yet implemented in this backport, sorry.")
-    return
-  end
+  print("Profiling is not yet implemented in this backport, sorry.")
+  print("Profiling is not yet implemented in this backport, sorry.")
+  print("Profiling is not yet implemented in this backport, sorry.")
 
   ButtonFrameTemplate_HidePortrait(self)
   self:SetTitle(L["WeakAuras Profiling"])
