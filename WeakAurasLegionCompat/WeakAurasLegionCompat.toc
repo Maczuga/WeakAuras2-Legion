@@ -16,42 +16,119 @@
 
 embeds.xml
 
-Utils/Lua.lua
+# Globals
 
-Frame/BackdropTemplateMixin.lua
-Frame/CreateFrame.lua
-Frame/FrameExtensions.lua
+Globals\Lua\ipairs_reverse.lua
+Globals\securecallfunction.lua
+Globals\secureexecuterange.lua
+Globals\XpCall.lua
+Globals\GetClassAtlas.lua
+Globals\UnitPowerBarID.lua
+Globals\FindBaseSpellByID.lua
+Globals\TableHasAnyEntries.lua
+Globals\tIndexOf.lua
+Globals\CreatePoolCollection.lua
+Globals\GetMouseFoci.lua
+
+Frame\BackdropTemplateMixin.lua
+Frame\CreateFrame.lua
+Frame\FrameExtensions.lua
+
+Enum.lua
+Constants.lua
 
 EnvironmentUtil.lua
 TimeUtil.lua
+TableUtil.lua
 
 Color.lua
 ColorUtil.lua
+MathUtil.lua
 
-Templates/TextureUtil.lua
-Templates/NineSliceLayouts.lua
-Templates/NineSlice.lua
-Templates/SharedUIPanelTemplates.xml
-Templates/SharedTooltipTemplates.xml
-Templates/SharedTooltipTemplates.lua
-Templates/Backdrop.xml
-Templates/Backdrop.lua
+EnumUtil.lua
+ButtonStateBehavior.lua
+Mixin.lua
+TemplateInfoCache.lua
+FrameFactory.lua
 
-C_CVar.lua
-C_AddOns.lua
-C_Map.lua
-C_ChatInfo.lua
-C_Texture.lua
-C_SpecializationInfo.lua
-C_CreatureInfo.lua
-C_CurrencyInfo.lua
-C_Spell.lua
-C_VoiceChat.lua
-C_Item.lua
-C_PvP.lua
+Templates\NineSliceLayouts.lua
+Templates\NineSlice.lua
+Templates\SharedUIPanelTemplates.xml
+Templates\SharedTooltipTemplates.lua
+Templates\SharedTooltipTemplates.xml
+Templates\Backdrop.lua
+Templates\Backdrop.xml
+Templates\LayoutFrame.lua
+Templates\LayoutFrame.xml
 
-GetClassAtlas.lua
-UnitPowerBarID.lua
-FindBaseSpellByID.lua
+Blizzard_SharedXMLBase\ErrorUtil.lua
+Blizzard_SharedXMLBase\Mixin.lua
+Blizzard_SharedXMLBase\FunctionUtil.lua
+Blizzard_SharedXMLBase\TextureUtil.lua
+Blizzard_SharedXMLBase\Flags.lua
+Blizzard_SharedXMLBase\CallbackRegistry.lua
+Blizzard_SharedXMLBase\GlobalCallbackRegistry.lua
+Blizzard_SharedXMLBase\FrameUtil.lua
+Blizzard_SharedXMLBase\SecureTypes.lua
+Blizzard_SharedXMLBase\ProxyUtil.lua
+Blizzard_SharedXMLBase\Pools.lua
+
+Blizzard_SharedXML\InputUtil.lua
+Blizzard_SharedXML\AnchorUtil.lua
+
+Blizzard_SharedXML\SharedUIPanelTemplates.lua
+Blizzard_SharedXML\PortraitFrame.lua
+Blizzard_SharedXML\SharedUIPanelTemplates.xml
+
+Blizzard_SharedXML\Frame\EventFrame.lua
+Blizzard_SharedXML\Frame\EventFrame.xml
+Blizzard_SharedXML\Scroll\ScrollUtil.lua
+Blizzard_SharedXML\Scroll\ScrollController.lua
+Blizzard_SharedXML\Scroll\ScrollBoxPadding.lua
+Blizzard_SharedXML\Scroll\ScrollBoxViewUtil.lua
+Blizzard_SharedXML\Scroll\ScrollBoxView.lua
+Blizzard_SharedXML\Scroll\ScrollBoxListView.lua
+Blizzard_SharedXML\Scroll\ScrollBoxLinearView.lua
+Blizzard_SharedXML\Scroll\ScrollBox.lua
+Blizzard_SharedXML\Scroll\ScrollBox.xml
+Blizzard_SharedXML\Scroll\ScrollBar.lua
+Blizzard_SharedXML\Scroll\ScrollBar.xml
+Blizzard_SharedXML\Scroll\ScrollTemplates.lua
+Blizzard_SharedXML\Scroll\ScrollTemplates.xml
+Blizzard_SharedXML\Scroll\TrimScrollBar.lua
+Blizzard_SharedXML\Scroll\TrimScrollBar.xml
+Blizzard_SharedXML\Scroll\MinimalScrollBar.lua
+Blizzard_SharedXML\Scroll\MinimalScrollBar.xml
+Blizzard_SharedXML\ScrollingMessageFrame.lua
+
+# Blizzard_Menu\MenuConstants.lua
+# Blizzard_Menu\Mainline\MenuConstants.lua
+# Blizzard_Menu\MenuVariants.lua
+# Blizzard_Menu\Mainline\MenuVariants.lua
+# Blizzard_Menu\Compositor.lua
+# Blizzard_Menu\Menu.lua
+# Blizzard_Menu\Menu.xml
+# Blizzard_Menu\DropdownButton.lua
+# Blizzard_Menu\DropdownButton.xml
+# Blizzard_Menu\MenuTemplates.lua
+# Blizzard_Menu\MenuTemplates.xml
+# Blizzard_Menu\Mainline\MenuTemplates.lua
+# Blizzard_Menu\Mainline\MenuTemplates.xml
+# Blizzard_Menu\MenuUtil.lua
+
+# API
+API\C_CVar.lua
+API\C_AddOns.lua
+API\C_Map.lua
+API\C_ChatInfo.lua
+API\C_Texture.lua
+API\C_SpecializationInfo.lua
+API\C_CreatureInfo.lua
+API\C_CurrencyInfo.lua
+API\C_Spell.lua
+API\C_VoiceChat.lua
+API\C_Item.lua
+API\C_PvP.lua
+API\C_XMLUtil.lua
 
 AddonCompartmentFrame.lua

@@ -77,58 +77,6 @@ NineSliceLayouts =
 		RightEdge = { layer = "BORDER", subLevel = -5, atlas = "!UI-Frame-InnerRightTile", },
 	},
 
-	BFAMissionHorde =
-	{
-		mirrorLayout = true,
-		TopLeftCorner =	{ atlas = "HordeFrame-Corner-TopLeft", x = -6, y = 6, },
-		TopRightCorner =	{ atlas = "HordeFrame-Corner-TopLeft", x = 6, y = 6, },
-		BottomLeftCorner =	{ atlas = "HordeFrame-Corner-TopLeft", x = -6, y = -6, },
-		BottomRightCorner =	{ atlas = "HordeFrame-Corner-TopLeft", x = 6, y = -6, },
-		TopEdge = { atlas = "_HordeFrameTile-Top", },
-		BottomEdge = { atlas = "_HordeFrameTile-Top", },
-		LeftEdge = { atlas = "!HordeFrameTile-Left", },
-		RightEdge = { atlas = "!HordeFrameTile-Left", },
-	},
-
-	BFAMissionAlliance =
-	{
-		mirrorLayout = true,
-		TopLeftCorner =	{ atlas = "AllianceFrameCorner-TopLeft", x = -6, y = 6, },
-		TopRightCorner =	{ atlas = "AllianceFrameCorner-TopLeft", x = 6, y = 6, },
-		BottomLeftCorner =	{ atlas = "AllianceFrameCorner-TopLeft", x = -6, y = -6, },
-		BottomRightCorner =	{ atlas = "AllianceFrameCorner-TopLeft", x = 6, y = -6, },
-		TopEdge = { atlas = "_AllianceFrameTile-Top", },
-		BottomEdge = { atlas = "_AllianceFrameTile-Top", },
-		LeftEdge = { atlas = "!AllianceFrameTile-Left", },
-		RightEdge = { atlas = "!AllianceFrameTile-Left", },
-	},
-
-	CovenantMissionFrame =
-	{
-		mirrorLayout = true,
-		TopLeftCorner =	{ atlas = "Oribos-NineSlice-CornerTopLeft", x = -6, y = 6, },
-		TopRightCorner =	{ atlas = "Oribos-NineSlice-CornerTopLeft", x = 6, y = 6, },
-		BottomLeftCorner =	{ atlas = "Oribos-NineSlice-CornerTopLeft", x = -6, y = -6, },
-		BottomRightCorner =	{ atlas = "Oribos-NineSlice-CornerTopLeft", x = 6, y = -6, },
-		TopEdge = { atlas = "_Oribos-NineSlice-EdgeTop", },
-		BottomEdge = { atlas = "_Oribos-NineSlice-EdgeTop", },
-		LeftEdge = { atlas = "!Oribos-NineSlice-EdgeLeft", },
-		RightEdge = { atlas = "!Oribos-NineSlice-EdgeLeft", },
-	},
-
-	DragonflightMissionFrame =
-	{
-		mirrorLayout = false,
-		TopLeftCorner =		{ atlas = "Dragonflight-NineSlice-CornerTopLeft", x = -6, y = 6, },
-		TopRightCorner =	{ atlas = "Dragonflight-NineSlice-CornerTopRight", x = 6, y = 6, },
-		BottomLeftCorner =	{ atlas = "Dragonflight-NineSlice-CornerBottomLeft", x = -6, y = -6, },
-		BottomRightCorner =	{ atlas = "Dragonflight-NineSlice-CornerBottomRight", x = 6, y = -6, },
-		TopEdge = { atlas = "_dragonflight-nineslice-edgetop", },
-		BottomEdge = { atlas = "_dragonflight-nineslice-edgebottom", },
-		LeftEdge = { atlas = "!Dragonflight-NineSlice-EdgeLeft", },
-		RightEdge = { atlas = "!Dragonflight-NineSlice-EdgeRight", },
-	},
-
 	GenericMetal =
 	{
 		TopLeftCorner =	{ atlas = "UI-Frame-GenericMetal-Corner", x = -6, y = 6, mirrorLayout = true, },

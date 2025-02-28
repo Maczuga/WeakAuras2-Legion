@@ -65,7 +65,7 @@
     </Frames>
   </Frame>
 
-  <Frame name="WeakAurasProfilingFrame" mixin="WeakAurasProfilingMixin" inherits="PortraitFrameTemplate" parent="UIParent" toplevel="true" movable="true" resizable="true" enableMouse="true" clampedToScreen="true" frameStrata="DIALOG" hidden="true">
+  <Frame name="WeakAurasProfilingFrame" mixin="WeakAurasProfilingMixin" inherits="PortraitFrameTemplate_Retail" parent="UIParent" toplevel="true" movable="true" resizable="true" enableMouse="true" clampedToScreen="true" frameStrata="DIALOG" hidden="true">
     <Size x="450" y="400"/>
     <Anchors>
       <Anchor point="CENTER"/>
@@ -237,7 +237,7 @@
     </Scripts>
   </Frame>
 
-  <Frame name="WeakAurasProfilingReport" mixin="WeakAurasProfilingReportMixin" parent="WeakAurasProfilingFrame" movable="true" inherits="PortraitFrameTemplate" enableMouse="true" clampedToScreen="true" frameStrata="DIALOG" hidden="true">
+  <Frame name="WeakAurasProfilingReport" mixin="WeakAurasProfilingReportMixin" parent="WeakAurasProfilingFrame" movable="true" inherits="PortraitFrameTemplate_Retail" enableMouse="true" clampedToScreen="true" frameStrata="DIALOG" hidden="true">
     <Size x="450" y="400"/>
     <HitRectInsets>
       <RelInset top="8" bottom="8" right="8" left="8" />

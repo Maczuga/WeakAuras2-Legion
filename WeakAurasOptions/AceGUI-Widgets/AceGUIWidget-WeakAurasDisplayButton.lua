@@ -1482,14 +1482,11 @@ local methods = {
             removeText = L["Remove All Text To Speech"]
           end
           onClick = function()
-            MenuUtil.CreateContextMenu(UIParent, function(ownerRegion, root)
-              root:CreateButton(soundText, function()
-                WeakAuras.PickDisplay(warning.auraId, tabsForWarning[warning.key] or "information")
-              end)
-              root:CreateButton(removeText, function()
-                OptionsPrivate.Private.ClearSounds(self.data.uid, severity)
-              end)
-            end)
+            local menuList = {
+              {text = soundText, func = function() WeakAuras.PickDisplay(warning.auraId, tabsForWarning[warning.key] or "information") end},
+              {text = removeText, func = function() OptionsPrivate.Private.ClearSounds(self.data.uid, severity) end},
+            };
+            LibDD:EasyMenu(menuList, WeakAuras_DropDownMenu, self.frame, 0, 0, "MENU");
           end
         else
           onClick = function()

@@ -27,10 +27,17 @@ if not C_XMLUtil then
         { key = "skipChildLayout", keyType = "string", type = "boolean", value = "true" }
       }
     },
-    ["Button"] = nil,
+    ["WeakAurasProfilingLineTemplate"] = {
+      type = "Frame",
+      height = 20,
+      width = 0,
+      inherits = "ResizeLayoutFrame",
+      keyValues = {
+      }
+    },
   }
   -- /dump C_XMLUtil.GetTemplateInfo("Button")
-  -- /dump C_XMLUtil.GetTemplateInfo("MenuTemplateBase")
+  -- /dump C_XMLUtil.GetTemplateInfo("WeakAurasProfilingLineTemplate")
   C_XMLUtil = {
     GetTemplateInfo = function(name)
       local result = templateInfo[name]

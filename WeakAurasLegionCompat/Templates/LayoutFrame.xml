@@ -1,0 +1,36 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+UI.xsd">
+    <Frame name="BaseLayoutFrameTemplate" virtual="true">
+      <Scripts>
+        <OnShow method="OnShow"/>
+      </Scripts>
+    </Frame>
+
+		<Frame name="ResizeLayoutFrame" virtual="true" inherits="BaseLayoutFrameTemplate" mixin="ResizeLayoutMixin">
+			<Size x="1" y="1"/>
+			<!--
+			<KeyValues>
+				ResizeLayoutFrame simply resizes based on the extents of it's child frames & regions.
+				You will need to set the anchors of all children & regions yourself.
+				Note that layoutIndex is NOT required to be included in the ResizeLayoutFrame system (and it does nothing if it is set).
+
+				Because we set ignoreLayoutIndex to true on ResizeLayoutFrame, you must specifically use the ignoreInLayout keyValue if you want something to not be included in the size calculation
+
+				Use fixedWidth/fixedHeight if you want a fixed size; otherwise size will be dynamically
+				calculated based on the sizes of child frames
+				<KeyValue key="fixedWidth" value="300" type="number"/>
+				<KeyValue key="fixedHeight" value="300" type="number"/>
+				<KeyValue key="widthPadding" value="300" type="number"/>
+				<KeyValue key="heightPadding" value="300" type="number"/>
+				<KeyValue key="minimumWidth" value="300" type="number"/>
+				<KeyValue key="minimumHeight" value="300" type="number"/>
+				<KeyValue key="maximumWidth" value="300" type="number"/>
+				<KeyValue key="maximumHeight" value="300" type="number"/>
+				<KeyValue key="skipChildLayout" value="false" type="boolean"/>
+				<KeyValue key="skipLayoutOnShow" value="false" type="boolean"/>
+				<KeyValue key="ignoreAllChildren" value="false" type="boolean"/>
+			</KeyValues>
+			-->
+		</Frame>
+
+</Ui>

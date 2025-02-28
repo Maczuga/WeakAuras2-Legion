@@ -45,13 +45,14 @@ table_to_string = function(tbl, depth)
 end
 
 WeakAurasProfilingReportMixin = {}
+
 function WeakAurasProfilingReportMixin:OnShow()
   if self.initialised then
     return
   end
   self.initialised = true
 
-  ButtonFrameTemplate_HidePortrait(self)
+  ButtonFrameTemplate_HidePortrait_Retail(self)
   self:SetTitle(L["WeakAuras Profiling Report"])
   self:SetSize(500, 300)
 end
@@ -483,13 +484,15 @@ function WeakAurasProfilingMixin:OnShow()
   end
   self.initialised = true
 
-  ButtonFrameTemplate_HidePortrait(self)
+  ApplyFrameExtensions(self);
+
+  ButtonFrameTemplate_HidePortrait_Retail(self)
   self:SetTitle(L["WeakAuras Profiling"])
   self:SetSize(MinPanelWidth, MinPanelHeight)
   self.ResizeButton:Init(self, MinPanelMinimizedWidth, MinPanelMinimizedHeight)
   self:SetResizeBounds(MinPanelWidth, MinPanelHeight)
   self.mode = 1
-  UIDropDownMenu_SetText(self.buttons.modeDropDown, modes[1])
+  -- UIDropDownMenu_SetText(self.buttons.modeDropDown, modes[1])
 
   self.buttons.report:SetText(L["Report Summary"])
   self.buttons.report.tooltip = L["A detailed overview of your auras and WeakAuras systems\nCopy the whole text to Weakaura's Discord if you need assistance."]
