@@ -62,5 +62,6 @@ API/C_Item.lua
 API/C_PvP.lua
 API/C_BattleNet.lua
 API/C_Container.lua
+API/C_QuestLog.lua
 
 AddonCompartmentFrame.lua

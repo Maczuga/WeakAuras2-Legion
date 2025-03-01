@@ -190,7 +190,7 @@ local function ConstructTextEditor(frame)
   local originalGetText = editor.editBox.GetText
   local originalSetText = editor.editBox.SetText
   set_scheme()
-  LAAC:enable(editor.editBox)
+  -- LAAC:enable(editor.editBox)
   IndentationLib.enable(editor.editBox, color_scheme, WeakAurasSaved.editor_tab_spaces)
 
   local cancel = CreateFrame("Button", nil, group.frame, "UIPanelButtonTemplate")

@@ -52,3 +52,17 @@ if not TableHasAnyEntries then
     return next(tbl) ~= nil;
   end
 end
+
+if not SafePack then
+  function SafePack(...)
+    local tbl = { ... };
+    tbl.n = select("#", ...);
+    return tbl;
+  end
+end
+
+if not SafeUnpack then
+  function SafeUnpack(tbl, startIndex)
+    return unpack(tbl, startIndex or 1, tbl.n);
+  end
+end
