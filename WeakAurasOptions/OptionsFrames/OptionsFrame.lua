@@ -101,6 +101,7 @@ function OptionsPrivate.CreateFrame()
   local odb = OptionsPrivate.savedVars.odb
 
   frame = CreateFrame("Frame", "WeakAurasOptions", UIParent, "PortraitFrameTemplate")
+  ApplyFrameExtensions(frame)
   local color = CreateColorFromHexString("ff1f1e21") -- PANEL_BACKGROUND_COLOR
   local r, g, b = color:GetRGB()
   frame.Bg:SetColorTexture(r, g, b, 0.8)

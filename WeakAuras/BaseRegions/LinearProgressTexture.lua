@@ -350,8 +350,8 @@ function Private.LinearProgressTextureBase.create(frame, layer, drawLayer)
   linearTexture.endProgress = 1
 
   local texture = frame:CreateTexture(nil, layer)
-  texture:SetSnapToPixelGrid(false)
-  texture:SetTexelSnappingBias(0)
+  -- texture:SetSnapToPixelGrid(false)
+  -- texture:SetTexelSnappingBias(0)
   texture:SetDrawLayer(layer, drawLayer)
   linearTexture.texture = texture
   linearTexture.coord  = Private.TextureCoords.create(texture)

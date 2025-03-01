@@ -505,8 +505,8 @@ local function modify(parent, region, parentData, data, first)
 
     if region.ticks[i] == nil then
       local texture = region:CreateTexture()
-      texture:SetSnapToPixelGrid(false)
-      texture:SetTexelSnappingBias(0)
+      -- texture:SetSnapToPixelGrid(false)
+      -- texture:SetTexelSnappingBias(0)
       texture:SetDrawLayer("ARTWORK", 3)
       texture:SetAllPoints()
       region.ticks[i] = texture

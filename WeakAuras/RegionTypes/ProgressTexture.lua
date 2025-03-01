@@ -729,6 +729,7 @@ local funcs = {
 
 local function create(parent)
   local region = CreateFrame("Frame", nil, parent);
+  ApplyFrameExtensions(region);
   region.regionType = "progresstexture"
   region:SetMovable(true);
   region:SetResizable(true);

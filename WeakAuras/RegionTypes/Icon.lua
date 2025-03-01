@@ -205,6 +205,7 @@ local function create(parent, data)
   local font = "GameFontHighlight";
 
   local region = CreateFrame("Frame", nil, parent);
+  ApplyFrameExtensions(region);
   --- @cast region table|Frame
   region.regionType = "icon"
   region:SetMovable(true);
@@ -246,8 +247,8 @@ local function create(parent, data)
   end
 
   local icon = region:CreateTexture(nil, "BACKGROUND");
-  icon:SetSnapToPixelGrid(false)
-  icon:SetTexelSnappingBias(0)
+  -- icon:SetSnapToPixelGrid(false)
+  -- icon:SetTexelSnappingBias(0)
   if MSQ then
     icon:SetAllPoints(button);
     button:SetScript("OnSizeChanged", region.UpdateInnerOuterSize);
@@ -311,6 +312,8 @@ local function modify(parent, region, data)
   Private.regionPrototype.modify(parent, region, data);
 
   local button, icon, cooldown = region.button, region.icon, region.cooldown;
+
+  ApplyFrameExtensions(cooldown)
 
   region.iconSource = data.iconSource
   region.displayIcon = data.displayIcon
@@ -396,6 +399,7 @@ local function modify(parent, region, data)
   if(tooltipType and data.useTooltip) then
     if not region.tooltipFrame then
       region.tooltipFrame = CreateFrame("Frame", nil, region);
+      ApplyFrameExtensions(region.tooltipFrame);
       region.tooltipFrame:SetAllPoints(region);
       region.tooltipFrame:SetScript("OnEnter", function()
         Private.ShowMouseoverTooltip(region, region);

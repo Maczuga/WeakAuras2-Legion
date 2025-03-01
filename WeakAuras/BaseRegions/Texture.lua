@@ -160,8 +160,8 @@ function Private.TextureBase.create(frame)
     end
 
     local texture = frame:CreateTexture()
-    texture:SetSnapToPixelGrid(false)
-    texture:SetTexelSnappingBias(0)
+    -- texture:SetSnapToPixelGrid(false)
+    -- texture:SetTexelSnappingBias(0)
 
     base.texture = texture
 

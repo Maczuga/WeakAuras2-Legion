@@ -572,8 +572,8 @@ do
 
 		local border = CreateFrame("Frame", nil, frame, "DialogBorderOpaqueTemplate")
 		border:SetAllPoints(frame)
-		frame:SetFixedFrameStrata(true)
-		frame:SetFixedFrameLevel(true)
+		-- frame:SetFixedFrameStrata(true)
+		-- frame:SetFixedFrameLevel(true)
 
 		local text = frame:CreateFontString(nil, "ARTWORK", "GameFontHighlight")
 		text:SetSize(290, 0)

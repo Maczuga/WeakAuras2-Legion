@@ -27,6 +27,7 @@ Private.regionPrototype.AddProperties(properties, default);
 
 local function create(parent)
   local region = CreateFrame("Frame", nil, UIParent)
+  ApplyFrameExtensions(region)
   region.regionType = "empty"
   region:SetMovable(true)
   region:SetResizable(true)

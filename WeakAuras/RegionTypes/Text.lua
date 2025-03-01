@@ -128,6 +128,7 @@ local function modify(parent, region, data)
   if(tooltipType and data.useTooltip) then
     if not region.tooltipFrame then
       region.tooltipFrame = CreateFrame("Frame", nil, region);
+      ApplyFrameExtensions(region.tooltipFrame);
       region.tooltipFrame:SetAllPoints(region);
       region.tooltipFrame:SetScript("OnEnter", function()
         Private.ShowMouseoverTooltip(region, region);

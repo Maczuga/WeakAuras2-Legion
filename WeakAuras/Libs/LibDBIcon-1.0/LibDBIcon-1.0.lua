@@ -253,9 +253,9 @@ local function createButton(name, object, db, customCompartmentIcon)
 	button.dataObject = object
 	button.db = db
 	button:SetFrameStrata("MEDIUM")
-	button:SetFixedFrameStrata(true)
+	-- button:SetFixedFrameStrata(true)
 	button:SetFrameLevel(8)
-	button:SetFixedFrameLevel(true)
+	-- button:SetFixedFrameLevel(true)
 	button:SetSize(31, 31)
 	button:RegisterForClicks("anyUp")
 	button:RegisterForDrag("LeftButton")

@@ -1,6 +1,6 @@
 COLOR_FORMAT_RGBA = "RRGGBBAA";
 COLOR_FORMAT_RGB = "RRGGBB";
-FONT_COLOR_CODE_CLOSE = "|r";
+-- FONT_COLOR_CODE_CLOSE = "|r";
 
 function ExtractColorValueFromHex(str, index)
 	return tonumber(str:sub(index, index + 1), 16) / 255;

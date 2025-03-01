@@ -483,6 +483,8 @@ function WeakAurasProfilingMixin:OnShow()
   end
   self.initialised = true
 
+  ApplyFrameExtensions(self)
+
   print("Profiling is not yet implemented in this backport, sorry.")
   print("Profiling is not yet implemented in this backport, sorry.")
   print("Profiling is not yet implemented in this backport, sorry.")

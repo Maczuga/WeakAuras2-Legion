@@ -220,8 +220,8 @@ function Private.CircularProgressTextureBase.create(frame, layer, drawLayer)
 
   for i = 1, 3 do
     local texture = frame:CreateTexture(nil, layer)
-    texture:SetSnapToPixelGrid(false)
-    texture:SetTexelSnappingBias(0)
+    -- texture:SetSnapToPixelGrid(false)
+    -- texture:SetTexelSnappingBias(0)
     texture:SetDrawLayer(layer, drawLayer)
     texture:SetAllPoints(frame)
     circularTexture.textures[i] = texture

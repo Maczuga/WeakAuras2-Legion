@@ -1052,6 +1052,7 @@ local function clearCache(cache, id, cloneId)
 end
 
 local function modify(parent, region, data)
+  ApplyFrameExtensions(region)
   Private.FixGroupChildrenOrderForGroup(data)
   region:SetScale(data.scale and data.scale > 0 and data.scale <= 10 and data.scale or 1)
   Private.regionPrototype.modify(parent, region, data)

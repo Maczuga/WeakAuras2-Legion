@@ -363,41 +363,45 @@ function MinutesToTime(mins, hideDays)
 	return time;
 end
 
--- Deprecated. See SecondsFormatter for intended replacement
-function SecondsToTimeAbbrev(seconds, thresholdOverride)
-	local tempTime;
-	local threshold = 1.5;
-	if thresholdOverride then
-		threshold = thresholdOverride;
-	end
+if not SecondsToTimeAbbrev then
+	-- Deprecated. See SecondsFormatter for intended replacement
+	function SecondsToTimeAbbrev(seconds, thresholdOverride)
+		local tempTime;
+		local threshold = 1.5;
+		if thresholdOverride then
+			threshold = thresholdOverride;
+		end
 
-	if ( seconds >= SECONDS_PER_DAY * threshold ) then
-		tempTime = ceil(seconds / SECONDS_PER_DAY);
-		return DAY_ONELETTER_ABBR, tempTime;
+		if ( seconds >= SECONDS_PER_DAY * threshold ) then
+			tempTime = ceil(seconds / SECONDS_PER_DAY);
+			return DAY_ONELETTER_ABBR, tempTime;
+		end
+		if ( seconds >= SECONDS_PER_HOUR * threshold ) then
+			tempTime = ceil(seconds / SECONDS_PER_HOUR);
+			return HOUR_ONELETTER_ABBR, tempTime;
+		end
+		if ( seconds >= SECONDS_PER_MIN * threshold ) then
+			tempTime = ceil(seconds / SECONDS_PER_MIN);
+			return MINUTE_ONELETTER_ABBR, tempTime;
+		end
+		return SECOND_ONELETTER_ABBR, seconds;
 	end
-	if ( seconds >= SECONDS_PER_HOUR * threshold ) then
-		tempTime = ceil(seconds / SECONDS_PER_HOUR);
-		return HOUR_ONELETTER_ABBR, tempTime;
-	end
-	if ( seconds >= SECONDS_PER_MIN * threshold ) then
-		tempTime = ceil(seconds / SECONDS_PER_MIN);
-		return MINUTE_ONELETTER_ABBR, tempTime;
-	end
-	return SECOND_ONELETTER_ABBR, seconds;
 end
 
-function FormatShortDate(day, month, year)
-	if (year) then
-		if (LOCALE_enGB) then
-			return SHORTDATE_EU:format(day, month, year);
+if not FormatShortDate then
+	function FormatShortDate(day, month, year)
+		if (year) then
+			if (LOCALE_enGB) then
+				return SHORTDATE_EU:format(day, month, year);
+			else
+				return SHORTDATE:format(day, month, year);
+			end
 		else
-			return SHORTDATE:format(day, month, year);
-		end
-	else
-		if (LOCALE_enGB) then
-			return SHORTDATENOYEAR_EU:format(day, month);
-		else
-			return SHORTDATENOYEAR:format(day, month);
+			if (LOCALE_enGB) then
+				return SHORTDATENOYEAR_EU:format(day, month);
+			else
+				return SHORTDATENOYEAR:format(day, month);
+			end
 		end
 	end
 end

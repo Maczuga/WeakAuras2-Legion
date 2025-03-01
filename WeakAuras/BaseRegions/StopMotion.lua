@@ -341,8 +341,8 @@ function Private.StopMotionBase.create(frame, drawLayer)
   local texture = frame:CreateTexture(nil, "ARTWORK")
   stopMotion.texture = texture
   texture:SetAllPoints(frame)
-  texture:SetSnapToPixelGrid(false)
-  texture:SetTexelSnappingBias(0)
+  -- texture:SetSnapToPixelGrid(false)
+  -- texture:SetTexelSnappingBias(0)
 
   for funcName, func in pairs(funcs) do
     stopMotion[funcName] = func

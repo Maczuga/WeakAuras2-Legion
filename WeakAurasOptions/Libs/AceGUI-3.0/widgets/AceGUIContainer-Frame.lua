@@ -177,6 +177,7 @@ local PaneBackdrop  = {
 
 local function Constructor()
 	local frame = CreateFrame("Frame", nil, UIParent, "BackdropTemplate")
+	ApplyFrameExtensions(frame)
 	frame:Hide()
 
 	frame:EnableMouse(true)

@@ -152,6 +152,7 @@ do
 
 	local function Constructor()
 		local frame = CreateFrame("Frame",nil,UIParent)
+		ApplyFrameExtensions(frame)
 		local self = {}
 		self.type = "Window"
 

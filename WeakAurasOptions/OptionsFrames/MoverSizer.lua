@@ -699,6 +699,7 @@ AlignmentLines.CreateLineInformation = function(self, data, sizerPoint)
 
   for id, v in pairs(OptionsPrivate.displayButtons) do
     local region = WeakAuras.GetRegion(v.data.id)
+    ApplyFrameExtensions(region)
     if not skipIds[id]
        and v.view.visibility >= 1
        and region and not region:IsAnchoringRestricted()

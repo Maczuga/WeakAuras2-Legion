@@ -118,6 +118,7 @@ end
 ---@type fun(parent: WARegion) : StopMotionRegion
 local function create(parent)
   local frame = CreateFrame("Frame", nil, UIParent)
+  ApplyFrameExtensions(frame)
   frame:SetMovable(true)
   frame:SetResizable(true)
   frame:SetResizeBounds(1, 1)

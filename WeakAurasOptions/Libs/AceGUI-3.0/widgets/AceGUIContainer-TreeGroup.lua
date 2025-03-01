@@ -638,6 +638,7 @@ local function Constructor()
 	local frame = CreateFrame("Frame", nil, UIParent)
 
 	local treeframe = CreateFrame("Frame", nil, frame, "BackdropTemplate")
+	ApplyFrameExtensions(treeframe)
 	treeframe:SetPoint("TOPLEFT")
 	treeframe:SetPoint("BOTTOMLEFT")
 	treeframe:SetWidth(DEFAULT_TREE_WIDTH)

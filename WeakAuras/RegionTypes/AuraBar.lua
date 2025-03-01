@@ -359,7 +359,7 @@ local barPrototype = {
       for index, additionalBar in ipairs(self.additionalBars) do
         if (not self.extraTextures[index]) then
           local extraTexture = self:CreateTexture(nil, "ARTWORK");
-          extraTexture:SetTexelSnappingBias(0)
+          -- extraTexture:SetTexelSnappingBias(0)
           extraTexture:SetDrawLayer("ARTWORK", min(index, 7));
           self.extraTextures[index] = extraTexture;
         end
@@ -1146,6 +1146,7 @@ local funcs = {
 local function create(parent)
   -- Create overall region (containing everything else)
   local region = CreateFrame("Frame", nil, parent);
+  ApplyFrameExtensions(region);
   --- @cast region table|Frame
   region.regionType = "aurabar"
   region:SetMovable(true);
@@ -1158,25 +1159,25 @@ local function create(parent)
 
   -- Now create a bunch of textures
   local bg = region:CreateTexture(nil, "ARTWORK");
-  bg:SetTexelSnappingBias(0)
-  bg:SetSnapToPixelGrid(false)
+  -- bg:SetTexelSnappingBias(0)
+  -- bg:SetSnapToPixelGrid(false)
   bg:SetAllPoints(bar);
 
   local fg = bar:CreateTexture(nil, "ARTWORK");
-  fg:SetTexelSnappingBias(0)
-  fg:SetSnapToPixelGrid(false)
+  -- fg:SetTexelSnappingBias(0)
+  -- fg:SetSnapToPixelGrid(false)
   fg:SetAllPoints(bar)
 
   local fgMask = bar:CreateMaskTexture()
   fgMask:SetTexture("Interface\\AddOns\\WeakAuras\\Media\\Textures\\Square_FullWhite",
                     "CLAMPTOBLACKADDITIVE", "CLAMPTOBLACKADDITIVE", "NEAREST")
-  fgMask:SetTexelSnappingBias(0)
-  fgMask:SetSnapToPixelGrid(false)
+  -- fgMask:SetTexelSnappingBias(0)
+  -- fgMask:SetSnapToPixelGrid(false)
   fg:AddMaskTexture(fgMask)
 
   local spark = bar:CreateTexture(nil, "ARTWORK");
-  spark:SetSnapToPixelGrid(false)
-  spark:SetTexelSnappingBias(0)
+  -- spark:SetSnapToPixelGrid(false)
+  -- spark:SetTexelSnappingBias(0)
   fg:SetDrawLayer("ARTWORK", 0);
   bg:SetDrawLayer("ARTWORK", -1);
   spark:SetDrawLayer("ARTWORK", 7);
@@ -1196,8 +1197,8 @@ local function create(parent)
   local iconFrame = CreateFrame("Frame", nil, region);
   region.iconFrame = iconFrame;
   local icon = iconFrame:CreateTexture(nil, "OVERLAY");
-  icon:SetSnapToPixelGrid(false)
-  icon:SetTexelSnappingBias(0)
+  -- icon:SetSnapToPixelGrid(false)
+  -- icon:SetTexelSnappingBias(0)
   region.icon = icon;
   icon:SetTexture("Interface\\Icons\\INV_Misc_QuestionMark");
 
@@ -1326,6 +1327,7 @@ local function modify(parent, region, data)
     -- Create and enable tooltip-hover frame
     if not region.tooltipFrame then
       region.tooltipFrame = CreateFrame("Frame", nil, region);
+      ApplyFrameExtensions(region.tooltipFrame);
       region.tooltipFrame:SetAllPoints(icon);
       region.tooltipFrame:SetScript("OnEnter", function()
         Private.ShowMouseoverTooltip(region, region.tooltipFrame);

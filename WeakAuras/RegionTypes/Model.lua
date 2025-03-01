@@ -90,6 +90,7 @@ local regionFunctions = {
 local function create(parent)
   -- Main region
   local region = CreateFrame("Frame", nil, UIParent);
+  ApplyFrameExtensions(region);
   region.regionType = "model"
   region:SetMovable(true);
   region:SetResizable(true);
