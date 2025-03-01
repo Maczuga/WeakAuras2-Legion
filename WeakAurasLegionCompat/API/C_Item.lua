@@ -12,5 +12,6 @@ if not C_Item then
     GetItemIconByID = function(itemID)
       return select(10, GetItemInfo(itemID))
     end,
+    GetItemCount = GetItemCount,
   }
 end
