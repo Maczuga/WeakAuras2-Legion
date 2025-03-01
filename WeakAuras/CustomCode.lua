@@ -42,3 +42,7 @@ if WeakAuras.IsLegion() then
     return result;
   end
 end
+
+if not NamePlateDriverFrame.classNamePlatePowerBar then
+  NamePlateDriverFrame.classNamePlatePowerBar = NamePlateDriverFrame.nameplateManaBar
+end
