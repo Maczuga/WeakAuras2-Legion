@@ -5,7 +5,7 @@ end
 local L = WeakAuras.L
 
 -- WeakAuras
-L[ [=[ Filter formats: 'Name', 'Name-Realm', '-Realm'. 
+L[ [=[ Filter formats: 'Name', 'Name-Realm', '-Realm'.
 
 Supports multiple entries, separated by commas
 Can use \ to escape -.]=] ] = [=[過濾格式: '名字'、'名字-伺服器'、'-伺服器'。
@@ -1271,8 +1271,8 @@ L[ [=[Supports multiple entries, separated by commas
 L["Supports multiple entries, separated by commas. Escape ',' with \\. Prefix with '-' for negation."] = "支援輸入多個項目，使用逗號分隔。用 \\ 跳脫 ','。前面加上 '-' 表示否定。"
 L["Supports multiple entries, separated by commas. Prefix with '-' for negation."] = "支援輸入多個項目，使用逗號分隔。前面加上 '-' 表示否定。"
 L[ [=[Supports multiple entries, separated by commas. To include child zone ids, prefix with 'c', e.g. 'c2022'.
-Group Zone IDs must be prefixed with 'g', e.g. 'g277'. 
-Supports Area IDs from https://wago.tools/db2/AreaTable prefixed with 'a'. 
+Group Zone IDs must be prefixed with 'g', e.g. 'g277'.
+Supports Area IDs from https://wago.tools/db2/AreaTable prefixed with 'a'.
 Supports Instance IDs prefixed with 'i'.
 Entries can be prefixed with '-' to negate.]=] ] = [=[支援輸入多個項目，以逗號分隔。若要包含子區域 ID，請在前面加上 'c'，例如「c2022」。
 群組區域 ID 必須以 'g' 開頭，例如 'g277'。
@@ -1459,7 +1459,7 @@ Last upgrade: %s
 
 |cffff0000You should BACKUP your WTF folder BEFORE pressing this button.|r]=] ] = [=[WeakAuras 偵測到它被降回舊版本，你所儲存的提醒效果已無法正常運作。
 是否要執行|cffff0000實驗性的|r修復工具? 將會覆蓋自上次資料庫升級以來所做的任何更改。
-上次升級是: %s 
+上次升級是: %s
 
 |cffff0000在按下此按鈕之前，你應該先備份 WTF 資料夾。|r]=]
 L["WeakAuras is creating a rollback snapshot of your auras. This snapshot will allow you to revert to the current state of your auras if something goes wrong. This process may cause your framerate to drop until it is complete."] = "WeakAuras 正在建立提醒效果的還原快照。如果出現問題，此快照將允許您恢復到提醒效果目前的狀態。此過程可能會導致幀速下降，直到完成為止。"

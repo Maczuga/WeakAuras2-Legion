@@ -281,7 +281,7 @@ Off Screen]=] ] = "위크오라가 화면 밖에 있습니다"
 	L["Custom Trigger"] = "사용자 정의 활성 조건"
 	L["Custom trigger event tooltip"] = [=[사용자 정의 활성 조건을 확인할 이벤트를 선택하세요. 쉼표나 공백을 사용해 여러 이벤트를 지정할 수 있습니다.
 
-• "UNIT" 이벤트는 콜론을 사용해 등록할 유닛 ID를 정할 수 있습니다. 유닛ID 외에도 
+• "UNIT" 이벤트는 콜론을 사용해 등록할 유닛 ID를 정할 수 있습니다. 유닛ID 외에도
  "nameplate", "group", "raid", "party", "arena", "boss"와 같은 유닛 유형을 사용할 수 있습니다.
 • "CLEU"를 COMBAT_LOG_EVENT_UNFILTERED 대신 사용할 수 있고 받고 싶은 "서브이벤트"를 콜론으로 구분해서 지정할 수 있습니다.
 • "TRIGGER" 키워드에 콜론으로 활성 조건 번호를 나누어 지정하면 해당 활성 조건이 업데이트될 때 본 사용자 정의 활성 조건도 같이 업데이트됩니다.
@@ -290,7 +290,7 @@ Off Screen]=] ] = "위크오라가 화면 밖에 있습니다"
 UNIT_POWER_UPDATE:player, UNIT_AURA:nameplate:group PLAYER_TARGET_CHANGED CLEU:SPELL_CAST_SUCCESS TRIGGER:3:1]=]
 	L["Custom trigger status tooltip"] = [=[사용자 정의 활성 조건을 확인할 이벤트를 선택하세요. 쉼표나 공백을 사용해 여러 이벤트를 지정할 수 있습니다.
 
-• "UNIT" 이벤트는 콜론을 사용해 등록할 유닛 ID를 정할 수 있습니다. 유닛ID 외에도 
+• "UNIT" 이벤트는 콜론을 사용해 등록할 유닛 ID를 정할 수 있습니다. 유닛ID 외에도
  "nameplate", "group", "raid", "party", "arena", "boss"와 같은 유닛 유형을 사용할 수 있습니다.
 • "CLEU"를 COMBAT_LOG_EVENT_UNFILTERED 대신 사용할 수 있고 받고 싶은 "서브이벤트"를 콜론으로 구분해서 지정할 수 있습니다.
 • "TRIGGER" 키워드에 콜론으로 활성 조건 번호를 나누어 지정하면 해당 활성 조건이 업데이트될 때 본 사용자 정의 활성 조건도 같이 업데이트됩니다.

@@ -5,7 +5,7 @@ end
 local L = WeakAuras.L
 
 -- WeakAuras
-L[ [=[ Filter formats: 'Name', 'Name-Realm', '-Realm'. 
+L[ [=[ Filter formats: 'Name', 'Name-Realm', '-Realm'.
 
 Supports multiple entries, separated by commas
 Can use \ to escape -.]=] ] = "Formatos de filtro: 'Nombre', 'Nombre-Reino', '-Reino'. Admite varias entradas, separadas por comas Puedes utilizar \\ para escapar -."
@@ -1245,8 +1245,8 @@ L[ [=[Supports multiple entries, separated by commas
 L["Supports multiple entries, separated by commas. Escape ',' with \\. Prefix with '-' for negation."] = "Admite varias entradas, separadas por comas. Escapar  la ',' con \\. Prefijo con '-' para negación."
 L["Supports multiple entries, separated by commas. Prefix with '-' for negation."] = "Admite varias entradas, separadas por comas. Utilice el prefijo '-' para la negación."
 L[ [=[Supports multiple entries, separated by commas. To include child zone ids, prefix with 'c', e.g. 'c2022'.
-Group Zone IDs must be prefixed with 'g', e.g. 'g277'. 
-Supports Area IDs from https://wago.tools/db2/AreaTable prefixed with 'a'. 
+Group Zone IDs must be prefixed with 'g', e.g. 'g277'.
+Supports Area IDs from https://wago.tools/db2/AreaTable prefixed with 'a'.
 Supports Instance IDs prefixed with 'i'.
 Entries can be prefixed with '-' to negate.]=] ] = "Admite varias entradas, separadas por comas. Para incluir identificadores de zonas secundarias, utilice el prefijo «c», por ejemplo «c2022». Los ID de zona de grupo deben ir precedidos de «g», por ejemplo «g277». Admite ID de zona de https://wago.tools/db2/AreaTable prefijados con 'a'. Admite ID de estancia con el prefijo «i». Las entradas pueden llevar el prefijo «-» para negarlas."
 L["Swing"] = "Golpe"

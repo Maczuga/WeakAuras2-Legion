@@ -5,7 +5,7 @@ end
 local L = WeakAuras.L
 
 -- WeakAuras
-L[ [=[ Filter formats: 'Name', 'Name-Realm', '-Realm'. 
+L[ [=[ Filter formats: 'Name', 'Name-Realm', '-Realm'.
 
 Supports multiple entries, separated by commas
 Can use \ to escape -.]=] ] = [=[Формат записи: Имя, Имя-Игровой мир, -Игровой мир.
@@ -492,7 +492,7 @@ L["Error decompressing. This doesn't look like a WeakAuras import."] = "Ошиб
 L["Error deserializing"] = "Ошибка десериализации"
 L["Error Frame"] = "Область вывода ошибок"
 L["ERROR in '%s' unknown or incompatible sub element type '%s'"] = "Ошибка в индикации %s. Внутренний элемент неизвестного или несовместимого типа %s."
-L["Error not receiving display information from %s"] = [=[Ошибка при получении информации об индикации 
+L["Error not receiving display information from %s"] = [=[Ошибка при получении информации об индикации
 от %s]=]
 L["Essence"] = "Сущность"
 L["Essence #1"] = "Сущность #1"
@@ -1283,8 +1283,8 @@ L[ [=[Supports multiple entries, separated by commas
 L["Supports multiple entries, separated by commas. Escape ',' with \\. Prefix with '-' for negation."] = "Поддерживает несколько записей, разделенных запятыми. Экранируйте ',' с \\. Префикс '-' для отрицания."
 L["Supports multiple entries, separated by commas. Prefix with '-' for negation."] = "Поддерживает несколько записей, разделённых запятыми. Используйте префикс '-' для отрицания."
 L[ [=[Supports multiple entries, separated by commas. To include child zone ids, prefix with 'c', e.g. 'c2022'.
-Group Zone IDs must be prefixed with 'g', e.g. 'g277'. 
-Supports Area IDs from https://wago.tools/db2/AreaTable prefixed with 'a'. 
+Group Zone IDs must be prefixed with 'g', e.g. 'g277'.
+Supports Area IDs from https://wago.tools/db2/AreaTable prefixed with 'a'.
 Supports Instance IDs prefixed with 'i'.
 Entries can be prefixed with '-' to negate.]=] ] = "Поддерживает несколько записей, разделённых запятыми. Чтобы включить идентификаторы дочерних зон, используйте префикс 'c', например, 'c2022'. IDs групп зон должны начинаться с 'g', например, 'g277'. Поддерживает IDs областей из https://wago.tools/db2/AreaTable с префиксом 'a'. Поддерживает IDs экземпляров с префиксом 'i'. Записи могут иметь префикс '-' для отрицания."
 L["Swing"] = "Ближний бой"
