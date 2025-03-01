@@ -1027,7 +1027,6 @@ local function CreatePvPTalentCache()
       end
     end
   else
-
     local slotInfo = C_SpecializationInfo.GetPvpTalentSlotInfo(1);
     if (slotInfo) then
       Private.pvp_talent_types_specific[player_class][spec] = {};

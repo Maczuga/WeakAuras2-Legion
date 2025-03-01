@@ -1551,7 +1551,7 @@ function Private.Modernize(data, oldSnapshot)
 
   if data.internalVersion < 58 then
     -- convert key use for talent load condition from talent's index to spellId
-    if WeakAuras.IsRetail() then
+    if WeakAuras.IsRetailTalents() then
       local function migrateTalent(load, specId, field)
         if load[field] and load[field].multi then
           local newData = {}
@@ -1578,7 +1578,7 @@ function Private.Modernize(data, oldSnapshot)
 
   if data.internalVersion < 59 then
     -- convert key use for talent known trigger from talent's index to spellId
-    if WeakAuras.IsRetail() then
+    if WeakAuras.IsRetailTalents() then
       local function migrateTalent(load, specId, field)
         if load[field] and load[field].multi then
           local newData = {}
@@ -1686,7 +1686,7 @@ function Private.Modernize(data, oldSnapshot)
   end
 
   if data.internalVersion < 66 then
-    if WeakAuras.IsRetail() then
+    if WeakAuras.IsRetailTalents() then
       for triggerId, triggerData in ipairs(data.triggers) do
         if triggerData.trigger.type == "unit"
           and triggerData.trigger.event == "Talent Known"
