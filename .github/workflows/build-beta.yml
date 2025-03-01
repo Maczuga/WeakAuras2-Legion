@@ -2,8 +2,8 @@ name: CI-Beta
 
 on:
   push:
-    branches:
-      - dragonflight
+    # branches:
+    #   - main
     tags:
       - "**-alpha**"
       - "**-beta**"
@@ -45,10 +45,10 @@ jobs:
         with:
           args: -g retail
         env:
-          CF_API_KEY: ${{ secrets.CF_API_KEY }}
+          # CF_API_KEY: ${{ secrets.CF_API_KEY }}
           GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
           # WOWI_API_TOKEN: ${{ secrets.WOWI_API_TOKEN }}
-          WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
+          # WAGO_API_TOKEN: ${{ secrets.WAGO_API_TOKEN }}
 
       - name: Create Artifact
         if: github.event_name == 'push' && !contains(github.ref, 'refs/tags/')
@@ -58,12 +58,12 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: WeakAuras-DF
+          name: WeakAuras-Legion-TEST
           path: .release/
 
-      - name: Send Status to Discord
-        uses: nebularg/actions-discord-webhook@v1
-        with:
-          webhook_url: ${{ secrets.WEBHOOK_URL }}
-          status: ${{ job.status }}
-        if: failure()
+      # - name: Send Status to Discord
+      #   uses: nebularg/actions-discord-webhook@v1
+      #   with:
+      #     webhook_url: ${{ secrets.WEBHOOK_URL }}
+      #     status: ${{ job.status }}
+      #   if: failure()
