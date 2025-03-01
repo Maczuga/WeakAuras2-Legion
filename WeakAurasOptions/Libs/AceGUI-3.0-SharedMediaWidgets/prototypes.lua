@@ -1,7 +1,7 @@
 -- Widget created by Yssaril
---[===[@debug@
-local DataVersion = 9001 -- dev version always overwrites everything else :)
---@end-debug@]===]
+--@debug@
+-- local DataVersion = 9001 -- dev version always overwrites everything else :)
+--@end-debug@
 --@non-debug@
 local DataVersion = 57
 --@end-non-debug@
