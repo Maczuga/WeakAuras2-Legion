@@ -22,7 +22,7 @@ local spellOverrideToBase = {
   [123040] = 34433,  -- Mindbender -> Shadow Fiend
   [200174] = 34433,  -- Mindbender -> Shadow Fiend
   [205369] = 8122,   -- Mind Bomb -> Psychic Scream
-  [205351] = 8092,   -- Shadow Word: Void -> Mind Blast
+  -- [205351] = 8092,   -- Shadow Word: Void -> Mind Blast
   [204197] = 589,    -- Purge the Wicked -> Shadow Word: Pain
   [271466] = 62618,  -- Luminous Barrier -> Power Word: Barrier
   [228266] = 228260, -- Void Bolt -> Void Eruption
@@ -60,11 +60,6 @@ local spellOverrideToBase = {
   [152280] = 43265   -- Defile -> Death and Decay
 }
 
-local spellBaseToOverrides = {}
-for k, v in pairs(spellOverrideToBase) do
-  spellBaseToOverrides[v] = k
-end
-
 if not FindBaseSpellByID then
   function FindBaseSpellByID(spellID)
     return spellOverrideToBase[spellID] or spellID
@@ -72,7 +67,24 @@ if not FindBaseSpellByID then
 end
 
 if not FindSpellOverrideByID then
+  local spellBaseToOverrides = {}
+  for k, v in pairs(spellOverrideToBase) do
+    if not spellBaseToOverrides[v] then
+      spellBaseToOverrides[v] = {}
+    end
+    table.insert(spellBaseToOverrides[v], k)
+  end
+
   function FindSpellOverrideByID(spellID)
-    return spellBaseToOverrides[spellID] or spellID
+    local overrides = spellBaseToOverrides[spellID]
+    if overrides then
+      for _, overrideID in ipairs(overrides) do
+        if IsSpellKnown(overrideID) then
+          return overrideID
+        end
+      end
+    end
+
+    return spellID
   end
 end
