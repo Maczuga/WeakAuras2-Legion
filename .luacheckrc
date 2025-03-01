@@ -19549,6 +19549,7 @@ globals = {
 	"_RECORDING_WARNING_CORRUPTED",
 
 	-- 735 compat
+	"ApplyFrameExtensions",
 	"XpCall",
 	"DoesAddOnExist",
 	"IsAddOnLoadable",
