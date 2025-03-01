@@ -2,8 +2,8 @@ name: CI-Beta
 
 on:
   push:
-    # branches:
-    #   - main
+    branches:
+      - beta
     tags:
       - "**-alpha**"
       - "**-beta**"
