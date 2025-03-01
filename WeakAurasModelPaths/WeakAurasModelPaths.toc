@@ -15,4 +15,4 @@
 ## LoadOnDemand: 1
 ## Dependencies: WeakAuras, WeakAurasOptions
 
-ModelPaths.lua
+ModelPathsLegion.lua
