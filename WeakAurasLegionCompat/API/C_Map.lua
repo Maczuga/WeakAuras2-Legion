@@ -18,7 +18,7 @@ if not C_Map then
     GetMapGroupMembersInfo = function(uiMapId)
       -- Same as above
       -- Need to know exact values, so NYI and TODO
-      return nil
+      return {}
     end,
     GetMapChildrenInfo = function(uiMapId)
       -- Same as above

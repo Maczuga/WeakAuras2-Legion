@@ -8,5 +8,9 @@ if not C_Item then
       local name = GetItemInfo(itemID)
       return name
     end,
+    IsEquippedItemType = IsEquippedItemType,
+    GetItemIconByID = function(itemID)
+      return select(10, GetItemInfo(itemID))
+    end,
   }
 end
