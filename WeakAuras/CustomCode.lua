@@ -12,17 +12,22 @@ end
 
 ---@return boolean result
 function WeakAuras.IsRetailTalents()
-  return  WeakAuras.BuildInfo >= 100000
+  return WeakAuras.BuildInfo >= 100000
 end
 
 ---@return boolean result
 function WeakAuras.HasWarMode()
-  return  WeakAuras.BuildInfo >= 80000
+  return WeakAuras.BuildInfo >= 80000
 end
 
 ---@return boolean result
 function WeakAuras.HasSkyriding()
-  return  WeakAuras.BuildInfo >= 100000
+  return WeakAuras.BuildInfo >= 100000
+end
+
+---@return boolean result
+function WeakAuras.HasEmpowerCasting()
+  return WeakAuras.BuildInfo >= 100000
 end
 
 if WeakAuras.IsLegion() then

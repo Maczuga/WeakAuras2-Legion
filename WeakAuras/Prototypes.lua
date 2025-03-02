@@ -9616,14 +9616,23 @@ Private.event_prototypes = {
           operator = "preamble",
           preambleAdd = "spellChecker:AddName(%q)"
         },
-        test = "spellChecker:Check(spellId)",
+        test = WeakAuras.IsLegion()
+          and "castType == 'channel' and spellChecker:CheckName(spell) or spellChecker:Check(spellId)"
+          or "spellChecker:Check(spellId)",
         noValidation = true,
       },
       {
         name = "spellIds",
         display = L["Exact Spell ID(s)"],
         type = "spell",
-        enable = function(trigger) return not trigger.use_inverse end,
+        enable = function(trigger)
+          -- Legion has no support for spell IDs in channel cast
+          if trigger.use_castType and trigger.castType == "channel" and WeakAuras.IsLegion() then
+            return false
+          end
+
+          return not trigger.use_inverse
+        end,
         preambleGroup = "spell",
         preamble = "local spellChecker = Private.ExecEnv.CreateSpellChecker()",
         multiEntry = {
@@ -9678,34 +9687,34 @@ Private.event_prototypes = {
         type = "header",
         name = "empoweredHeader",
         display = L["Empowered Cast"],
-        enable = WeakAuras.IsRetail() and function(trigger) return not trigger.use_inverse end or false,
-        hidden = not WeakAuras.IsRetail()
+        enable = WeakAuras.HasEmpowerCasting() and function(trigger) return not trigger.use_inverse end or false,
+        hidden = not WeakAuras.HasEmpowerCasting()
       },
       {
         name = "empowered",
         display = L["Empowered"],
         type = "tristate",
-        enable = WeakAuras.IsRetail() and function(trigger) return not trigger.use_inverse end or false,
+        enable = WeakAuras.HasEmpowerCasting() and function(trigger) return not trigger.use_inverse end or false,
         store = true,
         conditionType = "bool",
-        hidden = not WeakAuras.IsRetail()
+        hidden = not WeakAuras.HasEmpowerCasting()
       },
       {
         name = "showChargedDuration",
         display = L["Show charged duration for empowered casts"],
         type = "toggle",
-        enable = WeakAuras.IsRetail() and function(trigger) return not trigger.use_inverse end or false,
-        hidden = not WeakAuras.IsRetail(),
+        enable = WeakAuras.HasEmpowerCasting() and function(trigger) return not trigger.use_inverse end or false,
+        hidden = not WeakAuras.HasEmpowerCasting(),
         reloadOptions = true,
       },
       {
         name = "stage",
         display = L["Current Stage"],
         type = "number",
-        enable = WeakAuras.IsRetail() and function(trigger) return not trigger.use_inverse end or false,
+        enable = WeakAuras.HasEmpowerCasting() and function(trigger) return not trigger.use_inverse end or false,
         store = true,
         conditionType = "number",
-        hidden = not WeakAuras.IsRetail(),
+        hidden = not WeakAuras.HasEmpowerCasting(),
         multiEntry = {
           operator = "and",
           limit = 2
@@ -9715,10 +9724,10 @@ Private.event_prototypes = {
         name = "stageTotal",
         display = L["Total Stages"],
         type = "number",
-        enable = WeakAuras.IsRetail() and function(trigger) return not trigger.use_inverse end or false,
+        enable = WeakAuras.HasEmpowerCasting() and function(trigger) return not trigger.use_inverse end or false,
         store = true,
         conditionType = "number",
-        hidden = not WeakAuras.IsRetail()
+        hidden = not WeakAuras.HasEmpowerCasting()
       },
       {
         name = "charged",
@@ -9726,7 +9735,7 @@ Private.event_prototypes = {
         hidden = true,
         init = "stage == stageTotal",
         test = "true",
-        enable = WeakAuras.IsRetail() and function(trigger) return not trigger.use_inverse end or false,
+        enable = WeakAuras.HasEmpowerCasting() and function(trigger) return not trigger.use_inverse end or false,
         store = true,
         type = "toggle",
         conditionType = "bool",
