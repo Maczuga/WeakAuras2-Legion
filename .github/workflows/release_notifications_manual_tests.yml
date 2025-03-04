@@ -67,7 +67,7 @@ jobs:
     steps:
     # using Discord webhook to send release information
       - name: Discord Release Webhook Action
-        uses: tsickert/discord-webhook@v6.0.0
+        uses: tsickert/discord-webhook@v7.0.0
         if: success()
         with:
           webhook-url: ${{ secrets.RELEASE_WEBHOOK_URL }}
@@ -102,7 +102,7 @@ jobs:
     steps:
       - name: Mastodon Notification
         id: mastodon
-        uses: cbrgm/mastodon-github-action@v2.1.12
+        uses: cbrgm/mastodon-github-action@v2.1.13
         with:
           access-token: ${{ secrets.MASTODON_ACCESS_TOKEN }} # access token
           url: ${{ secrets.MASTODON_URL }} # https://example.social
