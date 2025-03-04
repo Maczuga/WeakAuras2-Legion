@@ -126,10 +126,10 @@ local function TalentFrame_Update(self)
       if not data then
         button:Hide()
       else
-        local icon, tier, column, spellId = unpack(data)
+        local talentId, spellId, tier, column, icon = unpack(data)
         if spellId == nil then
-          local talentId = button.index - (button.tab - 1) * MAX_NUM_TALENTS
-          local name = GetTalentInfo(button.tab, talentId)
+          -- local talentId = button.index - (button.tab - 1) * MAX_NUM_TALENTS
+          local name = GetTalentInfoByID(talentId)
           print("Please report on WeakAuras Discord:\nspell missing", button.tab, tier, column, name)
         end
         button.tier = tier

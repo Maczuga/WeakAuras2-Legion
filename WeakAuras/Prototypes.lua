@@ -1237,7 +1237,7 @@ local function valuesForTalentFunction(trigger)
     end
 
     -- If a single specific class was found, load the specific list for it
-    if WeakAuras.IsRetailTalents() then
+    if WeakAuras.IsRetail() then
       local single_class_and_spec = Private.checkForSingleLoadCondition(trigger, "class_and_spec")
       if single_class_and_spec then
         return Private.GetTalentData(single_class_and_spec)
@@ -1245,9 +1245,6 @@ local function valuesForTalentFunction(trigger)
         -- this should never happen
         return {}
       end
-    elseif WeakAuras.IsLegion() then
-      local single_class_and_spec = Private.checkForSingleLoadCondition(trigger, "class_and_spec")
-      return Private.talentInfo[single_class_and_spec]
     elseif WeakAuras.IsCataClassic() then
       return Private.talentInfo[single_class]
     else -- classic & tbc
@@ -1473,7 +1470,7 @@ Private.load_prototype = {
       values = valuesForTalentFunction,
       test = WeakAuras.IsRetailTalents() and "WeakAuras.CheckTalentId(%d) == (%d == 4)" or "WeakAuras.CheckTalentByIndex(%d, %d)",
       enableTest = function(trigger, talent, arg)
-        if WeakAuras.IsRetailTalents() then
+        if WeakAuras.IsRetail() then
           local specId = Private.checkForSingleLoadCondition(trigger, "class_and_spec")
           if specId then
             local talentData = Private.GetTalentData(specId)
@@ -1489,7 +1486,7 @@ Private.load_prototype = {
           return WeakAuras.CheckTalentByIndex(talent, arg) ~= nil
         end
       end,
-      multiConvertKey = WeakAuras.IsRetailTalents() and function(trigger, key)
+      multiConvertKey = WeakAuras.IsRetail() and function(trigger, key)
         local specId = Private.checkForSingleLoadCondition(trigger, "class_and_spec")
         if specId then
           local talentData = Private.GetTalentData(specId)
@@ -6803,7 +6800,7 @@ Private.event_prototypes = {
           "CHARACTER_POINTS_CHANGED",
           "SPELLS_CHANGED"
         }
-      elseif WeakAuras.IsCataClassic() then
+      elseif WeakAuras.IsCataClassic() or WeakAuras.IsLegion() then
         events = {
           "CHARACTER_POINTS_CHANGED",
           "SPELLS_CHANGED",
@@ -6817,7 +6814,7 @@ Private.event_prototypes = {
       }
     end,
     internal_events = WeakAuras.IsRetail() and  {"WA_TALENT_UPDATE"} or nil,
-    force_events = (WeakAuras.IsRetail() and "TRAIT_CONFIG_UPDATED") or "CHARACTER_POINTS_CHANGED",
+    force_events = (WeakAuras.IsRetailTalents() and "TRAIT_CONFIG_UPDATED" or (WeakAuras.IsLegion() and "PLAYER_TALENT_UPDATE" or "CHARACTER_POINTS_CHANGED")),
     name = L["Talent Known"],
     init = function(trigger)
       local inverse = trigger.use_inverse and not WeakAuras.IsRetail()
@@ -6849,10 +6846,14 @@ Private.event_prototypes = {
             local active = true
             local activeIcon, activeName, _
           ]])
-          if WeakAuras.IsRetail() then
+          if WeakAuras.IsRetailTalents() then
             table.insert(ret, [[
               local index
               local rank = 0
+            ]])
+          elseif WeakAuras.IsLegion() then
+            table.insert(ret, [[
+              local index
             ]])
           else
             table.insert(ret, [[
@@ -6876,6 +6877,19 @@ Private.event_prototypes = {
                   end
                 end
               ]]):format(tier, column))
+            elseif WeakAuras.IsLegion() then
+              table.insert(ret, ([[
+                local talentId = %s
+                local shouldBeActive = %s
+                if talentId then
+                  _, activeName, activeIcon, _, _, _, _, _, _, selected, available  = GetTalentInfoByID(talentId)
+                  if activeName ~= nil then
+                    if selected ~= shouldBeActive then
+                      active = false
+                    end
+                  end
+                end
+              ]]):format(index, value and "true" or "false"))
             elseif WeakAuras.IsRetail() then
               table.insert(ret, ([[
                 local talentId = %s
@@ -7036,7 +7050,7 @@ Private.event_prototypes = {
         init = "rank",
         store = true,
         enable = function(trigger)
-          if WeakAuras.IsRetail() then
+          if WeakAuras.IsRetailTalents() then
             if trigger.use_class and trigger.class
             and trigger.use_spec and trigger.spec
             and trigger.use_talent == false
