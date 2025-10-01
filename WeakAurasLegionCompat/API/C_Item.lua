@@ -4,9 +4,15 @@ if not C_Item then
     IsEquippedItem = IsEquippedItem,
     GetItemSubClassInfo = GetItemSubClassInfo,
     GetItemInfo = GetItemInfo,
-    IsEquippedItemType = IsEquippedItemType,
     GetItemCount = GetItemCount,
   }
+
+  C_Item.IsEquippedItemType = function(itemType)
+    if not itemType or itemType == "" then
+      return false
+    end
+    return IsEquippedItemType(itemType)
+  end
 
   C_Item.GetItemNameByID = function(itemIdentifier)
     return GetItemInfo(itemIdentifier)
