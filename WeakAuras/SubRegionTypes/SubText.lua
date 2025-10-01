@@ -76,7 +76,8 @@ local properties = {
   text_text = {
     display = L["Text"],
     setter = "ChangeText",
-    type = "string"
+    type = "string",
+    control = "WeakAurasInputWithIndentation"
   },
   text_color = {
     display = L["Color"],
@@ -264,7 +265,7 @@ local function modify(parent, region, parentData, data, first)
       end
     end
     if containsCustomText and parentData.customText and parentData.customText ~= "" then
-      parent.customTextFunc = WeakAuras.LoadFunction("return "..parentData.customText)
+      parent.customTextFunc = WeakAuras.LoadFunction("return "..parentData.customText, data.id)
     else
       parent.customTextFunc = nil
     end

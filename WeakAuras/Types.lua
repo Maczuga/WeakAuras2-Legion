@@ -818,7 +818,7 @@ Private.format_types = {
 
       if realm == "never" then
         nameFunc = function(unit)
-          return unit and WeakAuras.UnitName(unit)
+          return unit and WeakAuras.UnitName(unit) or ""
         end
       elseif realm == "star" then
         nameFunc = function(unit)
@@ -829,7 +829,7 @@ Private.format_types = {
           if realm then
             return name .. "*"
           end
-          return name
+          return name or ""
         end
       elseif realm == "differentServer" then
         nameFunc = function(unit)
@@ -840,7 +840,7 @@ Private.format_types = {
           if realm then
             return name .. "-" .. realm
           end
-          return name
+          return name or ""
         end
       elseif realm == "always" then
         nameFunc = function(unit)
@@ -2499,7 +2499,21 @@ Private.texture_types = {
   }
 }
 
-if Private.AtlasList then
+if C_Texture and C_Texture.GetAtlasElements then
+  if WeakAuras.buildType == "dev" and Private.AtlasList then
+    WeakAuras.prettyPrint("Private.AtlasList can be removed now.")
+  end
+
+  Private.texture_types["Blizzard Atlas"] = function()
+    local atlasList = C_Texture.GetAtlasElements()
+    table.sort(atlasList)
+    local atlasTable = {}
+    for _, atlas in ipairs(atlasList) do
+      atlasTable[atlas] = atlas
+    end
+    return atlasTable
+  end
+elseif Private.AtlasList then
   Private.texture_types["Blizzard Atlas"] = {}
   for _, atlas in ipairs(Private.AtlasList) do
     Private.texture_types["Blizzard Atlas"][atlas] = atlas
@@ -3165,6 +3179,26 @@ Private.classification_types = {
   trivial = L["Trivial (Low Level)"],
   minus = L["Minus (Small Nameplate)"]
 }
+
+if WeakAuras.IsRetail() then
+  ---@type table<number, string>
+  Private.creature_type_types = {}
+  for _, creatureID in ipairs(C_CreatureInfo.GetCreatureTypeIDs()) do
+    local creatureInfo = C_CreatureInfo.GetCreatureTypeInfo(creatureID)
+    if creatureInfo then
+      Private.creature_type_types[creatureID] = creatureInfo.name
+    end
+  end
+
+  ---@type table<number, string>
+  Private.creature_family_types = {}
+  for _, familyID in ipairs(C_CreatureInfo.GetCreatureFamilyIDs()) do
+    local familyInfo = C_CreatureInfo.GetCreatureFamilyInfo(familyID)
+    if familyInfo then
+      Private.creature_family_types[familyID] = familyInfo.name
+    end
+  end
+end
 
 ---@type table<string, string>
 Private.anim_start_preset_types = {
