@@ -454,6 +454,26 @@ function WeakAuras.IsTWW()
   return WeakAuras.BuildInfo >= 110000
 end
 
+---@return boolean result
+function WeakAuras.IsClassicOrCataOrLegion()
+  return WeakAuras.IsClassicOrCata() or WeakAuras.IsLegion()
+end
+
+---@return boolean result
+function WeakAuras.IsCataOrLegion()
+  return WeakAuras.IsCataClassic() or WeakAuras.IsLegion()
+end
+
+---@return boolean result
+function WeakAuras.IsCataOrLegionOrRetail()
+  return WeakAuras.IsCataClassic() or WeakAuras.IsLegion() or WeakAuras.IsRetail()
+end
+
+---@return boolean result
+function WeakAuras.IsLegionOrRetail()
+  return WeakAuras.IsLegion() or WeakAuras.IsRetail()
+end
+
 ---@param ... string
 WeakAuras.prettyPrint = function(...)
   print("|cff9900ffWeakAuras:|r ", ...)

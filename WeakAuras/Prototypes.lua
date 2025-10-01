@@ -1456,9 +1456,9 @@ Private.load_prototype = {
       display = L["Class and Specialization"],
       type = "multiselect",
       values = "spec_types_all",
-      init = "arg" or nil,
-      enable = WeakAuras.IsCataOrRetail(),
-      hidden = not WeakAuras.IsCataOrRetail(),
+      init = WeakAuras.IsCataOrLegionOrRetail() and "arg" or nil,
+      enable = WeakAuras.IsCataOrLegionOrRetail(),
+      hidden = not WeakAuras.IsCataOrLegionOrRetail(),
       events = {"PLAYER_TALENT_UPDATE"},
       sorted = true,
       sortOrder = Private.specs_sorted,
@@ -1470,7 +1470,7 @@ Private.load_prototype = {
       values = valuesForTalentFunction,
       test = WeakAuras.IsRetailTalents() and "WeakAuras.CheckTalentId(%d) == (%d == 4)" or "WeakAuras.CheckTalentByIndex(%d, %d)",
       enableTest = function(trigger, talent, arg)
-        if WeakAuras.IsRetail() then
+        if WeakAuras.IsRetailTalents() then
           local specId = Private.checkForSingleLoadCondition(trigger, "class_and_spec")
           if specId then
             local talentData = Private.GetTalentData(specId)
@@ -1486,7 +1486,7 @@ Private.load_prototype = {
           return WeakAuras.CheckTalentByIndex(talent, arg) ~= nil
         end
       end,
-      multiConvertKey = WeakAuras.IsRetail() and function(trigger, key)
+      multiConvertKey = WeakAuras.IsRetailTalents() and function(trigger, key)
         local specId = Private.checkForSingleLoadCondition(trigger, "class_and_spec")
         if specId then
           local talentData = Private.GetTalentData(specId)
@@ -1495,7 +1495,7 @@ Private.load_prototype = {
           end
         end
       end or nil,
-      events = (WeakAuras.IsClassicOrCata() and {"CHARACTER_POINTS_CHANGED", "PLAYER_TALENT_UPDATE", "ACTIVE_TALENT_GROUP_CHANGED"})
+      events = (WeakAuras.IsClassicOrCataOrLegion() and {"CHARACTER_POINTS_CHANGED", "PLAYER_TALENT_UPDATE", "ACTIVE_TALENT_GROUP_CHANGED"})
         or (WeakAuras.IsRetail() and {"WA_TALENT_UPDATE"}),
       inverse = function(load)
         -- Check for multi select!
@@ -1507,32 +1507,32 @@ Private.load_prototype = {
           return Private.talent_extra_option_types
         end
       },
-      control = WeakAuras.IsCataOrRetail() and "WeakAurasMiniTalent" or nil,
-      multiNoSingle = WeakAuras.IsCataOrRetail(), -- no single mode
-      multiTristate = WeakAuras.IsCataOrRetail(), -- values can be true/false/nil
-      multiAll = WeakAuras.IsCataOrRetail(), -- require all tests
-      orConjunctionGroup = WeakAuras.IsCataOrRetail() and "talent",
-      multiUseControlWhenFalse = WeakAuras.IsCataOrRetail(),
+      control = WeakAuras.IsCataOrLegionOrRetail() and "WeakAurasMiniTalent" or nil,
+      multiNoSingle = WeakAuras.IsCataOrLegionOrRetail(), -- no single mode
+      multiTristate = WeakAuras.IsCataOrLegionOrRetail(), -- values can be true/false/nil
+      multiAll = WeakAuras.IsCataOrLegionOrRetail(), -- require all tests
+      orConjunctionGroup = WeakAuras.IsCataOrLegionOrRetail() and "talent",
+      multiUseControlWhenFalse = WeakAuras.IsCataOrLegionOrRetail(),
       enable = function(trigger)
         return WeakAuras.IsClassicEra()
             or (WeakAuras.IsCataClassic() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
-            or (WeakAuras.IsRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil)
+            or (WeakAuras.IsLegionOrRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil)
       end,
       hidden = function(trigger)
         return not (
             WeakAuras.IsClassicEra()
             or (WeakAuras.IsCataClassic() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
-            or (WeakAuras.IsRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil))
+            or (WeakAuras.IsLegionOrRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil))
       end,
     },
     {
       name = "talent2",
-      display = WeakAuras.IsCataOrRetail() and L["Or Talent"] or L["And Talent"],
+      display = WeakAuras.IsCataOrLegionOrRetail() and L["Or Talent"] or L["And Talent"],
       type = "multiselect",
       values = valuesForTalentFunction,
-      test = WeakAuras.IsRetail() and "WeakAuras.CheckTalentId(%d) == (%d == 4)" or "WeakAuras.CheckTalentByIndex(%d, %d)",
+      test = WeakAuras.IsRetailTalents() and "WeakAuras.CheckTalentId(%d) == (%d == 4)" or "WeakAuras.CheckTalentByIndex(%d, %d)",
       enableTest = function(trigger, talent, arg)
-        if WeakAuras.IsRetail() then
+        if WeakAuras.IsRetailTalents() then
           local specId = Private.checkForSingleLoadCondition(trigger, "class_and_spec")
           if specId then
             local talentData = Private.GetTalentData(specId)
@@ -1548,7 +1548,7 @@ Private.load_prototype = {
           return WeakAuras.CheckTalentByIndex(talent, arg) ~= nil
         end
       end,
-      multiConvertKey = WeakAuras.IsRetail() and function(trigger, key)
+      multiConvertKey = WeakAuras.IsRetailTalents() and function(trigger, key)
         local specId = Private.checkForSingleLoadCondition(trigger, "class_and_spec")
         if specId then
           local talentData = Private.GetTalentData(specId)
@@ -1558,7 +1558,7 @@ Private.load_prototype = {
         end
       end or nil,
       events = (WeakAuras.IsClassicEra() and {"CHARACTER_POINTS_CHANGED"})
-        or (WeakAuras.IsCataClassic() and {"CHARACTER_POINTS_CHANGED", "PLAYER_TALENT_UPDATE"})
+        or (WeakAuras.IsCataOrLegion() and {"CHARACTER_POINTS_CHANGED", "PLAYER_TALENT_UPDATE"})
         or (WeakAuras.IsRetail() and {"WA_TALENT_UPDATE"}),
       inverse = function(load)
         return WeakAuras.IsClassicEra() and (load.talent2_extraOption == 2 or load.talent2_extraOption == 3)
@@ -1569,35 +1569,35 @@ Private.load_prototype = {
           return Private.talent_extra_option_types
         end,
       },
-      control = WeakAuras.IsCataOrRetail() and "WeakAurasMiniTalent" or nil,
-      multiNoSingle = WeakAuras.IsCataOrRetail(), -- no single mode
-      multiTristate = WeakAuras.IsCataOrRetail(), -- values can be true/false/nil
-      multiAll = WeakAuras.IsCataOrRetail(), -- require all tests
-      orConjunctionGroup  = WeakAuras.IsCataOrRetail() and "talent",
-      multiUseControlWhenFalse = WeakAuras.IsCataOrRetail(),
+      control = WeakAuras.IsCataOrLegionOrRetail() and "WeakAurasMiniTalent" or nil,
+      multiNoSingle = WeakAuras.IsCataOrLegionOrRetail(), -- no single mode
+      multiTristate = WeakAuras.IsCataOrLegionOrRetail(), -- values can be true/false/nil
+      multiAll = WeakAuras.IsCataOrLegionOrRetail(), -- require all tests
+      orConjunctionGroup  = WeakAuras.IsCataOrLegionOrRetail() and "talent",
+      multiUseControlWhenFalse = WeakAuras.IsCataOrLegionOrRetail(),
       enable = function(trigger)
         return (trigger.use_talent ~= nil or trigger.use_talent2 ~= nil) and (
           WeakAuras.IsClassicEra()
           or (WeakAuras.IsCataClassic() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
-          or (WeakAuras.IsRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil)
+          or (WeakAuras.IsLegionOrRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil)
         )
       end,
       hidden = function(trigger)
         return not((trigger.use_talent ~= nil or trigger.use_talent2 ~= nil) and (
           WeakAuras.IsClassicEra()
           or (WeakAuras.IsCataClassic() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
-          or (WeakAuras.IsRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil))
+          or (WeakAuras.IsLegionOrRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil))
         )
       end,
     },
     {
       name = "talent3",
-      display = WeakAuras.IsCataOrRetail() and L["Or Talent"] or L["And Talent"],
+      display = WeakAuras.IsCataOrLegionOrRetail() and L["Or Talent"] or L["And Talent"],
       type = "multiselect",
       values = valuesForTalentFunction,
-      test = WeakAuras.IsRetail() and "WeakAuras.CheckTalentId(%d) == (%d == 4)" or "WeakAuras.CheckTalentByIndex(%d, %d)",
+      test = WeakAuras.IsRetailTalents() and "WeakAuras.CheckTalentId(%d) == (%d == 4)" or "WeakAuras.CheckTalentByIndex(%d, %d)",
       enableTest = function(trigger, talent, arg)
-        if WeakAuras.IsRetail() then
+        if WeakAuras.IsRetailTalents() then
           local specId = Private.checkForSingleLoadCondition(trigger, "class_and_spec")
           if specId then
             local talentData = Private.GetTalentData(specId)
@@ -1613,7 +1613,7 @@ Private.load_prototype = {
           return WeakAuras.CheckTalentByIndex(talent, arg) ~= nil
         end
       end,
-      multiConvertKey = WeakAuras.IsRetail() and function(trigger, key)
+      multiConvertKey = WeakAuras.IsRetailTalents() and function(trigger, key)
         local specId = Private.checkForSingleLoadCondition(trigger, "class_and_spec")
         if specId then
           local talentData = Private.GetTalentData(specId)
@@ -1623,7 +1623,7 @@ Private.load_prototype = {
         end
       end or nil,
       events = (WeakAuras.IsClassicEra() and {"CHARACTER_POINTS_CHANGED"})
-        or (WeakAuras.IsCataClassic() and {"CHARACTER_POINTS_CHANGED", "PLAYER_TALENT_UPDATE"})
+        or (WeakAuras.IsCataOrLegion() and {"CHARACTER_POINTS_CHANGED", "PLAYER_TALENT_UPDATE"})
         or (WeakAuras.IsRetail() and {"WA_TALENT_UPDATE"}),
       inverse = function(load)
         return WeakAuras.IsClassicEra() and (load.talent3_extraOption == 2 or load.talent3_extraOption == 3)
@@ -1634,24 +1634,24 @@ Private.load_prototype = {
           return Private.talent_extra_option_types
         end,
       },
-      control = WeakAuras.IsCataOrRetail() and "WeakAurasMiniTalent" or nil,
-      multiNoSingle = WeakAuras.IsCataOrRetail(), -- no single mode
-      multiTristate = WeakAuras.IsCataOrRetail(), -- values can be true/false/nil
-      multiAll = WeakAuras.IsCataOrRetail(), -- require all tests
-      orConjunctionGroup  = WeakAuras.IsCataOrRetail() and "talent",
-      multiUseControlWhenFalse = WeakAuras.IsCataOrRetail(),
+      control = WeakAuras.IsCataOrLegionOrRetail() and "WeakAurasMiniTalent" or nil,
+      multiNoSingle = WeakAuras.IsCataOrLegionOrRetail(), -- no single mode
+      multiTristate = WeakAuras.IsCataOrLegionOrRetail(), -- values can be true/false/nil
+      multiAll = WeakAuras.IsCataOrLegionOrRetail(), -- require all tests
+      orConjunctionGroup  = WeakAuras.IsCataOrLegionOrRetail() and "talent",
+      multiUseControlWhenFalse = WeakAuras.IsCataOrLegionOrRetail(),
       enable = function(trigger)
         return ((trigger.use_talent ~= nil and trigger.use_talent2 ~= nil) or trigger.use_talent3 ~= nil) and (
           WeakAuras.IsClassicEra()
           or (WeakAuras.IsCataClassic() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
-          or (WeakAuras.IsRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil)
+          or (WeakAuras.IsLegionOrRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil)
         )
       end,
       hidden = function(trigger)
         return not(((trigger.use_talent ~= nil and trigger.use_talent2 ~= nil) or trigger.use_talent3 ~= nil) and (
           WeakAuras.IsClassicEra()
           or (WeakAuras.IsCataClassic() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
-          or (WeakAuras.IsRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil)
+          or (WeakAuras.IsLegionOrRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil)
         ))
       end
     },

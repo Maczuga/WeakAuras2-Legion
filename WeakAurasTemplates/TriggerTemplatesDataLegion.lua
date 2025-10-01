@@ -1890,7 +1890,7 @@ templates.class.SHAMAN = {
       title = L["Cooldowns"],
       args = {
         { spell = 2825, type = "ability"}, -- Bloodlust
-        { spell = 16166, type = "ability", talent = 16}, -- Elemental Mastery
+        { spell = 16166, type = "ability", talent = 12}, -- Elemental Mastery
         { spell = 51485, type = "ability", talent = 8}, -- Earthgrab Totem
         { spell = 51490, type = "ability"}, -- Thunderstorm
         { spell = 51505, type = "ability"}, -- Lava Burst
@@ -1900,17 +1900,17 @@ templates.class.SHAMAN = {
         { spell = 108271, type = "ability"}, -- Astral Shift
         { spell = 108281, type = "ability", talent = 5}, -- Ancestral Guidance
         { spell = 114050, type = "ability", talent = 19}, -- Ascendance
-        { spell = 117014, type = "ability", talent = 10}, -- Elemental Blast
+        { spell = 117014, type = "ability", talent = 15}, -- Elemental Blast
         { spell = 192058, type = "ability", talent = 7}, -- Lightning Surge Totem
         { spell = 192063, type = "ability", talent = 4}, -- Gust of Wind
         { spell = 192077, type = "ability", talent = 6}, -- Wind Rush Totem
-        { spell = 192222, type = "ability", talent = 21}, -- Liquid Magma Totem
+        { spell = 192222, type = "ability", talent = 16}, -- Liquid Magma Totem
         { spell = 192249, type = "ability", talent = 17}, -- Storm Elemental
         { spell = 196932, type = "ability", talent = 9}, -- Voodoo Totem
         { spell = 198067, type = "ability"}, -- Fire Elemental
         { spell = 198103, type = "ability"}, -- Earth Elemental
         { spell = 205495, type = "ability"}, -- Stormkeeper
-        { spell = 210714, type = "ability", talent = 15}, -- Icefury
+        { spell = 210714, type = "ability", talent = 21}, -- Icefury
       },
       icon = 135790
     },
