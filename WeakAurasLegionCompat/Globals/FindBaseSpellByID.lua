@@ -37,7 +37,6 @@ local spellOverrideToBase = {
   [198590] = 232670, -- Drain Soul -> Shadow Bolt
 
   -- Shaman
-  [192249] = 198067, -- Storm Elemental -> Fire Elemental
   [157153] = 5394,   -- Cloudburst Totem -> Healing Stream Totem
 
   -- Mage
