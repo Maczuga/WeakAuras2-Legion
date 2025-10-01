@@ -472,13 +472,13 @@ function OptionsPrivate.CreateFrame()
     local lineLength = 0
     local currentLine = {}
     for _, patreon in ipairs(list) do
-      if lineLength + #patreon + 2 * #currentLine > 130 then
+      if lineLength + #patreon + 2 > 130 then
         tinsert(patreonLines, table.concat(currentLine, ", ") .. ", ")
         currentLine = {}
         tinsert(currentLine, patreon)
-        lineLength = #patreon
+        lineLength = #patreon + 2
       else
-        lineLength = lineLength + #patreon
+        lineLength = lineLength + #patreon + 2
         tinsert(currentLine, patreon)
       end
     end
@@ -534,7 +534,7 @@ function OptionsPrivate.CreateFrame()
     changelogButton:SetPoint("LEFT", thanksButton, "RIGHT", 10, 0)
   end
 
-  local reportbugButton = addFooter(L["Found a Bug?"], [[Interface\AddOns\WeakAuras\Media\Textures\bug_report.tga]], "https://github.com/WeakAuras/WeakAuras2/issues/new?assignees=&labels=%F0%9F%90%9B+Bug&template=bug_report.md&title=",
+  local reportbugButton = addFooter(L["Found a Bug?"], [[Interface\AddOns\WeakAuras\Media\Textures\bug_report.tga]], "https://github.com/WeakAuras/WeakAuras2/issues/new?template=bug_report.yml",
             L["Report bugs on our issue tracker."], nil, nil, true)
   reportbugButton:SetParent(tipFrame)
   reportbugButton:SetPoint("RIGHT", tipFrame, "RIGHT")

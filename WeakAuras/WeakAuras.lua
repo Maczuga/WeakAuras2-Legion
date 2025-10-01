@@ -3,7 +3,7 @@ local AddonName = ...
 ---@class Private
 local Private = select(2, ...)
 
-local internalVersion = 83
+local internalVersion = 84
 
 -- Lua APIs
 local insert = table.insert
@@ -1655,6 +1655,7 @@ local function scanForLoadsImpl(toCheck, event, arg1, ...)
   end
 
   local player, realm, zone = UnitName("player"), GetRealmName(), GetRealZoneText()
+  local guild = GetGuildInfo("player")
   --- @type boolean|number|nil, boolean|string|nil, boolean|string|nil, boolean|string
   local specId, role, position, raidRole = false, false, false, false
   --- @type boolean, boolean, boolean
@@ -1743,17 +1744,17 @@ local function scanForLoadsImpl(toCheck, event, arg1, ...)
       local loadOpt = loadFuncsForOptions[id];
 
       if WeakAuras.IsClassicEra() then
-        shouldBeLoaded = loadFunc and loadFunc("ScanForLoads_Auras", inCombat, alive, inEncounter, vehicle, mounted, hardcore, runeEngraving, class, player, realm, race, faction, playerLevel, raidRole, group, groupSize, raidMemberType, zone, zoneId, zonegroupId, instanceId, minimapText, encounter_id, size)
-        couldBeLoaded =  loadOpt and loadOpt("ScanForLoads_Auras",   inCombat, alive, inEncounter, vehicle, mounted, hardcore, runeEngraving, class, player, realm, race, faction, playerLevel, raidRole, group, groupSize, raidMemberType, zone, zoneId, zonegroupId, instanceId, minimapText, encounter_id, size)
+        shouldBeLoaded = loadFunc and loadFunc("ScanForLoads_Auras", inCombat, alive, inEncounter, vehicle, mounted, hardcore, runeEngraving, class, player, realm, guild, race, faction, playerLevel, raidRole, group, groupSize, raidMemberType, zone, zoneId, zonegroupId, instanceId, minimapText, encounter_id, size)
+        couldBeLoaded =  loadOpt and loadOpt("ScanForLoads_Auras",   inCombat, alive, inEncounter, vehicle, mounted, hardcore, runeEngraving, class, player, realm, guild, race, faction, playerLevel, raidRole, group, groupSize, raidMemberType, zone, zoneId, zonegroupId, instanceId, minimapText, encounter_id, size)
       elseif WeakAuras.IsCataClassic() then
-        shouldBeLoaded = loadFunc and loadFunc("ScanForLoads_Auras", inCombat, alive, inEncounter, vehicle, vehicleUi, mounted, class, specId, player, realm, race, faction, playerLevel, role, position, raidRole, group, groupSize, raidMemberType, zone, zoneId, zonegroupId, instanceId, minimapText, encounter_id, size, difficulty, difficultyIndex)
-        couldBeLoaded =  loadOpt and loadOpt("ScanForLoads_Auras",   inCombat, alive, inEncounter, vehicle, vehicleUi, mounted, class, specId, player, realm, race, faction, playerLevel, role, position, raidRole, group, groupSize, raidMemberType, zone, zoneId, zonegroupId, instanceId, minimapText, encounter_id, size, difficulty, difficultyIndex)
+        shouldBeLoaded = loadFunc and loadFunc("ScanForLoads_Auras", inCombat, alive, inEncounter, vehicle, vehicleUi, mounted, class, specId, player, realm, guild, race, faction, playerLevel, role, position, raidRole, group, groupSize, raidMemberType, zone, zoneId, zonegroupId, instanceId, minimapText, encounter_id, size, difficulty, difficultyIndex)
+        couldBeLoaded =  loadOpt and loadOpt("ScanForLoads_Auras",   inCombat, alive, inEncounter, vehicle, vehicleUi, mounted, class, specId, player, realm, guild, race, faction, playerLevel, role, position, raidRole, group, groupSize, raidMemberType, zone, zoneId, zonegroupId, instanceId, minimapText, encounter_id, size, difficulty, difficultyIndex)
       elseif WeakAuras.IsLegion() then
         shouldBeLoaded = loadFunc and loadFunc("ScanForLoads_Auras", inCombat, alive, inEncounter, inPetBattle, vehicle, vehicleUi, mounted, specId, player, realm, race, faction, playerLevel, effectiveLevel, role, position, group, groupSize, raidMemberType, zone, zoneId, zonegroupId, instanceId, minimapText, encounter_id, size, difficulty, difficultyIndex, affixes)
         couldBeLoaded =  loadOpt and loadOpt("ScanForLoads_Auras",   inCombat, alive, inEncounter, inPetBattle, vehicle, vehicleUi, mounted, specId, player, realm, race, faction, playerLevel, effectiveLevel, role, position, group, groupSize, raidMemberType, zone, zoneId, zonegroupId, instanceId, minimapText, encounter_id, size, difficulty, difficultyIndex, affixes)
       elseif WeakAuras.IsRetail() then
-        shouldBeLoaded = loadFunc and loadFunc("ScanForLoads_Auras", inCombat, alive, inEncounter, warmodeActive, inPetBattle, vehicle, vehicleUi, dragonriding, mounted, specId, player, realm, race, faction, playerLevel, effectiveLevel, role, position, group, groupSize, raidMemberType, zone, zoneId, zonegroupId, instanceId, minimapText, encounter_id, size, difficulty, difficultyIndex, affixes)
-        couldBeLoaded =  loadOpt and loadOpt("ScanForLoads_Auras",   inCombat, alive, inEncounter, warmodeActive, inPetBattle, vehicle, vehicleUi, dragonriding, mounted, specId, player, realm, race, faction, playerLevel, effectiveLevel, role, position, group, groupSize, raidMemberType, zone, zoneId, zonegroupId, instanceId, minimapText, encounter_id, size, difficulty, difficultyIndex, affixes)
+        shouldBeLoaded = loadFunc and loadFunc("ScanForLoads_Auras", inCombat, alive, inEncounter, warmodeActive, inPetBattle, vehicle, vehicleUi, dragonriding, mounted, specId, player, realm, guild, race, faction, playerLevel, effectiveLevel, role, position, group, groupSize, raidMemberType, zone, zoneId, zonegroupId, instanceId, minimapText, encounter_id, size, difficulty, difficultyIndex, affixes)
+        couldBeLoaded =  loadOpt and loadOpt("ScanForLoads_Auras",   inCombat, alive, inEncounter, warmodeActive, inPetBattle, vehicle, vehicleUi, dragonriding, mounted, specId, player, realm, guild, race, faction, playerLevel, effectiveLevel, role, position, group, groupSize, raidMemberType, zone, zoneId, zonegroupId, instanceId, minimapText, encounter_id, size, difficulty, difficultyIndex, affixes)
       end
 
       if(shouldBeLoaded and not loaded[id]) then
@@ -1875,6 +1876,7 @@ loadFrame:RegisterEvent("PLAYER_ALIVE")
 loadFrame:RegisterEvent("PLAYER_UNGHOST")
 loadFrame:RegisterEvent("PARTY_LEADER_CHANGED")
 loadFrame:RegisterEvent("PLAYER_MOUNT_DISPLAY_CHANGED")
+loadFrame:RegisterEvent("PLAYER_GUILD_UPDATE")
 
 if WeakAuras.IsRetail() then
   Private.callbacks:RegisterCallback("WA_DRAGONRIDING_UPDATE", function ()
@@ -1992,9 +1994,9 @@ function Private.LoadDisplays(toLoad, ...)
     local uid = WeakAuras.GetData(id).uid
     Private.RegisterForGlobalConditions(uid);
     triggerState[id].triggers = {};
+    triggerState[id].activationTime = {}
     triggerState[id].triggerCount = 0;
     triggerState[id].show = false;
-    triggerState[id].activeTrigger = nil;
     triggerState[id].activatedConditions = {};
     if Private.DebugLog.IsEnabled(uid) then
       WeakAuras.prettyPrint(L["Debug Logging enabled for '%s'"]:format(id))
@@ -2019,7 +2021,6 @@ function Private.UnloadDisplays(toUnload, ...)
       end
     end
     triggerState[id].show = nil;
-    triggerState[id].activeTrigger = nil;
 
     if (timers[id]) then
       for _, trigger in pairs(timers[id]) do
@@ -3244,6 +3245,7 @@ function pAdd(data, simpleChange)
         activeTriggerMode = data.triggers.activeTriggerMode or Private.trigger_modes.first_active,
         triggerLogicFunc = triggerLogicFunc,
         triggers = {},
+        activationTime = {},
         triggerCount = 0,
         activatedConditions = {},
       };
@@ -4092,6 +4094,24 @@ function Private.GetTriggerConditions(data)
           return (state and state.id and triggerState[state.id].triggers[i] or false) == (needle == 1);
         end
       }
+      conditions[i].activationTime = {
+        display = L["Since Active"],
+        type = "elapsedTimer",
+        operator_types = "without_equal",
+
+        test = function(state, needle, op)
+          if state and state.id and triggerState[state.id] and triggerState[state.id].activationTime[i] then
+            local activationTime = triggerState[state.id].activationTime[i]
+            return (GetTime() <= activationTime + needle) == (op == "<=")
+    end
+        end,
+        recheckTime = function(state, needle)
+          if state and state.id and triggerState[state.id] and triggerState[state.id].activationTime[i] then
+            return triggerState[state.id].activationTime[i] + needle
+  end
+        end,
+
+      }
     end
   end
   return conditions;
@@ -4109,6 +4129,7 @@ local function CreateFallbackState(id, triggernum)
   local triggerSystem = GetTriggerSystem(data, triggernum);
   if (triggerSystem) then
     triggerSystem.CreateFallbackState(data, triggernum, state)
+    state.id = id
     state.trigger = data.triggers[triggernum].trigger
     state.triggernum = triggernum
   else
@@ -4774,12 +4795,12 @@ local function applyToTriggerStateTriggers(stateShown, id, triggernum)
   if (stateShown and not triggerState[id].triggers[triggernum]) then
     triggerState[id].triggers[triggernum] = true;
     triggerState[id].triggerCount = triggerState[id].triggerCount + 1;
-
+    triggerState[id].activationTime[triggernum] = GetTime()
     return true;
   elseif (not stateShown and triggerState[id].triggers[triggernum]) then
     triggerState[id].triggers[triggernum] = false;
     triggerState[id].triggerCount = triggerState[id].triggerCount - 1;
-
+    triggerState[id].activationTime[triggernum] = nil
     return true;
   end
 
@@ -4926,7 +4947,6 @@ function Private.UpdatedTriggerState(id)
   end
 
   local oldShow = triggerState[id].show;
-  triggerState[id].activeTrigger = newActiveTrigger;
   triggerState[id].show = show;
   triggerState[id].fallbackStates = nil
 
@@ -5207,16 +5227,15 @@ local function ValueForSymbol(symbol, region, customFunc, regionState, regionSta
     if(useHiddenStates or regionState.show) then
       local value = regionState[symbol]
       if formatters[symbol] then
-        return tostring(formatters[symbol](value, regionState, triggerState[regionState.id].activeTrigger) or "") or ""
+        return tostring(formatters[symbol](value, regionState, regionState.triggernum) or "") or ""
       else
         return tostring(value) or ""
       end
     end
     return ""
   else
-    local activeTrigger = triggerState[regionState.id].activeTrigger
     local value = (useHiddenStates or regionState.show)
-                  and ReplaceValuePlaceHolders(symbol, region, customFunc, regionState, formatters[symbol], activeTrigger)
+                  and ReplaceValuePlaceHolders(symbol, region, customFunc, regionState, formatters[symbol], regionState.triggernum)
     return value or ""
   end
 end
@@ -5407,12 +5426,6 @@ function WeakAuras.IsAuraActive(id)
   local active = triggerState[id]
 
   return active and active.show
-end
-
-function Private.ActiveTrigger(uid)
-  local id = Private.UIDtoID(uid)
-
-  return triggerState[id] and triggerState[id].activeTrigger
 end
 
 -- Attach to Cursor/Frames code

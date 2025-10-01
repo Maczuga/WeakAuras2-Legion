@@ -3555,6 +3555,17 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "4693092",
+      text = "babymurloc3bronze.m2",
+      value = "babymurloc3bronze.m2",
+     },
+    },
+    text = "babymurloc3bronze",
+    value = "babymurloc3bronze",
+   },
+   {
+    children = {
+     {
       fileId = "4693094",
       text = "babymurlocice.m2",
       value = "babymurlocice.m2",
@@ -23961,6 +23972,17 @@ WeakAuras.ModelPaths = {
     },
     text = "murloc2",
     value = "murloc2",
+   },
+   {
+    children = {
+     {
+      fileId = "4693102",
+      text = "murloc2bronze.m2",
+      value = "murloc2bronze.m2",
+     },
+    },
+    text = "murloc2bronze",
+    value = "murloc2bronze",
    },
    {
     children = {
@@ -312229,6 +312251,17 @@ WeakAuras.ModelPaths = {
      {
       children = {
        {
+        fileId = "6020263",
+        text = "6020263.m2",
+        value = "6020263.m2",
+       },
+      },
+      text = "unk_exp10_6020263",
+      value = "unk_exp10_6020263",
+     },
+     {
+      children = {
+       {
         fileId = "6067035",
         text = "6067035.m2",
         value = "6067035.m2",
@@ -312247,6 +312280,17 @@ WeakAuras.ModelPaths = {
       },
       text = "unk_exp10_6663431",
       value = "unk_exp10_6663431",
+     },
+     {
+      children = {
+       {
+        fileId = "6684557",
+        text = "6684557.m2",
+        value = "6684557.m2",
+       },
+      },
+      text = "unk_exp10_6684557",
+      value = "unk_exp10_6684557",
      },
     },
     text = "creature",
@@ -313352,17 +313396,6 @@ WeakAuras.ModelPaths = {
      {
       children = {
        {
-        fileId = "6020263",
-        text = "6020263.m2",
-        value = "6020263.m2",
-       },
-      },
-      text = "unk_exp10_6020263",
-      value = "unk_exp10_6020263",
-     },
-     {
-      children = {
-       {
         fileId = "6025532",
         text = "6025532.m2",
         value = "6025532.m2",
@@ -313557,17 +313590,6 @@ WeakAuras.ModelPaths = {
       },
       text = "unk_exp10_6194798",
       value = "unk_exp10_6194798",
-     },
-     {
-      children = {
-       {
-        fileId = "6194799",
-        text = "6194799.m2",
-        value = "6194799.m2",
-       },
-      },
-      text = "unk_exp10_6194799",
-      value = "unk_exp10_6194799",
      },
      {
       children = {
@@ -314312,17 +314334,6 @@ WeakAuras.ModelPaths = {
       text = "unk_exp10_6322768",
       value = "unk_exp10_6322768",
      },
-     {
-      children = {
-       {
-        fileId = "6684557",
-        text = "6684557.m2",
-        value = "6684557.m2",
-       },
-      },
-      text = "unk_exp10_6684557",
-      value = "unk_exp10_6684557",
-     },
     },
     text = "unknown",
     value = "unknown",
@@ -314490,6 +314501,17 @@ WeakAuras.ModelPaths = {
       },
       text = "nodxt",
       value = "nodxt",
+     },
+     {
+      children = {
+       {
+        fileId = "6194799",
+        text = "6194799.m2",
+        value = "6194799.m2",
+       },
+      },
+      text = "unk_exp10_6194799",
+      value = "unk_exp10_6194799",
      },
      {
       children = {
