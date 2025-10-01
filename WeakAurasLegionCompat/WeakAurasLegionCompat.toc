@@ -66,4 +66,7 @@ API/C_QuestLog.lua
 API/C_TradeSkillUI.lua
 API/C_DateAndTime.lua
 
+ItemLocation.lua
+Item.lua
+
 AddonCompartmentFrame.lua
