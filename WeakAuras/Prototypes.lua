@@ -7700,7 +7700,7 @@ Private.event_prototypes = {
         display = L["Reagent Quality"],
         store = true,
         test = "true",
-        enable = WeakAuras.IsRetail(),
+        enable = WeakAuras.IsRetail() and not WeakAuras.IsLegion(),
         conditionType = "number",
         hidden = true
       },
@@ -7709,7 +7709,7 @@ Private.event_prototypes = {
         display = L["Reagent Quality Texture"],
         store = true,
         test = "true",
-        enable = WeakAuras.IsRetail(),
+        enable = WeakAuras.IsRetail() and not WeakAuras.IsLegion(),
         hidden = true
       },
     },
