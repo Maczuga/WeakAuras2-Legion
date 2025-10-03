@@ -1702,7 +1702,7 @@ function WeakAuras.CreateTemplateView(Private, frame)
       local classSelector = createDropdown("class", WeakAuras.class_types);
       newViewScroll:AddChild(classSelector);
 
-      if WeakAuras.IsRetail() then
+      if WeakAuras.IsLegionOrRetail() then
         local specSelector = createDropdown("spec", WeakAuras.spec_types_specific[newView.class]);
         newViewScroll:AddChild(specSelector);
         newViewScroll:AddChild(createSpacer());
@@ -1869,7 +1869,7 @@ function WeakAuras.CreateTemplateView(Private, frame)
       newView.chosenItemBatch = {};
     end
     newView.class = select(2, UnitClass("player"));
-    if WeakAuras.IsRetail() then
+    if WeakAuras.IsLegionOrRetail() then
       newView.spec = GetSpecialization() or 1;
     else
       newView.spec = 1

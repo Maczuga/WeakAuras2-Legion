@@ -390,10 +390,11 @@ local flavorFromTocToNumber = {
   TBC = 2,
   Wrath = 3,
   Cata = 4,
+  Mists = 5,
+  Legion = 7,
   Mainline = 10
 }
 local flavor = flavorFromTocToNumber[flavorFromToc]
-
 
 if not versionString:find("beta", 1, true) then
   WeakAuras.buildType = "release"
@@ -435,6 +436,11 @@ function WeakAuras.IsCataClassic()
 end
 
 ---@return boolean result
+function WeakAuras.IsMists()
+  return flavor == 5
+end
+
+---@return boolean result
 function WeakAuras.IsRetail()
   return flavor == 10
 end
@@ -445,6 +451,34 @@ function WeakAuras.IsClassicOrCata()
 end
 
 ---@return boolean result
+function WeakAuras.IsClassicOrCataOrMists()
+  -- Pretty much everything will match this check, no need to create custom and replace in xx places in code.
+  -- return WeakAuras.IsClassicOrCata() or WeakAuras.IsMists()
+  return WeakAuras.IsClassicOrCata() or WeakAuras.IsMists() or WeakAuras.IsLegion()
+end
+
+---@return boolean result
+function WeakAuras.IsCataOrMists()
+  -- Pretty much everything will match this check, no need to create custom and replace in xx places in code.
+  -- return WeakAuras.IsCataClassic() or WeakAuras.IsMists()
+  return WeakAuras.IsCataClassic() or WeakAuras.IsMists() or WeakAuras.IsLegion()
+end
+
+---@return boolean result
+function WeakAuras.IsCataOrMistsOrRetail()
+    -- Pretty much everything will match this check, no need to create custom and replace in xx places in code.
+  -- return WeakAuras.IsCataClassic() or WeakAuras.IsMists() or WeakAuras.IsRetail()
+  return WeakAuras.IsCataClassic() or WeakAuras.IsMists() or WeakAuras.IsRetail() or WeakAuras.IsLegion()
+end
+
+---@return boolean result
+function WeakAuras.IsMistsOrRetail()
+  -- Pretty much everything will match this check, no need to create custom and replace in xx places in code.
+  -- return WeakAuras.IsMists() or WeakAuras.IsRetail()
+  return WeakAuras.IsMists() or WeakAuras.IsRetail() or WeakAuras.IsLegion()
+end
+
+---@return boolean result
 function WeakAuras.IsCataOrRetail()
   return WeakAuras.BuildInfo >= 40000
 end
@@ -452,26 +486,6 @@ end
 ---@return boolean result
 function WeakAuras.IsTWW()
   return WeakAuras.BuildInfo >= 110000
-end
-
----@return boolean result
-function WeakAuras.IsClassicOrCataOrLegion()
-  return WeakAuras.IsClassicOrCata() or WeakAuras.IsLegion()
-end
-
----@return boolean result
-function WeakAuras.IsCataOrLegion()
-  return WeakAuras.IsCataClassic() or WeakAuras.IsLegion()
-end
-
----@return boolean result
-function WeakAuras.IsCataOrLegionOrRetail()
-  return WeakAuras.IsCataClassic() or WeakAuras.IsLegion() or WeakAuras.IsRetail()
-end
-
----@return boolean result
-function WeakAuras.IsLegionOrRetail()
-  return WeakAuras.IsLegion() or WeakAuras.IsRetail()
 end
 
 ---@param ... string

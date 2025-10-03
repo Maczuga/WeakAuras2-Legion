@@ -143,7 +143,6 @@
     "SPECIALIZATION",
     "STAGGER",
     "STANDARD_TEXT_FONT",
-    "STATICPOPUP_NUMDIALOGS",
     "StaticPopup_Show",
     "StaticPopupDialogs",
     "STRING_ENVIRONMENTAL_DAMAGE_DROWNING",
@@ -241,7 +240,8 @@
     "ToggleDropDownMenu",
     "GetPrimaryTalentTree",
     "GetTalentTabInfo",
-    "MenuUtil"
+    "MenuUtil",
+        "RunNextFrame"
   ],
   "runtime.version": "Lua 5.1",
   "workspace.ignoreDir": [

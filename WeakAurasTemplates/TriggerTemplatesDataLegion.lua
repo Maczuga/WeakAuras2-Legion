@@ -1,7 +1,7 @@
 local AddonName, TemplatePrivate = ...
 ---@class WeakAuras
 local WeakAuras = WeakAuras
-if not WeakAuras.IsRetail() then return end
+if not WeakAuras.IsLegion() then return end
 local L = WeakAuras.L
 local tinsert, C_Timer, Spell = tinsert, C_Timer, Spell
 

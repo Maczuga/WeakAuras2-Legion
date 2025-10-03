@@ -6,13 +6,20 @@ function WeakAuras.IsLegion()
 end
 
 ---@return boolean result
-function WeakAuras.UseTableTalents()
-  return WeakAuras.BuildInfo >= 50000 and WeakAuras.BuildInfo < 100000
+function WeakAuras.IsCataOrMistsAndNotLegion()
+  return WeakAuras.IsCataOrMists() and not WeakAuras.IsLegion()
 end
 
+--- Use in place of WeakAuras.IsMists()
 ---@return boolean result
-function WeakAuras.IsRetailTalents()
-  return WeakAuras.BuildInfo >= 100000
+function WeakAuras.IsMistsOrLegion()
+  return WeakAuras.IsMists() or WeakAuras.IsLegion()
+end
+
+--- Use in place of WeakAuras.IsRetail() (when needed ofc)
+---@return boolean result
+function WeakAuras.IsLegionOrRetail()
+  return WeakAuras.IsRetail() or WeakAuras.IsLegion()
 end
 
 ---@return boolean result

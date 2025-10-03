@@ -1,9 +1,8 @@
-## Interface: 70300
+## Interface: 50500
 ## Title: WeakAuras
 ## Author: The WeakAuras Team
 ## Version: @project-version@
-## IconTexture: Interface\AddOns\WeakAuras\Media\Textures\icon.blp
-## X-Flavor: Legion
+## X-Flavor: Mists
 ## Notes: A powerful, comprehensive utility for displaying graphics and information based on buffs, debuffs, and other triggers.
 ## Notes-esES: Potente y completa aplicación que te permitirá mostrar por pantalla múltiples diseños, basados en beneficios, perjuicios y otros activadores.
 ## Notes-esMX: Potente y completa aplicación que te permitirá mostrar por pantalla múltiples diseños, basados en beneficios, perjuicios y otros activadores.
@@ -13,11 +12,14 @@
 ## X-Category: Interface Enhancements
 ## Globe-Post: WeakAurasOptions, WeakAurasModelPaths, WeakAurasTemplates
 ## X-Website: https://www.curseforge.com/wow/addons/weakauras
+## X-Curse-Project-ID: 65387
+## X-WoWI-ID: 24910
+## X-Wago-ID: VBNBxKx5
 ## DefaultState: Enabled
 ## LoadOnDemand: 0
 ## SavedVariables: WeakAurasSaved
-## OptionalDeps: Ace3, LibCompress, LibSharedMedia-3.0, AceGUI-3.0-SharedMediaWidgets, Masque, GTFO, LibButtonGlow-1.0, LibSpellRange-1.0, LibRangeCheck-2.0, LibDBIcon-1.0, LibGetFrame-1.0, LibSpecialization, !LibUIDropDownMenu, !!AddonLocale, CustomNames, BigWigs, DBM-Core
-## Dependencies: WeakAurasLegionCompat
+## OptionalDeps: Ace3, LibCompress, LibSharedMedia-3.0, AceGUI-3.0-SharedMediaWidgets, Masque, GTFO, LibButtonGlow-1.0, LibSpellRange-1.0, LibRangeCheck-3.0, LibDBIcon-1.0, LibGetFrame-1.0, !LibUIDropDownMenu, !!AddonLocale, CustomNames, BigWigs, DBM-Core
+## AllowLoadGameType: mists
 
 # External code + initialization
 embeds.xml
@@ -27,10 +29,8 @@ Libs\TaintLess\TaintLess.xml
 
 # Client flavor specific libs
 Libs\LibSpecialization\LibSpecialization.lua
-Libs\LibDispel\LibDispel.lua
 
 Init.lua
-CustomCode.lua
 Compatibility.lua
 locales.xml
 ArchiveTypes\Repository.lua
@@ -40,8 +40,7 @@ DefaultOptions.lua
 SubscribableObject.lua
 Features.lua
 TimeMachine.lua
-Atlas_Legion.lua
-Types_Legion.lua
+Types_Mists.lua
 Types.lua
 Prototypes.lua
 Profiling.lua
@@ -66,7 +65,6 @@ AuraWarnings.lua
 AuraEnvironment.lua
 AuraEnvironmentWrappedSystems.lua
 DebugLog.lua
-Dragonriding.lua
 
 # Region support
 RegionTypes\SmoothStatusBarMixin.lua
@@ -99,6 +97,5 @@ SubRegionTypes\Texture.lua
 SubRegionTypes\CircularProgressTexture.lua
 SubRegionTypes\LinearProgressTexture.lua
 
-# Misc
-Legendaries.lua
+#Misc
 DiscordList.lua

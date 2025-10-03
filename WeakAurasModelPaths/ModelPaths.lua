@@ -1812,6 +1812,17 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "6361261",
+      text = "airshipmountethereal.m2",
+      value = "airshipmountethereal.m2",
+     },
+    },
+    text = "airshipmountethereal",
+    value = "airshipmountethereal",
+   },
+   {
+    children = {
+     {
       fileId = "6075033",
       text = "airshipmountgold.m2",
       value = "airshipmountgold.m2",
@@ -3330,6 +3341,17 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "6080240",
+      text = "babycosmicflyer.m2",
+      value = "babycosmicflyer.m2",
+     },
+    },
+    text = "babycosmicflyer",
+    value = "babycosmicflyer",
+   },
+   {
+    children = {
+     {
       fileId = "122977",
       text = "babycrocodile.m2",
       value = "babycrocodile.m2",
@@ -3495,6 +3517,17 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "6051321",
+      text = "babykareshfox.m2",
+      value = "babykareshfox.m2",
+     },
+    },
+    text = "babykareshfox",
+    value = "babykareshfox",
+   },
+   {
+    children = {
+     {
       fileId = "1726192",
       text = "babykomododragon.m2",
       value = "babykomododragon.m2",
@@ -3606,6 +3639,17 @@ WeakAuras.ModelPaths = {
     },
     text = "babynaga2",
     value = "babynaga2",
+   },
+   {
+    children = {
+     {
+      fileId = "6080238",
+      text = "babyobserver.m2",
+      value = "babyobserver.m2",
+     },
+    },
+    text = "babyobserver",
+    value = "babyobserver",
    },
    {
     children = {
@@ -5152,6 +5196,17 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "7114483",
+      text = "brewfestmount.m2",
+      value = "brewfestmount.m2",
+     },
+    },
+    text = "brewfestmount",
+    value = "brewfestmount",
+   },
+   {
+    children = {
+     {
       fileId = "3058051",
       text = "broker.m2",
       value = "broker.m2",
@@ -5571,6 +5626,17 @@ WeakAuras.ModelPaths = {
     },
     text = "capybara",
     value = "capybara",
+   },
+   {
+    children = {
+     {
+      fileId = "6990129",
+      text = "capybarafelpet.m2",
+      value = "capybarafelpet.m2",
+     },
+    },
+    text = "capybarafelpet",
+    value = "capybarafelpet",
    },
    {
     children = {
@@ -6029,6 +6095,17 @@ WeakAuras.ModelPaths = {
     },
     text = "chenstormstout",
     value = "chenstormstout",
+   },
+   {
+    children = {
+     {
+      fileId = "6879962",
+      text = "chessmount.m2",
+      value = "chessmount.m2",
+     },
+    },
+    text = "chessmount",
+    value = "chessmount",
    },
    {
     children = {
@@ -6631,6 +6708,39 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "6423196",
+      text = "cosmicdragonmount.m2",
+      value = "cosmicdragonmount.m2",
+     },
+    },
+    text = "cosmicdragonmount",
+    value = "cosmicdragonmount",
+   },
+   {
+    children = {
+     {
+      fileId = "5926838",
+      text = "cosmicflyer.m2",
+      value = "cosmicflyer.m2",
+     },
+    },
+    text = "cosmicflyer",
+    value = "cosmicflyer",
+   },
+   {
+    children = {
+     {
+      fileId = "6123438",
+      text = "cosmicworm.m2",
+      value = "cosmicworm.m2",
+     },
+    },
+    text = "cosmicworm",
+    value = "cosmicworm",
+   },
+   {
+    children = {
+     {
       fileId = "1568205",
       text = "councilsentinelboss.m2",
       value = "councilsentinelboss.m2",
@@ -6900,6 +7010,28 @@ WeakAuras.ModelPaths = {
     },
     text = "crocoliskmount",
     value = "crocoliskmount",
+   },
+   {
+    children = {
+     {
+      fileId = "6694720",
+      text = "crocsunmount.m2",
+      value = "crocsunmount.m2",
+     },
+    },
+    text = "crocsunmount",
+    value = "crocsunmount",
+   },
+   {
+    children = {
+     {
+      fileId = "6694722",
+      text = "crocsunpet.m2",
+      value = "crocsunpet.m2",
+     },
+    },
+    text = "crocsunpet",
+    value = "crocsunpet",
    },
    {
     children = {
@@ -8172,6 +8304,39 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "6101859",
+      text = "dimensiusboss01.m2",
+      value = "dimensiusboss01.m2",
+     },
+    },
+    text = "dimensiusboss01",
+    value = "dimensiusboss01",
+   },
+   {
+    children = {
+     {
+      fileId = "6706736",
+      text = "dimensiusboss02.m2",
+      value = "dimensiusboss02.m2",
+     },
+    },
+    text = "dimensiusboss02",
+    value = "dimensiusboss02",
+   },
+   {
+    children = {
+     {
+      fileId = "6789802",
+      text = "dimensiusboss03.m2",
+      value = "dimensiusboss03.m2",
+     },
+    },
+    text = "dimensiusboss03",
+    value = "dimensiusboss03",
+   },
+   {
+    children = {
+     {
       fileId = "123382",
       text = "direfurbolg.m2",
       value = "direfurbolg.m2",
@@ -8886,6 +9051,50 @@ WeakAuras.ModelPaths = {
     },
     text = "dragonhawk",
     value = "dragonhawk",
+   },
+   {
+    children = {
+     {
+      fileId = "6375142",
+      text = "dragonhawk2lightmount.m2",
+      value = "dragonhawk2lightmount.m2",
+     },
+    },
+    text = "dragonhawk2lightmount",
+    value = "dragonhawk2lightmount",
+   },
+   {
+    children = {
+     {
+      fileId = "6402837",
+      text = "dragonhawk2lightpet.m2",
+      value = "dragonhawk2lightpet.m2",
+     },
+    },
+    text = "dragonhawk2lightpet",
+    value = "dragonhawk2lightpet",
+   },
+   {
+    children = {
+     {
+      fileId = "6375144",
+      text = "dragonhawk2voidmount.m2",
+      value = "dragonhawk2voidmount.m2",
+     },
+    },
+    text = "dragonhawk2voidmount",
+    value = "dragonhawk2voidmount",
+   },
+   {
+    children = {
+     {
+      fileId = "6402839",
+      text = "dragonhawk2voidpet.m2",
+      value = "dragonhawk2voidpet.m2",
+     },
+    },
+    text = "dragonhawk2voidpet",
+    value = "dragonhawk2voidpet",
    },
    {
     children = {
@@ -10645,6 +10854,17 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "7117154",
+      text = "dwarfgryphonmount.m2",
+      value = "dwarfgryphonmount.m2",
+     },
+    },
+    text = "dwarfgryphonmount",
+    value = "dwarfgryphonmount",
+   },
+   {
+    children = {
+     {
       fileId = "123708",
       text = "dwarfmalewarriorlight.m2",
       value = "dwarfmalewarriorlight.m2",
@@ -10972,6 +11192,17 @@ WeakAuras.ModelPaths = {
     },
     text = "elekk",
     value = "elekk",
+   },
+   {
+    children = {
+     {
+      fileId = "7074601",
+      text = "elekkfelmount.m2",
+      value = "elekkfelmount.m2",
+     },
+    },
+    text = "elekkfelmount",
+    value = "elekkfelmount",
    },
    {
     children = {
@@ -11504,6 +11735,17 @@ WeakAuras.ModelPaths = {
     },
     text = "etherealassassin",
     value = "etherealassassin",
+   },
+   {
+    children = {
+     {
+      fileId = "6047739",
+      text = "etherealunbound.m2",
+      value = "etherealunbound.m2",
+     },
+    },
+    text = "etherealunbound",
+    value = "etherealunbound",
    },
    {
     children = {
@@ -12124,6 +12366,17 @@ WeakAuras.ModelPaths = {
     },
     text = "felbatgladiatormount",
     value = "felbatgladiatormount",
+   },
+   {
+    children = {
+     {
+      fileId = "7277638",
+      text = "felbatgladiatormount_void.m2",
+      value = "felbatgladiatormount_void.m2",
+     },
+    },
+    text = "felbatgladiatormount_void",
+    value = "felbatgladiatormount_void",
    },
    {
     children = {
@@ -13792,6 +14045,17 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "6254129",
+      text = "forgeweaveraraz.m2",
+      value = "forgeweaveraraz.m2",
+     },
+    },
+    text = "forgeweaveraraz",
+    value = "forgeweaveraraz",
+   },
+   {
+    children = {
+     {
       fileId = "124003",
       text = "forsakencatapult.m2",
       value = "forsakencatapult.m2",
@@ -13832,6 +14096,17 @@ WeakAuras.ModelPaths = {
     },
     text = "forsakendreadguard_m",
     value = "forsakendreadguard_m",
+   },
+   {
+    children = {
+     {
+      fileId = "6856876",
+      text = "forsakenhorsemount.m2",
+      value = "forsakenhorsemount.m2",
+     },
+    },
+    text = "forsakenhorsemount",
+    value = "forsakenhorsemount",
    },
    {
     children = {
@@ -13920,6 +14195,17 @@ WeakAuras.ModelPaths = {
     },
     text = "foxwyvernpet",
     value = "foxwyvernpet",
+   },
+   {
+    children = {
+     {
+      fileId = "6254071",
+      text = "fractillus.m2",
+      value = "fractillus.m2",
+     },
+    },
+    text = "fractillus",
+    value = "fractillus",
    },
    {
     children = {
@@ -16490,6 +16776,17 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "7074388",
+      text = "headlesshorsemanmount2.m2",
+      value = "headlesshorsemanmount2.m2",
+     },
+    },
+    text = "headlesshorsemanmount2",
+    value = "headlesshorsemanmount2",
+   },
+   {
+    children = {
+     {
       fileId = "5872184",
       text = "healraydrone.m2",
       value = "healraydrone.m2",
@@ -18248,6 +18545,17 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "6403211",
+      text = "igc_alleria3.m2",
+      value = "igc_alleria3.m2",
+     },
+    },
+    text = "igc_alleria3",
+    value = "igc_alleria3",
+   },
+   {
+    children = {
+     {
       fileId = "3849312",
       text = "igc_anduin3.m2",
       value = "igc_anduin3.m2",
@@ -18600,6 +18908,17 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "6403213",
+      text = "igc_locuswalker2.m2",
+      value = "igc_locuswalker2.m2",
+     },
+    },
+    text = "igc_locuswalker2",
+    value = "igc_locuswalker2",
+   },
+   {
+    children = {
+     {
       fileId = "4569789",
       text = "igc_malfurion.m2",
       value = "igc_malfurion.m2",
@@ -18853,6 +19172,17 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "6403215",
+      text = "igc_sash.m2",
+      value = "igc_sash.m2",
+     },
+    },
+    text = "igc_sash",
+    value = "igc_sash",
+   },
+   {
+    children = {
+     {
       fileId = "5503567",
       text = "igc_shandris.m2",
       value = "igc_shandris.m2",
@@ -18882,6 +19212,17 @@ WeakAuras.ModelPaths = {
     },
     text = "igc_sindragosa2",
     value = "igc_sindragosa2",
+   },
+   {
+    children = {
+     {
+      fileId = "6403217",
+      text = "igc_soulscribe.m2",
+      value = "igc_soulscribe.m2",
+     },
+    },
+    text = "igc_soulscribe",
+    value = "igc_soulscribe",
    },
    {
     children = {
@@ -18996,6 +19337,17 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "6403219",
+      text = "igc_venari.m2",
+      value = "igc_venari.m2",
+     },
+    },
+    text = "igc_venari",
+    value = "igc_venari",
+   },
+   {
+    children = {
+     {
       fileId = "5200958",
       text = "igc_vyranoth.m2",
       value = "igc_vyranoth.m2",
@@ -19080,6 +19432,17 @@ WeakAuras.ModelPaths = {
     },
     text = "igc_xalatath2",
     value = "igc_xalatath2",
+   },
+   {
+    children = {
+     {
+      fileId = "6403221",
+      text = "igc_xalatath3.m2",
+      value = "igc_xalatath3.m2",
+     },
+    },
+    text = "igc_xalatath3",
+    value = "igc_xalatath3",
    },
    {
     children = {
@@ -19277,6 +19640,17 @@ WeakAuras.ModelPaths = {
     },
     text = "impoutland",
     value = "impoutland",
+   },
+   {
+    children = {
+     {
+      fileId = "6739911",
+      text = "inariusmount.m2",
+      value = "inariusmount.m2",
+     },
+    },
+    text = "inariusmount",
+    value = "inariusmount",
    },
    {
     children = {
@@ -19865,6 +20239,83 @@ WeakAuras.ModelPaths = {
     },
     text = "kalecgos2",
     value = "kalecgos2",
+   },
+   {
+    children = {
+     {
+      fileId = "6080266",
+      text = "kareshelemental.m2",
+      value = "kareshelemental.m2",
+     },
+    },
+    text = "kareshelemental",
+    value = "kareshelemental",
+   },
+   {
+    children = {
+     {
+      fileId = "6254036",
+      text = "kareshflyer.m2",
+      value = "kareshflyer.m2",
+     },
+    },
+    text = "kareshflyer",
+    value = "kareshflyer",
+   },
+   {
+    children = {
+     {
+      fileId = "6254038",
+      text = "kareshflyermount.m2",
+      value = "kareshflyermount.m2",
+     },
+    },
+    text = "kareshflyermount",
+    value = "kareshflyermount",
+   },
+   {
+    children = {
+     {
+      fileId = "6051323",
+      text = "kareshfox.m2",
+      value = "kareshfox.m2",
+     },
+    },
+    text = "kareshfox",
+    value = "kareshfox",
+   },
+   {
+    children = {
+     {
+      fileId = "6125838",
+      text = "kareshroamer.m2",
+      value = "kareshroamer.m2",
+     },
+    },
+    text = "kareshroamer",
+    value = "kareshroamer",
+   },
+   {
+    children = {
+     {
+      fileId = "6254040",
+      text = "kareshroamermount.m2",
+      value = "kareshroamermount.m2",
+     },
+    },
+    text = "kareshroamermount",
+    value = "kareshroamermount",
+   },
+   {
+    children = {
+     {
+      fileId = "6047548",
+      text = "kareshstrider.m2",
+      value = "kareshstrider.m2",
+     },
+    },
+    text = "kareshstrider",
+    value = "kareshstrider",
    },
    {
     children = {
@@ -24789,6 +25240,17 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "6236414",
+      text = "nexuskingsalhadaar.m2",
+      value = "nexuskingsalhadaar.m2",
+     },
+    },
+    text = "nexuskingsalhadaar",
+    value = "nexuskingsalhadaar",
+   },
+   {
+    children = {
+     {
       fileId = "1052604",
       text = "nhallish.m2",
       value = "nhallish.m2",
@@ -25775,6 +26237,17 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "5932219",
+      text = "observer.m2",
+      value = "observer.m2",
+     },
+    },
+    text = "observer",
+    value = "observer",
+   },
+   {
+    children = {
+     {
       fileId = "125260",
       text = "obsidiandestroyer.m2",
       value = "obsidiandestroyer.m2",
@@ -26342,6 +26815,17 @@ WeakAuras.ModelPaths = {
     },
     text = "otter",
     value = "otter",
+   },
+   {
+    children = {
+     {
+      fileId = "6731039",
+      text = "overchargedmech.m2",
+      value = "overchargedmech.m2",
+     },
+    },
+    text = "overchargedmech",
+    value = "overchargedmech",
    },
    {
     children = {
@@ -27005,6 +27489,17 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "6706690",
+      text = "piratedragonmount.m2",
+      value = "piratedragonmount.m2",
+     },
+    },
+    text = "piratedragonmount",
+    value = "piratedragonmount",
+   },
+   {
+    children = {
+     {
       fileId = "1545591",
       text = "pitinfernal.m2",
       value = "pitinfernal.m2",
@@ -27528,6 +28023,17 @@ WeakAuras.ModelPaths = {
     },
     text = "progenitorbotmount",
     value = "progenitorbotmount",
+   },
+   {
+    children = {
+     {
+      fileId = "7036277",
+      text = "progenitorbotmount_void.m2",
+      value = "progenitorbotmount_void.m2",
+     },
+    },
+    text = "progenitorbotmount_void",
+    value = "progenitorbotmount_void",
    },
    {
     children = {
@@ -31098,6 +31604,28 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "6254042",
+      text = "shadowguardmech.m2",
+      value = "shadowguardmech.m2",
+     },
+    },
+    text = "shadowguardmech",
+    value = "shadowguardmech",
+   },
+   {
+    children = {
+     {
+      fileId = "6254044",
+      text = "shadowguardmechboss.m2",
+      value = "shadowguardmechboss.m2",
+     },
+    },
+    text = "shadowguardmechboss",
+    value = "shadowguardmechboss",
+   },
+   {
+    children = {
+     {
       fileId = "3158650",
       text = "shadowlandssoul.m2",
       value = "shadowlandssoul.m2",
@@ -31819,6 +32347,22 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "6254053",
+      text = "silkwormboss.m2",
+      value = "silkwormboss.m2",
+     },
+     {
+      fileId = "6725717",
+      text = "silkwormbossabdomen.m2",
+      value = "silkwormbossabdomen.m2",
+     },
+    },
+    text = "silkwormboss",
+    value = "silkwormboss",
+   },
+   {
+    children = {
+     {
       fileId = "987996",
       text = "creature_6ih_ironhorde_singleturret.m2",
       value = "creature_6ih_ironhorde_singleturret.m2",
@@ -32469,6 +33013,17 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "6254067",
+      text = "soulbindernaazindhri.m2",
+      value = "soulbindernaazindhri.m2",
+     },
+    },
+    text = "soulbindernaazindhri",
+    value = "soulbindernaazindhri",
+   },
+   {
+    children = {
+     {
       fileId = "1546943",
       text = "soulengine.m2",
       value = "soulengine.m2",
@@ -32509,6 +33064,17 @@ WeakAuras.ModelPaths = {
     },
     text = "soulhoundmount",
     value = "soulhoundmount",
+   },
+   {
+    children = {
+     {
+      fileId = "6254073",
+      text = "soulscribe.m2",
+      value = "soulscribe.m2",
+     },
+    },
+    text = "soulscribe",
+    value = "soulscribe",
    },
    {
     children = {
@@ -36709,6 +37275,17 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "6376668",
+      text = "viciousvoidcreepermount.m2",
+      value = "viciousvoidcreepermount.m2",
+     },
+    },
+    text = "viciousvoidcreepermount",
+    value = "viciousvoidcreepermount",
+   },
+   {
+    children = {
+     {
       fileId = "1827449",
       text = "viciouswarbasiliskalliance.m2",
       value = "viciouswarbasiliskalliance.m2",
@@ -36894,6 +37471,39 @@ WeakAuras.ModelPaths = {
    {
     children = {
      {
+      fileId = "6373734",
+      text = "voidcrawler.m2",
+      value = "voidcrawler.m2",
+     },
+    },
+    text = "voidcrawler",
+    value = "voidcrawler",
+   },
+   {
+    children = {
+     {
+      fileId = "6046787",
+      text = "voidcreeper.m2",
+      value = "voidcreeper.m2",
+     },
+    },
+    text = "voidcreeper",
+    value = "voidcreeper",
+   },
+   {
+    children = {
+     {
+      fileId = "6254034",
+      text = "voidcreepermount.m2",
+      value = "voidcreepermount.m2",
+     },
+    },
+    text = "voidcreepermount",
+    value = "voidcreepermount",
+   },
+   {
+    children = {
+     {
       fileId = "2976143",
       text = "voiddragon.m2",
       value = "voiddragon.m2",
@@ -36912,6 +37522,39 @@ WeakAuras.ModelPaths = {
     },
     text = "voiddragonmount",
     value = "voiddragonmount",
+   },
+   {
+    children = {
+     {
+      fileId = "5913977",
+      text = "voiddragonmount2.m2",
+      value = "voiddragonmount2.m2",
+     },
+    },
+    text = "voiddragonmount2",
+    value = "voiddragonmount2",
+   },
+   {
+    children = {
+     {
+      fileId = "6182022",
+      text = "voiddragonmount2ethereal.m2",
+      value = "voiddragonmount2ethereal.m2",
+     },
+    },
+    text = "voiddragonmount2ethereal",
+    value = "voiddragonmount2ethereal",
+   },
+   {
+    children = {
+     {
+      fileId = "6104542",
+      text = "voiddragonmount2ethereal_king.m2",
+      value = "voiddragonmount2ethereal_king.m2",
+     },
+    },
+    text = "voiddragonmount2ethereal_king",
+    value = "voiddragonmount2ethereal_king",
    },
    {
     children = {
@@ -36961,6 +37604,39 @@ WeakAuras.ModelPaths = {
     },
     text = "voidetherealbosstentacle02",
     value = "voidetherealbosstentacle02",
+   },
+   {
+    children = {
+     {
+      fileId = "6051319",
+      text = "voidflyer.m2",
+      value = "voidflyer.m2",
+     },
+    },
+    text = "voidflyer",
+    value = "voidflyer",
+   },
+   {
+    children = {
+     {
+      fileId = "6052871",
+      text = "voidflyermount.m2",
+      value = "voidflyermount.m2",
+     },
+    },
+    text = "voidflyermount",
+    value = "voidflyermount",
+   },
+   {
+    children = {
+     {
+      fileId = "6352114",
+      text = "voidflyermountmythic.m2",
+      value = "voidflyermountmythic.m2",
+     },
+    },
+    text = "voidflyermountmythic",
+    value = "voidflyermountmythic",
    },
    {
     children = {
@@ -37053,6 +37729,17 @@ WeakAuras.ModelPaths = {
     },
     text = "voidterror2",
     value = "voidterror2",
+   },
+   {
+    children = {
+     {
+      fileId = "6247426",
+      text = "voidterror3.m2",
+      value = "voidterror3.m2",
+     },
+    },
+    text = "voidterror3",
+    value = "voidterror3",
    },
    {
     children = {
@@ -37532,6 +38219,17 @@ WeakAuras.ModelPaths = {
     },
     text = "warpstalker2",
     value = "warpstalker2",
+   },
+   {
+    children = {
+     {
+      fileId = "6200282",
+      text = "warpstalker2void.m2",
+      value = "warpstalker2void.m2",
+     },
+    },
+    text = "warpstalker2void",
+    value = "warpstalker2void",
    },
    {
     children = {
@@ -39432,9 +40130,34 @@ WeakAuras.ModelPaths = {
       value = "11at_arathor_livingworldsky01.m2",
      },
      {
+      fileId = "6119025",
+      text = "11krs_biodomeskyfog01.m2",
+      value = "11krs_biodomeskyfog01.m2",
+     },
+     {
+      fileId = "5917746",
+      text = "11krs_mainskybox01.m2",
+      value = "11krs_mainskybox01.m2",
+     },
+     {
+      fileId = "6914985",
+      text = "11krs_phasedivingsky01.m2",
+      value = "11krs_phasedivingsky01.m2",
+     },
+     {
       fileId = "5412968",
       text = "11xp_cloudsky01.m2",
       value = "11xp_cloudsky01.m2",
+     },
+     {
+      fileId = "7011605",
+      text = "11xp_dimensiusphase2_3.m2",
+      value = "11xp_dimensiusphase2_3.m2",
+     },
+     {
+      fileId = "7034110",
+      text = "11xp_ecodomeskyfog01.m2",
+      value = "11xp_ecodomeskyfog01.m2",
      },
      {
       fileId = "5519245",
@@ -42686,6 +43409,11 @@ WeakAuras.ModelPaths = {
         value = "cape_special_dreadlordsregalia_c_01.m2",
        },
        {
+        fileId = "6922861",
+        text = "cape_special_dwarf_d_01.m2",
+        value = "cape_special_dwarf_d_01.m2",
+       },
+       {
         fileId = "5898951",
         text = "cape_special_earthen_b_01.m2",
         value = "cape_special_earthen_b_01.m2",
@@ -42699,6 +43427,11 @@ WeakAuras.ModelPaths = {
         fileId = "5909497",
         text = "cape_special_explorer_b_03.m2",
         value = "cape_special_explorer_b_03.m2",
+       },
+       {
+        fileId = "6758265",
+        text = "cape_special_forsaken_d_02.m2",
+        value = "cape_special_forsaken_d_02.m2",
        },
        {
         fileId = "4881935",
@@ -42831,6 +43564,11 @@ WeakAuras.ModelPaths = {
         value = "cape_special_skinning_c_01.m2",
        },
        {
+        fileId = "6866893",
+        text = "cape_special_soulbinder_d_01.m2",
+        value = "cape_special_soulbinder_d_01.m2",
+       },
+       {
         fileId = "5345946",
         text = "cape_special_tanariswasteland_c_01.m2",
         value = "cape_special_tanariswasteland_c_01.m2",
@@ -42884,6 +43622,11 @@ WeakAuras.ModelPaths = {
         fileId = "4571492",
         text = "cape_special_tuskarr_b_03.m2",
         value = "cape_special_tuskarr_b_03.m2",
+       },
+       {
+        fileId = "7064631",
+        text = "cape_special_voidsbindingswimwear_a_01.m2",
+        value = "cape_special_voidsbindingswimwear_a_01.m2",
        },
        {
         fileId = "5835628",
@@ -43142,6 +43885,16 @@ WeakAuras.ModelPaths = {
         value = "armor_banditmask_c_01_dw_m.m2",
        },
        {
+        fileId = "6875405",
+        text = "armor_banditmask_c_01_ed_f.m2",
+        value = "armor_banditmask_c_01_ed_f.m2",
+       },
+       {
+        fileId = "6875406",
+        text = "armor_banditmask_c_01_ed_m.m2",
+        value = "armor_banditmask_c_01_ed_m.m2",
+       },
+       {
         fileId = "6379288",
         text = "armor_banditmask_c_01_gn_f.m2",
         value = "armor_banditmask_c_01_gn_f.m2",
@@ -43262,6 +44015,11 @@ WeakAuras.ModelPaths = {
         value = "armor_banditmask_c_01_wo_m.m2",
        },
        {
+        fileId = "6379315",
+        text = "armor_banditmask_c_01_za_f.m2",
+        value = "armor_banditmask_c_01_za_f.m2",
+       },
+       {
         fileId = "6379314",
         text = "armor_banditmask_c_01_za_m.m2",
         value = "armor_banditmask_c_01_za_m.m2",
@@ -43300,6 +44058,361 @@ WeakAuras.ModelPaths = {
         fileId = "5686575",
         text = "armor_boot_lightforgeddraenei_d_01_ed_m.m2",
         value = "armor_boot_lightforgeddraenei_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6685838",
+        text = "armor_brewfest_c_01_be_f.m2",
+        value = "armor_brewfest_c_01_be_f.m2",
+       },
+       {
+        fileId = "6685837",
+        text = "armor_brewfest_c_01_be_m.m2",
+        value = "armor_brewfest_c_01_be_m.m2",
+       },
+       {
+        fileId = "6685840",
+        text = "armor_brewfest_c_01_dr_f.m2",
+        value = "armor_brewfest_c_01_dr_f.m2",
+       },
+       {
+        fileId = "6685839",
+        text = "armor_brewfest_c_01_dr_m.m2",
+        value = "armor_brewfest_c_01_dr_m.m2",
+       },
+       {
+        fileId = "6685842",
+        text = "armor_brewfest_c_01_dw_f.m2",
+        value = "armor_brewfest_c_01_dw_f.m2",
+       },
+       {
+        fileId = "6685841",
+        text = "armor_brewfest_c_01_dw_m.m2",
+        value = "armor_brewfest_c_01_dw_m.m2",
+       },
+       {
+        fileId = "6685844",
+        text = "armor_brewfest_c_01_ed_f.m2",
+        value = "armor_brewfest_c_01_ed_f.m2",
+       },
+       {
+        fileId = "6685843",
+        text = "armor_brewfest_c_01_ed_m.m2",
+        value = "armor_brewfest_c_01_ed_m.m2",
+       },
+       {
+        fileId = "6685846",
+        text = "armor_brewfest_c_01_gn_f.m2",
+        value = "armor_brewfest_c_01_gn_f.m2",
+       },
+       {
+        fileId = "6685845",
+        text = "armor_brewfest_c_01_gn_m.m2",
+        value = "armor_brewfest_c_01_gn_m.m2",
+       },
+       {
+        fileId = "6685848",
+        text = "armor_brewfest_c_01_go_f.m2",
+        value = "armor_brewfest_c_01_go_f.m2",
+       },
+       {
+        fileId = "6685847",
+        text = "armor_brewfest_c_01_go_m.m2",
+        value = "armor_brewfest_c_01_go_m.m2",
+       },
+       {
+        fileId = "6685850",
+        text = "armor_brewfest_c_01_hu_f.m2",
+        value = "armor_brewfest_c_01_hu_f.m2",
+       },
+       {
+        fileId = "6685849",
+        text = "armor_brewfest_c_01_hu_m.m2",
+        value = "armor_brewfest_c_01_hu_m.m2",
+       },
+       {
+        fileId = "6685852",
+        text = "armor_brewfest_c_01_kt_f.m2",
+        value = "armor_brewfest_c_01_kt_f.m2",
+       },
+       {
+        fileId = "6685851",
+        text = "armor_brewfest_c_01_kt_m.m2",
+        value = "armor_brewfest_c_01_kt_m.m2",
+       },
+       {
+        fileId = "6685854",
+        text = "armor_brewfest_c_01_mg_f.m2",
+        value = "armor_brewfest_c_01_mg_f.m2",
+       },
+       {
+        fileId = "6685853",
+        text = "armor_brewfest_c_01_mg_m.m2",
+        value = "armor_brewfest_c_01_mg_m.m2",
+       },
+       {
+        fileId = "6685856",
+        text = "armor_brewfest_c_01_ni_f.m2",
+        value = "armor_brewfest_c_01_ni_f.m2",
+       },
+       {
+        fileId = "6685855",
+        text = "armor_brewfest_c_01_ni_m.m2",
+        value = "armor_brewfest_c_01_ni_m.m2",
+       },
+       {
+        fileId = "6685859",
+        text = "armor_brewfest_c_01_or_f.m2",
+        value = "armor_brewfest_c_01_or_f.m2",
+       },
+       {
+        fileId = "6685858",
+        text = "armor_brewfest_c_01_or_m.m2",
+        value = "armor_brewfest_c_01_or_m.m2",
+       },
+       {
+        fileId = "6685861",
+        text = "armor_brewfest_c_01_pa_f.m2",
+        value = "armor_brewfest_c_01_pa_f.m2",
+       },
+       {
+        fileId = "6685860",
+        text = "armor_brewfest_c_01_pa_m.m2",
+        value = "armor_brewfest_c_01_pa_m.m2",
+       },
+       {
+        fileId = "6685867",
+        text = "armor_brewfest_c_01_sc_f.m2",
+        value = "armor_brewfest_c_01_sc_f.m2",
+       },
+       {
+        fileId = "6685866",
+        text = "armor_brewfest_c_01_sc_m.m2",
+        value = "armor_brewfest_c_01_sc_m.m2",
+       },
+       {
+        fileId = "6685863",
+        text = "armor_brewfest_c_01_ta_f.m2",
+        value = "armor_brewfest_c_01_ta_f.m2",
+       },
+       {
+        fileId = "6685862",
+        text = "armor_brewfest_c_01_ta_m.m2",
+        value = "armor_brewfest_c_01_ta_m.m2",
+       },
+       {
+        fileId = "6685865",
+        text = "armor_brewfest_c_01_tr_f.m2",
+        value = "armor_brewfest_c_01_tr_f.m2",
+       },
+       {
+        fileId = "6685864",
+        text = "armor_brewfest_c_01_tr_m.m2",
+        value = "armor_brewfest_c_01_tr_m.m2",
+       },
+       {
+        fileId = "6685869",
+        text = "armor_brewfest_c_01_vu_f.m2",
+        value = "armor_brewfest_c_01_vu_f.m2",
+       },
+       {
+        fileId = "6685868",
+        text = "armor_brewfest_c_01_vu_m.m2",
+        value = "armor_brewfest_c_01_vu_m.m2",
+       },
+       {
+        fileId = "6685871",
+        text = "armor_brewfest_c_01_wo_f.m2",
+        value = "armor_brewfest_c_01_wo_f.m2",
+       },
+       {
+        fileId = "6685870",
+        text = "armor_brewfest_c_01_wo_m.m2",
+        value = "armor_brewfest_c_01_wo_m.m2",
+       },
+       {
+        fileId = "6685872",
+        text = "armor_brewfest_c_01_za_m.m2",
+        value = "armor_brewfest_c_01_za_m.m2",
+       },
+       {
+        fileId = "6706837",
+        text = "armor_brewfestbarrel_c_01_be_f.m2",
+        value = "armor_brewfestbarrel_c_01_be_f.m2",
+       },
+       {
+        fileId = "6706836",
+        text = "armor_brewfestbarrel_c_01_be_m.m2",
+        value = "armor_brewfestbarrel_c_01_be_m.m2",
+       },
+       {
+        fileId = "6706839",
+        text = "armor_brewfestbarrel_c_01_dr_f.m2",
+        value = "armor_brewfestbarrel_c_01_dr_f.m2",
+       },
+       {
+        fileId = "6706838",
+        text = "armor_brewfestbarrel_c_01_dr_m.m2",
+        value = "armor_brewfestbarrel_c_01_dr_m.m2",
+       },
+       {
+        fileId = "6706841",
+        text = "armor_brewfestbarrel_c_01_dw_f.m2",
+        value = "armor_brewfestbarrel_c_01_dw_f.m2",
+       },
+       {
+        fileId = "6706840",
+        text = "armor_brewfestbarrel_c_01_dw_m.m2",
+        value = "armor_brewfestbarrel_c_01_dw_m.m2",
+       },
+       {
+        fileId = "6706843",
+        text = "armor_brewfestbarrel_c_01_ed_f.m2",
+        value = "armor_brewfestbarrel_c_01_ed_f.m2",
+       },
+       {
+        fileId = "6706842",
+        text = "armor_brewfestbarrel_c_01_ed_m.m2",
+        value = "armor_brewfestbarrel_c_01_ed_m.m2",
+       },
+       {
+        fileId = "6706845",
+        text = "armor_brewfestbarrel_c_01_gn_f.m2",
+        value = "armor_brewfestbarrel_c_01_gn_f.m2",
+       },
+       {
+        fileId = "6706844",
+        text = "armor_brewfestbarrel_c_01_gn_m.m2",
+        value = "armor_brewfestbarrel_c_01_gn_m.m2",
+       },
+       {
+        fileId = "6706847",
+        text = "armor_brewfestbarrel_c_01_go_f.m2",
+        value = "armor_brewfestbarrel_c_01_go_f.m2",
+       },
+       {
+        fileId = "6706846",
+        text = "armor_brewfestbarrel_c_01_go_m.m2",
+        value = "armor_brewfestbarrel_c_01_go_m.m2",
+       },
+       {
+        fileId = "6706849",
+        text = "armor_brewfestbarrel_c_01_hu_f.m2",
+        value = "armor_brewfestbarrel_c_01_hu_f.m2",
+       },
+       {
+        fileId = "6706848",
+        text = "armor_brewfestbarrel_c_01_hu_m.m2",
+        value = "armor_brewfestbarrel_c_01_hu_m.m2",
+       },
+       {
+        fileId = "6706851",
+        text = "armor_brewfestbarrel_c_01_kt_f.m2",
+        value = "armor_brewfestbarrel_c_01_kt_f.m2",
+       },
+       {
+        fileId = "6706850",
+        text = "armor_brewfestbarrel_c_01_kt_m.m2",
+        value = "armor_brewfestbarrel_c_01_kt_m.m2",
+       },
+       {
+        fileId = "6706853",
+        text = "armor_brewfestbarrel_c_01_mg_f.m2",
+        value = "armor_brewfestbarrel_c_01_mg_f.m2",
+       },
+       {
+        fileId = "6706852",
+        text = "armor_brewfestbarrel_c_01_mg_m.m2",
+        value = "armor_brewfestbarrel_c_01_mg_m.m2",
+       },
+       {
+        fileId = "6706855",
+        text = "armor_brewfestbarrel_c_01_ni_f.m2",
+        value = "armor_brewfestbarrel_c_01_ni_f.m2",
+       },
+       {
+        fileId = "6706854",
+        text = "armor_brewfestbarrel_c_01_ni_m.m2",
+        value = "armor_brewfestbarrel_c_01_ni_m.m2",
+       },
+       {
+        fileId = "6706858",
+        text = "armor_brewfestbarrel_c_01_or_f.m2",
+        value = "armor_brewfestbarrel_c_01_or_f.m2",
+       },
+       {
+        fileId = "6706857",
+        text = "armor_brewfestbarrel_c_01_or_m.m2",
+        value = "armor_brewfestbarrel_c_01_or_m.m2",
+       },
+       {
+        fileId = "6706860",
+        text = "armor_brewfestbarrel_c_01_pa_f.m2",
+        value = "armor_brewfestbarrel_c_01_pa_f.m2",
+       },
+       {
+        fileId = "6706859",
+        text = "armor_brewfestbarrel_c_01_pa_m.m2",
+        value = "armor_brewfestbarrel_c_01_pa_m.m2",
+       },
+       {
+        fileId = "6706866",
+        text = "armor_brewfestbarrel_c_01_sc_f.m2",
+        value = "armor_brewfestbarrel_c_01_sc_f.m2",
+       },
+       {
+        fileId = "6706865",
+        text = "armor_brewfestbarrel_c_01_sc_m.m2",
+        value = "armor_brewfestbarrel_c_01_sc_m.m2",
+       },
+       {
+        fileId = "6706862",
+        text = "armor_brewfestbarrel_c_01_ta_f.m2",
+        value = "armor_brewfestbarrel_c_01_ta_f.m2",
+       },
+       {
+        fileId = "6706861",
+        text = "armor_brewfestbarrel_c_01_ta_m.m2",
+        value = "armor_brewfestbarrel_c_01_ta_m.m2",
+       },
+       {
+        fileId = "6706864",
+        text = "armor_brewfestbarrel_c_01_tr_f.m2",
+        value = "armor_brewfestbarrel_c_01_tr_f.m2",
+       },
+       {
+        fileId = "6706863",
+        text = "armor_brewfestbarrel_c_01_tr_m.m2",
+        value = "armor_brewfestbarrel_c_01_tr_m.m2",
+       },
+       {
+        fileId = "6706868",
+        text = "armor_brewfestbarrel_c_01_vu_f.m2",
+        value = "armor_brewfestbarrel_c_01_vu_f.m2",
+       },
+       {
+        fileId = "6706867",
+        text = "armor_brewfestbarrel_c_01_vu_m.m2",
+        value = "armor_brewfestbarrel_c_01_vu_m.m2",
+       },
+       {
+        fileId = "6706870",
+        text = "armor_brewfestbarrel_c_01_wo_f.m2",
+        value = "armor_brewfestbarrel_c_01_wo_f.m2",
+       },
+       {
+        fileId = "6706869",
+        text = "armor_brewfestbarrel_c_01_wo_m.m2",
+        value = "armor_brewfestbarrel_c_01_wo_m.m2",
+       },
+       {
+        fileId = "6706871",
+        text = "armor_brewfestbarrel_c_01_za_m.m2",
+        value = "armor_brewfestbarrel_c_01_za_m.m2",
+       },
+       {
+        fileId = "6685834",
+        text = "armor_brewfestbelt_c_01_belt.m2",
+        value = "armor_brewfestbelt_c_01_belt.m2",
        },
        {
         fileId = "6325637",
@@ -45457,6 +46570,176 @@ WeakAuras.ModelPaths = {
         value = "armor_engineering_b_01_orange_za_m.m2",
        },
        {
+        fileId = "6697761",
+        text = "armor_flameskull_d_01_blue_be_f.m2",
+        value = "armor_flameskull_d_01_blue_be_f.m2",
+       },
+       {
+        fileId = "6697760",
+        text = "armor_flameskull_d_01_blue_be_m.m2",
+        value = "armor_flameskull_d_01_blue_be_m.m2",
+       },
+       {
+        fileId = "6697763",
+        text = "armor_flameskull_d_01_blue_dr_f.m2",
+        value = "armor_flameskull_d_01_blue_dr_f.m2",
+       },
+       {
+        fileId = "6697762",
+        text = "armor_flameskull_d_01_blue_dr_m.m2",
+        value = "armor_flameskull_d_01_blue_dr_m.m2",
+       },
+       {
+        fileId = "6697765",
+        text = "armor_flameskull_d_01_blue_dw_f.m2",
+        value = "armor_flameskull_d_01_blue_dw_f.m2",
+       },
+       {
+        fileId = "6697764",
+        text = "armor_flameskull_d_01_blue_dw_m.m2",
+        value = "armor_flameskull_d_01_blue_dw_m.m2",
+       },
+       {
+        fileId = "6697767",
+        text = "armor_flameskull_d_01_blue_ed_f.m2",
+        value = "armor_flameskull_d_01_blue_ed_f.m2",
+       },
+       {
+        fileId = "6697766",
+        text = "armor_flameskull_d_01_blue_ed_m.m2",
+        value = "armor_flameskull_d_01_blue_ed_m.m2",
+       },
+       {
+        fileId = "6697769",
+        text = "armor_flameskull_d_01_blue_gn_f.m2",
+        value = "armor_flameskull_d_01_blue_gn_f.m2",
+       },
+       {
+        fileId = "6697768",
+        text = "armor_flameskull_d_01_blue_gn_m.m2",
+        value = "armor_flameskull_d_01_blue_gn_m.m2",
+       },
+       {
+        fileId = "6697771",
+        text = "armor_flameskull_d_01_blue_go_f.m2",
+        value = "armor_flameskull_d_01_blue_go_f.m2",
+       },
+       {
+        fileId = "6697770",
+        text = "armor_flameskull_d_01_blue_go_m.m2",
+        value = "armor_flameskull_d_01_blue_go_m.m2",
+       },
+       {
+        fileId = "6697773",
+        text = "armor_flameskull_d_01_blue_hu_f.m2",
+        value = "armor_flameskull_d_01_blue_hu_f.m2",
+       },
+       {
+        fileId = "6697772",
+        text = "armor_flameskull_d_01_blue_hu_m.m2",
+        value = "armor_flameskull_d_01_blue_hu_m.m2",
+       },
+       {
+        fileId = "6697775",
+        text = "armor_flameskull_d_01_blue_kt_f.m2",
+        value = "armor_flameskull_d_01_blue_kt_f.m2",
+       },
+       {
+        fileId = "6697774",
+        text = "armor_flameskull_d_01_blue_kt_m.m2",
+        value = "armor_flameskull_d_01_blue_kt_m.m2",
+       },
+       {
+        fileId = "6697779",
+        text = "armor_flameskull_d_01_blue_ni_f.m2",
+        value = "armor_flameskull_d_01_blue_ni_f.m2",
+       },
+       {
+        fileId = "6697778",
+        text = "armor_flameskull_d_01_blue_ni_m.m2",
+        value = "armor_flameskull_d_01_blue_ni_m.m2",
+       },
+       {
+        fileId = "6697782",
+        text = "armor_flameskull_d_01_blue_or_f.m2",
+        value = "armor_flameskull_d_01_blue_or_f.m2",
+       },
+       {
+        fileId = "6697781",
+        text = "armor_flameskull_d_01_blue_or_m.m2",
+        value = "armor_flameskull_d_01_blue_or_m.m2",
+       },
+       {
+        fileId = "6697784",
+        text = "armor_flameskull_d_01_blue_pa_f.m2",
+        value = "armor_flameskull_d_01_blue_pa_f.m2",
+       },
+       {
+        fileId = "6697783",
+        text = "armor_flameskull_d_01_blue_pa_m.m2",
+        value = "armor_flameskull_d_01_blue_pa_m.m2",
+       },
+       {
+        fileId = "6697790",
+        text = "armor_flameskull_d_01_blue_sc_f.m2",
+        value = "armor_flameskull_d_01_blue_sc_f.m2",
+       },
+       {
+        fileId = "6697789",
+        text = "armor_flameskull_d_01_blue_sc_m.m2",
+        value = "armor_flameskull_d_01_blue_sc_m.m2",
+       },
+       {
+        fileId = "6697786",
+        text = "armor_flameskull_d_01_blue_ta_f.m2",
+        value = "armor_flameskull_d_01_blue_ta_f.m2",
+       },
+       {
+        fileId = "6697785",
+        text = "armor_flameskull_d_01_blue_ta_m.m2",
+        value = "armor_flameskull_d_01_blue_ta_m.m2",
+       },
+       {
+        fileId = "6697788",
+        text = "armor_flameskull_d_01_blue_tr_f.m2",
+        value = "armor_flameskull_d_01_blue_tr_f.m2",
+       },
+       {
+        fileId = "6697787",
+        text = "armor_flameskull_d_01_blue_tr_m.m2",
+        value = "armor_flameskull_d_01_blue_tr_m.m2",
+       },
+       {
+        fileId = "6697792",
+        text = "armor_flameskull_d_01_blue_vu_f.m2",
+        value = "armor_flameskull_d_01_blue_vu_f.m2",
+       },
+       {
+        fileId = "6697791",
+        text = "armor_flameskull_d_01_blue_vu_m.m2",
+        value = "armor_flameskull_d_01_blue_vu_m.m2",
+       },
+       {
+        fileId = "6697794",
+        text = "armor_flameskull_d_01_blue_wo_f.m2",
+        value = "armor_flameskull_d_01_blue_wo_f.m2",
+       },
+       {
+        fileId = "6697793",
+        text = "armor_flameskull_d_01_blue_wo_m.m2",
+        value = "armor_flameskull_d_01_blue_wo_m.m2",
+       },
+       {
+        fileId = "6697796",
+        text = "armor_flameskull_d_01_blue_za_f.m2",
+        value = "armor_flameskull_d_01_blue_za_f.m2",
+       },
+       {
+        fileId = "6697795",
+        text = "armor_flameskull_d_01_blue_za_m.m2",
+        value = "armor_flameskull_d_01_blue_za_m.m2",
+       },
+       {
         fileId = "6697724",
         text = "armor_flameskull_d_01_green_be_f.m2",
         value = "armor_flameskull_d_01_green_be_f.m2",
@@ -46010,6 +47293,191 @@ WeakAuras.ModelPaths = {
         fileId = "5846745",
         text = "armor_harvester_d_01_shoulder_r.m2",
         value = "armor_harvester_d_01_shoulder_r.m2",
+       },
+       {
+        fileId = "7016422",
+        text = "armor_headless_d_01_helm_be_f.m2",
+        value = "armor_headless_d_01_helm_be_f.m2",
+       },
+       {
+        fileId = "7016421",
+        text = "armor_headless_d_01_helm_be_m.m2",
+        value = "armor_headless_d_01_helm_be_m.m2",
+       },
+       {
+        fileId = "7016424",
+        text = "armor_headless_d_01_helm_dr_f.m2",
+        value = "armor_headless_d_01_helm_dr_f.m2",
+       },
+       {
+        fileId = "7016423",
+        text = "armor_headless_d_01_helm_dr_m.m2",
+        value = "armor_headless_d_01_helm_dr_m.m2",
+       },
+       {
+        fileId = "7016426",
+        text = "armor_headless_d_01_helm_dw_f.m2",
+        value = "armor_headless_d_01_helm_dw_f.m2",
+       },
+       {
+        fileId = "7016425",
+        text = "armor_headless_d_01_helm_dw_m.m2",
+        value = "armor_headless_d_01_helm_dw_m.m2",
+       },
+       {
+        fileId = "7016428",
+        text = "armor_headless_d_01_helm_ed_f.m2",
+        value = "armor_headless_d_01_helm_ed_f.m2",
+       },
+       {
+        fileId = "7016427",
+        text = "armor_headless_d_01_helm_ed_m.m2",
+        value = "armor_headless_d_01_helm_ed_m.m2",
+       },
+       {
+        fileId = "7016430",
+        text = "armor_headless_d_01_helm_gn_f.m2",
+        value = "armor_headless_d_01_helm_gn_f.m2",
+       },
+       {
+        fileId = "7016429",
+        text = "armor_headless_d_01_helm_gn_m.m2",
+        value = "armor_headless_d_01_helm_gn_m.m2",
+       },
+       {
+        fileId = "7016432",
+        text = "armor_headless_d_01_helm_go_f.m2",
+        value = "armor_headless_d_01_helm_go_f.m2",
+       },
+       {
+        fileId = "7016431",
+        text = "armor_headless_d_01_helm_go_m.m2",
+        value = "armor_headless_d_01_helm_go_m.m2",
+       },
+       {
+        fileId = "7016434",
+        text = "armor_headless_d_01_helm_hu_f.m2",
+        value = "armor_headless_d_01_helm_hu_f.m2",
+       },
+       {
+        fileId = "7016433",
+        text = "armor_headless_d_01_helm_hu_m.m2",
+        value = "armor_headless_d_01_helm_hu_m.m2",
+       },
+       {
+        fileId = "7016436",
+        text = "armor_headless_d_01_helm_kt_f.m2",
+        value = "armor_headless_d_01_helm_kt_f.m2",
+       },
+       {
+        fileId = "7016435",
+        text = "armor_headless_d_01_helm_kt_m.m2",
+        value = "armor_headless_d_01_helm_kt_m.m2",
+       },
+       {
+        fileId = "7016438",
+        text = "armor_headless_d_01_helm_mg_f.m2",
+        value = "armor_headless_d_01_helm_mg_f.m2",
+       },
+       {
+        fileId = "7016437",
+        text = "armor_headless_d_01_helm_mg_m.m2",
+        value = "armor_headless_d_01_helm_mg_m.m2",
+       },
+       {
+        fileId = "7016441",
+        text = "armor_headless_d_01_helm_nb_m.m2",
+        value = "armor_headless_d_01_helm_nb_m.m2",
+       },
+       {
+        fileId = "7016440",
+        text = "armor_headless_d_01_helm_ni_f.m2",
+        value = "armor_headless_d_01_helm_ni_f.m2",
+       },
+       {
+        fileId = "7016439",
+        text = "armor_headless_d_01_helm_ni_m.m2",
+        value = "armor_headless_d_01_helm_ni_m.m2",
+       },
+       {
+        fileId = "7016443",
+        text = "armor_headless_d_01_helm_or_f.m2",
+        value = "armor_headless_d_01_helm_or_f.m2",
+       },
+       {
+        fileId = "7016442",
+        text = "armor_headless_d_01_helm_or_m.m2",
+        value = "armor_headless_d_01_helm_or_m.m2",
+       },
+       {
+        fileId = "7016445",
+        text = "armor_headless_d_01_helm_pa_f.m2",
+        value = "armor_headless_d_01_helm_pa_f.m2",
+       },
+       {
+        fileId = "7016444",
+        text = "armor_headless_d_01_helm_pa_m.m2",
+        value = "armor_headless_d_01_helm_pa_m.m2",
+       },
+       {
+        fileId = "7016451",
+        text = "armor_headless_d_01_helm_sc_f.m2",
+        value = "armor_headless_d_01_helm_sc_f.m2",
+       },
+       {
+        fileId = "7016450",
+        text = "armor_headless_d_01_helm_sc_m.m2",
+        value = "armor_headless_d_01_helm_sc_m.m2",
+       },
+       {
+        fileId = "7016447",
+        text = "armor_headless_d_01_helm_ta_f.m2",
+        value = "armor_headless_d_01_helm_ta_f.m2",
+       },
+       {
+        fileId = "7016446",
+        text = "armor_headless_d_01_helm_ta_m.m2",
+        value = "armor_headless_d_01_helm_ta_m.m2",
+       },
+       {
+        fileId = "7016449",
+        text = "armor_headless_d_01_helm_tr_f.m2",
+        value = "armor_headless_d_01_helm_tr_f.m2",
+       },
+       {
+        fileId = "7016448",
+        text = "armor_headless_d_01_helm_tr_m.m2",
+        value = "armor_headless_d_01_helm_tr_m.m2",
+       },
+       {
+        fileId = "7016453",
+        text = "armor_headless_d_01_helm_vu_f.m2",
+        value = "armor_headless_d_01_helm_vu_f.m2",
+       },
+       {
+        fileId = "7016452",
+        text = "armor_headless_d_01_helm_vu_m.m2",
+        value = "armor_headless_d_01_helm_vu_m.m2",
+       },
+       {
+        fileId = "7016455",
+        text = "armor_headless_d_01_helm_wo_f.m2",
+        value = "armor_headless_d_01_helm_wo_f.m2",
+       },
+       {
+        fileId = "7016454",
+        text = "armor_headless_d_01_helm_wo_m.m2",
+        value = "armor_headless_d_01_helm_wo_m.m2",
+       },
+       {
+        fileId = "7016457",
+        text = "armor_headless_d_01_helm_za_f.m2",
+        value = "armor_headless_d_01_helm_za_f.m2",
+       },
+       {
+        fileId = "7016456",
+        text = "armor_headless_d_01_helm_za_m.m2",
+        value = "armor_headless_d_01_helm_za_m.m2",
        },
        {
         fileId = "4516618",
@@ -47282,6 +48750,196 @@ WeakAuras.ModelPaths = {
         value = "armor_lovewitch_d_01_shoulder_r.m2",
        },
        {
+        fileId = "7135196",
+        text = "armor_magni_d_01.m2",
+        value = "armor_magni_d_01.m2",
+       },
+       {
+        fileId = "7135117",
+        text = "armor_magni_d_01_be_f.m2",
+        value = "armor_magni_d_01_be_f.m2",
+       },
+       {
+        fileId = "7135116",
+        text = "armor_magni_d_01_be_m.m2",
+        value = "armor_magni_d_01_be_m.m2",
+       },
+       {
+        fileId = "7135119",
+        text = "armor_magni_d_01_dr_f.m2",
+        value = "armor_magni_d_01_dr_f.m2",
+       },
+       {
+        fileId = "7135118",
+        text = "armor_magni_d_01_dr_m.m2",
+        value = "armor_magni_d_01_dr_m.m2",
+       },
+       {
+        fileId = "7135121",
+        text = "armor_magni_d_01_dw_f.m2",
+        value = "armor_magni_d_01_dw_f.m2",
+       },
+       {
+        fileId = "7135120",
+        text = "armor_magni_d_01_dw_m.m2",
+        value = "armor_magni_d_01_dw_m.m2",
+       },
+       {
+        fileId = "7135123",
+        text = "armor_magni_d_01_ed_f.m2",
+        value = "armor_magni_d_01_ed_f.m2",
+       },
+       {
+        fileId = "7135122",
+        text = "armor_magni_d_01_ed_m.m2",
+        value = "armor_magni_d_01_ed_m.m2",
+       },
+       {
+        fileId = "7135125",
+        text = "armor_magni_d_01_gn_f.m2",
+        value = "armor_magni_d_01_gn_f.m2",
+       },
+       {
+        fileId = "7135124",
+        text = "armor_magni_d_01_gn_m.m2",
+        value = "armor_magni_d_01_gn_m.m2",
+       },
+       {
+        fileId = "7135127",
+        text = "armor_magni_d_01_go_f.m2",
+        value = "armor_magni_d_01_go_f.m2",
+       },
+       {
+        fileId = "7135126",
+        text = "armor_magni_d_01_go_m.m2",
+        value = "armor_magni_d_01_go_m.m2",
+       },
+       {
+        fileId = "7135129",
+        text = "armor_magni_d_01_hu_f.m2",
+        value = "armor_magni_d_01_hu_f.m2",
+       },
+       {
+        fileId = "7135128",
+        text = "armor_magni_d_01_hu_m.m2",
+        value = "armor_magni_d_01_hu_m.m2",
+       },
+       {
+        fileId = "7135131",
+        text = "armor_magni_d_01_kt_f.m2",
+        value = "armor_magni_d_01_kt_f.m2",
+       },
+       {
+        fileId = "7135130",
+        text = "armor_magni_d_01_kt_m.m2",
+        value = "armor_magni_d_01_kt_m.m2",
+       },
+       {
+        fileId = "7135133",
+        text = "armor_magni_d_01_mg_f.m2",
+        value = "armor_magni_d_01_mg_f.m2",
+       },
+       {
+        fileId = "7135132",
+        text = "armor_magni_d_01_mg_m.m2",
+        value = "armor_magni_d_01_mg_m.m2",
+       },
+       {
+        fileId = "7135136",
+        text = "armor_magni_d_01_nb_m.m2",
+        value = "armor_magni_d_01_nb_m.m2",
+       },
+       {
+        fileId = "7135135",
+        text = "armor_magni_d_01_ni_f.m2",
+        value = "armor_magni_d_01_ni_f.m2",
+       },
+       {
+        fileId = "7135134",
+        text = "armor_magni_d_01_ni_m.m2",
+        value = "armor_magni_d_01_ni_m.m2",
+       },
+       {
+        fileId = "7135138",
+        text = "armor_magni_d_01_or_f.m2",
+        value = "armor_magni_d_01_or_f.m2",
+       },
+       {
+        fileId = "7135137",
+        text = "armor_magni_d_01_or_m.m2",
+        value = "armor_magni_d_01_or_m.m2",
+       },
+       {
+        fileId = "7135140",
+        text = "armor_magni_d_01_pa_f.m2",
+        value = "armor_magni_d_01_pa_f.m2",
+       },
+       {
+        fileId = "7135139",
+        text = "armor_magni_d_01_pa_m.m2",
+        value = "armor_magni_d_01_pa_m.m2",
+       },
+       {
+        fileId = "7135146",
+        text = "armor_magni_d_01_sc_f.m2",
+        value = "armor_magni_d_01_sc_f.m2",
+       },
+       {
+        fileId = "7135145",
+        text = "armor_magni_d_01_sc_m.m2",
+        value = "armor_magni_d_01_sc_m.m2",
+       },
+       {
+        fileId = "7135142",
+        text = "armor_magni_d_01_ta_f.m2",
+        value = "armor_magni_d_01_ta_f.m2",
+       },
+       {
+        fileId = "7135141",
+        text = "armor_magni_d_01_ta_m.m2",
+        value = "armor_magni_d_01_ta_m.m2",
+       },
+       {
+        fileId = "7135144",
+        text = "armor_magni_d_01_tr_f.m2",
+        value = "armor_magni_d_01_tr_f.m2",
+       },
+       {
+        fileId = "7135143",
+        text = "armor_magni_d_01_tr_m.m2",
+        value = "armor_magni_d_01_tr_m.m2",
+       },
+       {
+        fileId = "7135148",
+        text = "armor_magni_d_01_vu_f.m2",
+        value = "armor_magni_d_01_vu_f.m2",
+       },
+       {
+        fileId = "7135147",
+        text = "armor_magni_d_01_vu_m.m2",
+        value = "armor_magni_d_01_vu_m.m2",
+       },
+       {
+        fileId = "7135150",
+        text = "armor_magni_d_01_wo_f.m2",
+        value = "armor_magni_d_01_wo_f.m2",
+       },
+       {
+        fileId = "7135149",
+        text = "armor_magni_d_01_wo_m.m2",
+        value = "armor_magni_d_01_wo_m.m2",
+       },
+       {
+        fileId = "7135152",
+        text = "armor_magni_d_01_za_f.m2",
+        value = "armor_magni_d_01_za_f.m2",
+       },
+       {
+        fileId = "7135151",
+        text = "armor_magni_d_01_za_m.m2",
+        value = "armor_magni_d_01_za_m.m2",
+       },
+       {
         fileId = "5686580",
         text = "armor_maldraxxuscosmetic_d_01_belt_ed_f.m2",
         value = "armor_maldraxxuscosmetic_d_01_belt_ed_f.m2",
@@ -47635,6 +49293,196 @@ WeakAuras.ModelPaths = {
         fileId = "4997582",
         text = "armor_masquerade_b_01_helm_za_m.m2",
         value = "armor_masquerade_b_01_helm_za_m.m2",
+       },
+       {
+        fileId = "6725480",
+        text = "armor_midsummer_c_01_buckle.m2",
+        value = "armor_midsummer_c_01_buckle.m2",
+       },
+       {
+        fileId = "6725482",
+        text = "armor_midsummer_c_01_helm_be_f.m2",
+        value = "armor_midsummer_c_01_helm_be_f.m2",
+       },
+       {
+        fileId = "6725481",
+        text = "armor_midsummer_c_01_helm_be_m.m2",
+        value = "armor_midsummer_c_01_helm_be_m.m2",
+       },
+       {
+        fileId = "6725484",
+        text = "armor_midsummer_c_01_helm_dr_f.m2",
+        value = "armor_midsummer_c_01_helm_dr_f.m2",
+       },
+       {
+        fileId = "6725483",
+        text = "armor_midsummer_c_01_helm_dr_m.m2",
+        value = "armor_midsummer_c_01_helm_dr_m.m2",
+       },
+       {
+        fileId = "6725486",
+        text = "armor_midsummer_c_01_helm_dw_f.m2",
+        value = "armor_midsummer_c_01_helm_dw_f.m2",
+       },
+       {
+        fileId = "6725485",
+        text = "armor_midsummer_c_01_helm_dw_m.m2",
+        value = "armor_midsummer_c_01_helm_dw_m.m2",
+       },
+       {
+        fileId = "6725488",
+        text = "armor_midsummer_c_01_helm_ed_f.m2",
+        value = "armor_midsummer_c_01_helm_ed_f.m2",
+       },
+       {
+        fileId = "6725487",
+        text = "armor_midsummer_c_01_helm_ed_m.m2",
+        value = "armor_midsummer_c_01_helm_ed_m.m2",
+       },
+       {
+        fileId = "6725490",
+        text = "armor_midsummer_c_01_helm_gn_f.m2",
+        value = "armor_midsummer_c_01_helm_gn_f.m2",
+       },
+       {
+        fileId = "6725489",
+        text = "armor_midsummer_c_01_helm_gn_m.m2",
+        value = "armor_midsummer_c_01_helm_gn_m.m2",
+       },
+       {
+        fileId = "6725492",
+        text = "armor_midsummer_c_01_helm_go_f.m2",
+        value = "armor_midsummer_c_01_helm_go_f.m2",
+       },
+       {
+        fileId = "6725491",
+        text = "armor_midsummer_c_01_helm_go_m.m2",
+        value = "armor_midsummer_c_01_helm_go_m.m2",
+       },
+       {
+        fileId = "6725494",
+        text = "armor_midsummer_c_01_helm_hu_f.m2",
+        value = "armor_midsummer_c_01_helm_hu_f.m2",
+       },
+       {
+        fileId = "6725493",
+        text = "armor_midsummer_c_01_helm_hu_m.m2",
+        value = "armor_midsummer_c_01_helm_hu_m.m2",
+       },
+       {
+        fileId = "6725496",
+        text = "armor_midsummer_c_01_helm_kt_f.m2",
+        value = "armor_midsummer_c_01_helm_kt_f.m2",
+       },
+       {
+        fileId = "6725495",
+        text = "armor_midsummer_c_01_helm_kt_m.m2",
+        value = "armor_midsummer_c_01_helm_kt_m.m2",
+       },
+       {
+        fileId = "6725498",
+        text = "armor_midsummer_c_01_helm_mg_f.m2",
+        value = "armor_midsummer_c_01_helm_mg_f.m2",
+       },
+       {
+        fileId = "6725497",
+        text = "armor_midsummer_c_01_helm_mg_m.m2",
+        value = "armor_midsummer_c_01_helm_mg_m.m2",
+       },
+       {
+        fileId = "6725500",
+        text = "armor_midsummer_c_01_helm_ni_f.m2",
+        value = "armor_midsummer_c_01_helm_ni_f.m2",
+       },
+       {
+        fileId = "6725499",
+        text = "armor_midsummer_c_01_helm_ni_m.m2",
+        value = "armor_midsummer_c_01_helm_ni_m.m2",
+       },
+       {
+        fileId = "6725503",
+        text = "armor_midsummer_c_01_helm_or_f.m2",
+        value = "armor_midsummer_c_01_helm_or_f.m2",
+       },
+       {
+        fileId = "6725502",
+        text = "armor_midsummer_c_01_helm_or_m.m2",
+        value = "armor_midsummer_c_01_helm_or_m.m2",
+       },
+       {
+        fileId = "6725505",
+        text = "armor_midsummer_c_01_helm_pa_f.m2",
+        value = "armor_midsummer_c_01_helm_pa_f.m2",
+       },
+       {
+        fileId = "6725504",
+        text = "armor_midsummer_c_01_helm_pa_m.m2",
+        value = "armor_midsummer_c_01_helm_pa_m.m2",
+       },
+       {
+        fileId = "6725511",
+        text = "armor_midsummer_c_01_helm_sc_f.m2",
+        value = "armor_midsummer_c_01_helm_sc_f.m2",
+       },
+       {
+        fileId = "6725510",
+        text = "armor_midsummer_c_01_helm_sc_m.m2",
+        value = "armor_midsummer_c_01_helm_sc_m.m2",
+       },
+       {
+        fileId = "6725507",
+        text = "armor_midsummer_c_01_helm_ta_f.m2",
+        value = "armor_midsummer_c_01_helm_ta_f.m2",
+       },
+       {
+        fileId = "6725506",
+        text = "armor_midsummer_c_01_helm_ta_m.m2",
+        value = "armor_midsummer_c_01_helm_ta_m.m2",
+       },
+       {
+        fileId = "6725509",
+        text = "armor_midsummer_c_01_helm_tr_f.m2",
+        value = "armor_midsummer_c_01_helm_tr_f.m2",
+       },
+       {
+        fileId = "6725508",
+        text = "armor_midsummer_c_01_helm_tr_m.m2",
+        value = "armor_midsummer_c_01_helm_tr_m.m2",
+       },
+       {
+        fileId = "6725513",
+        text = "armor_midsummer_c_01_helm_vu_f.m2",
+        value = "armor_midsummer_c_01_helm_vu_f.m2",
+       },
+       {
+        fileId = "6725512",
+        text = "armor_midsummer_c_01_helm_vu_m.m2",
+        value = "armor_midsummer_c_01_helm_vu_m.m2",
+       },
+       {
+        fileId = "6725515",
+        text = "armor_midsummer_c_01_helm_wo_f.m2",
+        value = "armor_midsummer_c_01_helm_wo_f.m2",
+       },
+       {
+        fileId = "6725514",
+        text = "armor_midsummer_c_01_helm_wo_m.m2",
+        value = "armor_midsummer_c_01_helm_wo_m.m2",
+       },
+       {
+        fileId = "6725516",
+        text = "armor_midsummer_c_01_helm_za_m.m2",
+        value = "armor_midsummer_c_01_helm_za_m.m2",
+       },
+       {
+        fileId = "6725478",
+        text = "armor_midsummer_c_01_shoulder_l.m2",
+        value = "armor_midsummer_c_01_shoulder_l.m2",
+       },
+       {
+        fileId = "6725479",
+        text = "armor_midsummer_c_01_shoulder_r.m2",
+        value = "armor_midsummer_c_01_shoulder_r.m2",
        },
        {
         fileId = "5740090",
@@ -49127,6 +50975,16 @@ WeakAuras.ModelPaths = {
         value = "armor_shoulder_karazhan_c_01_r.m2",
        },
        {
+        fileId = "6685835",
+        text = "armor_shouldercape_brewfest_c_01_l.m2",
+        value = "armor_shouldercape_brewfest_c_01_l.m2",
+       },
+       {
+        fileId = "6685836",
+        text = "armor_shouldercape_brewfest_c_01_r.m2",
+        value = "armor_shouldercape_brewfest_c_01_r.m2",
+       },
+       {
         fileId = "5386427",
         text = "armor_shouldercape_c_01_l.m2",
         value = "armor_shouldercape_c_01_l.m2",
@@ -50012,6 +51870,11 @@ WeakAuras.ModelPaths = {
         value = "armor_underminedetective_d_01_tan_za_m.m2",
        },
        {
+        fileId = "6882653",
+        text = "armor_waistoftime_d_01_belt_titancopy.m2",
+        value = "armor_waistoftime_d_01_belt_titancopy.m2",
+       },
+       {
         fileId = "6210788",
         text = "armor_warskirt_b_01_pants_be_f.m2",
         value = "armor_warskirt_b_01_pants_be_f.m2",
@@ -50197,9 +52060,19 @@ WeakAuras.ModelPaths = {
         value = "armor_warskirt_b_01_pants_za_m.m2",
        },
        {
+        fileId = "6871504",
+        text = "belt_armor_banshee_d_01.m2",
+        value = "belt_armor_banshee_d_01.m2",
+       },
+       {
         fileId = "6426176",
         text = "belt_armor_chen_c_01_armor_icons.m2",
         value = "belt_armor_chen_c_01_armor_icons.m2",
+       },
+       {
+        fileId = "6865678",
+        text = "belt_armor_chess_d_01.m2",
+        value = "belt_armor_chess_d_01.m2",
        },
        {
         fileId = "5045969",
@@ -50267,6 +52140,191 @@ WeakAuras.ModelPaths = {
         value = "belt_armor_faeriedragon_d_01_ed_m.m2",
        },
        {
+        fileId = "7074705",
+        text = "belt_armor_felreaver_d_01.m2",
+        value = "belt_armor_felreaver_d_01.m2",
+       },
+       {
+        fileId = "6880103",
+        text = "belt_armor_fisherfolk_c_01_be_f.m2",
+        value = "belt_armor_fisherfolk_c_01_be_f.m2",
+       },
+       {
+        fileId = "6880102",
+        text = "belt_armor_fisherfolk_c_01_be_m.m2",
+        value = "belt_armor_fisherfolk_c_01_be_m.m2",
+       },
+       {
+        fileId = "6880105",
+        text = "belt_armor_fisherfolk_c_01_dr_f.m2",
+        value = "belt_armor_fisherfolk_c_01_dr_f.m2",
+       },
+       {
+        fileId = "6880104",
+        text = "belt_armor_fisherfolk_c_01_dr_m.m2",
+        value = "belt_armor_fisherfolk_c_01_dr_m.m2",
+       },
+       {
+        fileId = "6880107",
+        text = "belt_armor_fisherfolk_c_01_dw_f.m2",
+        value = "belt_armor_fisherfolk_c_01_dw_f.m2",
+       },
+       {
+        fileId = "6880106",
+        text = "belt_armor_fisherfolk_c_01_dw_m.m2",
+        value = "belt_armor_fisherfolk_c_01_dw_m.m2",
+       },
+       {
+        fileId = "6880109",
+        text = "belt_armor_fisherfolk_c_01_ed_f.m2",
+        value = "belt_armor_fisherfolk_c_01_ed_f.m2",
+       },
+       {
+        fileId = "6880108",
+        text = "belt_armor_fisherfolk_c_01_ed_m.m2",
+        value = "belt_armor_fisherfolk_c_01_ed_m.m2",
+       },
+       {
+        fileId = "6880111",
+        text = "belt_armor_fisherfolk_c_01_gn_f.m2",
+        value = "belt_armor_fisherfolk_c_01_gn_f.m2",
+       },
+       {
+        fileId = "6880110",
+        text = "belt_armor_fisherfolk_c_01_gn_m.m2",
+        value = "belt_armor_fisherfolk_c_01_gn_m.m2",
+       },
+       {
+        fileId = "6880113",
+        text = "belt_armor_fisherfolk_c_01_go_f.m2",
+        value = "belt_armor_fisherfolk_c_01_go_f.m2",
+       },
+       {
+        fileId = "6880112",
+        text = "belt_armor_fisherfolk_c_01_go_m.m2",
+        value = "belt_armor_fisherfolk_c_01_go_m.m2",
+       },
+       {
+        fileId = "6880115",
+        text = "belt_armor_fisherfolk_c_01_hu_f.m2",
+        value = "belt_armor_fisherfolk_c_01_hu_f.m2",
+       },
+       {
+        fileId = "6880114",
+        text = "belt_armor_fisherfolk_c_01_hu_m.m2",
+        value = "belt_armor_fisherfolk_c_01_hu_m.m2",
+       },
+       {
+        fileId = "6880117",
+        text = "belt_armor_fisherfolk_c_01_kt_f.m2",
+        value = "belt_armor_fisherfolk_c_01_kt_f.m2",
+       },
+       {
+        fileId = "6880116",
+        text = "belt_armor_fisherfolk_c_01_kt_m.m2",
+        value = "belt_armor_fisherfolk_c_01_kt_m.m2",
+       },
+       {
+        fileId = "6880119",
+        text = "belt_armor_fisherfolk_c_01_mg_f.m2",
+        value = "belt_armor_fisherfolk_c_01_mg_f.m2",
+       },
+       {
+        fileId = "6880118",
+        text = "belt_armor_fisherfolk_c_01_mg_m.m2",
+        value = "belt_armor_fisherfolk_c_01_mg_m.m2",
+       },
+       {
+        fileId = "6880121",
+        text = "belt_armor_fisherfolk_c_01_ni_f.m2",
+        value = "belt_armor_fisherfolk_c_01_ni_f.m2",
+       },
+       {
+        fileId = "6880120",
+        text = "belt_armor_fisherfolk_c_01_ni_m.m2",
+        value = "belt_armor_fisherfolk_c_01_ni_m.m2",
+       },
+       {
+        fileId = "6880124",
+        text = "belt_armor_fisherfolk_c_01_or_f.m2",
+        value = "belt_armor_fisherfolk_c_01_or_f.m2",
+       },
+       {
+        fileId = "6880123",
+        text = "belt_armor_fisherfolk_c_01_or_m.m2",
+        value = "belt_armor_fisherfolk_c_01_or_m.m2",
+       },
+       {
+        fileId = "6880126",
+        text = "belt_armor_fisherfolk_c_01_pa_f.m2",
+        value = "belt_armor_fisherfolk_c_01_pa_f.m2",
+       },
+       {
+        fileId = "6880125",
+        text = "belt_armor_fisherfolk_c_01_pa_m.m2",
+        value = "belt_armor_fisherfolk_c_01_pa_m.m2",
+       },
+       {
+        fileId = "6880132",
+        text = "belt_armor_fisherfolk_c_01_sc_f.m2",
+        value = "belt_armor_fisherfolk_c_01_sc_f.m2",
+       },
+       {
+        fileId = "6880131",
+        text = "belt_armor_fisherfolk_c_01_sc_m.m2",
+        value = "belt_armor_fisherfolk_c_01_sc_m.m2",
+       },
+       {
+        fileId = "6880128",
+        text = "belt_armor_fisherfolk_c_01_ta_f.m2",
+        value = "belt_armor_fisherfolk_c_01_ta_f.m2",
+       },
+       {
+        fileId = "6880127",
+        text = "belt_armor_fisherfolk_c_01_ta_m.m2",
+        value = "belt_armor_fisherfolk_c_01_ta_m.m2",
+       },
+       {
+        fileId = "6880130",
+        text = "belt_armor_fisherfolk_c_01_tr_f.m2",
+        value = "belt_armor_fisherfolk_c_01_tr_f.m2",
+       },
+       {
+        fileId = "6880129",
+        text = "belt_armor_fisherfolk_c_01_tr_m.m2",
+        value = "belt_armor_fisherfolk_c_01_tr_m.m2",
+       },
+       {
+        fileId = "6880134",
+        text = "belt_armor_fisherfolk_c_01_vu_f.m2",
+        value = "belt_armor_fisherfolk_c_01_vu_f.m2",
+       },
+       {
+        fileId = "6880133",
+        text = "belt_armor_fisherfolk_c_01_vu_m.m2",
+        value = "belt_armor_fisherfolk_c_01_vu_m.m2",
+       },
+       {
+        fileId = "6880136",
+        text = "belt_armor_fisherfolk_c_01_wo_f.m2",
+        value = "belt_armor_fisherfolk_c_01_wo_f.m2",
+       },
+       {
+        fileId = "6880135",
+        text = "belt_armor_fisherfolk_c_01_wo_m.m2",
+        value = "belt_armor_fisherfolk_c_01_wo_m.m2",
+       },
+       {
+        fileId = "6880138",
+        text = "belt_armor_fisherfolk_c_01_za_f.m2",
+        value = "belt_armor_fisherfolk_c_01_za_f.m2",
+       },
+       {
+        fileId = "6880137",
+        text = "belt_armor_fisherfolk_c_01_za_m.m2",
+        value = "belt_armor_fisherfolk_c_01_za_m.m2",
+       },
+       {
         fileId = "6603013",
         text = "belt_armor_fox_c_01.m2",
         value = "belt_armor_fox_c_01.m2",
@@ -50280,6 +52338,196 @@ WeakAuras.ModelPaths = {
         fileId = "5172296",
         text = "belt_armor_gryphonrider_d_01_gold.m2",
         value = "belt_armor_gryphonrider_d_01_gold.m2",
+       },
+       {
+        fileId = "7016464",
+        text = "belt_armor_headless_d_01.m2",
+        value = "belt_armor_headless_d_01.m2",
+       },
+       {
+        fileId = "6755722",
+        text = "belt_armor_raincoat_c_01_be_f.m2",
+        value = "belt_armor_raincoat_c_01_be_f.m2",
+       },
+       {
+        fileId = "6755721",
+        text = "belt_armor_raincoat_c_01_be_m.m2",
+        value = "belt_armor_raincoat_c_01_be_m.m2",
+       },
+       {
+        fileId = "6755724",
+        text = "belt_armor_raincoat_c_01_dr_f.m2",
+        value = "belt_armor_raincoat_c_01_dr_f.m2",
+       },
+       {
+        fileId = "6755723",
+        text = "belt_armor_raincoat_c_01_dr_m.m2",
+        value = "belt_armor_raincoat_c_01_dr_m.m2",
+       },
+       {
+        fileId = "6755726",
+        text = "belt_armor_raincoat_c_01_dw_f.m2",
+        value = "belt_armor_raincoat_c_01_dw_f.m2",
+       },
+       {
+        fileId = "6755725",
+        text = "belt_armor_raincoat_c_01_dw_m.m2",
+        value = "belt_armor_raincoat_c_01_dw_m.m2",
+       },
+       {
+        fileId = "6755728",
+        text = "belt_armor_raincoat_c_01_ed_f.m2",
+        value = "belt_armor_raincoat_c_01_ed_f.m2",
+       },
+       {
+        fileId = "6755727",
+        text = "belt_armor_raincoat_c_01_ed_m.m2",
+        value = "belt_armor_raincoat_c_01_ed_m.m2",
+       },
+       {
+        fileId = "6755730",
+        text = "belt_armor_raincoat_c_01_gn_f.m2",
+        value = "belt_armor_raincoat_c_01_gn_f.m2",
+       },
+       {
+        fileId = "6755729",
+        text = "belt_armor_raincoat_c_01_gn_m.m2",
+        value = "belt_armor_raincoat_c_01_gn_m.m2",
+       },
+       {
+        fileId = "6755732",
+        text = "belt_armor_raincoat_c_01_go_f.m2",
+        value = "belt_armor_raincoat_c_01_go_f.m2",
+       },
+       {
+        fileId = "6755731",
+        text = "belt_armor_raincoat_c_01_go_m.m2",
+        value = "belt_armor_raincoat_c_01_go_m.m2",
+       },
+       {
+        fileId = "6755734",
+        text = "belt_armor_raincoat_c_01_hu_f.m2",
+        value = "belt_armor_raincoat_c_01_hu_f.m2",
+       },
+       {
+        fileId = "6755733",
+        text = "belt_armor_raincoat_c_01_hu_m.m2",
+        value = "belt_armor_raincoat_c_01_hu_m.m2",
+       },
+       {
+        fileId = "6755736",
+        text = "belt_armor_raincoat_c_01_kt_f.m2",
+        value = "belt_armor_raincoat_c_01_kt_f.m2",
+       },
+       {
+        fileId = "6755735",
+        text = "belt_armor_raincoat_c_01_kt_m.m2",
+        value = "belt_armor_raincoat_c_01_kt_m.m2",
+       },
+       {
+        fileId = "6755738",
+        text = "belt_armor_raincoat_c_01_mg_f.m2",
+        value = "belt_armor_raincoat_c_01_mg_f.m2",
+       },
+       {
+        fileId = "6755737",
+        text = "belt_armor_raincoat_c_01_mg_m.m2",
+        value = "belt_armor_raincoat_c_01_mg_m.m2",
+       },
+       {
+        fileId = "6755741",
+        text = "belt_armor_raincoat_c_01_nb_m.m2",
+        value = "belt_armor_raincoat_c_01_nb_m.m2",
+       },
+       {
+        fileId = "6755740",
+        text = "belt_armor_raincoat_c_01_ni_f.m2",
+        value = "belt_armor_raincoat_c_01_ni_f.m2",
+       },
+       {
+        fileId = "6755739",
+        text = "belt_armor_raincoat_c_01_ni_m.m2",
+        value = "belt_armor_raincoat_c_01_ni_m.m2",
+       },
+       {
+        fileId = "6755743",
+        text = "belt_armor_raincoat_c_01_or_f.m2",
+        value = "belt_armor_raincoat_c_01_or_f.m2",
+       },
+       {
+        fileId = "6755742",
+        text = "belt_armor_raincoat_c_01_or_m.m2",
+        value = "belt_armor_raincoat_c_01_or_m.m2",
+       },
+       {
+        fileId = "6755745",
+        text = "belt_armor_raincoat_c_01_pa_f.m2",
+        value = "belt_armor_raincoat_c_01_pa_f.m2",
+       },
+       {
+        fileId = "6755744",
+        text = "belt_armor_raincoat_c_01_pa_m.m2",
+        value = "belt_armor_raincoat_c_01_pa_m.m2",
+       },
+       {
+        fileId = "6755751",
+        text = "belt_armor_raincoat_c_01_sc_f.m2",
+        value = "belt_armor_raincoat_c_01_sc_f.m2",
+       },
+       {
+        fileId = "6755750",
+        text = "belt_armor_raincoat_c_01_sc_m.m2",
+        value = "belt_armor_raincoat_c_01_sc_m.m2",
+       },
+       {
+        fileId = "6755747",
+        text = "belt_armor_raincoat_c_01_ta_f.m2",
+        value = "belt_armor_raincoat_c_01_ta_f.m2",
+       },
+       {
+        fileId = "6755746",
+        text = "belt_armor_raincoat_c_01_ta_m.m2",
+        value = "belt_armor_raincoat_c_01_ta_m.m2",
+       },
+       {
+        fileId = "6755749",
+        text = "belt_armor_raincoat_c_01_tr_f.m2",
+        value = "belt_armor_raincoat_c_01_tr_f.m2",
+       },
+       {
+        fileId = "6755748",
+        text = "belt_armor_raincoat_c_01_tr_m.m2",
+        value = "belt_armor_raincoat_c_01_tr_m.m2",
+       },
+       {
+        fileId = "6755753",
+        text = "belt_armor_raincoat_c_01_vu_f.m2",
+        value = "belt_armor_raincoat_c_01_vu_f.m2",
+       },
+       {
+        fileId = "6755752",
+        text = "belt_armor_raincoat_c_01_vu_m.m2",
+        value = "belt_armor_raincoat_c_01_vu_m.m2",
+       },
+       {
+        fileId = "6755755",
+        text = "belt_armor_raincoat_c_01_wo_f.m2",
+        value = "belt_armor_raincoat_c_01_wo_f.m2",
+       },
+       {
+        fileId = "6755754",
+        text = "belt_armor_raincoat_c_01_wo_m.m2",
+        value = "belt_armor_raincoat_c_01_wo_m.m2",
+       },
+       {
+        fileId = "6755757",
+        text = "belt_armor_raincoat_c_01_za_f.m2",
+        value = "belt_armor_raincoat_c_01_za_f.m2",
+       },
+       {
+        fileId = "6755756",
+        text = "belt_armor_raincoat_c_01_za_m.m2",
+        value = "belt_armor_raincoat_c_01_za_m.m2",
        },
        {
         fileId = "5212762",
@@ -52352,6 +54600,551 @@ WeakAuras.ModelPaths = {
         value = "chest_armor_ballnecklace_c_01_za_m.m2",
        },
        {
+        fileId = "6871380",
+        text = "chest_armor_banshee_d_01_be_f.m2",
+        value = "chest_armor_banshee_d_01_be_f.m2",
+       },
+       {
+        fileId = "6871379",
+        text = "chest_armor_banshee_d_01_be_m.m2",
+        value = "chest_armor_banshee_d_01_be_m.m2",
+       },
+       {
+        fileId = "6871382",
+        text = "chest_armor_banshee_d_01_dr_f.m2",
+        value = "chest_armor_banshee_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6871381",
+        text = "chest_armor_banshee_d_01_dr_m.m2",
+        value = "chest_armor_banshee_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6871384",
+        text = "chest_armor_banshee_d_01_dw_f.m2",
+        value = "chest_armor_banshee_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6871383",
+        text = "chest_armor_banshee_d_01_dw_m.m2",
+        value = "chest_armor_banshee_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6871386",
+        text = "chest_armor_banshee_d_01_ed_f.m2",
+        value = "chest_armor_banshee_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6871385",
+        text = "chest_armor_banshee_d_01_ed_m.m2",
+        value = "chest_armor_banshee_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6871388",
+        text = "chest_armor_banshee_d_01_gn_f.m2",
+        value = "chest_armor_banshee_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6871387",
+        text = "chest_armor_banshee_d_01_gn_m.m2",
+        value = "chest_armor_banshee_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6871390",
+        text = "chest_armor_banshee_d_01_go_f.m2",
+        value = "chest_armor_banshee_d_01_go_f.m2",
+       },
+       {
+        fileId = "6871389",
+        text = "chest_armor_banshee_d_01_go_m.m2",
+        value = "chest_armor_banshee_d_01_go_m.m2",
+       },
+       {
+        fileId = "6871392",
+        text = "chest_armor_banshee_d_01_hu_f.m2",
+        value = "chest_armor_banshee_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6871391",
+        text = "chest_armor_banshee_d_01_hu_m.m2",
+        value = "chest_armor_banshee_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6871394",
+        text = "chest_armor_banshee_d_01_kt_f.m2",
+        value = "chest_armor_banshee_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6871393",
+        text = "chest_armor_banshee_d_01_kt_m.m2",
+        value = "chest_armor_banshee_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6871396",
+        text = "chest_armor_banshee_d_01_mg_f.m2",
+        value = "chest_armor_banshee_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6871395",
+        text = "chest_armor_banshee_d_01_mg_m.m2",
+        value = "chest_armor_banshee_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6871399",
+        text = "chest_armor_banshee_d_01_nb_m.m2",
+        value = "chest_armor_banshee_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6871398",
+        text = "chest_armor_banshee_d_01_ni_f.m2",
+        value = "chest_armor_banshee_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6871397",
+        text = "chest_armor_banshee_d_01_ni_m.m2",
+        value = "chest_armor_banshee_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6871401",
+        text = "chest_armor_banshee_d_01_or_f.m2",
+        value = "chest_armor_banshee_d_01_or_f.m2",
+       },
+       {
+        fileId = "6871400",
+        text = "chest_armor_banshee_d_01_or_m.m2",
+        value = "chest_armor_banshee_d_01_or_m.m2",
+       },
+       {
+        fileId = "6871403",
+        text = "chest_armor_banshee_d_01_pa_f.m2",
+        value = "chest_armor_banshee_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6871402",
+        text = "chest_armor_banshee_d_01_pa_m.m2",
+        value = "chest_armor_banshee_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6871409",
+        text = "chest_armor_banshee_d_01_sc_f.m2",
+        value = "chest_armor_banshee_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6871408",
+        text = "chest_armor_banshee_d_01_sc_m.m2",
+        value = "chest_armor_banshee_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6871405",
+        text = "chest_armor_banshee_d_01_ta_f.m2",
+        value = "chest_armor_banshee_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6871404",
+        text = "chest_armor_banshee_d_01_ta_m.m2",
+        value = "chest_armor_banshee_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6871407",
+        text = "chest_armor_banshee_d_01_tr_f.m2",
+        value = "chest_armor_banshee_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6871406",
+        text = "chest_armor_banshee_d_01_tr_m.m2",
+        value = "chest_armor_banshee_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6871411",
+        text = "chest_armor_banshee_d_01_vu_f.m2",
+        value = "chest_armor_banshee_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6871410",
+        text = "chest_armor_banshee_d_01_vu_m.m2",
+        value = "chest_armor_banshee_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6871413",
+        text = "chest_armor_banshee_d_01_wo_f.m2",
+        value = "chest_armor_banshee_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6871412",
+        text = "chest_armor_banshee_d_01_wo_m.m2",
+        value = "chest_armor_banshee_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6871415",
+        text = "chest_armor_banshee_d_01_za_f.m2",
+        value = "chest_armor_banshee_d_01_za_f.m2",
+       },
+       {
+        fileId = "6871414",
+        text = "chest_armor_banshee_d_01_za_m.m2",
+        value = "chest_armor_banshee_d_01_za_m.m2",
+       },
+       {
+        fileId = "6871419",
+        text = "chest_armor_banshee_d_02_be_f.m2",
+        value = "chest_armor_banshee_d_02_be_f.m2",
+       },
+       {
+        fileId = "6871418",
+        text = "chest_armor_banshee_d_02_be_m.m2",
+        value = "chest_armor_banshee_d_02_be_m.m2",
+       },
+       {
+        fileId = "6871421",
+        text = "chest_armor_banshee_d_02_dr_f.m2",
+        value = "chest_armor_banshee_d_02_dr_f.m2",
+       },
+       {
+        fileId = "6871420",
+        text = "chest_armor_banshee_d_02_dr_m.m2",
+        value = "chest_armor_banshee_d_02_dr_m.m2",
+       },
+       {
+        fileId = "6871423",
+        text = "chest_armor_banshee_d_02_dw_f.m2",
+        value = "chest_armor_banshee_d_02_dw_f.m2",
+       },
+       {
+        fileId = "6871422",
+        text = "chest_armor_banshee_d_02_dw_m.m2",
+        value = "chest_armor_banshee_d_02_dw_m.m2",
+       },
+       {
+        fileId = "6871425",
+        text = "chest_armor_banshee_d_02_ed_f.m2",
+        value = "chest_armor_banshee_d_02_ed_f.m2",
+       },
+       {
+        fileId = "6871424",
+        text = "chest_armor_banshee_d_02_ed_m.m2",
+        value = "chest_armor_banshee_d_02_ed_m.m2",
+       },
+       {
+        fileId = "6871427",
+        text = "chest_armor_banshee_d_02_gn_f.m2",
+        value = "chest_armor_banshee_d_02_gn_f.m2",
+       },
+       {
+        fileId = "6871426",
+        text = "chest_armor_banshee_d_02_gn_m.m2",
+        value = "chest_armor_banshee_d_02_gn_m.m2",
+       },
+       {
+        fileId = "6871429",
+        text = "chest_armor_banshee_d_02_go_f.m2",
+        value = "chest_armor_banshee_d_02_go_f.m2",
+       },
+       {
+        fileId = "6871428",
+        text = "chest_armor_banshee_d_02_go_m.m2",
+        value = "chest_armor_banshee_d_02_go_m.m2",
+       },
+       {
+        fileId = "6871431",
+        text = "chest_armor_banshee_d_02_hu_f.m2",
+        value = "chest_armor_banshee_d_02_hu_f.m2",
+       },
+       {
+        fileId = "6871430",
+        text = "chest_armor_banshee_d_02_hu_m.m2",
+        value = "chest_armor_banshee_d_02_hu_m.m2",
+       },
+       {
+        fileId = "6871433",
+        text = "chest_armor_banshee_d_02_kt_f.m2",
+        value = "chest_armor_banshee_d_02_kt_f.m2",
+       },
+       {
+        fileId = "6871432",
+        text = "chest_armor_banshee_d_02_kt_m.m2",
+        value = "chest_armor_banshee_d_02_kt_m.m2",
+       },
+       {
+        fileId = "6871435",
+        text = "chest_armor_banshee_d_02_mg_f.m2",
+        value = "chest_armor_banshee_d_02_mg_f.m2",
+       },
+       {
+        fileId = "6871434",
+        text = "chest_armor_banshee_d_02_mg_m.m2",
+        value = "chest_armor_banshee_d_02_mg_m.m2",
+       },
+       {
+        fileId = "6871438",
+        text = "chest_armor_banshee_d_02_nb_m.m2",
+        value = "chest_armor_banshee_d_02_nb_m.m2",
+       },
+       {
+        fileId = "6871437",
+        text = "chest_armor_banshee_d_02_ni_f.m2",
+        value = "chest_armor_banshee_d_02_ni_f.m2",
+       },
+       {
+        fileId = "6871436",
+        text = "chest_armor_banshee_d_02_ni_m.m2",
+        value = "chest_armor_banshee_d_02_ni_m.m2",
+       },
+       {
+        fileId = "6871440",
+        text = "chest_armor_banshee_d_02_or_f.m2",
+        value = "chest_armor_banshee_d_02_or_f.m2",
+       },
+       {
+        fileId = "6871439",
+        text = "chest_armor_banshee_d_02_or_m.m2",
+        value = "chest_armor_banshee_d_02_or_m.m2",
+       },
+       {
+        fileId = "6871442",
+        text = "chest_armor_banshee_d_02_pa_f.m2",
+        value = "chest_armor_banshee_d_02_pa_f.m2",
+       },
+       {
+        fileId = "6871441",
+        text = "chest_armor_banshee_d_02_pa_m.m2",
+        value = "chest_armor_banshee_d_02_pa_m.m2",
+       },
+       {
+        fileId = "6871448",
+        text = "chest_armor_banshee_d_02_sc_f.m2",
+        value = "chest_armor_banshee_d_02_sc_f.m2",
+       },
+       {
+        fileId = "6871447",
+        text = "chest_armor_banshee_d_02_sc_m.m2",
+        value = "chest_armor_banshee_d_02_sc_m.m2",
+       },
+       {
+        fileId = "6871444",
+        text = "chest_armor_banshee_d_02_ta_f.m2",
+        value = "chest_armor_banshee_d_02_ta_f.m2",
+       },
+       {
+        fileId = "6871443",
+        text = "chest_armor_banshee_d_02_ta_m.m2",
+        value = "chest_armor_banshee_d_02_ta_m.m2",
+       },
+       {
+        fileId = "6871446",
+        text = "chest_armor_banshee_d_02_tr_f.m2",
+        value = "chest_armor_banshee_d_02_tr_f.m2",
+       },
+       {
+        fileId = "6871445",
+        text = "chest_armor_banshee_d_02_tr_m.m2",
+        value = "chest_armor_banshee_d_02_tr_m.m2",
+       },
+       {
+        fileId = "6871450",
+        text = "chest_armor_banshee_d_02_vu_f.m2",
+        value = "chest_armor_banshee_d_02_vu_f.m2",
+       },
+       {
+        fileId = "6871449",
+        text = "chest_armor_banshee_d_02_vu_m.m2",
+        value = "chest_armor_banshee_d_02_vu_m.m2",
+       },
+       {
+        fileId = "6871452",
+        text = "chest_armor_banshee_d_02_wo_f.m2",
+        value = "chest_armor_banshee_d_02_wo_f.m2",
+       },
+       {
+        fileId = "6871451",
+        text = "chest_armor_banshee_d_02_wo_m.m2",
+        value = "chest_armor_banshee_d_02_wo_m.m2",
+       },
+       {
+        fileId = "6871454",
+        text = "chest_armor_banshee_d_02_za_f.m2",
+        value = "chest_armor_banshee_d_02_za_f.m2",
+       },
+       {
+        fileId = "6871453",
+        text = "chest_armor_banshee_d_02_za_m.m2",
+        value = "chest_armor_banshee_d_02_za_m.m2",
+       },
+       {
+        fileId = "6865638",
+        text = "chest_armor_chess_d_01_be_f.m2",
+        value = "chest_armor_chess_d_01_be_f.m2",
+       },
+       {
+        fileId = "6865637",
+        text = "chest_armor_chess_d_01_be_m.m2",
+        value = "chest_armor_chess_d_01_be_m.m2",
+       },
+       {
+        fileId = "6865640",
+        text = "chest_armor_chess_d_01_dr_f.m2",
+        value = "chest_armor_chess_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6865639",
+        text = "chest_armor_chess_d_01_dr_m.m2",
+        value = "chest_armor_chess_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6865642",
+        text = "chest_armor_chess_d_01_dw_f.m2",
+        value = "chest_armor_chess_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6865641",
+        text = "chest_armor_chess_d_01_dw_m.m2",
+        value = "chest_armor_chess_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6865644",
+        text = "chest_armor_chess_d_01_ed_f.m2",
+        value = "chest_armor_chess_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6865643",
+        text = "chest_armor_chess_d_01_ed_m.m2",
+        value = "chest_armor_chess_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6865646",
+        text = "chest_armor_chess_d_01_gn_f.m2",
+        value = "chest_armor_chess_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6865645",
+        text = "chest_armor_chess_d_01_gn_m.m2",
+        value = "chest_armor_chess_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6865648",
+        text = "chest_armor_chess_d_01_go_f.m2",
+        value = "chest_armor_chess_d_01_go_f.m2",
+       },
+       {
+        fileId = "6865647",
+        text = "chest_armor_chess_d_01_go_m.m2",
+        value = "chest_armor_chess_d_01_go_m.m2",
+       },
+       {
+        fileId = "6865650",
+        text = "chest_armor_chess_d_01_hu_f.m2",
+        value = "chest_armor_chess_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6865649",
+        text = "chest_armor_chess_d_01_hu_m.m2",
+        value = "chest_armor_chess_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6865652",
+        text = "chest_armor_chess_d_01_kt_f.m2",
+        value = "chest_armor_chess_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6865651",
+        text = "chest_armor_chess_d_01_kt_m.m2",
+        value = "chest_armor_chess_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6865657",
+        text = "chest_armor_chess_d_01_nb_m.m2",
+        value = "chest_armor_chess_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6865656",
+        text = "chest_armor_chess_d_01_ni_f.m2",
+        value = "chest_armor_chess_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6865655",
+        text = "chest_armor_chess_d_01_ni_m.m2",
+        value = "chest_armor_chess_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6865659",
+        text = "chest_armor_chess_d_01_or_f.m2",
+        value = "chest_armor_chess_d_01_or_f.m2",
+       },
+       {
+        fileId = "6865658",
+        text = "chest_armor_chess_d_01_or_m.m2",
+        value = "chest_armor_chess_d_01_or_m.m2",
+       },
+       {
+        fileId = "6865661",
+        text = "chest_armor_chess_d_01_pa_f.m2",
+        value = "chest_armor_chess_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6865660",
+        text = "chest_armor_chess_d_01_pa_m.m2",
+        value = "chest_armor_chess_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6865667",
+        text = "chest_armor_chess_d_01_sc_f.m2",
+        value = "chest_armor_chess_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6865666",
+        text = "chest_armor_chess_d_01_sc_m.m2",
+        value = "chest_armor_chess_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6865663",
+        text = "chest_armor_chess_d_01_ta_f.m2",
+        value = "chest_armor_chess_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6865662",
+        text = "chest_armor_chess_d_01_ta_m.m2",
+        value = "chest_armor_chess_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6865665",
+        text = "chest_armor_chess_d_01_tr_f.m2",
+        value = "chest_armor_chess_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6865664",
+        text = "chest_armor_chess_d_01_tr_m.m2",
+        value = "chest_armor_chess_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6865669",
+        text = "chest_armor_chess_d_01_vu_f.m2",
+        value = "chest_armor_chess_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6865668",
+        text = "chest_armor_chess_d_01_vu_m.m2",
+        value = "chest_armor_chess_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6865671",
+        text = "chest_armor_chess_d_01_wo_f.m2",
+        value = "chest_armor_chess_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6865670",
+        text = "chest_armor_chess_d_01_wo_m.m2",
+        value = "chest_armor_chess_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6865673",
+        text = "chest_armor_chess_d_01_za_f.m2",
+        value = "chest_armor_chess_d_01_za_f.m2",
+       },
+       {
+        fileId = "6865672",
+        text = "chest_armor_chess_d_01_za_m.m2",
+        value = "chest_armor_chess_d_01_za_m.m2",
+       },
+       {
         fileId = "4911173",
         text = "chest_armor_draenei_d_01_dr_f.m2",
         value = "chest_armor_draenei_d_01_dr_f.m2",
@@ -52360,6 +55153,191 @@ WeakAuras.ModelPaths = {
         fileId = "4911172",
         text = "chest_armor_draenei_d_01_dr_m.m2",
         value = "chest_armor_draenei_d_01_dr_m.m2",
+       },
+       {
+        fileId = "7074628",
+        text = "chest_armor_felreaver_d_01_be_f.m2",
+        value = "chest_armor_felreaver_d_01_be_f.m2",
+       },
+       {
+        fileId = "7074627",
+        text = "chest_armor_felreaver_d_01_be_m.m2",
+        value = "chest_armor_felreaver_d_01_be_m.m2",
+       },
+       {
+        fileId = "7074630",
+        text = "chest_armor_felreaver_d_01_dr_f.m2",
+        value = "chest_armor_felreaver_d_01_dr_f.m2",
+       },
+       {
+        fileId = "7074629",
+        text = "chest_armor_felreaver_d_01_dr_m.m2",
+        value = "chest_armor_felreaver_d_01_dr_m.m2",
+       },
+       {
+        fileId = "7074632",
+        text = "chest_armor_felreaver_d_01_dw_f.m2",
+        value = "chest_armor_felreaver_d_01_dw_f.m2",
+       },
+       {
+        fileId = "7074631",
+        text = "chest_armor_felreaver_d_01_dw_m.m2",
+        value = "chest_armor_felreaver_d_01_dw_m.m2",
+       },
+       {
+        fileId = "7074634",
+        text = "chest_armor_felreaver_d_01_ed_f.m2",
+        value = "chest_armor_felreaver_d_01_ed_f.m2",
+       },
+       {
+        fileId = "7074633",
+        text = "chest_armor_felreaver_d_01_ed_m.m2",
+        value = "chest_armor_felreaver_d_01_ed_m.m2",
+       },
+       {
+        fileId = "7074636",
+        text = "chest_armor_felreaver_d_01_gn_f.m2",
+        value = "chest_armor_felreaver_d_01_gn_f.m2",
+       },
+       {
+        fileId = "7074635",
+        text = "chest_armor_felreaver_d_01_gn_m.m2",
+        value = "chest_armor_felreaver_d_01_gn_m.m2",
+       },
+       {
+        fileId = "7074638",
+        text = "chest_armor_felreaver_d_01_go_f.m2",
+        value = "chest_armor_felreaver_d_01_go_f.m2",
+       },
+       {
+        fileId = "7074637",
+        text = "chest_armor_felreaver_d_01_go_m.m2",
+        value = "chest_armor_felreaver_d_01_go_m.m2",
+       },
+       {
+        fileId = "7074640",
+        text = "chest_armor_felreaver_d_01_hu_f.m2",
+        value = "chest_armor_felreaver_d_01_hu_f.m2",
+       },
+       {
+        fileId = "7074639",
+        text = "chest_armor_felreaver_d_01_hu_m.m2",
+        value = "chest_armor_felreaver_d_01_hu_m.m2",
+       },
+       {
+        fileId = "7074642",
+        text = "chest_armor_felreaver_d_01_kt_f.m2",
+        value = "chest_armor_felreaver_d_01_kt_f.m2",
+       },
+       {
+        fileId = "7074641",
+        text = "chest_armor_felreaver_d_01_kt_m.m2",
+        value = "chest_armor_felreaver_d_01_kt_m.m2",
+       },
+       {
+        fileId = "7074644",
+        text = "chest_armor_felreaver_d_01_mg_f.m2",
+        value = "chest_armor_felreaver_d_01_mg_f.m2",
+       },
+       {
+        fileId = "7074643",
+        text = "chest_armor_felreaver_d_01_mg_m.m2",
+        value = "chest_armor_felreaver_d_01_mg_m.m2",
+       },
+       {
+        fileId = "7074647",
+        text = "chest_armor_felreaver_d_01_nb_m.m2",
+        value = "chest_armor_felreaver_d_01_nb_m.m2",
+       },
+       {
+        fileId = "7074646",
+        text = "chest_armor_felreaver_d_01_ni_f.m2",
+        value = "chest_armor_felreaver_d_01_ni_f.m2",
+       },
+       {
+        fileId = "7074645",
+        text = "chest_armor_felreaver_d_01_ni_m.m2",
+        value = "chest_armor_felreaver_d_01_ni_m.m2",
+       },
+       {
+        fileId = "7074649",
+        text = "chest_armor_felreaver_d_01_or_f.m2",
+        value = "chest_armor_felreaver_d_01_or_f.m2",
+       },
+       {
+        fileId = "7074648",
+        text = "chest_armor_felreaver_d_01_or_m.m2",
+        value = "chest_armor_felreaver_d_01_or_m.m2",
+       },
+       {
+        fileId = "7074651",
+        text = "chest_armor_felreaver_d_01_pa_f.m2",
+        value = "chest_armor_felreaver_d_01_pa_f.m2",
+       },
+       {
+        fileId = "7074650",
+        text = "chest_armor_felreaver_d_01_pa_m.m2",
+        value = "chest_armor_felreaver_d_01_pa_m.m2",
+       },
+       {
+        fileId = "7074657",
+        text = "chest_armor_felreaver_d_01_sc_f.m2",
+        value = "chest_armor_felreaver_d_01_sc_f.m2",
+       },
+       {
+        fileId = "7074656",
+        text = "chest_armor_felreaver_d_01_sc_m.m2",
+        value = "chest_armor_felreaver_d_01_sc_m.m2",
+       },
+       {
+        fileId = "7074653",
+        text = "chest_armor_felreaver_d_01_ta_f.m2",
+        value = "chest_armor_felreaver_d_01_ta_f.m2",
+       },
+       {
+        fileId = "7074652",
+        text = "chest_armor_felreaver_d_01_ta_m.m2",
+        value = "chest_armor_felreaver_d_01_ta_m.m2",
+       },
+       {
+        fileId = "7074655",
+        text = "chest_armor_felreaver_d_01_tr_f.m2",
+        value = "chest_armor_felreaver_d_01_tr_f.m2",
+       },
+       {
+        fileId = "7074654",
+        text = "chest_armor_felreaver_d_01_tr_m.m2",
+        value = "chest_armor_felreaver_d_01_tr_m.m2",
+       },
+       {
+        fileId = "7074659",
+        text = "chest_armor_felreaver_d_01_vu_f.m2",
+        value = "chest_armor_felreaver_d_01_vu_f.m2",
+       },
+       {
+        fileId = "7074658",
+        text = "chest_armor_felreaver_d_01_vu_m.m2",
+        value = "chest_armor_felreaver_d_01_vu_m.m2",
+       },
+       {
+        fileId = "7074661",
+        text = "chest_armor_felreaver_d_01_wo_f.m2",
+        value = "chest_armor_felreaver_d_01_wo_f.m2",
+       },
+       {
+        fileId = "7074660",
+        text = "chest_armor_felreaver_d_01_wo_m.m2",
+        value = "chest_armor_felreaver_d_01_wo_m.m2",
+       },
+       {
+        fileId = "7074663",
+        text = "chest_armor_felreaver_d_01_za_f.m2",
+        value = "chest_armor_felreaver_d_01_za_f.m2",
+       },
+       {
+        fileId = "7074662",
+        text = "chest_armor_felreaver_d_01_za_m.m2",
+        value = "chest_armor_felreaver_d_01_za_m.m2",
        },
        {
         fileId = "5145247",
@@ -52565,6 +55543,191 @@ WeakAuras.ModelPaths = {
         fileId = "5172253",
         text = "chest_armor_gryphonrider_d_01_gold_za_m.m2",
         value = "chest_armor_gryphonrider_d_01_gold_za_m.m2",
+       },
+       {
+        fileId = "7016383",
+        text = "chest_armor_headless_d_01_be_f.m2",
+        value = "chest_armor_headless_d_01_be_f.m2",
+       },
+       {
+        fileId = "7016382",
+        text = "chest_armor_headless_d_01_be_m.m2",
+        value = "chest_armor_headless_d_01_be_m.m2",
+       },
+       {
+        fileId = "7016385",
+        text = "chest_armor_headless_d_01_dr_f.m2",
+        value = "chest_armor_headless_d_01_dr_f.m2",
+       },
+       {
+        fileId = "7016384",
+        text = "chest_armor_headless_d_01_dr_m.m2",
+        value = "chest_armor_headless_d_01_dr_m.m2",
+       },
+       {
+        fileId = "7016387",
+        text = "chest_armor_headless_d_01_dw_f.m2",
+        value = "chest_armor_headless_d_01_dw_f.m2",
+       },
+       {
+        fileId = "7016386",
+        text = "chest_armor_headless_d_01_dw_m.m2",
+        value = "chest_armor_headless_d_01_dw_m.m2",
+       },
+       {
+        fileId = "7016389",
+        text = "chest_armor_headless_d_01_ed_f.m2",
+        value = "chest_armor_headless_d_01_ed_f.m2",
+       },
+       {
+        fileId = "7016388",
+        text = "chest_armor_headless_d_01_ed_m.m2",
+        value = "chest_armor_headless_d_01_ed_m.m2",
+       },
+       {
+        fileId = "7016391",
+        text = "chest_armor_headless_d_01_gn_f.m2",
+        value = "chest_armor_headless_d_01_gn_f.m2",
+       },
+       {
+        fileId = "7016390",
+        text = "chest_armor_headless_d_01_gn_m.m2",
+        value = "chest_armor_headless_d_01_gn_m.m2",
+       },
+       {
+        fileId = "7016393",
+        text = "chest_armor_headless_d_01_go_f.m2",
+        value = "chest_armor_headless_d_01_go_f.m2",
+       },
+       {
+        fileId = "7016392",
+        text = "chest_armor_headless_d_01_go_m.m2",
+        value = "chest_armor_headless_d_01_go_m.m2",
+       },
+       {
+        fileId = "7016395",
+        text = "chest_armor_headless_d_01_hu_f.m2",
+        value = "chest_armor_headless_d_01_hu_f.m2",
+       },
+       {
+        fileId = "7016394",
+        text = "chest_armor_headless_d_01_hu_m.m2",
+        value = "chest_armor_headless_d_01_hu_m.m2",
+       },
+       {
+        fileId = "7016397",
+        text = "chest_armor_headless_d_01_kt_f.m2",
+        value = "chest_armor_headless_d_01_kt_f.m2",
+       },
+       {
+        fileId = "7016396",
+        text = "chest_armor_headless_d_01_kt_m.m2",
+        value = "chest_armor_headless_d_01_kt_m.m2",
+       },
+       {
+        fileId = "7016399",
+        text = "chest_armor_headless_d_01_mg_f.m2",
+        value = "chest_armor_headless_d_01_mg_f.m2",
+       },
+       {
+        fileId = "7016398",
+        text = "chest_armor_headless_d_01_mg_m.m2",
+        value = "chest_armor_headless_d_01_mg_m.m2",
+       },
+       {
+        fileId = "7016402",
+        text = "chest_armor_headless_d_01_nb_m.m2",
+        value = "chest_armor_headless_d_01_nb_m.m2",
+       },
+       {
+        fileId = "7016401",
+        text = "chest_armor_headless_d_01_ni_f.m2",
+        value = "chest_armor_headless_d_01_ni_f.m2",
+       },
+       {
+        fileId = "7016400",
+        text = "chest_armor_headless_d_01_ni_m.m2",
+        value = "chest_armor_headless_d_01_ni_m.m2",
+       },
+       {
+        fileId = "7016404",
+        text = "chest_armor_headless_d_01_or_f.m2",
+        value = "chest_armor_headless_d_01_or_f.m2",
+       },
+       {
+        fileId = "7016403",
+        text = "chest_armor_headless_d_01_or_m.m2",
+        value = "chest_armor_headless_d_01_or_m.m2",
+       },
+       {
+        fileId = "7016406",
+        text = "chest_armor_headless_d_01_pa_f.m2",
+        value = "chest_armor_headless_d_01_pa_f.m2",
+       },
+       {
+        fileId = "7016405",
+        text = "chest_armor_headless_d_01_pa_m.m2",
+        value = "chest_armor_headless_d_01_pa_m.m2",
+       },
+       {
+        fileId = "7016412",
+        text = "chest_armor_headless_d_01_sc_f.m2",
+        value = "chest_armor_headless_d_01_sc_f.m2",
+       },
+       {
+        fileId = "7016411",
+        text = "chest_armor_headless_d_01_sc_m.m2",
+        value = "chest_armor_headless_d_01_sc_m.m2",
+       },
+       {
+        fileId = "7016408",
+        text = "chest_armor_headless_d_01_ta_f.m2",
+        value = "chest_armor_headless_d_01_ta_f.m2",
+       },
+       {
+        fileId = "7016407",
+        text = "chest_armor_headless_d_01_ta_m.m2",
+        value = "chest_armor_headless_d_01_ta_m.m2",
+       },
+       {
+        fileId = "7016410",
+        text = "chest_armor_headless_d_01_tr_f.m2",
+        value = "chest_armor_headless_d_01_tr_f.m2",
+       },
+       {
+        fileId = "7016409",
+        text = "chest_armor_headless_d_01_tr_m.m2",
+        value = "chest_armor_headless_d_01_tr_m.m2",
+       },
+       {
+        fileId = "7016414",
+        text = "chest_armor_headless_d_01_vu_f.m2",
+        value = "chest_armor_headless_d_01_vu_f.m2",
+       },
+       {
+        fileId = "7016413",
+        text = "chest_armor_headless_d_01_vu_m.m2",
+        value = "chest_armor_headless_d_01_vu_m.m2",
+       },
+       {
+        fileId = "7016416",
+        text = "chest_armor_headless_d_01_wo_f.m2",
+        value = "chest_armor_headless_d_01_wo_f.m2",
+       },
+       {
+        fileId = "7016415",
+        text = "chest_armor_headless_d_01_wo_m.m2",
+        value = "chest_armor_headless_d_01_wo_m.m2",
+       },
+       {
+        fileId = "7016418",
+        text = "chest_armor_headless_d_01_za_f.m2",
+        value = "chest_armor_headless_d_01_za_f.m2",
+       },
+       {
+        fileId = "7016417",
+        text = "chest_armor_headless_d_01_za_m.m2",
+        value = "chest_armor_headless_d_01_za_m.m2",
        },
        {
         fileId = "5686606",
@@ -53220,6 +56383,191 @@ WeakAuras.ModelPaths = {
         fileId = "5686741",
         text = "chest_leather_kultirasdungeon_c_01_ed_m.m2",
         value = "chest_leather_kultirasdungeon_c_01_ed_m.m2",
+       },
+       {
+        fileId = "6887190",
+        text = "chest_leather_kultirasquest_b_01_be_f.m2",
+        value = "chest_leather_kultirasquest_b_01_be_f.m2",
+       },
+       {
+        fileId = "6887189",
+        text = "chest_leather_kultirasquest_b_01_be_m.m2",
+        value = "chest_leather_kultirasquest_b_01_be_m.m2",
+       },
+       {
+        fileId = "6887192",
+        text = "chest_leather_kultirasquest_b_01_dr_f.m2",
+        value = "chest_leather_kultirasquest_b_01_dr_f.m2",
+       },
+       {
+        fileId = "6887191",
+        text = "chest_leather_kultirasquest_b_01_dr_m.m2",
+        value = "chest_leather_kultirasquest_b_01_dr_m.m2",
+       },
+       {
+        fileId = "6887194",
+        text = "chest_leather_kultirasquest_b_01_dw_f.m2",
+        value = "chest_leather_kultirasquest_b_01_dw_f.m2",
+       },
+       {
+        fileId = "6887193",
+        text = "chest_leather_kultirasquest_b_01_dw_m.m2",
+        value = "chest_leather_kultirasquest_b_01_dw_m.m2",
+       },
+       {
+        fileId = "6887196",
+        text = "chest_leather_kultirasquest_b_01_ed_f.m2",
+        value = "chest_leather_kultirasquest_b_01_ed_f.m2",
+       },
+       {
+        fileId = "6887195",
+        text = "chest_leather_kultirasquest_b_01_ed_m.m2",
+        value = "chest_leather_kultirasquest_b_01_ed_m.m2",
+       },
+       {
+        fileId = "6887198",
+        text = "chest_leather_kultirasquest_b_01_gn_f.m2",
+        value = "chest_leather_kultirasquest_b_01_gn_f.m2",
+       },
+       {
+        fileId = "6887197",
+        text = "chest_leather_kultirasquest_b_01_gn_m.m2",
+        value = "chest_leather_kultirasquest_b_01_gn_m.m2",
+       },
+       {
+        fileId = "6887200",
+        text = "chest_leather_kultirasquest_b_01_go_f.m2",
+        value = "chest_leather_kultirasquest_b_01_go_f.m2",
+       },
+       {
+        fileId = "6887199",
+        text = "chest_leather_kultirasquest_b_01_go_m.m2",
+        value = "chest_leather_kultirasquest_b_01_go_m.m2",
+       },
+       {
+        fileId = "6887202",
+        text = "chest_leather_kultirasquest_b_01_hu_f.m2",
+        value = "chest_leather_kultirasquest_b_01_hu_f.m2",
+       },
+       {
+        fileId = "6887201",
+        text = "chest_leather_kultirasquest_b_01_hu_m.m2",
+        value = "chest_leather_kultirasquest_b_01_hu_m.m2",
+       },
+       {
+        fileId = "6887204",
+        text = "chest_leather_kultirasquest_b_01_kt_f.m2",
+        value = "chest_leather_kultirasquest_b_01_kt_f.m2",
+       },
+       {
+        fileId = "6887203",
+        text = "chest_leather_kultirasquest_b_01_kt_m.m2",
+        value = "chest_leather_kultirasquest_b_01_kt_m.m2",
+       },
+       {
+        fileId = "6887206",
+        text = "chest_leather_kultirasquest_b_01_mg_f.m2",
+        value = "chest_leather_kultirasquest_b_01_mg_f.m2",
+       },
+       {
+        fileId = "6887205",
+        text = "chest_leather_kultirasquest_b_01_mg_m.m2",
+        value = "chest_leather_kultirasquest_b_01_mg_m.m2",
+       },
+       {
+        fileId = "6887209",
+        text = "chest_leather_kultirasquest_b_01_nb_m.m2",
+        value = "chest_leather_kultirasquest_b_01_nb_m.m2",
+       },
+       {
+        fileId = "6887208",
+        text = "chest_leather_kultirasquest_b_01_ni_f.m2",
+        value = "chest_leather_kultirasquest_b_01_ni_f.m2",
+       },
+       {
+        fileId = "6887207",
+        text = "chest_leather_kultirasquest_b_01_ni_m.m2",
+        value = "chest_leather_kultirasquest_b_01_ni_m.m2",
+       },
+       {
+        fileId = "6887211",
+        text = "chest_leather_kultirasquest_b_01_or_f.m2",
+        value = "chest_leather_kultirasquest_b_01_or_f.m2",
+       },
+       {
+        fileId = "6887210",
+        text = "chest_leather_kultirasquest_b_01_or_m.m2",
+        value = "chest_leather_kultirasquest_b_01_or_m.m2",
+       },
+       {
+        fileId = "6887213",
+        text = "chest_leather_kultirasquest_b_01_pa_f.m2",
+        value = "chest_leather_kultirasquest_b_01_pa_f.m2",
+       },
+       {
+        fileId = "6887212",
+        text = "chest_leather_kultirasquest_b_01_pa_m.m2",
+        value = "chest_leather_kultirasquest_b_01_pa_m.m2",
+       },
+       {
+        fileId = "6887219",
+        text = "chest_leather_kultirasquest_b_01_sc_f.m2",
+        value = "chest_leather_kultirasquest_b_01_sc_f.m2",
+       },
+       {
+        fileId = "6887218",
+        text = "chest_leather_kultirasquest_b_01_sc_m.m2",
+        value = "chest_leather_kultirasquest_b_01_sc_m.m2",
+       },
+       {
+        fileId = "6887215",
+        text = "chest_leather_kultirasquest_b_01_ta_f.m2",
+        value = "chest_leather_kultirasquest_b_01_ta_f.m2",
+       },
+       {
+        fileId = "6887214",
+        text = "chest_leather_kultirasquest_b_01_ta_m.m2",
+        value = "chest_leather_kultirasquest_b_01_ta_m.m2",
+       },
+       {
+        fileId = "6887217",
+        text = "chest_leather_kultirasquest_b_01_tr_f.m2",
+        value = "chest_leather_kultirasquest_b_01_tr_f.m2",
+       },
+       {
+        fileId = "6887216",
+        text = "chest_leather_kultirasquest_b_01_tr_m.m2",
+        value = "chest_leather_kultirasquest_b_01_tr_m.m2",
+       },
+       {
+        fileId = "6887221",
+        text = "chest_leather_kultirasquest_b_01_vu_f.m2",
+        value = "chest_leather_kultirasquest_b_01_vu_f.m2",
+       },
+       {
+        fileId = "6887220",
+        text = "chest_leather_kultirasquest_b_01_vu_m.m2",
+        value = "chest_leather_kultirasquest_b_01_vu_m.m2",
+       },
+       {
+        fileId = "6887223",
+        text = "chest_leather_kultirasquest_b_01_wo_f.m2",
+        value = "chest_leather_kultirasquest_b_01_wo_f.m2",
+       },
+       {
+        fileId = "6887222",
+        text = "chest_leather_kultirasquest_b_01_wo_m.m2",
+        value = "chest_leather_kultirasquest_b_01_wo_m.m2",
+       },
+       {
+        fileId = "6887225",
+        text = "chest_leather_kultirasquest_b_01_za_f.m2",
+        value = "chest_leather_kultirasquest_b_01_za_f.m2",
+       },
+       {
+        fileId = "6887224",
+        text = "chest_leather_kultirasquest_b_01_za_m.m2",
+        value = "chest_leather_kultirasquest_b_01_za_m.m2",
        },
        {
         fileId = "5686744",
@@ -56977,6 +60325,16 @@ WeakAuras.ModelPaths = {
         value = "chest_plate_raiddeathknightdragon_d_01_za_m.m2",
        },
        {
+        fileId = "6379101",
+        text = "chest_plate_raiddeathknightethereal_d_01_ed_f.m2",
+        value = "chest_plate_raiddeathknightethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6379100",
+        text = "chest_plate_raiddeathknightethereal_d_01_ed_m.m2",
+        value = "chest_plate_raiddeathknightethereal_d_01_ed_m.m2",
+       },
+       {
         fileId = "5695505",
         text = "chest_plate_raiddeathknightmythic_r_01_ed_f.m2",
         value = "chest_plate_raiddeathknightmythic_r_01_ed_f.m2",
@@ -60137,6 +63495,206 @@ WeakAuras.ModelPaths = {
         value = "cloth_outdooremeralddream_d_01_shoulder_r.m2",
        },
        {
+        fileId = "7034376",
+        text = "cloth_outdoorethereal_c_01.m2",
+        value = "cloth_outdoorethereal_c_01.m2",
+       },
+       {
+        fileId = "7034257",
+        text = "cloth_outdoorethereal_c_01_be_f.m2",
+        value = "cloth_outdoorethereal_c_01_be_f.m2",
+       },
+       {
+        fileId = "7034256",
+        text = "cloth_outdoorethereal_c_01_be_m.m2",
+        value = "cloth_outdoorethereal_c_01_be_m.m2",
+       },
+       {
+        fileId = "7034259",
+        text = "cloth_outdoorethereal_c_01_dr_f.m2",
+        value = "cloth_outdoorethereal_c_01_dr_f.m2",
+       },
+       {
+        fileId = "7034258",
+        text = "cloth_outdoorethereal_c_01_dr_m.m2",
+        value = "cloth_outdoorethereal_c_01_dr_m.m2",
+       },
+       {
+        fileId = "7034261",
+        text = "cloth_outdoorethereal_c_01_dw_f.m2",
+        value = "cloth_outdoorethereal_c_01_dw_f.m2",
+       },
+       {
+        fileId = "7034260",
+        text = "cloth_outdoorethereal_c_01_dw_m.m2",
+        value = "cloth_outdoorethereal_c_01_dw_m.m2",
+       },
+       {
+        fileId = "7034263",
+        text = "cloth_outdoorethereal_c_01_ed_f.m2",
+        value = "cloth_outdoorethereal_c_01_ed_f.m2",
+       },
+       {
+        fileId = "7034262",
+        text = "cloth_outdoorethereal_c_01_ed_m.m2",
+        value = "cloth_outdoorethereal_c_01_ed_m.m2",
+       },
+       {
+        fileId = "7034265",
+        text = "cloth_outdoorethereal_c_01_gn_f.m2",
+        value = "cloth_outdoorethereal_c_01_gn_f.m2",
+       },
+       {
+        fileId = "7034264",
+        text = "cloth_outdoorethereal_c_01_gn_m.m2",
+        value = "cloth_outdoorethereal_c_01_gn_m.m2",
+       },
+       {
+        fileId = "7034267",
+        text = "cloth_outdoorethereal_c_01_go_f.m2",
+        value = "cloth_outdoorethereal_c_01_go_f.m2",
+       },
+       {
+        fileId = "7034266",
+        text = "cloth_outdoorethereal_c_01_go_m.m2",
+        value = "cloth_outdoorethereal_c_01_go_m.m2",
+       },
+       {
+        fileId = "7034269",
+        text = "cloth_outdoorethereal_c_01_hu_f.m2",
+        value = "cloth_outdoorethereal_c_01_hu_f.m2",
+       },
+       {
+        fileId = "7034268",
+        text = "cloth_outdoorethereal_c_01_hu_m.m2",
+        value = "cloth_outdoorethereal_c_01_hu_m.m2",
+       },
+       {
+        fileId = "7034271",
+        text = "cloth_outdoorethereal_c_01_kt_f.m2",
+        value = "cloth_outdoorethereal_c_01_kt_f.m2",
+       },
+       {
+        fileId = "7034270",
+        text = "cloth_outdoorethereal_c_01_kt_m.m2",
+        value = "cloth_outdoorethereal_c_01_kt_m.m2",
+       },
+       {
+        fileId = "7034356",
+        text = "cloth_outdoorethereal_c_01_l.m2",
+        value = "cloth_outdoorethereal_c_01_l.m2",
+       },
+       {
+        fileId = "7034273",
+        text = "cloth_outdoorethereal_c_01_mg_f.m2",
+        value = "cloth_outdoorethereal_c_01_mg_f.m2",
+       },
+       {
+        fileId = "7034272",
+        text = "cloth_outdoorethereal_c_01_mg_m.m2",
+        value = "cloth_outdoorethereal_c_01_mg_m.m2",
+       },
+       {
+        fileId = "7034276",
+        text = "cloth_outdoorethereal_c_01_nb_m.m2",
+        value = "cloth_outdoorethereal_c_01_nb_m.m2",
+       },
+       {
+        fileId = "7034275",
+        text = "cloth_outdoorethereal_c_01_ni_f.m2",
+        value = "cloth_outdoorethereal_c_01_ni_f.m2",
+       },
+       {
+        fileId = "7034274",
+        text = "cloth_outdoorethereal_c_01_ni_m.m2",
+        value = "cloth_outdoorethereal_c_01_ni_m.m2",
+       },
+       {
+        fileId = "7034278",
+        text = "cloth_outdoorethereal_c_01_or_f.m2",
+        value = "cloth_outdoorethereal_c_01_or_f.m2",
+       },
+       {
+        fileId = "7034277",
+        text = "cloth_outdoorethereal_c_01_or_m.m2",
+        value = "cloth_outdoorethereal_c_01_or_m.m2",
+       },
+       {
+        fileId = "7034280",
+        text = "cloth_outdoorethereal_c_01_pa_f.m2",
+        value = "cloth_outdoorethereal_c_01_pa_f.m2",
+       },
+       {
+        fileId = "7034279",
+        text = "cloth_outdoorethereal_c_01_pa_m.m2",
+        value = "cloth_outdoorethereal_c_01_pa_m.m2",
+       },
+       {
+        fileId = "7034375",
+        text = "cloth_outdoorethereal_c_01_r.m2",
+        value = "cloth_outdoorethereal_c_01_r.m2",
+       },
+       {
+        fileId = "7034286",
+        text = "cloth_outdoorethereal_c_01_sc_f.m2",
+        value = "cloth_outdoorethereal_c_01_sc_f.m2",
+       },
+       {
+        fileId = "7034285",
+        text = "cloth_outdoorethereal_c_01_sc_m.m2",
+        value = "cloth_outdoorethereal_c_01_sc_m.m2",
+       },
+       {
+        fileId = "7034282",
+        text = "cloth_outdoorethereal_c_01_ta_f.m2",
+        value = "cloth_outdoorethereal_c_01_ta_f.m2",
+       },
+       {
+        fileId = "7034281",
+        text = "cloth_outdoorethereal_c_01_ta_m.m2",
+        value = "cloth_outdoorethereal_c_01_ta_m.m2",
+       },
+       {
+        fileId = "7034284",
+        text = "cloth_outdoorethereal_c_01_tr_f.m2",
+        value = "cloth_outdoorethereal_c_01_tr_f.m2",
+       },
+       {
+        fileId = "7034283",
+        text = "cloth_outdoorethereal_c_01_tr_m.m2",
+        value = "cloth_outdoorethereal_c_01_tr_m.m2",
+       },
+       {
+        fileId = "7034288",
+        text = "cloth_outdoorethereal_c_01_vu_f.m2",
+        value = "cloth_outdoorethereal_c_01_vu_f.m2",
+       },
+       {
+        fileId = "7034287",
+        text = "cloth_outdoorethereal_c_01_vu_m.m2",
+        value = "cloth_outdoorethereal_c_01_vu_m.m2",
+       },
+       {
+        fileId = "7034290",
+        text = "cloth_outdoorethereal_c_01_wo_f.m2",
+        value = "cloth_outdoorethereal_c_01_wo_f.m2",
+       },
+       {
+        fileId = "7034289",
+        text = "cloth_outdoorethereal_c_01_wo_m.m2",
+        value = "cloth_outdoorethereal_c_01_wo_m.m2",
+       },
+       {
+        fileId = "7034292",
+        text = "cloth_outdoorethereal_c_01_za_f.m2",
+        value = "cloth_outdoorethereal_c_01_za_f.m2",
+       },
+       {
+        fileId = "7034291",
+        text = "cloth_outdoorethereal_c_01_za_m.m2",
+        value = "cloth_outdoorethereal_c_01_za_m.m2",
+       },
+       {
         fileId = "5739283",
         text = "cloth_outdoorundermine_c_01_belt.m2",
         value = "cloth_outdoorundermine_c_01_belt.m2",
@@ -60820,6 +64378,206 @@ WeakAuras.ModelPaths = {
         fileId = "4994638",
         text = "cloth_raidmageemerald_d_01_shoulder_r.m2",
         value = "cloth_raidmageemerald_d_01_shoulder_r.m2",
+       },
+       {
+        fileId = "6121587",
+        text = "cloth_raidmageethereal_d_01.m2",
+        value = "cloth_raidmageethereal_d_01.m2",
+       },
+       {
+        fileId = "6121797",
+        text = "cloth_raidmageethereal_d_01_be_f.m2",
+        value = "cloth_raidmageethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6121796",
+        text = "cloth_raidmageethereal_d_01_be_m.m2",
+        value = "cloth_raidmageethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6121799",
+        text = "cloth_raidmageethereal_d_01_dr_f.m2",
+        value = "cloth_raidmageethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6121798",
+        text = "cloth_raidmageethereal_d_01_dr_m.m2",
+        value = "cloth_raidmageethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6121801",
+        text = "cloth_raidmageethereal_d_01_dw_f.m2",
+        value = "cloth_raidmageethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6121800",
+        text = "cloth_raidmageethereal_d_01_dw_m.m2",
+        value = "cloth_raidmageethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6851688",
+        text = "cloth_raidmageethereal_d_01_ed_f.m2",
+        value = "cloth_raidmageethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6851689",
+        text = "cloth_raidmageethereal_d_01_ed_m.m2",
+        value = "cloth_raidmageethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6121803",
+        text = "cloth_raidmageethereal_d_01_gn_f.m2",
+        value = "cloth_raidmageethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6121802",
+        text = "cloth_raidmageethereal_d_01_gn_m.m2",
+        value = "cloth_raidmageethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6121805",
+        text = "cloth_raidmageethereal_d_01_go_f.m2",
+        value = "cloth_raidmageethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6121804",
+        text = "cloth_raidmageethereal_d_01_go_m.m2",
+        value = "cloth_raidmageethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6121807",
+        text = "cloth_raidmageethereal_d_01_hu_f.m2",
+        value = "cloth_raidmageethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6121806",
+        text = "cloth_raidmageethereal_d_01_hu_m.m2",
+        value = "cloth_raidmageethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6121809",
+        text = "cloth_raidmageethereal_d_01_kt_f.m2",
+        value = "cloth_raidmageethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6121808",
+        text = "cloth_raidmageethereal_d_01_kt_m.m2",
+        value = "cloth_raidmageethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6121585",
+        text = "cloth_raidmageethereal_d_01_l.m2",
+        value = "cloth_raidmageethereal_d_01_l.m2",
+       },
+       {
+        fileId = "6121811",
+        text = "cloth_raidmageethereal_d_01_mg_f.m2",
+        value = "cloth_raidmageethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6121810",
+        text = "cloth_raidmageethereal_d_01_mg_m.m2",
+        value = "cloth_raidmageethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6121814",
+        text = "cloth_raidmageethereal_d_01_nb_m.m2",
+        value = "cloth_raidmageethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6121813",
+        text = "cloth_raidmageethereal_d_01_ni_f.m2",
+        value = "cloth_raidmageethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6121812",
+        text = "cloth_raidmageethereal_d_01_ni_m.m2",
+        value = "cloth_raidmageethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6121816",
+        text = "cloth_raidmageethereal_d_01_or_f.m2",
+        value = "cloth_raidmageethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6121815",
+        text = "cloth_raidmageethereal_d_01_or_m.m2",
+        value = "cloth_raidmageethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6121818",
+        text = "cloth_raidmageethereal_d_01_pa_f.m2",
+        value = "cloth_raidmageethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6121817",
+        text = "cloth_raidmageethereal_d_01_pa_m.m2",
+        value = "cloth_raidmageethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6121586",
+        text = "cloth_raidmageethereal_d_01_r.m2",
+        value = "cloth_raidmageethereal_d_01_r.m2",
+       },
+       {
+        fileId = "6121824",
+        text = "cloth_raidmageethereal_d_01_sc_f.m2",
+        value = "cloth_raidmageethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6121823",
+        text = "cloth_raidmageethereal_d_01_sc_m.m2",
+        value = "cloth_raidmageethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6121820",
+        text = "cloth_raidmageethereal_d_01_ta_f.m2",
+        value = "cloth_raidmageethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6121819",
+        text = "cloth_raidmageethereal_d_01_ta_m.m2",
+        value = "cloth_raidmageethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6121822",
+        text = "cloth_raidmageethereal_d_01_tr_f.m2",
+        value = "cloth_raidmageethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6121821",
+        text = "cloth_raidmageethereal_d_01_tr_m.m2",
+        value = "cloth_raidmageethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6121826",
+        text = "cloth_raidmageethereal_d_01_vu_f.m2",
+        value = "cloth_raidmageethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6121825",
+        text = "cloth_raidmageethereal_d_01_vu_m.m2",
+        value = "cloth_raidmageethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6121828",
+        text = "cloth_raidmageethereal_d_01_wo_f.m2",
+        value = "cloth_raidmageethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6121827",
+        text = "cloth_raidmageethereal_d_01_wo_m.m2",
+        value = "cloth_raidmageethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6121830",
+        text = "cloth_raidmageethereal_d_01_za_f.m2",
+        value = "cloth_raidmageethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6121829",
+        text = "cloth_raidmageethereal_d_01_za_m.m2",
+        value = "cloth_raidmageethereal_d_01_za_m.m2",
        },
        {
         fileId = "5653160",
@@ -61745,6 +65503,206 @@ WeakAuras.ModelPaths = {
         fileId = "5686675",
         text = "cloth_raidpriestdragon_d_01_boot_ed_m.m2",
         value = "cloth_raidpriestdragon_d_01_boot_ed_m.m2",
+       },
+       {
+        fileId = "6121599",
+        text = "cloth_raidpriestethereal_d_01.m2",
+        value = "cloth_raidpriestethereal_d_01.m2",
+       },
+       {
+        fileId = "6121902",
+        text = "cloth_raidpriestethereal_d_01_be_f.m2",
+        value = "cloth_raidpriestethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6121901",
+        text = "cloth_raidpriestethereal_d_01_be_m.m2",
+        value = "cloth_raidpriestethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6121904",
+        text = "cloth_raidpriestethereal_d_01_dr_f.m2",
+        value = "cloth_raidpriestethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6121903",
+        text = "cloth_raidpriestethereal_d_01_dr_m.m2",
+        value = "cloth_raidpriestethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6121906",
+        text = "cloth_raidpriestethereal_d_01_dw_f.m2",
+        value = "cloth_raidpriestethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6121905",
+        text = "cloth_raidpriestethereal_d_01_dw_m.m2",
+        value = "cloth_raidpriestethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6785418",
+        text = "cloth_raidpriestethereal_d_01_ed_f.m2",
+        value = "cloth_raidpriestethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6785417",
+        text = "cloth_raidpriestethereal_d_01_ed_m.m2",
+        value = "cloth_raidpriestethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6121908",
+        text = "cloth_raidpriestethereal_d_01_gn_f.m2",
+        value = "cloth_raidpriestethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6121907",
+        text = "cloth_raidpriestethereal_d_01_gn_m.m2",
+        value = "cloth_raidpriestethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6121910",
+        text = "cloth_raidpriestethereal_d_01_go_f.m2",
+        value = "cloth_raidpriestethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6121909",
+        text = "cloth_raidpriestethereal_d_01_go_m.m2",
+        value = "cloth_raidpriestethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6121912",
+        text = "cloth_raidpriestethereal_d_01_hu_f.m2",
+        value = "cloth_raidpriestethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6121911",
+        text = "cloth_raidpriestethereal_d_01_hu_m.m2",
+        value = "cloth_raidpriestethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6121914",
+        text = "cloth_raidpriestethereal_d_01_kt_f.m2",
+        value = "cloth_raidpriestethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6121913",
+        text = "cloth_raidpriestethereal_d_01_kt_m.m2",
+        value = "cloth_raidpriestethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6121597",
+        text = "cloth_raidpriestethereal_d_01_l.m2",
+        value = "cloth_raidpriestethereal_d_01_l.m2",
+       },
+       {
+        fileId = "6121916",
+        text = "cloth_raidpriestethereal_d_01_mg_f.m2",
+        value = "cloth_raidpriestethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6121915",
+        text = "cloth_raidpriestethereal_d_01_mg_m.m2",
+        value = "cloth_raidpriestethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6121919",
+        text = "cloth_raidpriestethereal_d_01_nb_m.m2",
+        value = "cloth_raidpriestethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6121918",
+        text = "cloth_raidpriestethereal_d_01_ni_f.m2",
+        value = "cloth_raidpriestethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6121917",
+        text = "cloth_raidpriestethereal_d_01_ni_m.m2",
+        value = "cloth_raidpriestethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6121921",
+        text = "cloth_raidpriestethereal_d_01_or_f.m2",
+        value = "cloth_raidpriestethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6121920",
+        text = "cloth_raidpriestethereal_d_01_or_m.m2",
+        value = "cloth_raidpriestethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6121923",
+        text = "cloth_raidpriestethereal_d_01_pa_f.m2",
+        value = "cloth_raidpriestethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6121922",
+        text = "cloth_raidpriestethereal_d_01_pa_m.m2",
+        value = "cloth_raidpriestethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6121598",
+        text = "cloth_raidpriestethereal_d_01_r.m2",
+        value = "cloth_raidpriestethereal_d_01_r.m2",
+       },
+       {
+        fileId = "6121929",
+        text = "cloth_raidpriestethereal_d_01_sc_f.m2",
+        value = "cloth_raidpriestethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6121928",
+        text = "cloth_raidpriestethereal_d_01_sc_m.m2",
+        value = "cloth_raidpriestethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6121925",
+        text = "cloth_raidpriestethereal_d_01_ta_f.m2",
+        value = "cloth_raidpriestethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6121924",
+        text = "cloth_raidpriestethereal_d_01_ta_m.m2",
+        value = "cloth_raidpriestethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6121927",
+        text = "cloth_raidpriestethereal_d_01_tr_f.m2",
+        value = "cloth_raidpriestethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6121926",
+        text = "cloth_raidpriestethereal_d_01_tr_m.m2",
+        value = "cloth_raidpriestethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6121931",
+        text = "cloth_raidpriestethereal_d_01_vu_f.m2",
+        value = "cloth_raidpriestethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6121930",
+        text = "cloth_raidpriestethereal_d_01_vu_m.m2",
+        value = "cloth_raidpriestethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6121933",
+        text = "cloth_raidpriestethereal_d_01_wo_f.m2",
+        value = "cloth_raidpriestethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6121932",
+        text = "cloth_raidpriestethereal_d_01_wo_m.m2",
+        value = "cloth_raidpriestethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6121935",
+        text = "cloth_raidpriestethereal_d_01_za_f.m2",
+        value = "cloth_raidpriestethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6121934",
+        text = "cloth_raidpriestethereal_d_01_za_m.m2",
+        value = "cloth_raidpriestethereal_d_01_za_m.m2",
        },
        {
         fileId = "5425292",
@@ -63055,6 +67013,201 @@ WeakAuras.ModelPaths = {
         fileId = "4994935",
         text = "cloth_raidwarlockemerald_d_01_shoulder_r.m2",
         value = "cloth_raidwarlockemerald_d_01_shoulder_r.m2",
+       },
+       {
+        fileId = "6122007",
+        text = "cloth_raidwarlockethereal_d_01_be_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6122006",
+        text = "cloth_raidwarlockethereal_d_01_be_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6122009",
+        text = "cloth_raidwarlockethereal_d_01_dr_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6122008",
+        text = "cloth_raidwarlockethereal_d_01_dr_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6122011",
+        text = "cloth_raidwarlockethereal_d_01_dw_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6122010",
+        text = "cloth_raidwarlockethereal_d_01_dw_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852800",
+        text = "cloth_raidwarlockethereal_d_01_ed_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852799",
+        text = "cloth_raidwarlockethereal_d_01_ed_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6122013",
+        text = "cloth_raidwarlockethereal_d_01_gn_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6122012",
+        text = "cloth_raidwarlockethereal_d_01_gn_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6122015",
+        text = "cloth_raidwarlockethereal_d_01_go_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6122014",
+        text = "cloth_raidwarlockethereal_d_01_go_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6122017",
+        text = "cloth_raidwarlockethereal_d_01_hu_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6122016",
+        text = "cloth_raidwarlockethereal_d_01_hu_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6122019",
+        text = "cloth_raidwarlockethereal_d_01_kt_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6122018",
+        text = "cloth_raidwarlockethereal_d_01_kt_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6121609",
+        text = "cloth_raidwarlockethereal_d_01_l.m2",
+        value = "cloth_raidwarlockethereal_d_01_l.m2",
+       },
+       {
+        fileId = "6122021",
+        text = "cloth_raidwarlockethereal_d_01_mg_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6122020",
+        text = "cloth_raidwarlockethereal_d_01_mg_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6122024",
+        text = "cloth_raidwarlockethereal_d_01_nb_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6122023",
+        text = "cloth_raidwarlockethereal_d_01_ni_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6122022",
+        text = "cloth_raidwarlockethereal_d_01_ni_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6122026",
+        text = "cloth_raidwarlockethereal_d_01_or_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6122025",
+        text = "cloth_raidwarlockethereal_d_01_or_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6122028",
+        text = "cloth_raidwarlockethereal_d_01_pa_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6122027",
+        text = "cloth_raidwarlockethereal_d_01_pa_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6121610",
+        text = "cloth_raidwarlockethereal_d_01_r.m2",
+        value = "cloth_raidwarlockethereal_d_01_r.m2",
+       },
+       {
+        fileId = "6122034",
+        text = "cloth_raidwarlockethereal_d_01_sc_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6122033",
+        text = "cloth_raidwarlockethereal_d_01_sc_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6122030",
+        text = "cloth_raidwarlockethereal_d_01_ta_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6122029",
+        text = "cloth_raidwarlockethereal_d_01_ta_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6122032",
+        text = "cloth_raidwarlockethereal_d_01_tr_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6122031",
+        text = "cloth_raidwarlockethereal_d_01_tr_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6122036",
+        text = "cloth_raidwarlockethereal_d_01_vu_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6122035",
+        text = "cloth_raidwarlockethereal_d_01_vu_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6122038",
+        text = "cloth_raidwarlockethereal_d_01_wo_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6122037",
+        text = "cloth_raidwarlockethereal_d_01_wo_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6122040",
+        text = "cloth_raidwarlockethereal_d_01_za_f.m2",
+        value = "cloth_raidwarlockethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6122039",
+        text = "cloth_raidwarlockethereal_d_01_za_m.m2",
+        value = "cloth_raidwarlockethereal_d_01_za_m.m2",
        },
        {
         fileId = "5695166",
@@ -64835,6 +68988,191 @@ WeakAuras.ModelPaths = {
         fileId = "2396815",
         text = "collections_armor_brawlersguild_d_01_za_m.m2",
         value = "collections_armor_brawlersguild_d_01_za_m.m2",
+       },
+       {
+        fileId = "6715696",
+        text = "collections_armor_brewfestskirt_c_01_be_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_be_f.m2",
+       },
+       {
+        fileId = "6715695",
+        text = "collections_armor_brewfestskirt_c_01_be_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_be_m.m2",
+       },
+       {
+        fileId = "6715698",
+        text = "collections_armor_brewfestskirt_c_01_dr_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_dr_f.m2",
+       },
+       {
+        fileId = "6715697",
+        text = "collections_armor_brewfestskirt_c_01_dr_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_dr_m.m2",
+       },
+       {
+        fileId = "6715700",
+        text = "collections_armor_brewfestskirt_c_01_dw_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_dw_f.m2",
+       },
+       {
+        fileId = "6715699",
+        text = "collections_armor_brewfestskirt_c_01_dw_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_dw_m.m2",
+       },
+       {
+        fileId = "6715702",
+        text = "collections_armor_brewfestskirt_c_01_ed_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_ed_f.m2",
+       },
+       {
+        fileId = "6715701",
+        text = "collections_armor_brewfestskirt_c_01_ed_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_ed_m.m2",
+       },
+       {
+        fileId = "6715704",
+        text = "collections_armor_brewfestskirt_c_01_gn_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_gn_f.m2",
+       },
+       {
+        fileId = "6715703",
+        text = "collections_armor_brewfestskirt_c_01_gn_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_gn_m.m2",
+       },
+       {
+        fileId = "6715706",
+        text = "collections_armor_brewfestskirt_c_01_go_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_go_f.m2",
+       },
+       {
+        fileId = "6715705",
+        text = "collections_armor_brewfestskirt_c_01_go_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_go_m.m2",
+       },
+       {
+        fileId = "6715708",
+        text = "collections_armor_brewfestskirt_c_01_hu_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_hu_f.m2",
+       },
+       {
+        fileId = "6715707",
+        text = "collections_armor_brewfestskirt_c_01_hu_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_hu_m.m2",
+       },
+       {
+        fileId = "6715710",
+        text = "collections_armor_brewfestskirt_c_01_kt_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_kt_f.m2",
+       },
+       {
+        fileId = "6715709",
+        text = "collections_armor_brewfestskirt_c_01_kt_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_kt_m.m2",
+       },
+       {
+        fileId = "6715712",
+        text = "collections_armor_brewfestskirt_c_01_mg_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_mg_f.m2",
+       },
+       {
+        fileId = "6715711",
+        text = "collections_armor_brewfestskirt_c_01_mg_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_mg_m.m2",
+       },
+       {
+        fileId = "6715715",
+        text = "collections_armor_brewfestskirt_c_01_nb_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_nb_m.m2",
+       },
+       {
+        fileId = "6715714",
+        text = "collections_armor_brewfestskirt_c_01_ni_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_ni_f.m2",
+       },
+       {
+        fileId = "6715713",
+        text = "collections_armor_brewfestskirt_c_01_ni_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_ni_m.m2",
+       },
+       {
+        fileId = "6715717",
+        text = "collections_armor_brewfestskirt_c_01_or_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_or_f.m2",
+       },
+       {
+        fileId = "6715716",
+        text = "collections_armor_brewfestskirt_c_01_or_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_or_m.m2",
+       },
+       {
+        fileId = "6715719",
+        text = "collections_armor_brewfestskirt_c_01_pa_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_pa_f.m2",
+       },
+       {
+        fileId = "6715718",
+        text = "collections_armor_brewfestskirt_c_01_pa_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_pa_m.m2",
+       },
+       {
+        fileId = "6715725",
+        text = "collections_armor_brewfestskirt_c_01_sc_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_sc_f.m2",
+       },
+       {
+        fileId = "6715724",
+        text = "collections_armor_brewfestskirt_c_01_sc_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_sc_m.m2",
+       },
+       {
+        fileId = "6715721",
+        text = "collections_armor_brewfestskirt_c_01_ta_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_ta_f.m2",
+       },
+       {
+        fileId = "6715720",
+        text = "collections_armor_brewfestskirt_c_01_ta_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_ta_m.m2",
+       },
+       {
+        fileId = "6715723",
+        text = "collections_armor_brewfestskirt_c_01_tr_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_tr_f.m2",
+       },
+       {
+        fileId = "6715722",
+        text = "collections_armor_brewfestskirt_c_01_tr_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_tr_m.m2",
+       },
+       {
+        fileId = "6715727",
+        text = "collections_armor_brewfestskirt_c_01_vu_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_vu_f.m2",
+       },
+       {
+        fileId = "6715726",
+        text = "collections_armor_brewfestskirt_c_01_vu_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_vu_m.m2",
+       },
+       {
+        fileId = "6715729",
+        text = "collections_armor_brewfestskirt_c_01_wo_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_wo_f.m2",
+       },
+       {
+        fileId = "6715728",
+        text = "collections_armor_brewfestskirt_c_01_wo_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_wo_m.m2",
+       },
+       {
+        fileId = "6715731",
+        text = "collections_armor_brewfestskirt_c_01_za_f.m2",
+        value = "collections_armor_brewfestskirt_c_01_za_f.m2",
+       },
+       {
+        fileId = "6715730",
+        text = "collections_armor_brewfestskirt_c_01_za_m.m2",
+        value = "collections_armor_brewfestskirt_c_01_za_m.m2",
        },
        {
         fileId = "3749886",
@@ -68305,6 +72643,186 @@ WeakAuras.ModelPaths = {
         fileId = "2177122",
         text = "collections_armor_voidelf_d_01_za_m.m2",
         value = "collections_armor_voidelf_d_01_za_m.m2",
+       },
+       {
+        fileId = "7065071",
+        text = "collections_armor_voidsbindingswimwear_a_01_be_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_be_f.m2",
+       },
+       {
+        fileId = "7065070",
+        text = "collections_armor_voidsbindingswimwear_a_01_be_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_be_m.m2",
+       },
+       {
+        fileId = "7065073",
+        text = "collections_armor_voidsbindingswimwear_a_01_dr_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_dr_f.m2",
+       },
+       {
+        fileId = "7065072",
+        text = "collections_armor_voidsbindingswimwear_a_01_dr_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_dr_m.m2",
+       },
+       {
+        fileId = "7065075",
+        text = "collections_armor_voidsbindingswimwear_a_01_dw_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_dw_f.m2",
+       },
+       {
+        fileId = "7065074",
+        text = "collections_armor_voidsbindingswimwear_a_01_dw_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_dw_m.m2",
+       },
+       {
+        fileId = "7065077",
+        text = "collections_armor_voidsbindingswimwear_a_01_ed_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_ed_f.m2",
+       },
+       {
+        fileId = "7065076",
+        text = "collections_armor_voidsbindingswimwear_a_01_ed_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_ed_m.m2",
+       },
+       {
+        fileId = "7065079",
+        text = "collections_armor_voidsbindingswimwear_a_01_gn_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_gn_f.m2",
+       },
+       {
+        fileId = "7065078",
+        text = "collections_armor_voidsbindingswimwear_a_01_gn_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_gn_m.m2",
+       },
+       {
+        fileId = "7065081",
+        text = "collections_armor_voidsbindingswimwear_a_01_go_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_go_f.m2",
+       },
+       {
+        fileId = "7065080",
+        text = "collections_armor_voidsbindingswimwear_a_01_go_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_go_m.m2",
+       },
+       {
+        fileId = "7065083",
+        text = "collections_armor_voidsbindingswimwear_a_01_hu_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_hu_f.m2",
+       },
+       {
+        fileId = "7065082",
+        text = "collections_armor_voidsbindingswimwear_a_01_hu_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_hu_m.m2",
+       },
+       {
+        fileId = "7065085",
+        text = "collections_armor_voidsbindingswimwear_a_01_kt_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_kt_f.m2",
+       },
+       {
+        fileId = "7065084",
+        text = "collections_armor_voidsbindingswimwear_a_01_kt_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_kt_m.m2",
+       },
+       {
+        fileId = "7065087",
+        text = "collections_armor_voidsbindingswimwear_a_01_mg_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_mg_f.m2",
+       },
+       {
+        fileId = "7065086",
+        text = "collections_armor_voidsbindingswimwear_a_01_mg_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_mg_m.m2",
+       },
+       {
+        fileId = "7065090",
+        text = "collections_armor_voidsbindingswimwear_a_01_nb_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_nb_m.m2",
+       },
+       {
+        fileId = "7065089",
+        text = "collections_armor_voidsbindingswimwear_a_01_ni_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_ni_f.m2",
+       },
+       {
+        fileId = "7065088",
+        text = "collections_armor_voidsbindingswimwear_a_01_ni_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_ni_m.m2",
+       },
+       {
+        fileId = "7065092",
+        text = "collections_armor_voidsbindingswimwear_a_01_or_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_or_f.m2",
+       },
+       {
+        fileId = "7065091",
+        text = "collections_armor_voidsbindingswimwear_a_01_or_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_or_m.m2",
+       },
+       {
+        fileId = "7065094",
+        text = "collections_armor_voidsbindingswimwear_a_01_pa_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_pa_f.m2",
+       },
+       {
+        fileId = "7065093",
+        text = "collections_armor_voidsbindingswimwear_a_01_pa_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_pa_m.m2",
+       },
+       {
+        fileId = "7065100",
+        text = "collections_armor_voidsbindingswimwear_a_01_sc_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_sc_f.m2",
+       },
+       {
+        fileId = "7065099",
+        text = "collections_armor_voidsbindingswimwear_a_01_sc_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_sc_m.m2",
+       },
+       {
+        fileId = "7065096",
+        text = "collections_armor_voidsbindingswimwear_a_01_ta_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_ta_f.m2",
+       },
+       {
+        fileId = "7065095",
+        text = "collections_armor_voidsbindingswimwear_a_01_ta_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_ta_m.m2",
+       },
+       {
+        fileId = "7065098",
+        text = "collections_armor_voidsbindingswimwear_a_01_tr_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_tr_f.m2",
+       },
+       {
+        fileId = "7065097",
+        text = "collections_armor_voidsbindingswimwear_a_01_tr_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_tr_m.m2",
+       },
+       {
+        fileId = "7065102",
+        text = "collections_armor_voidsbindingswimwear_a_01_vu_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_vu_f.m2",
+       },
+       {
+        fileId = "7065101",
+        text = "collections_armor_voidsbindingswimwear_a_01_vu_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_vu_m.m2",
+       },
+       {
+        fileId = "7065104",
+        text = "collections_armor_voidsbindingswimwear_a_01_wo_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_wo_f.m2",
+       },
+       {
+        fileId = "7065103",
+        text = "collections_armor_voidsbindingswimwear_a_01_wo_m.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_wo_m.m2",
+       },
+       {
+        fileId = "7065106",
+        text = "collections_armor_voidsbindingswimwear_a_01_za_f.m2",
+        value = "collections_armor_voidsbindingswimwear_a_01_za_f.m2",
        },
        {
         fileId = "3147969",
@@ -96262,6 +100780,11 @@ WeakAuras.ModelPaths = {
         value = "hand_1h_emeralddreamraid_d_01.m2",
        },
        {
+        fileId = "6214698",
+        text = "hand_1h_etherealraid_d_01.m2",
+        value = "hand_1h_etherealraid_d_01.m2",
+       },
+       {
         fileId = "5047285",
         text = "hand_1h_evokerlegendary_d_01.m2",
         value = "hand_1h_evokerlegendary_d_01.m2",
@@ -97797,6 +102320,206 @@ WeakAuras.ModelPaths = {
         value = "leather_outdooremeralddream_d_01_shoulder_r.m2",
        },
        {
+        fileId = "7016380",
+        text = "leather_outdoorethereal_c_01.m2",
+        value = "leather_outdoorethereal_c_01.m2",
+       },
+       {
+        fileId = "7016301",
+        text = "leather_outdoorethereal_c_01_be_f.m2",
+        value = "leather_outdoorethereal_c_01_be_f.m2",
+       },
+       {
+        fileId = "7016300",
+        text = "leather_outdoorethereal_c_01_be_m.m2",
+        value = "leather_outdoorethereal_c_01_be_m.m2",
+       },
+       {
+        fileId = "7016303",
+        text = "leather_outdoorethereal_c_01_dr_f.m2",
+        value = "leather_outdoorethereal_c_01_dr_f.m2",
+       },
+       {
+        fileId = "7016302",
+        text = "leather_outdoorethereal_c_01_dr_m.m2",
+        value = "leather_outdoorethereal_c_01_dr_m.m2",
+       },
+       {
+        fileId = "7016305",
+        text = "leather_outdoorethereal_c_01_dw_f.m2",
+        value = "leather_outdoorethereal_c_01_dw_f.m2",
+       },
+       {
+        fileId = "7016304",
+        text = "leather_outdoorethereal_c_01_dw_m.m2",
+        value = "leather_outdoorethereal_c_01_dw_m.m2",
+       },
+       {
+        fileId = "7016307",
+        text = "leather_outdoorethereal_c_01_ed_f.m2",
+        value = "leather_outdoorethereal_c_01_ed_f.m2",
+       },
+       {
+        fileId = "7016306",
+        text = "leather_outdoorethereal_c_01_ed_m.m2",
+        value = "leather_outdoorethereal_c_01_ed_m.m2",
+       },
+       {
+        fileId = "7016309",
+        text = "leather_outdoorethereal_c_01_gn_f.m2",
+        value = "leather_outdoorethereal_c_01_gn_f.m2",
+       },
+       {
+        fileId = "7016308",
+        text = "leather_outdoorethereal_c_01_gn_m.m2",
+        value = "leather_outdoorethereal_c_01_gn_m.m2",
+       },
+       {
+        fileId = "7016311",
+        text = "leather_outdoorethereal_c_01_go_f.m2",
+        value = "leather_outdoorethereal_c_01_go_f.m2",
+       },
+       {
+        fileId = "7016310",
+        text = "leather_outdoorethereal_c_01_go_m.m2",
+        value = "leather_outdoorethereal_c_01_go_m.m2",
+       },
+       {
+        fileId = "7016313",
+        text = "leather_outdoorethereal_c_01_hu_f.m2",
+        value = "leather_outdoorethereal_c_01_hu_f.m2",
+       },
+       {
+        fileId = "7016312",
+        text = "leather_outdoorethereal_c_01_hu_m.m2",
+        value = "leather_outdoorethereal_c_01_hu_m.m2",
+       },
+       {
+        fileId = "7016315",
+        text = "leather_outdoorethereal_c_01_kt_f.m2",
+        value = "leather_outdoorethereal_c_01_kt_f.m2",
+       },
+       {
+        fileId = "7016314",
+        text = "leather_outdoorethereal_c_01_kt_m.m2",
+        value = "leather_outdoorethereal_c_01_kt_m.m2",
+       },
+       {
+        fileId = "7016378",
+        text = "leather_outdoorethereal_c_01_l.m2",
+        value = "leather_outdoorethereal_c_01_l.m2",
+       },
+       {
+        fileId = "7016317",
+        text = "leather_outdoorethereal_c_01_mg_f.m2",
+        value = "leather_outdoorethereal_c_01_mg_f.m2",
+       },
+       {
+        fileId = "7016316",
+        text = "leather_outdoorethereal_c_01_mg_m.m2",
+        value = "leather_outdoorethereal_c_01_mg_m.m2",
+       },
+       {
+        fileId = "7016320",
+        text = "leather_outdoorethereal_c_01_nb_m.m2",
+        value = "leather_outdoorethereal_c_01_nb_m.m2",
+       },
+       {
+        fileId = "7016319",
+        text = "leather_outdoorethereal_c_01_ni_f.m2",
+        value = "leather_outdoorethereal_c_01_ni_f.m2",
+       },
+       {
+        fileId = "7016318",
+        text = "leather_outdoorethereal_c_01_ni_m.m2",
+        value = "leather_outdoorethereal_c_01_ni_m.m2",
+       },
+       {
+        fileId = "7016322",
+        text = "leather_outdoorethereal_c_01_or_f.m2",
+        value = "leather_outdoorethereal_c_01_or_f.m2",
+       },
+       {
+        fileId = "7016321",
+        text = "leather_outdoorethereal_c_01_or_m.m2",
+        value = "leather_outdoorethereal_c_01_or_m.m2",
+       },
+       {
+        fileId = "7016324",
+        text = "leather_outdoorethereal_c_01_pa_f.m2",
+        value = "leather_outdoorethereal_c_01_pa_f.m2",
+       },
+       {
+        fileId = "7016323",
+        text = "leather_outdoorethereal_c_01_pa_m.m2",
+        value = "leather_outdoorethereal_c_01_pa_m.m2",
+       },
+       {
+        fileId = "7016379",
+        text = "leather_outdoorethereal_c_01_r.m2",
+        value = "leather_outdoorethereal_c_01_r.m2",
+       },
+       {
+        fileId = "7016330",
+        text = "leather_outdoorethereal_c_01_sc_f.m2",
+        value = "leather_outdoorethereal_c_01_sc_f.m2",
+       },
+       {
+        fileId = "7016329",
+        text = "leather_outdoorethereal_c_01_sc_m.m2",
+        value = "leather_outdoorethereal_c_01_sc_m.m2",
+       },
+       {
+        fileId = "7016326",
+        text = "leather_outdoorethereal_c_01_ta_f.m2",
+        value = "leather_outdoorethereal_c_01_ta_f.m2",
+       },
+       {
+        fileId = "7016325",
+        text = "leather_outdoorethereal_c_01_ta_m.m2",
+        value = "leather_outdoorethereal_c_01_ta_m.m2",
+       },
+       {
+        fileId = "7016328",
+        text = "leather_outdoorethereal_c_01_tr_f.m2",
+        value = "leather_outdoorethereal_c_01_tr_f.m2",
+       },
+       {
+        fileId = "7016327",
+        text = "leather_outdoorethereal_c_01_tr_m.m2",
+        value = "leather_outdoorethereal_c_01_tr_m.m2",
+       },
+       {
+        fileId = "7016332",
+        text = "leather_outdoorethereal_c_01_vu_f.m2",
+        value = "leather_outdoorethereal_c_01_vu_f.m2",
+       },
+       {
+        fileId = "7016331",
+        text = "leather_outdoorethereal_c_01_vu_m.m2",
+        value = "leather_outdoorethereal_c_01_vu_m.m2",
+       },
+       {
+        fileId = "7016334",
+        text = "leather_outdoorethereal_c_01_wo_f.m2",
+        value = "leather_outdoorethereal_c_01_wo_f.m2",
+       },
+       {
+        fileId = "7016333",
+        text = "leather_outdoorethereal_c_01_wo_m.m2",
+        value = "leather_outdoorethereal_c_01_wo_m.m2",
+       },
+       {
+        fileId = "7016336",
+        text = "leather_outdoorethereal_c_01_za_f.m2",
+        value = "leather_outdoorethereal_c_01_za_f.m2",
+       },
+       {
+        fileId = "7016335",
+        text = "leather_outdoorethereal_c_01_za_m.m2",
+        value = "leather_outdoorethereal_c_01_za_m.m2",
+       },
+       {
         fileId = "5739287",
         text = "leather_outdoorundermine_c_01_belt.m2",
         value = "leather_outdoorundermine_c_01_belt.m2",
@@ -98325,6 +103048,206 @@ WeakAuras.ModelPaths = {
         fileId = "5695486",
         text = "leather_raiddemonhunter_r_01_ed_m.m2",
         value = "leather_raiddemonhunter_r_01_ed_m.m2",
+       },
+       {
+        fileId = "6121571",
+        text = "leather_raiddemonhunterethereal_d_01.m2",
+        value = "leather_raiddemonhunterethereal_d_01.m2",
+       },
+       {
+        fileId = "6121657",
+        text = "leather_raiddemonhunterethereal_d_01_be_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6121656",
+        text = "leather_raiddemonhunterethereal_d_01_be_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6121659",
+        text = "leather_raiddemonhunterethereal_d_01_dr_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6121658",
+        text = "leather_raiddemonhunterethereal_d_01_dr_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6121661",
+        text = "leather_raiddemonhunterethereal_d_01_dw_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6121660",
+        text = "leather_raiddemonhunterethereal_d_01_dw_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852922",
+        text = "leather_raiddemonhunterethereal_d_01_ed_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852921",
+        text = "leather_raiddemonhunterethereal_d_01_ed_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6121663",
+        text = "leather_raiddemonhunterethereal_d_01_gn_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6121662",
+        text = "leather_raiddemonhunterethereal_d_01_gn_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6121665",
+        text = "leather_raiddemonhunterethereal_d_01_go_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6121664",
+        text = "leather_raiddemonhunterethereal_d_01_go_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6121667",
+        text = "leather_raiddemonhunterethereal_d_01_hu_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6121666",
+        text = "leather_raiddemonhunterethereal_d_01_hu_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6121669",
+        text = "leather_raiddemonhunterethereal_d_01_kt_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6121668",
+        text = "leather_raiddemonhunterethereal_d_01_kt_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6121569",
+        text = "leather_raiddemonhunterethereal_d_01_l.m2",
+        value = "leather_raiddemonhunterethereal_d_01_l.m2",
+       },
+       {
+        fileId = "6121671",
+        text = "leather_raiddemonhunterethereal_d_01_mg_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6121670",
+        text = "leather_raiddemonhunterethereal_d_01_mg_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6121674",
+        text = "leather_raiddemonhunterethereal_d_01_nb_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6121673",
+        text = "leather_raiddemonhunterethereal_d_01_ni_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6121672",
+        text = "leather_raiddemonhunterethereal_d_01_ni_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6121676",
+        text = "leather_raiddemonhunterethereal_d_01_or_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6121675",
+        text = "leather_raiddemonhunterethereal_d_01_or_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6121678",
+        text = "leather_raiddemonhunterethereal_d_01_pa_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6121677",
+        text = "leather_raiddemonhunterethereal_d_01_pa_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6121570",
+        text = "leather_raiddemonhunterethereal_d_01_r.m2",
+        value = "leather_raiddemonhunterethereal_d_01_r.m2",
+       },
+       {
+        fileId = "6121684",
+        text = "leather_raiddemonhunterethereal_d_01_sc_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6121683",
+        text = "leather_raiddemonhunterethereal_d_01_sc_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6121680",
+        text = "leather_raiddemonhunterethereal_d_01_ta_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6121679",
+        text = "leather_raiddemonhunterethereal_d_01_ta_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6121682",
+        text = "leather_raiddemonhunterethereal_d_01_tr_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6121681",
+        text = "leather_raiddemonhunterethereal_d_01_tr_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6121686",
+        text = "leather_raiddemonhunterethereal_d_01_vu_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6121685",
+        text = "leather_raiddemonhunterethereal_d_01_vu_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6121688",
+        text = "leather_raiddemonhunterethereal_d_01_wo_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6121687",
+        text = "leather_raiddemonhunterethereal_d_01_wo_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6121690",
+        text = "leather_raiddemonhunterethereal_d_01_za_f.m2",
+        value = "leather_raiddemonhunterethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6121689",
+        text = "leather_raiddemonhunterethereal_d_01_za_m.m2",
+        value = "leather_raiddemonhunterethereal_d_01_za_m.m2",
        },
        {
         fileId = "5695511",
@@ -99422,6 +104345,206 @@ WeakAuras.ModelPaths = {
         value = "leather_raiddruidemerald_d_01_shoulder_r.m2",
        },
        {
+        fileId = "6121575",
+        text = "leather_raiddruidethereal_d_01.m2",
+        value = "leather_raiddruidethereal_d_01.m2",
+       },
+       {
+        fileId = "6121692",
+        text = "leather_raiddruidethereal_d_01_be_f.m2",
+        value = "leather_raiddruidethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6121691",
+        text = "leather_raiddruidethereal_d_01_be_m.m2",
+        value = "leather_raiddruidethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6121694",
+        text = "leather_raiddruidethereal_d_01_dr_f.m2",
+        value = "leather_raiddruidethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6121693",
+        text = "leather_raiddruidethereal_d_01_dr_m.m2",
+        value = "leather_raiddruidethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6121696",
+        text = "leather_raiddruidethereal_d_01_dw_f.m2",
+        value = "leather_raiddruidethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6121695",
+        text = "leather_raiddruidethereal_d_01_dw_m.m2",
+        value = "leather_raiddruidethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852923",
+        text = "leather_raiddruidethereal_d_01_ed_f.m2",
+        value = "leather_raiddruidethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852924",
+        text = "leather_raiddruidethereal_d_01_ed_m.m2",
+        value = "leather_raiddruidethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6121698",
+        text = "leather_raiddruidethereal_d_01_gn_f.m2",
+        value = "leather_raiddruidethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6121697",
+        text = "leather_raiddruidethereal_d_01_gn_m.m2",
+        value = "leather_raiddruidethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6121700",
+        text = "leather_raiddruidethereal_d_01_go_f.m2",
+        value = "leather_raiddruidethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6121699",
+        text = "leather_raiddruidethereal_d_01_go_m.m2",
+        value = "leather_raiddruidethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6121702",
+        text = "leather_raiddruidethereal_d_01_hu_f.m2",
+        value = "leather_raiddruidethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6121701",
+        text = "leather_raiddruidethereal_d_01_hu_m.m2",
+        value = "leather_raiddruidethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6121704",
+        text = "leather_raiddruidethereal_d_01_kt_f.m2",
+        value = "leather_raiddruidethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6121703",
+        text = "leather_raiddruidethereal_d_01_kt_m.m2",
+        value = "leather_raiddruidethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6121573",
+        text = "leather_raiddruidethereal_d_01_l.m2",
+        value = "leather_raiddruidethereal_d_01_l.m2",
+       },
+       {
+        fileId = "6121706",
+        text = "leather_raiddruidethereal_d_01_mg_f.m2",
+        value = "leather_raiddruidethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6121705",
+        text = "leather_raiddruidethereal_d_01_mg_m.m2",
+        value = "leather_raiddruidethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6121709",
+        text = "leather_raiddruidethereal_d_01_nb_m.m2",
+        value = "leather_raiddruidethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6121708",
+        text = "leather_raiddruidethereal_d_01_ni_f.m2",
+        value = "leather_raiddruidethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6121707",
+        text = "leather_raiddruidethereal_d_01_ni_m.m2",
+        value = "leather_raiddruidethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6121711",
+        text = "leather_raiddruidethereal_d_01_or_f.m2",
+        value = "leather_raiddruidethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6121710",
+        text = "leather_raiddruidethereal_d_01_or_m.m2",
+        value = "leather_raiddruidethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6121713",
+        text = "leather_raiddruidethereal_d_01_pa_f.m2",
+        value = "leather_raiddruidethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6121712",
+        text = "leather_raiddruidethereal_d_01_pa_m.m2",
+        value = "leather_raiddruidethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6121574",
+        text = "leather_raiddruidethereal_d_01_r.m2",
+        value = "leather_raiddruidethereal_d_01_r.m2",
+       },
+       {
+        fileId = "6121719",
+        text = "leather_raiddruidethereal_d_01_sc_f.m2",
+        value = "leather_raiddruidethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6121718",
+        text = "leather_raiddruidethereal_d_01_sc_m.m2",
+        value = "leather_raiddruidethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6121715",
+        text = "leather_raiddruidethereal_d_01_ta_f.m2",
+        value = "leather_raiddruidethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6121714",
+        text = "leather_raiddruidethereal_d_01_ta_m.m2",
+        value = "leather_raiddruidethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6121717",
+        text = "leather_raiddruidethereal_d_01_tr_f.m2",
+        value = "leather_raiddruidethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6121716",
+        text = "leather_raiddruidethereal_d_01_tr_m.m2",
+        value = "leather_raiddruidethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6121721",
+        text = "leather_raiddruidethereal_d_01_vu_f.m2",
+        value = "leather_raiddruidethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6121720",
+        text = "leather_raiddruidethereal_d_01_vu_m.m2",
+        value = "leather_raiddruidethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6121723",
+        text = "leather_raiddruidethereal_d_01_wo_f.m2",
+        value = "leather_raiddruidethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6121722",
+        text = "leather_raiddruidethereal_d_01_wo_m.m2",
+        value = "leather_raiddruidethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6121725",
+        text = "leather_raiddruidethereal_d_01_za_f.m2",
+        value = "leather_raiddruidethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6121724",
+        text = "leather_raiddruidethereal_d_01_za_m.m2",
+        value = "leather_raiddruidethereal_d_01_za_m.m2",
+       },
+       {
         fileId = "5695491",
         text = "leather_raiddruidmythic_r_01_ed_f.m2",
         value = "leather_raiddruidmythic_r_01_ed_f.m2",
@@ -100027,6 +105150,206 @@ WeakAuras.ModelPaths = {
         value = "leather_raidmonk_s_01_ed_m.m2",
        },
        {
+        fileId = "6121591",
+        text = "leather_raidmonkethereal_d_01.m2",
+        value = "leather_raidmonkethereal_d_01.m2",
+       },
+       {
+        fileId = "6121832",
+        text = "leather_raidmonkethereal_d_01_be_f.m2",
+        value = "leather_raidmonkethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6121831",
+        text = "leather_raidmonkethereal_d_01_be_m.m2",
+        value = "leather_raidmonkethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6121834",
+        text = "leather_raidmonkethereal_d_01_dr_f.m2",
+        value = "leather_raidmonkethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6121833",
+        text = "leather_raidmonkethereal_d_01_dr_m.m2",
+        value = "leather_raidmonkethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6121836",
+        text = "leather_raidmonkethereal_d_01_dw_f.m2",
+        value = "leather_raidmonkethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6121835",
+        text = "leather_raidmonkethereal_d_01_dw_m.m2",
+        value = "leather_raidmonkethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852926",
+        text = "leather_raidmonkethereal_d_01_ed_f.m2",
+        value = "leather_raidmonkethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852925",
+        text = "leather_raidmonkethereal_d_01_ed_m.m2",
+        value = "leather_raidmonkethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6121838",
+        text = "leather_raidmonkethereal_d_01_gn_f.m2",
+        value = "leather_raidmonkethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6121837",
+        text = "leather_raidmonkethereal_d_01_gn_m.m2",
+        value = "leather_raidmonkethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6121840",
+        text = "leather_raidmonkethereal_d_01_go_f.m2",
+        value = "leather_raidmonkethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6121839",
+        text = "leather_raidmonkethereal_d_01_go_m.m2",
+        value = "leather_raidmonkethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6121842",
+        text = "leather_raidmonkethereal_d_01_hu_f.m2",
+        value = "leather_raidmonkethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6121841",
+        text = "leather_raidmonkethereal_d_01_hu_m.m2",
+        value = "leather_raidmonkethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6121844",
+        text = "leather_raidmonkethereal_d_01_kt_f.m2",
+        value = "leather_raidmonkethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6121843",
+        text = "leather_raidmonkethereal_d_01_kt_m.m2",
+        value = "leather_raidmonkethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6121589",
+        text = "leather_raidmonkethereal_d_01_l.m2",
+        value = "leather_raidmonkethereal_d_01_l.m2",
+       },
+       {
+        fileId = "6121846",
+        text = "leather_raidmonkethereal_d_01_mg_f.m2",
+        value = "leather_raidmonkethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6121845",
+        text = "leather_raidmonkethereal_d_01_mg_m.m2",
+        value = "leather_raidmonkethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6121849",
+        text = "leather_raidmonkethereal_d_01_nb_m.m2",
+        value = "leather_raidmonkethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6121848",
+        text = "leather_raidmonkethereal_d_01_ni_f.m2",
+        value = "leather_raidmonkethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6121847",
+        text = "leather_raidmonkethereal_d_01_ni_m.m2",
+        value = "leather_raidmonkethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6121851",
+        text = "leather_raidmonkethereal_d_01_or_f.m2",
+        value = "leather_raidmonkethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6121850",
+        text = "leather_raidmonkethereal_d_01_or_m.m2",
+        value = "leather_raidmonkethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6121853",
+        text = "leather_raidmonkethereal_d_01_pa_f.m2",
+        value = "leather_raidmonkethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6121852",
+        text = "leather_raidmonkethereal_d_01_pa_m.m2",
+        value = "leather_raidmonkethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6121590",
+        text = "leather_raidmonkethereal_d_01_r.m2",
+        value = "leather_raidmonkethereal_d_01_r.m2",
+       },
+       {
+        fileId = "6121859",
+        text = "leather_raidmonkethereal_d_01_sc_f.m2",
+        value = "leather_raidmonkethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6121858",
+        text = "leather_raidmonkethereal_d_01_sc_m.m2",
+        value = "leather_raidmonkethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6121855",
+        text = "leather_raidmonkethereal_d_01_ta_f.m2",
+        value = "leather_raidmonkethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6121854",
+        text = "leather_raidmonkethereal_d_01_ta_m.m2",
+        value = "leather_raidmonkethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6121857",
+        text = "leather_raidmonkethereal_d_01_tr_f.m2",
+        value = "leather_raidmonkethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6121856",
+        text = "leather_raidmonkethereal_d_01_tr_m.m2",
+        value = "leather_raidmonkethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6121861",
+        text = "leather_raidmonkethereal_d_01_vu_f.m2",
+        value = "leather_raidmonkethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6121860",
+        text = "leather_raidmonkethereal_d_01_vu_m.m2",
+        value = "leather_raidmonkethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6121863",
+        text = "leather_raidmonkethereal_d_01_wo_f.m2",
+        value = "leather_raidmonkethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6121862",
+        text = "leather_raidmonkethereal_d_01_wo_m.m2",
+        value = "leather_raidmonkethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6121865",
+        text = "leather_raidmonkethereal_d_01_za_f.m2",
+        value = "leather_raidmonkethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6121864",
+        text = "leather_raidmonkethereal_d_01_za_m.m2",
+        value = "leather_raidmonkethereal_d_01_za_m.m2",
+       },
+       {
         fileId = "5695473",
         text = "leather_raidmonkmythic_s_01_ed_f.m2",
         value = "leather_raidmonkmythic_s_01_ed_f.m2",
@@ -100430,6 +105753,206 @@ WeakAuras.ModelPaths = {
         fileId = "5686835",
         text = "leather_raidrogueemerald_d_01_ed_m.m2",
         value = "leather_raidrogueemerald_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6121603",
+        text = "leather_raidrogueethereal_d_01.m2",
+        value = "leather_raidrogueethereal_d_01.m2",
+       },
+       {
+        fileId = "6121937",
+        text = "leather_raidrogueethereal_d_01_be_f.m2",
+        value = "leather_raidrogueethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6121936",
+        text = "leather_raidrogueethereal_d_01_be_m.m2",
+        value = "leather_raidrogueethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6121939",
+        text = "leather_raidrogueethereal_d_01_dr_f.m2",
+        value = "leather_raidrogueethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6121938",
+        text = "leather_raidrogueethereal_d_01_dr_m.m2",
+        value = "leather_raidrogueethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6121941",
+        text = "leather_raidrogueethereal_d_01_dw_f.m2",
+        value = "leather_raidrogueethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6121940",
+        text = "leather_raidrogueethereal_d_01_dw_m.m2",
+        value = "leather_raidrogueethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852927",
+        text = "leather_raidrogueethereal_d_01_ed_f.m2",
+        value = "leather_raidrogueethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852928",
+        text = "leather_raidrogueethereal_d_01_ed_m.m2",
+        value = "leather_raidrogueethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6121943",
+        text = "leather_raidrogueethereal_d_01_gn_f.m2",
+        value = "leather_raidrogueethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6121942",
+        text = "leather_raidrogueethereal_d_01_gn_m.m2",
+        value = "leather_raidrogueethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6121945",
+        text = "leather_raidrogueethereal_d_01_go_f.m2",
+        value = "leather_raidrogueethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6121944",
+        text = "leather_raidrogueethereal_d_01_go_m.m2",
+        value = "leather_raidrogueethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6121947",
+        text = "leather_raidrogueethereal_d_01_hu_f.m2",
+        value = "leather_raidrogueethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6121946",
+        text = "leather_raidrogueethereal_d_01_hu_m.m2",
+        value = "leather_raidrogueethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6121949",
+        text = "leather_raidrogueethereal_d_01_kt_f.m2",
+        value = "leather_raidrogueethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6121948",
+        text = "leather_raidrogueethereal_d_01_kt_m.m2",
+        value = "leather_raidrogueethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6121601",
+        text = "leather_raidrogueethereal_d_01_l.m2",
+        value = "leather_raidrogueethereal_d_01_l.m2",
+       },
+       {
+        fileId = "6121951",
+        text = "leather_raidrogueethereal_d_01_mg_f.m2",
+        value = "leather_raidrogueethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6121950",
+        text = "leather_raidrogueethereal_d_01_mg_m.m2",
+        value = "leather_raidrogueethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6121954",
+        text = "leather_raidrogueethereal_d_01_nb_m.m2",
+        value = "leather_raidrogueethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6121953",
+        text = "leather_raidrogueethereal_d_01_ni_f.m2",
+        value = "leather_raidrogueethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6121952",
+        text = "leather_raidrogueethereal_d_01_ni_m.m2",
+        value = "leather_raidrogueethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6121956",
+        text = "leather_raidrogueethereal_d_01_or_f.m2",
+        value = "leather_raidrogueethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6121955",
+        text = "leather_raidrogueethereal_d_01_or_m.m2",
+        value = "leather_raidrogueethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6122413",
+        text = "leather_raidrogueethereal_d_01_pa_f.m2",
+        value = "leather_raidrogueethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6121957",
+        text = "leather_raidrogueethereal_d_01_pa_m.m2",
+        value = "leather_raidrogueethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6121602",
+        text = "leather_raidrogueethereal_d_01_r.m2",
+        value = "leather_raidrogueethereal_d_01_r.m2",
+       },
+       {
+        fileId = "6121964",
+        text = "leather_raidrogueethereal_d_01_sc_f.m2",
+        value = "leather_raidrogueethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6121963",
+        text = "leather_raidrogueethereal_d_01_sc_m.m2",
+        value = "leather_raidrogueethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6121960",
+        text = "leather_raidrogueethereal_d_01_ta_f.m2",
+        value = "leather_raidrogueethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6121959",
+        text = "leather_raidrogueethereal_d_01_ta_m.m2",
+        value = "leather_raidrogueethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6121962",
+        text = "leather_raidrogueethereal_d_01_tr_f.m2",
+        value = "leather_raidrogueethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6121961",
+        text = "leather_raidrogueethereal_d_01_tr_m.m2",
+        value = "leather_raidrogueethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6121966",
+        text = "leather_raidrogueethereal_d_01_vu_f.m2",
+        value = "leather_raidrogueethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6121965",
+        text = "leather_raidrogueethereal_d_01_vu_m.m2",
+        value = "leather_raidrogueethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6121968",
+        text = "leather_raidrogueethereal_d_01_wo_f.m2",
+        value = "leather_raidrogueethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6121967",
+        text = "leather_raidrogueethereal_d_01_wo_m.m2",
+        value = "leather_raidrogueethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6121970",
+        text = "leather_raidrogueethereal_d_01_za_f.m2",
+        value = "leather_raidrogueethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6121969",
+        text = "leather_raidrogueethereal_d_01_za_m.m2",
+        value = "leather_raidrogueethereal_d_01_za_m.m2",
        },
        {
         fileId = "5695517",
@@ -102242,6 +107765,206 @@ WeakAuras.ModelPaths = {
         value = "mail_outdooremeralddream_d_01_shoulder_r.m2",
        },
        {
+        fileId = "7010396",
+        text = "mail_outdoorethereal_c_01.m2",
+        value = "mail_outdoorethereal_c_01.m2",
+       },
+       {
+        fileId = "7010317",
+        text = "mail_outdoorethereal_c_01_be_f.m2",
+        value = "mail_outdoorethereal_c_01_be_f.m2",
+       },
+       {
+        fileId = "7010316",
+        text = "mail_outdoorethereal_c_01_be_m.m2",
+        value = "mail_outdoorethereal_c_01_be_m.m2",
+       },
+       {
+        fileId = "7010319",
+        text = "mail_outdoorethereal_c_01_dr_f.m2",
+        value = "mail_outdoorethereal_c_01_dr_f.m2",
+       },
+       {
+        fileId = "7010318",
+        text = "mail_outdoorethereal_c_01_dr_m.m2",
+        value = "mail_outdoorethereal_c_01_dr_m.m2",
+       },
+       {
+        fileId = "7010321",
+        text = "mail_outdoorethereal_c_01_dw_f.m2",
+        value = "mail_outdoorethereal_c_01_dw_f.m2",
+       },
+       {
+        fileId = "7010320",
+        text = "mail_outdoorethereal_c_01_dw_m.m2",
+        value = "mail_outdoorethereal_c_01_dw_m.m2",
+       },
+       {
+        fileId = "7010323",
+        text = "mail_outdoorethereal_c_01_ed_f.m2",
+        value = "mail_outdoorethereal_c_01_ed_f.m2",
+       },
+       {
+        fileId = "7010322",
+        text = "mail_outdoorethereal_c_01_ed_m.m2",
+        value = "mail_outdoorethereal_c_01_ed_m.m2",
+       },
+       {
+        fileId = "7010325",
+        text = "mail_outdoorethereal_c_01_gn_f.m2",
+        value = "mail_outdoorethereal_c_01_gn_f.m2",
+       },
+       {
+        fileId = "7010324",
+        text = "mail_outdoorethereal_c_01_gn_m.m2",
+        value = "mail_outdoorethereal_c_01_gn_m.m2",
+       },
+       {
+        fileId = "7010327",
+        text = "mail_outdoorethereal_c_01_go_f.m2",
+        value = "mail_outdoorethereal_c_01_go_f.m2",
+       },
+       {
+        fileId = "7010326",
+        text = "mail_outdoorethereal_c_01_go_m.m2",
+        value = "mail_outdoorethereal_c_01_go_m.m2",
+       },
+       {
+        fileId = "7010329",
+        text = "mail_outdoorethereal_c_01_hu_f.m2",
+        value = "mail_outdoorethereal_c_01_hu_f.m2",
+       },
+       {
+        fileId = "7010328",
+        text = "mail_outdoorethereal_c_01_hu_m.m2",
+        value = "mail_outdoorethereal_c_01_hu_m.m2",
+       },
+       {
+        fileId = "7010331",
+        text = "mail_outdoorethereal_c_01_kt_f.m2",
+        value = "mail_outdoorethereal_c_01_kt_f.m2",
+       },
+       {
+        fileId = "7010330",
+        text = "mail_outdoorethereal_c_01_kt_m.m2",
+        value = "mail_outdoorethereal_c_01_kt_m.m2",
+       },
+       {
+        fileId = "7011165",
+        text = "mail_outdoorethereal_c_01_l.m2",
+        value = "mail_outdoorethereal_c_01_l.m2",
+       },
+       {
+        fileId = "7010333",
+        text = "mail_outdoorethereal_c_01_mg_f.m2",
+        value = "mail_outdoorethereal_c_01_mg_f.m2",
+       },
+       {
+        fileId = "7010332",
+        text = "mail_outdoorethereal_c_01_mg_m.m2",
+        value = "mail_outdoorethereal_c_01_mg_m.m2",
+       },
+       {
+        fileId = "7010336",
+        text = "mail_outdoorethereal_c_01_nb_m.m2",
+        value = "mail_outdoorethereal_c_01_nb_m.m2",
+       },
+       {
+        fileId = "7010335",
+        text = "mail_outdoorethereal_c_01_ni_f.m2",
+        value = "mail_outdoorethereal_c_01_ni_f.m2",
+       },
+       {
+        fileId = "7010334",
+        text = "mail_outdoorethereal_c_01_ni_m.m2",
+        value = "mail_outdoorethereal_c_01_ni_m.m2",
+       },
+       {
+        fileId = "7010338",
+        text = "mail_outdoorethereal_c_01_or_f.m2",
+        value = "mail_outdoorethereal_c_01_or_f.m2",
+       },
+       {
+        fileId = "7010337",
+        text = "mail_outdoorethereal_c_01_or_m.m2",
+        value = "mail_outdoorethereal_c_01_or_m.m2",
+       },
+       {
+        fileId = "7010340",
+        text = "mail_outdoorethereal_c_01_pa_f.m2",
+        value = "mail_outdoorethereal_c_01_pa_f.m2",
+       },
+       {
+        fileId = "7010339",
+        text = "mail_outdoorethereal_c_01_pa_m.m2",
+        value = "mail_outdoorethereal_c_01_pa_m.m2",
+       },
+       {
+        fileId = "7011167",
+        text = "mail_outdoorethereal_c_01_r.m2",
+        value = "mail_outdoorethereal_c_01_r.m2",
+       },
+       {
+        fileId = "7010346",
+        text = "mail_outdoorethereal_c_01_sc_f.m2",
+        value = "mail_outdoorethereal_c_01_sc_f.m2",
+       },
+       {
+        fileId = "7010345",
+        text = "mail_outdoorethereal_c_01_sc_m.m2",
+        value = "mail_outdoorethereal_c_01_sc_m.m2",
+       },
+       {
+        fileId = "7010342",
+        text = "mail_outdoorethereal_c_01_ta_f.m2",
+        value = "mail_outdoorethereal_c_01_ta_f.m2",
+       },
+       {
+        fileId = "7010341",
+        text = "mail_outdoorethereal_c_01_ta_m.m2",
+        value = "mail_outdoorethereal_c_01_ta_m.m2",
+       },
+       {
+        fileId = "7010344",
+        text = "mail_outdoorethereal_c_01_tr_f.m2",
+        value = "mail_outdoorethereal_c_01_tr_f.m2",
+       },
+       {
+        fileId = "7010343",
+        text = "mail_outdoorethereal_c_01_tr_m.m2",
+        value = "mail_outdoorethereal_c_01_tr_m.m2",
+       },
+       {
+        fileId = "7010348",
+        text = "mail_outdoorethereal_c_01_vu_f.m2",
+        value = "mail_outdoorethereal_c_01_vu_f.m2",
+       },
+       {
+        fileId = "7010347",
+        text = "mail_outdoorethereal_c_01_vu_m.m2",
+        value = "mail_outdoorethereal_c_01_vu_m.m2",
+       },
+       {
+        fileId = "7010350",
+        text = "mail_outdoorethereal_c_01_wo_f.m2",
+        value = "mail_outdoorethereal_c_01_wo_f.m2",
+       },
+       {
+        fileId = "7010349",
+        text = "mail_outdoorethereal_c_01_wo_m.m2",
+        value = "mail_outdoorethereal_c_01_wo_m.m2",
+       },
+       {
+        fileId = "7010352",
+        text = "mail_outdoorethereal_c_01_za_f.m2",
+        value = "mail_outdoorethereal_c_01_za_f.m2",
+       },
+       {
+        fileId = "7010351",
+        text = "mail_outdoorethereal_c_01_za_m.m2",
+        value = "mail_outdoorethereal_c_01_za_m.m2",
+       },
+       {
         fileId = "5739291",
         text = "mail_outdoorundermine_c_01_belt.m2",
         value = "mail_outdoorundermine_c_01_belt.m2",
@@ -102987,6 +108710,206 @@ WeakAuras.ModelPaths = {
         value = "mail_raidevokeremerald_d_01_shoulder_r.m2",
        },
        {
+        fileId = "6121579",
+        text = "mail_raidevokerethereal_d_01.m2",
+        value = "mail_raidevokerethereal_d_01.m2",
+       },
+       {
+        fileId = "6121727",
+        text = "mail_raidevokerethereal_d_01_be_f.m2",
+        value = "mail_raidevokerethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6121726",
+        text = "mail_raidevokerethereal_d_01_be_m.m2",
+        value = "mail_raidevokerethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6121729",
+        text = "mail_raidevokerethereal_d_01_dr_f.m2",
+        value = "mail_raidevokerethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6121728",
+        text = "mail_raidevokerethereal_d_01_dr_m.m2",
+        value = "mail_raidevokerethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6121731",
+        text = "mail_raidevokerethereal_d_01_dw_f.m2",
+        value = "mail_raidevokerethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6121730",
+        text = "mail_raidevokerethereal_d_01_dw_m.m2",
+        value = "mail_raidevokerethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852989",
+        text = "mail_raidevokerethereal_d_01_ed_f.m2",
+        value = "mail_raidevokerethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852990",
+        text = "mail_raidevokerethereal_d_01_ed_m.m2",
+        value = "mail_raidevokerethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6121733",
+        text = "mail_raidevokerethereal_d_01_gn_f.m2",
+        value = "mail_raidevokerethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6121732",
+        text = "mail_raidevokerethereal_d_01_gn_m.m2",
+        value = "mail_raidevokerethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6121735",
+        text = "mail_raidevokerethereal_d_01_go_f.m2",
+        value = "mail_raidevokerethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6121734",
+        text = "mail_raidevokerethereal_d_01_go_m.m2",
+        value = "mail_raidevokerethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6121737",
+        text = "mail_raidevokerethereal_d_01_hu_f.m2",
+        value = "mail_raidevokerethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6121736",
+        text = "mail_raidevokerethereal_d_01_hu_m.m2",
+        value = "mail_raidevokerethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6121739",
+        text = "mail_raidevokerethereal_d_01_kt_f.m2",
+        value = "mail_raidevokerethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6121738",
+        text = "mail_raidevokerethereal_d_01_kt_m.m2",
+        value = "mail_raidevokerethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6121577",
+        text = "mail_raidevokerethereal_d_01_l.m2",
+        value = "mail_raidevokerethereal_d_01_l.m2",
+       },
+       {
+        fileId = "6121741",
+        text = "mail_raidevokerethereal_d_01_mg_f.m2",
+        value = "mail_raidevokerethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6121740",
+        text = "mail_raidevokerethereal_d_01_mg_m.m2",
+        value = "mail_raidevokerethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6121744",
+        text = "mail_raidevokerethereal_d_01_nb_m.m2",
+        value = "mail_raidevokerethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6121743",
+        text = "mail_raidevokerethereal_d_01_ni_f.m2",
+        value = "mail_raidevokerethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6121742",
+        text = "mail_raidevokerethereal_d_01_ni_m.m2",
+        value = "mail_raidevokerethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6121746",
+        text = "mail_raidevokerethereal_d_01_or_f.m2",
+        value = "mail_raidevokerethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6121745",
+        text = "mail_raidevokerethereal_d_01_or_m.m2",
+        value = "mail_raidevokerethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6121748",
+        text = "mail_raidevokerethereal_d_01_pa_f.m2",
+        value = "mail_raidevokerethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6121747",
+        text = "mail_raidevokerethereal_d_01_pa_m.m2",
+        value = "mail_raidevokerethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6121578",
+        text = "mail_raidevokerethereal_d_01_r.m2",
+        value = "mail_raidevokerethereal_d_01_r.m2",
+       },
+       {
+        fileId = "6121754",
+        text = "mail_raidevokerethereal_d_01_sc_f.m2",
+        value = "mail_raidevokerethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6121753",
+        text = "mail_raidevokerethereal_d_01_sc_m.m2",
+        value = "mail_raidevokerethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6121750",
+        text = "mail_raidevokerethereal_d_01_ta_f.m2",
+        value = "mail_raidevokerethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6121749",
+        text = "mail_raidevokerethereal_d_01_ta_m.m2",
+        value = "mail_raidevokerethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6121752",
+        text = "mail_raidevokerethereal_d_01_tr_f.m2",
+        value = "mail_raidevokerethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6121751",
+        text = "mail_raidevokerethereal_d_01_tr_m.m2",
+        value = "mail_raidevokerethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6121756",
+        text = "mail_raidevokerethereal_d_01_vu_f.m2",
+        value = "mail_raidevokerethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6121755",
+        text = "mail_raidevokerethereal_d_01_vu_m.m2",
+        value = "mail_raidevokerethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6121758",
+        text = "mail_raidevokerethereal_d_01_wo_f.m2",
+        value = "mail_raidevokerethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6121757",
+        text = "mail_raidevokerethereal_d_01_wo_m.m2",
+        value = "mail_raidevokerethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6121760",
+        text = "mail_raidevokerethereal_d_01_za_f.m2",
+        value = "mail_raidevokerethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6121759",
+        text = "mail_raidevokerethereal_d_01_za_m.m2",
+        value = "mail_raidevokerethereal_d_01_za_m.m2",
+       },
+       {
         fileId = "6032910",
         text = "mail_raidevokert2_d_01_belt.m2",
         value = "mail_raidevokert2_d_01_belt.m2",
@@ -103705,6 +109628,206 @@ WeakAuras.ModelPaths = {
         fileId = "5225314",
         text = "mail_raidhunteremerald_d_01_shoulder_r.m2",
         value = "mail_raidhunteremerald_d_01_shoulder_r.m2",
+       },
+       {
+        fileId = "6121583",
+        text = "mail_raidhunterethereal_d_01.m2",
+        value = "mail_raidhunterethereal_d_01.m2",
+       },
+       {
+        fileId = "6121762",
+        text = "mail_raidhunterethereal_d_01_be_f.m2",
+        value = "mail_raidhunterethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6121761",
+        text = "mail_raidhunterethereal_d_01_be_m.m2",
+        value = "mail_raidhunterethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6121764",
+        text = "mail_raidhunterethereal_d_01_dr_f.m2",
+        value = "mail_raidhunterethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6121763",
+        text = "mail_raidhunterethereal_d_01_dr_m.m2",
+        value = "mail_raidhunterethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6121766",
+        text = "mail_raidhunterethereal_d_01_dw_f.m2",
+        value = "mail_raidhunterethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6121765",
+        text = "mail_raidhunterethereal_d_01_dw_m.m2",
+        value = "mail_raidhunterethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852992",
+        text = "mail_raidhunterethereal_d_01_ed_f.m2",
+        value = "mail_raidhunterethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852991",
+        text = "mail_raidhunterethereal_d_01_ed_m.m2",
+        value = "mail_raidhunterethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6121768",
+        text = "mail_raidhunterethereal_d_01_gn_f.m2",
+        value = "mail_raidhunterethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6121767",
+        text = "mail_raidhunterethereal_d_01_gn_m.m2",
+        value = "mail_raidhunterethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6121770",
+        text = "mail_raidhunterethereal_d_01_go_f.m2",
+        value = "mail_raidhunterethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6121769",
+        text = "mail_raidhunterethereal_d_01_go_m.m2",
+        value = "mail_raidhunterethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6121772",
+        text = "mail_raidhunterethereal_d_01_hu_f.m2",
+        value = "mail_raidhunterethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6121771",
+        text = "mail_raidhunterethereal_d_01_hu_m.m2",
+        value = "mail_raidhunterethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6121774",
+        text = "mail_raidhunterethereal_d_01_kt_f.m2",
+        value = "mail_raidhunterethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6121773",
+        text = "mail_raidhunterethereal_d_01_kt_m.m2",
+        value = "mail_raidhunterethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6121581",
+        text = "mail_raidhunterethereal_d_01_l.m2",
+        value = "mail_raidhunterethereal_d_01_l.m2",
+       },
+       {
+        fileId = "6122231",
+        text = "mail_raidhunterethereal_d_01_mg_f.m2",
+        value = "mail_raidhunterethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6122230",
+        text = "mail_raidhunterethereal_d_01_mg_m.m2",
+        value = "mail_raidhunterethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6121779",
+        text = "mail_raidhunterethereal_d_01_nb_m.m2",
+        value = "mail_raidhunterethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6121778",
+        text = "mail_raidhunterethereal_d_01_ni_f.m2",
+        value = "mail_raidhunterethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6121777",
+        text = "mail_raidhunterethereal_d_01_ni_m.m2",
+        value = "mail_raidhunterethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6121781",
+        text = "mail_raidhunterethereal_d_01_or_f.m2",
+        value = "mail_raidhunterethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6121780",
+        text = "mail_raidhunterethereal_d_01_or_m.m2",
+        value = "mail_raidhunterethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6121783",
+        text = "mail_raidhunterethereal_d_01_pa_f.m2",
+        value = "mail_raidhunterethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6121782",
+        text = "mail_raidhunterethereal_d_01_pa_m.m2",
+        value = "mail_raidhunterethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6121582",
+        text = "mail_raidhunterethereal_d_01_r.m2",
+        value = "mail_raidhunterethereal_d_01_r.m2",
+       },
+       {
+        fileId = "6121789",
+        text = "mail_raidhunterethereal_d_01_sc_f.m2",
+        value = "mail_raidhunterethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6121788",
+        text = "mail_raidhunterethereal_d_01_sc_m.m2",
+        value = "mail_raidhunterethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6121785",
+        text = "mail_raidhunterethereal_d_01_ta_f.m2",
+        value = "mail_raidhunterethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6121784",
+        text = "mail_raidhunterethereal_d_01_ta_m.m2",
+        value = "mail_raidhunterethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6121787",
+        text = "mail_raidhunterethereal_d_01_tr_f.m2",
+        value = "mail_raidhunterethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6121786",
+        text = "mail_raidhunterethereal_d_01_tr_m.m2",
+        value = "mail_raidhunterethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6121791",
+        text = "mail_raidhunterethereal_d_01_vu_f.m2",
+        value = "mail_raidhunterethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6121790",
+        text = "mail_raidhunterethereal_d_01_vu_m.m2",
+        value = "mail_raidhunterethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6121793",
+        text = "mail_raidhunterethereal_d_01_wo_f.m2",
+        value = "mail_raidhunterethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6121792",
+        text = "mail_raidhunterethereal_d_01_wo_m.m2",
+        value = "mail_raidhunterethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6121795",
+        text = "mail_raidhunterethereal_d_01_za_f.m2",
+        value = "mail_raidhunterethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6121794",
+        text = "mail_raidhunterethereal_d_01_za_m.m2",
+        value = "mail_raidhunterethereal_d_01_za_m.m2",
        },
        {
         fileId = "5425288",
@@ -105010,6 +111133,206 @@ WeakAuras.ModelPaths = {
         fileId = "4952574",
         text = "mail_raidshamanemerald_d_02_helm_za_m.m2",
         value = "mail_raidshamanemerald_d_02_helm_za_m.m2",
+       },
+       {
+        fileId = "6121607",
+        text = "mail_raidshamanethereal_d_01.m2",
+        value = "mail_raidshamanethereal_d_01.m2",
+       },
+       {
+        fileId = "6121972",
+        text = "mail_raidshamanethereal_d_01_be_f.m2",
+        value = "mail_raidshamanethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6121971",
+        text = "mail_raidshamanethereal_d_01_be_m.m2",
+        value = "mail_raidshamanethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6121974",
+        text = "mail_raidshamanethereal_d_01_dr_f.m2",
+        value = "mail_raidshamanethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6121973",
+        text = "mail_raidshamanethereal_d_01_dr_m.m2",
+        value = "mail_raidshamanethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6121976",
+        text = "mail_raidshamanethereal_d_01_dw_f.m2",
+        value = "mail_raidshamanethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6121975",
+        text = "mail_raidshamanethereal_d_01_dw_m.m2",
+        value = "mail_raidshamanethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852993",
+        text = "mail_raidshamanethereal_d_01_ed_f.m2",
+        value = "mail_raidshamanethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852994",
+        text = "mail_raidshamanethereal_d_01_ed_m.m2",
+        value = "mail_raidshamanethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6121978",
+        text = "mail_raidshamanethereal_d_01_gn_f.m2",
+        value = "mail_raidshamanethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6121977",
+        text = "mail_raidshamanethereal_d_01_gn_m.m2",
+        value = "mail_raidshamanethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6121980",
+        text = "mail_raidshamanethereal_d_01_go_f.m2",
+        value = "mail_raidshamanethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6121979",
+        text = "mail_raidshamanethereal_d_01_go_m.m2",
+        value = "mail_raidshamanethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6121982",
+        text = "mail_raidshamanethereal_d_01_hu_f.m2",
+        value = "mail_raidshamanethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6121981",
+        text = "mail_raidshamanethereal_d_01_hu_m.m2",
+        value = "mail_raidshamanethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6121984",
+        text = "mail_raidshamanethereal_d_01_kt_f.m2",
+        value = "mail_raidshamanethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6121983",
+        text = "mail_raidshamanethereal_d_01_kt_m.m2",
+        value = "mail_raidshamanethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6121605",
+        text = "mail_raidshamanethereal_d_01_l.m2",
+        value = "mail_raidshamanethereal_d_01_l.m2",
+       },
+       {
+        fileId = "6121986",
+        text = "mail_raidshamanethereal_d_01_mg_f.m2",
+        value = "mail_raidshamanethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6121985",
+        text = "mail_raidshamanethereal_d_01_mg_m.m2",
+        value = "mail_raidshamanethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6121989",
+        text = "mail_raidshamanethereal_d_01_nb_m.m2",
+        value = "mail_raidshamanethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6121988",
+        text = "mail_raidshamanethereal_d_01_ni_f.m2",
+        value = "mail_raidshamanethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6121987",
+        text = "mail_raidshamanethereal_d_01_ni_m.m2",
+        value = "mail_raidshamanethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6121991",
+        text = "mail_raidshamanethereal_d_01_or_f.m2",
+        value = "mail_raidshamanethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6121990",
+        text = "mail_raidshamanethereal_d_01_or_m.m2",
+        value = "mail_raidshamanethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6121993",
+        text = "mail_raidshamanethereal_d_01_pa_f.m2",
+        value = "mail_raidshamanethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6121992",
+        text = "mail_raidshamanethereal_d_01_pa_m.m2",
+        value = "mail_raidshamanethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6121606",
+        text = "mail_raidshamanethereal_d_01_r.m2",
+        value = "mail_raidshamanethereal_d_01_r.m2",
+       },
+       {
+        fileId = "6121999",
+        text = "mail_raidshamanethereal_d_01_sc_f.m2",
+        value = "mail_raidshamanethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6121998",
+        text = "mail_raidshamanethereal_d_01_sc_m.m2",
+        value = "mail_raidshamanethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6121995",
+        text = "mail_raidshamanethereal_d_01_ta_f.m2",
+        value = "mail_raidshamanethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6121994",
+        text = "mail_raidshamanethereal_d_01_ta_m.m2",
+        value = "mail_raidshamanethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6121997",
+        text = "mail_raidshamanethereal_d_01_tr_f.m2",
+        value = "mail_raidshamanethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6121996",
+        text = "mail_raidshamanethereal_d_01_tr_m.m2",
+        value = "mail_raidshamanethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6122001",
+        text = "mail_raidshamanethereal_d_01_vu_f.m2",
+        value = "mail_raidshamanethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6122000",
+        text = "mail_raidshamanethereal_d_01_vu_m.m2",
+        value = "mail_raidshamanethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6122003",
+        text = "mail_raidshamanethereal_d_01_wo_f.m2",
+        value = "mail_raidshamanethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6122002",
+        text = "mail_raidshamanethereal_d_01_wo_m.m2",
+        value = "mail_raidshamanethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6122005",
+        text = "mail_raidshamanethereal_d_01_za_f.m2",
+        value = "mail_raidshamanethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6122004",
+        text = "mail_raidshamanethereal_d_01_za_m.m2",
+        value = "mail_raidshamanethereal_d_01_za_m.m2",
        },
        {
         fileId = "5686944",
@@ -107822,6 +114145,206 @@ WeakAuras.ModelPaths = {
         value = "plate_outdooremeralddream_d_01_shoulder_r.m2",
        },
        {
+        fileId = "7034410",
+        text = "plate_outdoorethereal_c_01.m2",
+        value = "plate_outdoorethereal_c_01.m2",
+       },
+       {
+        fileId = "6999876",
+        text = "plate_outdoorethereal_c_01_be_f.m2",
+        value = "plate_outdoorethereal_c_01_be_f.m2",
+       },
+       {
+        fileId = "6999875",
+        text = "plate_outdoorethereal_c_01_be_m.m2",
+        value = "plate_outdoorethereal_c_01_be_m.m2",
+       },
+       {
+        fileId = "6999878",
+        text = "plate_outdoorethereal_c_01_dr_f.m2",
+        value = "plate_outdoorethereal_c_01_dr_f.m2",
+       },
+       {
+        fileId = "6999877",
+        text = "plate_outdoorethereal_c_01_dr_m.m2",
+        value = "plate_outdoorethereal_c_01_dr_m.m2",
+       },
+       {
+        fileId = "6999880",
+        text = "plate_outdoorethereal_c_01_dw_f.m2",
+        value = "plate_outdoorethereal_c_01_dw_f.m2",
+       },
+       {
+        fileId = "6999879",
+        text = "plate_outdoorethereal_c_01_dw_m.m2",
+        value = "plate_outdoorethereal_c_01_dw_m.m2",
+       },
+       {
+        fileId = "6999882",
+        text = "plate_outdoorethereal_c_01_ed_f.m2",
+        value = "plate_outdoorethereal_c_01_ed_f.m2",
+       },
+       {
+        fileId = "6999881",
+        text = "plate_outdoorethereal_c_01_ed_m.m2",
+        value = "plate_outdoorethereal_c_01_ed_m.m2",
+       },
+       {
+        fileId = "6999884",
+        text = "plate_outdoorethereal_c_01_gn_f.m2",
+        value = "plate_outdoorethereal_c_01_gn_f.m2",
+       },
+       {
+        fileId = "6999883",
+        text = "plate_outdoorethereal_c_01_gn_m.m2",
+        value = "plate_outdoorethereal_c_01_gn_m.m2",
+       },
+       {
+        fileId = "6999886",
+        text = "plate_outdoorethereal_c_01_go_f.m2",
+        value = "plate_outdoorethereal_c_01_go_f.m2",
+       },
+       {
+        fileId = "6999885",
+        text = "plate_outdoorethereal_c_01_go_m.m2",
+        value = "plate_outdoorethereal_c_01_go_m.m2",
+       },
+       {
+        fileId = "6999888",
+        text = "plate_outdoorethereal_c_01_hu_f.m2",
+        value = "plate_outdoorethereal_c_01_hu_f.m2",
+       },
+       {
+        fileId = "6999887",
+        text = "plate_outdoorethereal_c_01_hu_m.m2",
+        value = "plate_outdoorethereal_c_01_hu_m.m2",
+       },
+       {
+        fileId = "6999890",
+        text = "plate_outdoorethereal_c_01_kt_f.m2",
+        value = "plate_outdoorethereal_c_01_kt_f.m2",
+       },
+       {
+        fileId = "6999889",
+        text = "plate_outdoorethereal_c_01_kt_m.m2",
+        value = "plate_outdoorethereal_c_01_kt_m.m2",
+       },
+       {
+        fileId = "7034408",
+        text = "plate_outdoorethereal_c_01_l.m2",
+        value = "plate_outdoorethereal_c_01_l.m2",
+       },
+       {
+        fileId = "6999892",
+        text = "plate_outdoorethereal_c_01_mg_f.m2",
+        value = "plate_outdoorethereal_c_01_mg_f.m2",
+       },
+       {
+        fileId = "6999891",
+        text = "plate_outdoorethereal_c_01_mg_m.m2",
+        value = "plate_outdoorethereal_c_01_mg_m.m2",
+       },
+       {
+        fileId = "6999895",
+        text = "plate_outdoorethereal_c_01_nb_m.m2",
+        value = "plate_outdoorethereal_c_01_nb_m.m2",
+       },
+       {
+        fileId = "6999894",
+        text = "plate_outdoorethereal_c_01_ni_f.m2",
+        value = "plate_outdoorethereal_c_01_ni_f.m2",
+       },
+       {
+        fileId = "6999893",
+        text = "plate_outdoorethereal_c_01_ni_m.m2",
+        value = "plate_outdoorethereal_c_01_ni_m.m2",
+       },
+       {
+        fileId = "6999897",
+        text = "plate_outdoorethereal_c_01_or_f.m2",
+        value = "plate_outdoorethereal_c_01_or_f.m2",
+       },
+       {
+        fileId = "6999896",
+        text = "plate_outdoorethereal_c_01_or_m.m2",
+        value = "plate_outdoorethereal_c_01_or_m.m2",
+       },
+       {
+        fileId = "6999899",
+        text = "plate_outdoorethereal_c_01_pa_f.m2",
+        value = "plate_outdoorethereal_c_01_pa_f.m2",
+       },
+       {
+        fileId = "6999898",
+        text = "plate_outdoorethereal_c_01_pa_m.m2",
+        value = "plate_outdoorethereal_c_01_pa_m.m2",
+       },
+       {
+        fileId = "7034409",
+        text = "plate_outdoorethereal_c_01_r.m2",
+        value = "plate_outdoorethereal_c_01_r.m2",
+       },
+       {
+        fileId = "6999905",
+        text = "plate_outdoorethereal_c_01_sc_f.m2",
+        value = "plate_outdoorethereal_c_01_sc_f.m2",
+       },
+       {
+        fileId = "6999904",
+        text = "plate_outdoorethereal_c_01_sc_m.m2",
+        value = "plate_outdoorethereal_c_01_sc_m.m2",
+       },
+       {
+        fileId = "6999901",
+        text = "plate_outdoorethereal_c_01_ta_f.m2",
+        value = "plate_outdoorethereal_c_01_ta_f.m2",
+       },
+       {
+        fileId = "6999900",
+        text = "plate_outdoorethereal_c_01_ta_m.m2",
+        value = "plate_outdoorethereal_c_01_ta_m.m2",
+       },
+       {
+        fileId = "6999903",
+        text = "plate_outdoorethereal_c_01_tr_f.m2",
+        value = "plate_outdoorethereal_c_01_tr_f.m2",
+       },
+       {
+        fileId = "6999902",
+        text = "plate_outdoorethereal_c_01_tr_m.m2",
+        value = "plate_outdoorethereal_c_01_tr_m.m2",
+       },
+       {
+        fileId = "6999907",
+        text = "plate_outdoorethereal_c_01_vu_f.m2",
+        value = "plate_outdoorethereal_c_01_vu_f.m2",
+       },
+       {
+        fileId = "6999906",
+        text = "plate_outdoorethereal_c_01_vu_m.m2",
+        value = "plate_outdoorethereal_c_01_vu_m.m2",
+       },
+       {
+        fileId = "6999909",
+        text = "plate_outdoorethereal_c_01_wo_f.m2",
+        value = "plate_outdoorethereal_c_01_wo_f.m2",
+       },
+       {
+        fileId = "6999908",
+        text = "plate_outdoorethereal_c_01_wo_m.m2",
+        value = "plate_outdoorethereal_c_01_wo_m.m2",
+       },
+       {
+        fileId = "6999911",
+        text = "plate_outdoorethereal_c_01_za_f.m2",
+        value = "plate_outdoorethereal_c_01_za_f.m2",
+       },
+       {
+        fileId = "6999910",
+        text = "plate_outdoorethereal_c_01_za_m.m2",
+        value = "plate_outdoorethereal_c_01_za_m.m2",
+       },
+       {
         fileId = "5739295",
         text = "plate_outdoorundermine_c_01_belt.m2",
         value = "plate_outdoorundermine_c_01_belt.m2",
@@ -108542,6 +115065,211 @@ WeakAuras.ModelPaths = {
         value = "plate_raiddeathknightemerald_d_01_shoulder_r.m2",
        },
        {
+        fileId = "6121567",
+        text = "plate_raiddeathknightethereal_d_01.m2",
+        value = "plate_raiddeathknightethereal_d_01.m2",
+       },
+       {
+        fileId = "6121622",
+        text = "plate_raiddeathknightethereal_d_01_be_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6121621",
+        text = "plate_raiddeathknightethereal_d_01_be_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6121624",
+        text = "plate_raiddeathknightethereal_d_01_dr_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6121623",
+        text = "plate_raiddeathknightethereal_d_01_dr_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6121626",
+        text = "plate_raiddeathknightethereal_d_01_dw_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6121625",
+        text = "plate_raiddeathknightethereal_d_01_dw_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6379098",
+        text = "plate_raiddeathknightethereal_d_01_ed_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6379099",
+        text = "plate_raiddeathknightethereal_d_01_ed_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6121628",
+        text = "plate_raiddeathknightethereal_d_01_gn_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6121627",
+        text = "plate_raiddeathknightethereal_d_01_gn_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6121630",
+        text = "plate_raiddeathknightethereal_d_01_go_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6121629",
+        text = "plate_raiddeathknightethereal_d_01_go_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6121632",
+        text = "plate_raiddeathknightethereal_d_01_hu_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6121631",
+        text = "plate_raiddeathknightethereal_d_01_hu_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6121634",
+        text = "plate_raiddeathknightethereal_d_01_kt_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6121633",
+        text = "plate_raiddeathknightethereal_d_01_kt_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6121565",
+        text = "plate_raiddeathknightethereal_d_01_l.m2",
+        value = "plate_raiddeathknightethereal_d_01_l.m2",
+       },
+       {
+        fileId = "6121636",
+        text = "plate_raiddeathknightethereal_d_01_mg_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6121635",
+        text = "plate_raiddeathknightethereal_d_01_mg_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6379104",
+        text = "plate_raiddeathknightethereal_d_01_nb_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_nb_f.m2",
+       },
+       {
+        fileId = "6121639",
+        text = "plate_raiddeathknightethereal_d_01_nb_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6121638",
+        text = "plate_raiddeathknightethereal_d_01_ni_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6121637",
+        text = "plate_raiddeathknightethereal_d_01_ni_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6121641",
+        text = "plate_raiddeathknightethereal_d_01_or_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6121640",
+        text = "plate_raiddeathknightethereal_d_01_or_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6121643",
+        text = "plate_raiddeathknightethereal_d_01_pa_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6121642",
+        text = "plate_raiddeathknightethereal_d_01_pa_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6121566",
+        text = "plate_raiddeathknightethereal_d_01_r.m2",
+        value = "plate_raiddeathknightethereal_d_01_r.m2",
+       },
+       {
+        fileId = "6121649",
+        text = "plate_raiddeathknightethereal_d_01_sc_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6121648",
+        text = "plate_raiddeathknightethereal_d_01_sc_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6121645",
+        text = "plate_raiddeathknightethereal_d_01_ta_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6121644",
+        text = "plate_raiddeathknightethereal_d_01_ta_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6121647",
+        text = "plate_raiddeathknightethereal_d_01_tr_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6121646",
+        text = "plate_raiddeathknightethereal_d_01_tr_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6121651",
+        text = "plate_raiddeathknightethereal_d_01_vu_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6121650",
+        text = "plate_raiddeathknightethereal_d_01_vu_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6121653",
+        text = "plate_raiddeathknightethereal_d_01_wo_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6121652",
+        text = "plate_raiddeathknightethereal_d_01_wo_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6121655",
+        text = "plate_raiddeathknightethereal_d_01_za_f.m2",
+        value = "plate_raiddeathknightethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6121654",
+        text = "plate_raiddeathknightethereal_d_01_za_m.m2",
+        value = "plate_raiddeathknightethereal_d_01_za_m.m2",
+       },
+       {
         fileId = "5649503",
         text = "plate_raiddeathknightgoblin_d_01_belt.m2",
         value = "plate_raiddeathknightgoblin_d_01_belt.m2",
@@ -108912,6 +115640,351 @@ WeakAuras.ModelPaths = {
         value = "plate_raiddeathknightprogenitor_d_01_chest_ed_m.m2",
        },
        {
+        fileId = "6121867",
+        text = "plate_raidpaladinethereal_d_01_be_f.m2",
+        value = "plate_raidpaladinethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6121866",
+        text = "plate_raidpaladinethereal_d_01_be_m.m2",
+        value = "plate_raidpaladinethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6121869",
+        text = "plate_raidpaladinethereal_d_01_dr_f.m2",
+        value = "plate_raidpaladinethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6121868",
+        text = "plate_raidpaladinethereal_d_01_dr_m.m2",
+        value = "plate_raidpaladinethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6121871",
+        text = "plate_raidpaladinethereal_d_01_dw_f.m2",
+        value = "plate_raidpaladinethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6121870",
+        text = "plate_raidpaladinethereal_d_01_dw_m.m2",
+        value = "plate_raidpaladinethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852857",
+        text = "plate_raidpaladinethereal_d_01_ed_f.m2",
+        value = "plate_raidpaladinethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852858",
+        text = "plate_raidpaladinethereal_d_01_ed_m.m2",
+        value = "plate_raidpaladinethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6121873",
+        text = "plate_raidpaladinethereal_d_01_gn_f.m2",
+        value = "plate_raidpaladinethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6121872",
+        text = "plate_raidpaladinethereal_d_01_gn_m.m2",
+        value = "plate_raidpaladinethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6121875",
+        text = "plate_raidpaladinethereal_d_01_go_f.m2",
+        value = "plate_raidpaladinethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6121874",
+        text = "plate_raidpaladinethereal_d_01_go_m.m2",
+        value = "plate_raidpaladinethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6122322",
+        text = "plate_raidpaladinethereal_d_01_helm_be_f.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_be_f.m2",
+       },
+       {
+        fileId = "6122321",
+        text = "plate_raidpaladinethereal_d_01_helm_be_m.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_be_m.m2",
+       },
+       {
+        fileId = "6122324",
+        text = "plate_raidpaladinethereal_d_01_helm_dr_f.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_dr_f.m2",
+       },
+       {
+        fileId = "6122323",
+        text = "plate_raidpaladinethereal_d_01_helm_dr_m.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_dr_m.m2",
+       },
+       {
+        fileId = "6122326",
+        text = "plate_raidpaladinethereal_d_01_helm_dw_f.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_dw_f.m2",
+       },
+       {
+        fileId = "6122325",
+        text = "plate_raidpaladinethereal_d_01_helm_dw_m.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_dw_m.m2",
+       },
+       {
+        fileId = "6122328",
+        text = "plate_raidpaladinethereal_d_01_helm_gn_f.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_gn_f.m2",
+       },
+       {
+        fileId = "6122327",
+        text = "plate_raidpaladinethereal_d_01_helm_gn_m.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_gn_m.m2",
+       },
+       {
+        fileId = "6122330",
+        text = "plate_raidpaladinethereal_d_01_helm_go_f.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_go_f.m2",
+       },
+       {
+        fileId = "6122329",
+        text = "plate_raidpaladinethereal_d_01_helm_go_m.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_go_m.m2",
+       },
+       {
+        fileId = "6122332",
+        text = "plate_raidpaladinethereal_d_01_helm_hu_f.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_hu_f.m2",
+       },
+       {
+        fileId = "6122331",
+        text = "plate_raidpaladinethereal_d_01_helm_hu_m.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_hu_m.m2",
+       },
+       {
+        fileId = "6122334",
+        text = "plate_raidpaladinethereal_d_01_helm_kt_f.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_kt_f.m2",
+       },
+       {
+        fileId = "6122333",
+        text = "plate_raidpaladinethereal_d_01_helm_kt_m.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_kt_m.m2",
+       },
+       {
+        fileId = "6122339",
+        text = "plate_raidpaladinethereal_d_01_helm_nb_m.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_nb_m.m2",
+       },
+       {
+        fileId = "6122338",
+        text = "plate_raidpaladinethereal_d_01_helm_ni_f.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_ni_f.m2",
+       },
+       {
+        fileId = "6122337",
+        text = "plate_raidpaladinethereal_d_01_helm_ni_m.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_ni_m.m2",
+       },
+       {
+        fileId = "6122341",
+        text = "plate_raidpaladinethereal_d_01_helm_or_f.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_or_f.m2",
+       },
+       {
+        fileId = "6122340",
+        text = "plate_raidpaladinethereal_d_01_helm_or_m.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_or_m.m2",
+       },
+       {
+        fileId = "6122343",
+        text = "plate_raidpaladinethereal_d_01_helm_pa_f.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_pa_f.m2",
+       },
+       {
+        fileId = "6122342",
+        text = "plate_raidpaladinethereal_d_01_helm_pa_m.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_pa_m.m2",
+       },
+       {
+        fileId = "6122349",
+        text = "plate_raidpaladinethereal_d_01_helm_sc_f.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_sc_f.m2",
+       },
+       {
+        fileId = "6122348",
+        text = "plate_raidpaladinethereal_d_01_helm_sc_m.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_sc_m.m2",
+       },
+       {
+        fileId = "6122345",
+        text = "plate_raidpaladinethereal_d_01_helm_ta_f.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_ta_f.m2",
+       },
+       {
+        fileId = "6122344",
+        text = "plate_raidpaladinethereal_d_01_helm_ta_m.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_ta_m.m2",
+       },
+       {
+        fileId = "6122347",
+        text = "plate_raidpaladinethereal_d_01_helm_tr_f.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_tr_f.m2",
+       },
+       {
+        fileId = "6122346",
+        text = "plate_raidpaladinethereal_d_01_helm_tr_m.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_tr_m.m2",
+       },
+       {
+        fileId = "6122351",
+        text = "plate_raidpaladinethereal_d_01_helm_vu_f.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_vu_f.m2",
+       },
+       {
+        fileId = "6122350",
+        text = "plate_raidpaladinethereal_d_01_helm_vu_m.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_vu_m.m2",
+       },
+       {
+        fileId = "6122353",
+        text = "plate_raidpaladinethereal_d_01_helm_wo_f.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_wo_f.m2",
+       },
+       {
+        fileId = "6122352",
+        text = "plate_raidpaladinethereal_d_01_helm_wo_m.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_wo_m.m2",
+       },
+       {
+        fileId = "6122354",
+        text = "plate_raidpaladinethereal_d_01_helm_za_m.m2",
+        value = "plate_raidpaladinethereal_d_01_helm_za_m.m2",
+       },
+       {
+        fileId = "6121877",
+        text = "plate_raidpaladinethereal_d_01_hu_f.m2",
+        value = "plate_raidpaladinethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6121876",
+        text = "plate_raidpaladinethereal_d_01_hu_m.m2",
+        value = "plate_raidpaladinethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6121879",
+        text = "plate_raidpaladinethereal_d_01_kt_f.m2",
+        value = "plate_raidpaladinethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6121878",
+        text = "plate_raidpaladinethereal_d_01_kt_m.m2",
+        value = "plate_raidpaladinethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6121593",
+        text = "plate_raidpaladinethereal_d_01_l.m2",
+        value = "plate_raidpaladinethereal_d_01_l.m2",
+       },
+       {
+        fileId = "6121884",
+        text = "plate_raidpaladinethereal_d_01_nb_m.m2",
+        value = "plate_raidpaladinethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6121883",
+        text = "plate_raidpaladinethereal_d_01_ni_f.m2",
+        value = "plate_raidpaladinethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6121882",
+        text = "plate_raidpaladinethereal_d_01_ni_m.m2",
+        value = "plate_raidpaladinethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6121886",
+        text = "plate_raidpaladinethereal_d_01_or_f.m2",
+        value = "plate_raidpaladinethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6121885",
+        text = "plate_raidpaladinethereal_d_01_or_m.m2",
+        value = "plate_raidpaladinethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6121888",
+        text = "plate_raidpaladinethereal_d_01_pa_f.m2",
+        value = "plate_raidpaladinethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6121887",
+        text = "plate_raidpaladinethereal_d_01_pa_m.m2",
+        value = "plate_raidpaladinethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6121594",
+        text = "plate_raidpaladinethereal_d_01_r.m2",
+        value = "plate_raidpaladinethereal_d_01_r.m2",
+       },
+       {
+        fileId = "6121894",
+        text = "plate_raidpaladinethereal_d_01_sc_f.m2",
+        value = "plate_raidpaladinethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6121893",
+        text = "plate_raidpaladinethereal_d_01_sc_m.m2",
+        value = "plate_raidpaladinethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6121890",
+        text = "plate_raidpaladinethereal_d_01_ta_f.m2",
+        value = "plate_raidpaladinethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6121889",
+        text = "plate_raidpaladinethereal_d_01_ta_m.m2",
+        value = "plate_raidpaladinethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6121892",
+        text = "plate_raidpaladinethereal_d_01_tr_f.m2",
+        value = "plate_raidpaladinethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6121891",
+        text = "plate_raidpaladinethereal_d_01_tr_m.m2",
+        value = "plate_raidpaladinethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6121896",
+        text = "plate_raidpaladinethereal_d_01_vu_f.m2",
+        value = "plate_raidpaladinethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6121895",
+        text = "plate_raidpaladinethereal_d_01_vu_m.m2",
+        value = "plate_raidpaladinethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6121898",
+        text = "plate_raidpaladinethereal_d_01_wo_f.m2",
+        value = "plate_raidpaladinethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6121897",
+        text = "plate_raidpaladinethereal_d_01_wo_m.m2",
+        value = "plate_raidpaladinethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6121900",
+        text = "plate_raidpaladinethereal_d_01_za_f.m2",
+        value = "plate_raidpaladinethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6121899",
+        text = "plate_raidpaladinethereal_d_01_za_m.m2",
+        value = "plate_raidpaladinethereal_d_01_za_m.m2",
+       },
+       {
         fileId = "5653306",
         text = "plate_raidpaladingoblin_d_01_chest_be_f.m2",
         value = "plate_raidpaladingoblin_d_01_chest_be_f.m2",
@@ -109072,6 +116145,11 @@ WeakAuras.ModelPaths = {
         value = "plate_raidpaladingoblin_d_01_chest_za_m.m2",
        },
        {
+        fileId = "7117516",
+        text = "plate_raidpaladingoblin_d_01_dt_u.m2",
+        value = "plate_raidpaladingoblin_d_01_dt_u.m2",
+       },
+       {
         fileId = "5653341",
         text = "plate_raidpaladingoblin_d_01_helm_be_f.m2",
         value = "plate_raidpaladingoblin_d_01_helm_be_f.m2",
@@ -109225,6 +116303,16 @@ WeakAuras.ModelPaths = {
         fileId = "5653373",
         text = "plate_raidpaladingoblin_d_01_helm_za_m.m2",
         value = "plate_raidpaladingoblin_d_01_helm_za_m.m2",
+       },
+       {
+        fileId = "5653327",
+        text = "plate_raidpaladingoblin_d_01_pa_f.m2",
+        value = "plate_raidpaladingoblin_d_01_pa_f.m2",
+       },
+       {
+        fileId = "5653326",
+        text = "plate_raidpaladingoblin_d_01_pa_m.m2",
+        value = "plate_raidpaladingoblin_d_01_pa_m.m2",
        },
        {
         fileId = "5653375",
@@ -110177,6 +117265,206 @@ WeakAuras.ModelPaths = {
         value = "plate_raidwarrior_s_01_ed_m.m2",
        },
        {
+        fileId = "6121615",
+        text = "plate_raidwarriorethereal_d_01.m2",
+        value = "plate_raidwarriorethereal_d_01.m2",
+       },
+       {
+        fileId = "6122042",
+        text = "plate_raidwarriorethereal_d_01_be_f.m2",
+        value = "plate_raidwarriorethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6122041",
+        text = "plate_raidwarriorethereal_d_01_be_m.m2",
+        value = "plate_raidwarriorethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6122044",
+        text = "plate_raidwarriorethereal_d_01_dr_f.m2",
+        value = "plate_raidwarriorethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6122043",
+        text = "plate_raidwarriorethereal_d_01_dr_m.m2",
+        value = "plate_raidwarriorethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6122046",
+        text = "plate_raidwarriorethereal_d_01_dw_f.m2",
+        value = "plate_raidwarriorethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6122045",
+        text = "plate_raidwarriorethereal_d_01_dw_m.m2",
+        value = "plate_raidwarriorethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852860",
+        text = "plate_raidwarriorethereal_d_01_ed_f.m2",
+        value = "plate_raidwarriorethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852859",
+        text = "plate_raidwarriorethereal_d_01_ed_m.m2",
+        value = "plate_raidwarriorethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6122048",
+        text = "plate_raidwarriorethereal_d_01_gn_f.m2",
+        value = "plate_raidwarriorethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6122047",
+        text = "plate_raidwarriorethereal_d_01_gn_m.m2",
+        value = "plate_raidwarriorethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6122050",
+        text = "plate_raidwarriorethereal_d_01_go_f.m2",
+        value = "plate_raidwarriorethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6122049",
+        text = "plate_raidwarriorethereal_d_01_go_m.m2",
+        value = "plate_raidwarriorethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6122052",
+        text = "plate_raidwarriorethereal_d_01_hu_f.m2",
+        value = "plate_raidwarriorethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6122051",
+        text = "plate_raidwarriorethereal_d_01_hu_m.m2",
+        value = "plate_raidwarriorethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6122054",
+        text = "plate_raidwarriorethereal_d_01_kt_f.m2",
+        value = "plate_raidwarriorethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6122053",
+        text = "plate_raidwarriorethereal_d_01_kt_m.m2",
+        value = "plate_raidwarriorethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6121613",
+        text = "plate_raidwarriorethereal_d_01_l.m2",
+        value = "plate_raidwarriorethereal_d_01_l.m2",
+       },
+       {
+        fileId = "6122056",
+        text = "plate_raidwarriorethereal_d_01_mg_f.m2",
+        value = "plate_raidwarriorethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6122055",
+        text = "plate_raidwarriorethereal_d_01_mg_m.m2",
+        value = "plate_raidwarriorethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6122059",
+        text = "plate_raidwarriorethereal_d_01_nb_m.m2",
+        value = "plate_raidwarriorethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6122058",
+        text = "plate_raidwarriorethereal_d_01_ni_f.m2",
+        value = "plate_raidwarriorethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6122057",
+        text = "plate_raidwarriorethereal_d_01_ni_m.m2",
+        value = "plate_raidwarriorethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6122061",
+        text = "plate_raidwarriorethereal_d_01_or_f.m2",
+        value = "plate_raidwarriorethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6122060",
+        text = "plate_raidwarriorethereal_d_01_or_m.m2",
+        value = "plate_raidwarriorethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6122063",
+        text = "plate_raidwarriorethereal_d_01_pa_f.m2",
+        value = "plate_raidwarriorethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6122062",
+        text = "plate_raidwarriorethereal_d_01_pa_m.m2",
+        value = "plate_raidwarriorethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6121614",
+        text = "plate_raidwarriorethereal_d_01_r.m2",
+        value = "plate_raidwarriorethereal_d_01_r.m2",
+       },
+       {
+        fileId = "6122069",
+        text = "plate_raidwarriorethereal_d_01_sc_f.m2",
+        value = "plate_raidwarriorethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6122068",
+        text = "plate_raidwarriorethereal_d_01_sc_m.m2",
+        value = "plate_raidwarriorethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6122065",
+        text = "plate_raidwarriorethereal_d_01_ta_f.m2",
+        value = "plate_raidwarriorethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6122064",
+        text = "plate_raidwarriorethereal_d_01_ta_m.m2",
+        value = "plate_raidwarriorethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6122067",
+        text = "plate_raidwarriorethereal_d_01_tr_f.m2",
+        value = "plate_raidwarriorethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6122066",
+        text = "plate_raidwarriorethereal_d_01_tr_m.m2",
+        value = "plate_raidwarriorethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6122071",
+        text = "plate_raidwarriorethereal_d_01_vu_f.m2",
+        value = "plate_raidwarriorethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6122070",
+        text = "plate_raidwarriorethereal_d_01_vu_m.m2",
+        value = "plate_raidwarriorethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6122073",
+        text = "plate_raidwarriorethereal_d_01_wo_f.m2",
+        value = "plate_raidwarriorethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6122072",
+        text = "plate_raidwarriorethereal_d_01_wo_m.m2",
+        value = "plate_raidwarriorethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6122075",
+        text = "plate_raidwarriorethereal_d_01_za_f.m2",
+        value = "plate_raidwarriorethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6122074",
+        text = "plate_raidwarriorethereal_d_01_za_m.m2",
+        value = "plate_raidwarriorethereal_d_01_za_m.m2",
+       },
+       {
         fileId = "5687052",
         text = "plate_raidwarriormythic_s_01_ed_f.m2",
         value = "plate_raidwarriormythic_s_01_ed_f.m2",
@@ -110782,6 +118070,11 @@ WeakAuras.ModelPaths = {
         value = "quiver_1h_sylvanas_d_01.m2",
        },
        {
+        fileId = "6739448",
+        text = "quiver_bow_1h_forsaken_d_01.m2",
+        value = "quiver_bow_1h_forsaken_d_01.m2",
+       },
+       {
         fileId = "5332479",
         text = "robe_armor_dreadlordsregalia_c_01_be_f.m2",
         value = "robe_armor_dreadlordsregalia_c_01_be_f.m2",
@@ -111000,6 +118293,16 @@ WeakAuras.ModelPaths = {
         fileId = "5695097",
         text = "robe_cloth_raidmage_q_01_ed_m.m2",
         value = "robe_cloth_raidmage_q_01_ed_m.m2",
+       },
+       {
+        fileId = "6851691",
+        text = "robe_cloth_raidmageethereal_d_01_ed_f.m2",
+        value = "robe_cloth_raidmageethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6851690",
+        text = "robe_cloth_raidmageethereal_d_01_ed_m.m2",
+        value = "robe_cloth_raidmageethereal_d_01_ed_m.m2",
        },
        {
         fileId = "4994827",
@@ -112773,6 +120076,16 @@ WeakAuras.ModelPaths = {
         value = "helm_armor_banditmask_c_01_dw_m.m2",
        },
        {
+        fileId = "6875401",
+        text = "helm_armor_banditmask_c_01_ed_f.m2",
+        value = "helm_armor_banditmask_c_01_ed_f.m2",
+       },
+       {
+        fileId = "6875402",
+        text = "helm_armor_banditmask_c_01_ed_m.m2",
+        value = "helm_armor_banditmask_c_01_ed_m.m2",
+       },
+       {
         fileId = "6325572",
         text = "helm_armor_banditmask_c_01_gn_f.m2",
         value = "helm_armor_banditmask_c_01_gn_f.m2",
@@ -112911,6 +120224,191 @@ WeakAuras.ModelPaths = {
         fileId = "6325598",
         text = "helm_armor_banditmask_c_01_za_m.m2",
         value = "helm_armor_banditmask_c_01_za_m.m2",
+       },
+       {
+        fileId = "6877376",
+        text = "helm_armor_banshee_d_01_be_f.m2",
+        value = "helm_armor_banshee_d_01_be_f.m2",
+       },
+       {
+        fileId = "6877375",
+        text = "helm_armor_banshee_d_01_be_m.m2",
+        value = "helm_armor_banshee_d_01_be_m.m2",
+       },
+       {
+        fileId = "6877378",
+        text = "helm_armor_banshee_d_01_dr_f.m2",
+        value = "helm_armor_banshee_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6877377",
+        text = "helm_armor_banshee_d_01_dr_m.m2",
+        value = "helm_armor_banshee_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6877380",
+        text = "helm_armor_banshee_d_01_dw_f.m2",
+        value = "helm_armor_banshee_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6877379",
+        text = "helm_armor_banshee_d_01_dw_m.m2",
+        value = "helm_armor_banshee_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6877382",
+        text = "helm_armor_banshee_d_01_ed_f.m2",
+        value = "helm_armor_banshee_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6877381",
+        text = "helm_armor_banshee_d_01_ed_m.m2",
+        value = "helm_armor_banshee_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6877384",
+        text = "helm_armor_banshee_d_01_gn_f.m2",
+        value = "helm_armor_banshee_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6877383",
+        text = "helm_armor_banshee_d_01_gn_m.m2",
+        value = "helm_armor_banshee_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6877386",
+        text = "helm_armor_banshee_d_01_go_f.m2",
+        value = "helm_armor_banshee_d_01_go_f.m2",
+       },
+       {
+        fileId = "6877385",
+        text = "helm_armor_banshee_d_01_go_m.m2",
+        value = "helm_armor_banshee_d_01_go_m.m2",
+       },
+       {
+        fileId = "6877388",
+        text = "helm_armor_banshee_d_01_hu_f.m2",
+        value = "helm_armor_banshee_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6877387",
+        text = "helm_armor_banshee_d_01_hu_m.m2",
+        value = "helm_armor_banshee_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6877390",
+        text = "helm_armor_banshee_d_01_kt_f.m2",
+        value = "helm_armor_banshee_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6877389",
+        text = "helm_armor_banshee_d_01_kt_m.m2",
+        value = "helm_armor_banshee_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6877392",
+        text = "helm_armor_banshee_d_01_mg_f.m2",
+        value = "helm_armor_banshee_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6877391",
+        text = "helm_armor_banshee_d_01_mg_m.m2",
+        value = "helm_armor_banshee_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6877395",
+        text = "helm_armor_banshee_d_01_nb_m.m2",
+        value = "helm_armor_banshee_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6877394",
+        text = "helm_armor_banshee_d_01_ni_f.m2",
+        value = "helm_armor_banshee_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6877393",
+        text = "helm_armor_banshee_d_01_ni_m.m2",
+        value = "helm_armor_banshee_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6877397",
+        text = "helm_armor_banshee_d_01_or_f.m2",
+        value = "helm_armor_banshee_d_01_or_f.m2",
+       },
+       {
+        fileId = "6877396",
+        text = "helm_armor_banshee_d_01_or_m.m2",
+        value = "helm_armor_banshee_d_01_or_m.m2",
+       },
+       {
+        fileId = "6877399",
+        text = "helm_armor_banshee_d_01_pa_f.m2",
+        value = "helm_armor_banshee_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6877398",
+        text = "helm_armor_banshee_d_01_pa_m.m2",
+        value = "helm_armor_banshee_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6877405",
+        text = "helm_armor_banshee_d_01_sc_f.m2",
+        value = "helm_armor_banshee_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6877404",
+        text = "helm_armor_banshee_d_01_sc_m.m2",
+        value = "helm_armor_banshee_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6877401",
+        text = "helm_armor_banshee_d_01_ta_f.m2",
+        value = "helm_armor_banshee_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6877400",
+        text = "helm_armor_banshee_d_01_ta_m.m2",
+        value = "helm_armor_banshee_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6877403",
+        text = "helm_armor_banshee_d_01_tr_f.m2",
+        value = "helm_armor_banshee_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6877402",
+        text = "helm_armor_banshee_d_01_tr_m.m2",
+        value = "helm_armor_banshee_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6877407",
+        text = "helm_armor_banshee_d_01_vu_f.m2",
+        value = "helm_armor_banshee_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6877406",
+        text = "helm_armor_banshee_d_01_vu_m.m2",
+        value = "helm_armor_banshee_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6877409",
+        text = "helm_armor_banshee_d_01_wo_f.m2",
+        value = "helm_armor_banshee_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6877408",
+        text = "helm_armor_banshee_d_01_wo_m.m2",
+        value = "helm_armor_banshee_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6877411",
+        text = "helm_armor_banshee_d_01_za_f.m2",
+        value = "helm_armor_banshee_d_01_za_f.m2",
+       },
+       {
+        fileId = "6877410",
+        text = "helm_armor_banshee_d_01_za_m.m2",
+        value = "helm_armor_banshee_d_01_za_m.m2",
        },
        {
         fileId = "3848135",
@@ -115358,66 +122856,6 @@ WeakAuras.ModelPaths = {
         value = "helm_armor_chefhat_b_01_za_m.m2",
        },
        {
-        fileId = "6426179",
-        text = "helm_armor_chen_c_01_armor_icons_be_f.m2",
-        value = "helm_armor_chen_c_01_armor_icons_be_f.m2",
-       },
-       {
-        fileId = "6426178",
-        text = "helm_armor_chen_c_01_armor_icons_be_m.m2",
-        value = "helm_armor_chen_c_01_armor_icons_be_m.m2",
-       },
-       {
-        fileId = "6426181",
-        text = "helm_armor_chen_c_01_armor_icons_dr_f.m2",
-        value = "helm_armor_chen_c_01_armor_icons_dr_f.m2",
-       },
-       {
-        fileId = "6426180",
-        text = "helm_armor_chen_c_01_armor_icons_dr_m.m2",
-        value = "helm_armor_chen_c_01_armor_icons_dr_m.m2",
-       },
-       {
-        fileId = "6426183",
-        text = "helm_armor_chen_c_01_armor_icons_dw_f.m2",
-        value = "helm_armor_chen_c_01_armor_icons_dw_f.m2",
-       },
-       {
-        fileId = "6426182",
-        text = "helm_armor_chen_c_01_armor_icons_dw_m.m2",
-        value = "helm_armor_chen_c_01_armor_icons_dw_m.m2",
-       },
-       {
-        fileId = "6426185",
-        text = "helm_armor_chen_c_01_armor_icons_gn_f.m2",
-        value = "helm_armor_chen_c_01_armor_icons_gn_f.m2",
-       },
-       {
-        fileId = "6426184",
-        text = "helm_armor_chen_c_01_armor_icons_gn_m.m2",
-        value = "helm_armor_chen_c_01_armor_icons_gn_m.m2",
-       },
-       {
-        fileId = "6426187",
-        text = "helm_armor_chen_c_01_armor_icons_go_f.m2",
-        value = "helm_armor_chen_c_01_armor_icons_go_f.m2",
-       },
-       {
-        fileId = "6426186",
-        text = "helm_armor_chen_c_01_armor_icons_go_m.m2",
-        value = "helm_armor_chen_c_01_armor_icons_go_m.m2",
-       },
-       {
-        fileId = "6426189",
-        text = "helm_armor_chen_c_01_armor_icons_hu_f.m2",
-        value = "helm_armor_chen_c_01_armor_icons_hu_f.m2",
-       },
-       {
-        fileId = "6426188",
-        text = "helm_armor_chen_c_01_armor_icons_hu_m.m2",
-        value = "helm_armor_chen_c_01_armor_icons_hu_m.m2",
-       },
-       {
         fileId = "6426191",
         text = "helm_armor_chen_c_01_armor_icons_kt_f.m2",
         value = "helm_armor_chen_c_01_armor_icons_kt_f.m2",
@@ -115433,66 +122871,6 @@ WeakAuras.ModelPaths = {
         value = "helm_armor_chen_c_01_armor_icons_nb_m.m2",
        },
        {
-        fileId = "6426195",
-        text = "helm_armor_chen_c_01_armor_icons_ni_f.m2",
-        value = "helm_armor_chen_c_01_armor_icons_ni_f.m2",
-       },
-       {
-        fileId = "6426194",
-        text = "helm_armor_chen_c_01_armor_icons_ni_m.m2",
-        value = "helm_armor_chen_c_01_armor_icons_ni_m.m2",
-       },
-       {
-        fileId = "6426198",
-        text = "helm_armor_chen_c_01_armor_icons_or_f.m2",
-        value = "helm_armor_chen_c_01_armor_icons_or_f.m2",
-       },
-       {
-        fileId = "6426197",
-        text = "helm_armor_chen_c_01_armor_icons_or_m.m2",
-        value = "helm_armor_chen_c_01_armor_icons_or_m.m2",
-       },
-       {
-        fileId = "6426200",
-        text = "helm_armor_chen_c_01_armor_icons_pa_f.m2",
-        value = "helm_armor_chen_c_01_armor_icons_pa_f.m2",
-       },
-       {
-        fileId = "6426199",
-        text = "helm_armor_chen_c_01_armor_icons_pa_m.m2",
-        value = "helm_armor_chen_c_01_armor_icons_pa_m.m2",
-       },
-       {
-        fileId = "6426206",
-        text = "helm_armor_chen_c_01_armor_icons_sc_f.m2",
-        value = "helm_armor_chen_c_01_armor_icons_sc_f.m2",
-       },
-       {
-        fileId = "6426205",
-        text = "helm_armor_chen_c_01_armor_icons_sc_m.m2",
-        value = "helm_armor_chen_c_01_armor_icons_sc_m.m2",
-       },
-       {
-        fileId = "6426202",
-        text = "helm_armor_chen_c_01_armor_icons_ta_f.m2",
-        value = "helm_armor_chen_c_01_armor_icons_ta_f.m2",
-       },
-       {
-        fileId = "6426201",
-        text = "helm_armor_chen_c_01_armor_icons_ta_m.m2",
-        value = "helm_armor_chen_c_01_armor_icons_ta_m.m2",
-       },
-       {
-        fileId = "6426204",
-        text = "helm_armor_chen_c_01_armor_icons_tr_f.m2",
-        value = "helm_armor_chen_c_01_armor_icons_tr_f.m2",
-       },
-       {
-        fileId = "6426203",
-        text = "helm_armor_chen_c_01_armor_icons_tr_m.m2",
-        value = "helm_armor_chen_c_01_armor_icons_tr_m.m2",
-       },
-       {
         fileId = "6426208",
         text = "helm_armor_chen_c_01_armor_icons_vu_f.m2",
         value = "helm_armor_chen_c_01_armor_icons_vu_f.m2",
@@ -115503,16 +122881,6 @@ WeakAuras.ModelPaths = {
         value = "helm_armor_chen_c_01_armor_icons_vu_m.m2",
        },
        {
-        fileId = "6426210",
-        text = "helm_armor_chen_c_01_armor_icons_wo_f.m2",
-        value = "helm_armor_chen_c_01_armor_icons_wo_f.m2",
-       },
-       {
-        fileId = "6426209",
-        text = "helm_armor_chen_c_01_armor_icons_wo_m.m2",
-        value = "helm_armor_chen_c_01_armor_icons_wo_m.m2",
-       },
-       {
         fileId = "6426212",
         text = "helm_armor_chen_c_01_armor_icons_za_f.m2",
         value = "helm_armor_chen_c_01_armor_icons_za_f.m2",
@@ -115521,6 +122889,301 @@ WeakAuras.ModelPaths = {
         fileId = "6426211",
         text = "helm_armor_chen_c_01_armor_icons_za_m.m2",
         value = "helm_armor_chen_c_01_armor_icons_za_m.m2",
+       },
+       {
+        fileId = "6426179",
+        text = "helm_armor_chen_c_01_be_f.m2",
+        value = "helm_armor_chen_c_01_be_f.m2",
+       },
+       {
+        fileId = "6426178",
+        text = "helm_armor_chen_c_01_be_m.m2",
+        value = "helm_armor_chen_c_01_be_m.m2",
+       },
+       {
+        fileId = "6426181",
+        text = "helm_armor_chen_c_01_dr_f.m2",
+        value = "helm_armor_chen_c_01_dr_f.m2",
+       },
+       {
+        fileId = "6426180",
+        text = "helm_armor_chen_c_01_dr_m.m2",
+        value = "helm_armor_chen_c_01_dr_m.m2",
+       },
+       {
+        fileId = "6426183",
+        text = "helm_armor_chen_c_01_dw_f.m2",
+        value = "helm_armor_chen_c_01_dw_f.m2",
+       },
+       {
+        fileId = "6426182",
+        text = "helm_armor_chen_c_01_dw_m.m2",
+        value = "helm_armor_chen_c_01_dw_m.m2",
+       },
+       {
+        fileId = "6426185",
+        text = "helm_armor_chen_c_01_gn_f.m2",
+        value = "helm_armor_chen_c_01_gn_f.m2",
+       },
+       {
+        fileId = "6426184",
+        text = "helm_armor_chen_c_01_gn_m.m2",
+        value = "helm_armor_chen_c_01_gn_m.m2",
+       },
+       {
+        fileId = "6426187",
+        text = "helm_armor_chen_c_01_go_f.m2",
+        value = "helm_armor_chen_c_01_go_f.m2",
+       },
+       {
+        fileId = "6426186",
+        text = "helm_armor_chen_c_01_go_m.m2",
+        value = "helm_armor_chen_c_01_go_m.m2",
+       },
+       {
+        fileId = "6426189",
+        text = "helm_armor_chen_c_01_hu_f.m2",
+        value = "helm_armor_chen_c_01_hu_f.m2",
+       },
+       {
+        fileId = "6426188",
+        text = "helm_armor_chen_c_01_hu_m.m2",
+        value = "helm_armor_chen_c_01_hu_m.m2",
+       },
+       {
+        fileId = "6426195",
+        text = "helm_armor_chen_c_01_ni_f.m2",
+        value = "helm_armor_chen_c_01_ni_f.m2",
+       },
+       {
+        fileId = "6426194",
+        text = "helm_armor_chen_c_01_ni_m.m2",
+        value = "helm_armor_chen_c_01_ni_m.m2",
+       },
+       {
+        fileId = "6426198",
+        text = "helm_armor_chen_c_01_or_f.m2",
+        value = "helm_armor_chen_c_01_or_f.m2",
+       },
+       {
+        fileId = "6426197",
+        text = "helm_armor_chen_c_01_or_m.m2",
+        value = "helm_armor_chen_c_01_or_m.m2",
+       },
+       {
+        fileId = "6426200",
+        text = "helm_armor_chen_c_01_pa_f.m2",
+        value = "helm_armor_chen_c_01_pa_f.m2",
+       },
+       {
+        fileId = "6426199",
+        text = "helm_armor_chen_c_01_pa_m.m2",
+        value = "helm_armor_chen_c_01_pa_m.m2",
+       },
+       {
+        fileId = "6426206",
+        text = "helm_armor_chen_c_01_sc_f.m2",
+        value = "helm_armor_chen_c_01_sc_f.m2",
+       },
+       {
+        fileId = "6426205",
+        text = "helm_armor_chen_c_01_sc_m.m2",
+        value = "helm_armor_chen_c_01_sc_m.m2",
+       },
+       {
+        fileId = "6426202",
+        text = "helm_armor_chen_c_01_ta_f.m2",
+        value = "helm_armor_chen_c_01_ta_f.m2",
+       },
+       {
+        fileId = "6426201",
+        text = "helm_armor_chen_c_01_ta_m.m2",
+        value = "helm_armor_chen_c_01_ta_m.m2",
+       },
+       {
+        fileId = "6426204",
+        text = "helm_armor_chen_c_01_tr_f.m2",
+        value = "helm_armor_chen_c_01_tr_f.m2",
+       },
+       {
+        fileId = "6426203",
+        text = "helm_armor_chen_c_01_tr_m.m2",
+        value = "helm_armor_chen_c_01_tr_m.m2",
+       },
+       {
+        fileId = "6426210",
+        text = "helm_armor_chen_c_01_wo_f.m2",
+        value = "helm_armor_chen_c_01_wo_f.m2",
+       },
+       {
+        fileId = "6426209",
+        text = "helm_armor_chen_c_01_wo_m.m2",
+        value = "helm_armor_chen_c_01_wo_m.m2",
+       },
+       {
+        fileId = "6865599",
+        text = "helm_armor_chess_d_01_be_f.m2",
+        value = "helm_armor_chess_d_01_be_f.m2",
+       },
+       {
+        fileId = "6865598",
+        text = "helm_armor_chess_d_01_be_m.m2",
+        value = "helm_armor_chess_d_01_be_m.m2",
+       },
+       {
+        fileId = "6865601",
+        text = "helm_armor_chess_d_01_dr_f.m2",
+        value = "helm_armor_chess_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6865600",
+        text = "helm_armor_chess_d_01_dr_m.m2",
+        value = "helm_armor_chess_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6865603",
+        text = "helm_armor_chess_d_01_dw_f.m2",
+        value = "helm_armor_chess_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6865602",
+        text = "helm_armor_chess_d_01_dw_m.m2",
+        value = "helm_armor_chess_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6865607",
+        text = "helm_armor_chess_d_01_gn_f.m2",
+        value = "helm_armor_chess_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6865606",
+        text = "helm_armor_chess_d_01_gn_m.m2",
+        value = "helm_armor_chess_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6865609",
+        text = "helm_armor_chess_d_01_go_f.m2",
+        value = "helm_armor_chess_d_01_go_f.m2",
+       },
+       {
+        fileId = "6865608",
+        text = "helm_armor_chess_d_01_go_m.m2",
+        value = "helm_armor_chess_d_01_go_m.m2",
+       },
+       {
+        fileId = "6865611",
+        text = "helm_armor_chess_d_01_hu_f.m2",
+        value = "helm_armor_chess_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6865610",
+        text = "helm_armor_chess_d_01_hu_m.m2",
+        value = "helm_armor_chess_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6865613",
+        text = "helm_armor_chess_d_01_kt_f.m2",
+        value = "helm_armor_chess_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6865612",
+        text = "helm_armor_chess_d_01_kt_m.m2",
+        value = "helm_armor_chess_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6865618",
+        text = "helm_armor_chess_d_01_nb_m.m2",
+        value = "helm_armor_chess_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6865617",
+        text = "helm_armor_chess_d_01_ni_f.m2",
+        value = "helm_armor_chess_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6865616",
+        text = "helm_armor_chess_d_01_ni_m.m2",
+        value = "helm_armor_chess_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6865620",
+        text = "helm_armor_chess_d_01_or_f.m2",
+        value = "helm_armor_chess_d_01_or_f.m2",
+       },
+       {
+        fileId = "6865619",
+        text = "helm_armor_chess_d_01_or_m.m2",
+        value = "helm_armor_chess_d_01_or_m.m2",
+       },
+       {
+        fileId = "6865622",
+        text = "helm_armor_chess_d_01_pa_f.m2",
+        value = "helm_armor_chess_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6865621",
+        text = "helm_armor_chess_d_01_pa_m.m2",
+        value = "helm_armor_chess_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6865628",
+        text = "helm_armor_chess_d_01_sc_f.m2",
+        value = "helm_armor_chess_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6865627",
+        text = "helm_armor_chess_d_01_sc_m.m2",
+        value = "helm_armor_chess_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6865624",
+        text = "helm_armor_chess_d_01_ta_f.m2",
+        value = "helm_armor_chess_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6865623",
+        text = "helm_armor_chess_d_01_ta_m.m2",
+        value = "helm_armor_chess_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6865626",
+        text = "helm_armor_chess_d_01_tr_f.m2",
+        value = "helm_armor_chess_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6865625",
+        text = "helm_armor_chess_d_01_tr_m.m2",
+        value = "helm_armor_chess_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6865630",
+        text = "helm_armor_chess_d_01_vu_f.m2",
+        value = "helm_armor_chess_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6865629",
+        text = "helm_armor_chess_d_01_vu_m.m2",
+        value = "helm_armor_chess_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6865632",
+        text = "helm_armor_chess_d_01_wo_f.m2",
+        value = "helm_armor_chess_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6865631",
+        text = "helm_armor_chess_d_01_wo_m.m2",
+        value = "helm_armor_chess_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6865634",
+        text = "helm_armor_chess_d_01_za_f.m2",
+        value = "helm_armor_chess_d_01_za_f.m2",
+       },
+       {
+        fileId = "6865633",
+        text = "helm_armor_chess_d_01_za_m.m2",
+        value = "helm_armor_chess_d_01_za_m.m2",
        },
        {
         fileId = "5059478",
@@ -118268,6 +125931,366 @@ WeakAuras.ModelPaths = {
         value = "helm_armor_engineering_b_01_orange_za_m.m2",
        },
        {
+        fileId = "6116597",
+        text = "helm_armor_ethereal_d_01_be_f.m2",
+        value = "helm_armor_ethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6116596",
+        text = "helm_armor_ethereal_d_01_be_m.m2",
+        value = "helm_armor_ethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6116599",
+        text = "helm_armor_ethereal_d_01_dr_f.m2",
+        value = "helm_armor_ethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6116598",
+        text = "helm_armor_ethereal_d_01_dr_m.m2",
+        value = "helm_armor_ethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6116601",
+        text = "helm_armor_ethereal_d_01_dw_f.m2",
+        value = "helm_armor_ethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6116600",
+        text = "helm_armor_ethereal_d_01_dw_m.m2",
+        value = "helm_armor_ethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6880078",
+        text = "helm_armor_ethereal_d_01_ed_f.m2",
+        value = "helm_armor_ethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6880079",
+        text = "helm_armor_ethereal_d_01_ed_m.m2",
+        value = "helm_armor_ethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6116603",
+        text = "helm_armor_ethereal_d_01_gn_f.m2",
+        value = "helm_armor_ethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6116602",
+        text = "helm_armor_ethereal_d_01_gn_m.m2",
+        value = "helm_armor_ethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6116605",
+        text = "helm_armor_ethereal_d_01_go_f.m2",
+        value = "helm_armor_ethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6116604",
+        text = "helm_armor_ethereal_d_01_go_m.m2",
+        value = "helm_armor_ethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6116607",
+        text = "helm_armor_ethereal_d_01_hu_f.m2",
+        value = "helm_armor_ethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6116606",
+        text = "helm_armor_ethereal_d_01_hu_m.m2",
+        value = "helm_armor_ethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6116609",
+        text = "helm_armor_ethereal_d_01_kt_f.m2",
+        value = "helm_armor_ethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6116608",
+        text = "helm_armor_ethereal_d_01_kt_m.m2",
+        value = "helm_armor_ethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6116611",
+        text = "helm_armor_ethereal_d_01_mg_f.m2",
+        value = "helm_armor_ethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6116610",
+        text = "helm_armor_ethereal_d_01_mg_m.m2",
+        value = "helm_armor_ethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6116614",
+        text = "helm_armor_ethereal_d_01_nb_m.m2",
+        value = "helm_armor_ethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6116613",
+        text = "helm_armor_ethereal_d_01_ni_f.m2",
+        value = "helm_armor_ethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6116612",
+        text = "helm_armor_ethereal_d_01_ni_m.m2",
+        value = "helm_armor_ethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6116616",
+        text = "helm_armor_ethereal_d_01_or_f.m2",
+        value = "helm_armor_ethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6116615",
+        text = "helm_armor_ethereal_d_01_or_m.m2",
+        value = "helm_armor_ethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6116618",
+        text = "helm_armor_ethereal_d_01_pa_f.m2",
+        value = "helm_armor_ethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6116617",
+        text = "helm_armor_ethereal_d_01_pa_m.m2",
+        value = "helm_armor_ethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6116624",
+        text = "helm_armor_ethereal_d_01_sc_f.m2",
+        value = "helm_armor_ethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6116623",
+        text = "helm_armor_ethereal_d_01_sc_m.m2",
+        value = "helm_armor_ethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6116620",
+        text = "helm_armor_ethereal_d_01_ta_f.m2",
+        value = "helm_armor_ethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6116619",
+        text = "helm_armor_ethereal_d_01_ta_m.m2",
+        value = "helm_armor_ethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6116622",
+        text = "helm_armor_ethereal_d_01_tr_f.m2",
+        value = "helm_armor_ethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6116621",
+        text = "helm_armor_ethereal_d_01_tr_m.m2",
+        value = "helm_armor_ethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6116626",
+        text = "helm_armor_ethereal_d_01_vu_f.m2",
+        value = "helm_armor_ethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6116625",
+        text = "helm_armor_ethereal_d_01_vu_m.m2",
+        value = "helm_armor_ethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6116628",
+        text = "helm_armor_ethereal_d_01_wo_f.m2",
+        value = "helm_armor_ethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6116627",
+        text = "helm_armor_ethereal_d_01_wo_m.m2",
+        value = "helm_armor_ethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6116630",
+        text = "helm_armor_ethereal_d_01_za_f.m2",
+        value = "helm_armor_ethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6116629",
+        text = "helm_armor_ethereal_d_01_za_m.m2",
+        value = "helm_armor_ethereal_d_01_za_m.m2",
+       },
+       {
+        fileId = "6251963",
+        text = "helm_armor_etherealshawl_d_01_be_f.m2",
+        value = "helm_armor_etherealshawl_d_01_be_f.m2",
+       },
+       {
+        fileId = "6251962",
+        text = "helm_armor_etherealshawl_d_01_be_m.m2",
+        value = "helm_armor_etherealshawl_d_01_be_m.m2",
+       },
+       {
+        fileId = "6251965",
+        text = "helm_armor_etherealshawl_d_01_dr_f.m2",
+        value = "helm_armor_etherealshawl_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6251964",
+        text = "helm_armor_etherealshawl_d_01_dr_m.m2",
+        value = "helm_armor_etherealshawl_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6251967",
+        text = "helm_armor_etherealshawl_d_01_dw_f.m2",
+        value = "helm_armor_etherealshawl_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6251966",
+        text = "helm_armor_etherealshawl_d_01_dw_m.m2",
+        value = "helm_armor_etherealshawl_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6251969",
+        text = "helm_armor_etherealshawl_d_01_gn_f.m2",
+        value = "helm_armor_etherealshawl_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6251968",
+        text = "helm_armor_etherealshawl_d_01_gn_m.m2",
+        value = "helm_armor_etherealshawl_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6251971",
+        text = "helm_armor_etherealshawl_d_01_go_f.m2",
+        value = "helm_armor_etherealshawl_d_01_go_f.m2",
+       },
+       {
+        fileId = "6251970",
+        text = "helm_armor_etherealshawl_d_01_go_m.m2",
+        value = "helm_armor_etherealshawl_d_01_go_m.m2",
+       },
+       {
+        fileId = "6251973",
+        text = "helm_armor_etherealshawl_d_01_hu_f.m2",
+        value = "helm_armor_etherealshawl_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6251972",
+        text = "helm_armor_etherealshawl_d_01_hu_m.m2",
+        value = "helm_armor_etherealshawl_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6251975",
+        text = "helm_armor_etherealshawl_d_01_kt_f.m2",
+        value = "helm_armor_etherealshawl_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6251974",
+        text = "helm_armor_etherealshawl_d_01_kt_m.m2",
+        value = "helm_armor_etherealshawl_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6251977",
+        text = "helm_armor_etherealshawl_d_01_mg_f.m2",
+        value = "helm_armor_etherealshawl_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6251976",
+        text = "helm_armor_etherealshawl_d_01_mg_m.m2",
+        value = "helm_armor_etherealshawl_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6251980",
+        text = "helm_armor_etherealshawl_d_01_nb_m.m2",
+        value = "helm_armor_etherealshawl_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6251979",
+        text = "helm_armor_etherealshawl_d_01_ni_f.m2",
+        value = "helm_armor_etherealshawl_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6251978",
+        text = "helm_armor_etherealshawl_d_01_ni_m.m2",
+        value = "helm_armor_etherealshawl_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6251982",
+        text = "helm_armor_etherealshawl_d_01_or_f.m2",
+        value = "helm_armor_etherealshawl_d_01_or_f.m2",
+       },
+       {
+        fileId = "6251981",
+        text = "helm_armor_etherealshawl_d_01_or_m.m2",
+        value = "helm_armor_etherealshawl_d_01_or_m.m2",
+       },
+       {
+        fileId = "6251984",
+        text = "helm_armor_etherealshawl_d_01_pa_f.m2",
+        value = "helm_armor_etherealshawl_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6251983",
+        text = "helm_armor_etherealshawl_d_01_pa_m.m2",
+        value = "helm_armor_etherealshawl_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6251990",
+        text = "helm_armor_etherealshawl_d_01_sc_f.m2",
+        value = "helm_armor_etherealshawl_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6251989",
+        text = "helm_armor_etherealshawl_d_01_sc_m.m2",
+        value = "helm_armor_etherealshawl_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6251986",
+        text = "helm_armor_etherealshawl_d_01_ta_f.m2",
+        value = "helm_armor_etherealshawl_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6251985",
+        text = "helm_armor_etherealshawl_d_01_ta_m.m2",
+        value = "helm_armor_etherealshawl_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6251988",
+        text = "helm_armor_etherealshawl_d_01_tr_f.m2",
+        value = "helm_armor_etherealshawl_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6251987",
+        text = "helm_armor_etherealshawl_d_01_tr_m.m2",
+        value = "helm_armor_etherealshawl_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6251992",
+        text = "helm_armor_etherealshawl_d_01_vu_f.m2",
+        value = "helm_armor_etherealshawl_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6251991",
+        text = "helm_armor_etherealshawl_d_01_vu_m.m2",
+        value = "helm_armor_etherealshawl_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6251994",
+        text = "helm_armor_etherealshawl_d_01_wo_f.m2",
+        value = "helm_armor_etherealshawl_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6251993",
+        text = "helm_armor_etherealshawl_d_01_wo_m.m2",
+        value = "helm_armor_etherealshawl_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6251996",
+        text = "helm_armor_etherealshawl_d_01_za_f.m2",
+        value = "helm_armor_etherealshawl_d_01_za_f.m2",
+       },
+       {
+        fileId = "6251995",
+        text = "helm_armor_etherealshawl_d_01_za_m.m2",
+        value = "helm_armor_etherealshawl_d_01_za_m.m2",
+       },
+       {
         fileId = "2964956",
         text = "helm_armor_explorer_d_01_bef.m2",
         value = "helm_armor_explorer_d_01_bef.m2",
@@ -118586,6 +126609,191 @@ WeakAuras.ModelPaths = {
         fileId = "3071667",
         text = "helm_armor_faeriedragon_d_01_za_m.m2",
         value = "helm_armor_faeriedragon_d_01_za_m.m2",
+       },
+       {
+        fileId = "7074667",
+        text = "helm_armor_felreaver_d_01_be_f.m2",
+        value = "helm_armor_felreaver_d_01_be_f.m2",
+       },
+       {
+        fileId = "7074666",
+        text = "helm_armor_felreaver_d_01_be_m.m2",
+        value = "helm_armor_felreaver_d_01_be_m.m2",
+       },
+       {
+        fileId = "7074669",
+        text = "helm_armor_felreaver_d_01_dr_f.m2",
+        value = "helm_armor_felreaver_d_01_dr_f.m2",
+       },
+       {
+        fileId = "7074668",
+        text = "helm_armor_felreaver_d_01_dr_m.m2",
+        value = "helm_armor_felreaver_d_01_dr_m.m2",
+       },
+       {
+        fileId = "7074671",
+        text = "helm_armor_felreaver_d_01_dw_f.m2",
+        value = "helm_armor_felreaver_d_01_dw_f.m2",
+       },
+       {
+        fileId = "7074670",
+        text = "helm_armor_felreaver_d_01_dw_m.m2",
+        value = "helm_armor_felreaver_d_01_dw_m.m2",
+       },
+       {
+        fileId = "7074673",
+        text = "helm_armor_felreaver_d_01_ed_f.m2",
+        value = "helm_armor_felreaver_d_01_ed_f.m2",
+       },
+       {
+        fileId = "7074672",
+        text = "helm_armor_felreaver_d_01_ed_m.m2",
+        value = "helm_armor_felreaver_d_01_ed_m.m2",
+       },
+       {
+        fileId = "7074675",
+        text = "helm_armor_felreaver_d_01_gn_f.m2",
+        value = "helm_armor_felreaver_d_01_gn_f.m2",
+       },
+       {
+        fileId = "7074674",
+        text = "helm_armor_felreaver_d_01_gn_m.m2",
+        value = "helm_armor_felreaver_d_01_gn_m.m2",
+       },
+       {
+        fileId = "7074677",
+        text = "helm_armor_felreaver_d_01_go_f.m2",
+        value = "helm_armor_felreaver_d_01_go_f.m2",
+       },
+       {
+        fileId = "7074676",
+        text = "helm_armor_felreaver_d_01_go_m.m2",
+        value = "helm_armor_felreaver_d_01_go_m.m2",
+       },
+       {
+        fileId = "7074679",
+        text = "helm_armor_felreaver_d_01_hu_f.m2",
+        value = "helm_armor_felreaver_d_01_hu_f.m2",
+       },
+       {
+        fileId = "7074678",
+        text = "helm_armor_felreaver_d_01_hu_m.m2",
+        value = "helm_armor_felreaver_d_01_hu_m.m2",
+       },
+       {
+        fileId = "7074681",
+        text = "helm_armor_felreaver_d_01_kt_f.m2",
+        value = "helm_armor_felreaver_d_01_kt_f.m2",
+       },
+       {
+        fileId = "7074680",
+        text = "helm_armor_felreaver_d_01_kt_m.m2",
+        value = "helm_armor_felreaver_d_01_kt_m.m2",
+       },
+       {
+        fileId = "7074683",
+        text = "helm_armor_felreaver_d_01_mg_f.m2",
+        value = "helm_armor_felreaver_d_01_mg_f.m2",
+       },
+       {
+        fileId = "7074682",
+        text = "helm_armor_felreaver_d_01_mg_m.m2",
+        value = "helm_armor_felreaver_d_01_mg_m.m2",
+       },
+       {
+        fileId = "7074686",
+        text = "helm_armor_felreaver_d_01_nb_m.m2",
+        value = "helm_armor_felreaver_d_01_nb_m.m2",
+       },
+       {
+        fileId = "7074685",
+        text = "helm_armor_felreaver_d_01_ni_f.m2",
+        value = "helm_armor_felreaver_d_01_ni_f.m2",
+       },
+       {
+        fileId = "7074684",
+        text = "helm_armor_felreaver_d_01_ni_m.m2",
+        value = "helm_armor_felreaver_d_01_ni_m.m2",
+       },
+       {
+        fileId = "7074688",
+        text = "helm_armor_felreaver_d_01_or_f.m2",
+        value = "helm_armor_felreaver_d_01_or_f.m2",
+       },
+       {
+        fileId = "7074687",
+        text = "helm_armor_felreaver_d_01_or_m.m2",
+        value = "helm_armor_felreaver_d_01_or_m.m2",
+       },
+       {
+        fileId = "7074690",
+        text = "helm_armor_felreaver_d_01_pa_f.m2",
+        value = "helm_armor_felreaver_d_01_pa_f.m2",
+       },
+       {
+        fileId = "7074689",
+        text = "helm_armor_felreaver_d_01_pa_m.m2",
+        value = "helm_armor_felreaver_d_01_pa_m.m2",
+       },
+       {
+        fileId = "7074696",
+        text = "helm_armor_felreaver_d_01_sc_f.m2",
+        value = "helm_armor_felreaver_d_01_sc_f.m2",
+       },
+       {
+        fileId = "7074695",
+        text = "helm_armor_felreaver_d_01_sc_m.m2",
+        value = "helm_armor_felreaver_d_01_sc_m.m2",
+       },
+       {
+        fileId = "7074692",
+        text = "helm_armor_felreaver_d_01_ta_f.m2",
+        value = "helm_armor_felreaver_d_01_ta_f.m2",
+       },
+       {
+        fileId = "7074691",
+        text = "helm_armor_felreaver_d_01_ta_m.m2",
+        value = "helm_armor_felreaver_d_01_ta_m.m2",
+       },
+       {
+        fileId = "7074694",
+        text = "helm_armor_felreaver_d_01_tr_f.m2",
+        value = "helm_armor_felreaver_d_01_tr_f.m2",
+       },
+       {
+        fileId = "7074693",
+        text = "helm_armor_felreaver_d_01_tr_m.m2",
+        value = "helm_armor_felreaver_d_01_tr_m.m2",
+       },
+       {
+        fileId = "7074698",
+        text = "helm_armor_felreaver_d_01_vu_f.m2",
+        value = "helm_armor_felreaver_d_01_vu_f.m2",
+       },
+       {
+        fileId = "7074697",
+        text = "helm_armor_felreaver_d_01_vu_m.m2",
+        value = "helm_armor_felreaver_d_01_vu_m.m2",
+       },
+       {
+        fileId = "7074700",
+        text = "helm_armor_felreaver_d_01_wo_f.m2",
+        value = "helm_armor_felreaver_d_01_wo_f.m2",
+       },
+       {
+        fileId = "7074699",
+        text = "helm_armor_felreaver_d_01_wo_m.m2",
+        value = "helm_armor_felreaver_d_01_wo_m.m2",
+       },
+       {
+        fileId = "7074702",
+        text = "helm_armor_felreaver_d_01_za_f.m2",
+        value = "helm_armor_felreaver_d_01_za_f.m2",
+       },
+       {
+        fileId = "7074701",
+        text = "helm_armor_felreaver_d_01_za_m.m2",
+        value = "helm_armor_felreaver_d_01_za_m.m2",
        },
        {
         fileId = "4611077",
@@ -120591,6 +128799,181 @@ WeakAuras.ModelPaths = {
         fileId = "5552779",
         text = "helm_armor_humanheritage_d_02_za_m.m2",
         value = "helm_armor_humanheritage_d_02_za_m.m2",
+       },
+       {
+        fileId = "6914211",
+        text = "helm_armor_icecirclet_d_01_be_f.m2",
+        value = "helm_armor_icecirclet_d_01_be_f.m2",
+       },
+       {
+        fileId = "6914210",
+        text = "helm_armor_icecirclet_d_01_be_m.m2",
+        value = "helm_armor_icecirclet_d_01_be_m.m2",
+       },
+       {
+        fileId = "6914213",
+        text = "helm_armor_icecirclet_d_01_dr_f.m2",
+        value = "helm_armor_icecirclet_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6914212",
+        text = "helm_armor_icecirclet_d_01_dr_m.m2",
+        value = "helm_armor_icecirclet_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6914215",
+        text = "helm_armor_icecirclet_d_01_dw_f.m2",
+        value = "helm_armor_icecirclet_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6914214",
+        text = "helm_armor_icecirclet_d_01_dw_m.m2",
+        value = "helm_armor_icecirclet_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6914217",
+        text = "helm_armor_icecirclet_d_01_ed_f.m2",
+        value = "helm_armor_icecirclet_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6914216",
+        text = "helm_armor_icecirclet_d_01_ed_m.m2",
+        value = "helm_armor_icecirclet_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6914219",
+        text = "helm_armor_icecirclet_d_01_gn_f.m2",
+        value = "helm_armor_icecirclet_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6914218",
+        text = "helm_armor_icecirclet_d_01_gn_m.m2",
+        value = "helm_armor_icecirclet_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6914221",
+        text = "helm_armor_icecirclet_d_01_go_f.m2",
+        value = "helm_armor_icecirclet_d_01_go_f.m2",
+       },
+       {
+        fileId = "6914220",
+        text = "helm_armor_icecirclet_d_01_go_m.m2",
+        value = "helm_armor_icecirclet_d_01_go_m.m2",
+       },
+       {
+        fileId = "6914223",
+        text = "helm_armor_icecirclet_d_01_hu_f.m2",
+        value = "helm_armor_icecirclet_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6914222",
+        text = "helm_armor_icecirclet_d_01_hu_m.m2",
+        value = "helm_armor_icecirclet_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6914225",
+        text = "helm_armor_icecirclet_d_01_kt_f.m2",
+        value = "helm_armor_icecirclet_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6914224",
+        text = "helm_armor_icecirclet_d_01_kt_m.m2",
+        value = "helm_armor_icecirclet_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6914227",
+        text = "helm_armor_icecirclet_d_01_mg_f.m2",
+        value = "helm_armor_icecirclet_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6914226",
+        text = "helm_armor_icecirclet_d_01_mg_m.m2",
+        value = "helm_armor_icecirclet_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6914229",
+        text = "helm_armor_icecirclet_d_01_ni_f.m2",
+        value = "helm_armor_icecirclet_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6914228",
+        text = "helm_armor_icecirclet_d_01_ni_m.m2",
+        value = "helm_armor_icecirclet_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6914232",
+        text = "helm_armor_icecirclet_d_01_or_f.m2",
+        value = "helm_armor_icecirclet_d_01_or_f.m2",
+       },
+       {
+        fileId = "6914231",
+        text = "helm_armor_icecirclet_d_01_or_m.m2",
+        value = "helm_armor_icecirclet_d_01_or_m.m2",
+       },
+       {
+        fileId = "6914234",
+        text = "helm_armor_icecirclet_d_01_pa_f.m2",
+        value = "helm_armor_icecirclet_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6914233",
+        text = "helm_armor_icecirclet_d_01_pa_m.m2",
+        value = "helm_armor_icecirclet_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6914240",
+        text = "helm_armor_icecirclet_d_01_sc_f.m2",
+        value = "helm_armor_icecirclet_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6914239",
+        text = "helm_armor_icecirclet_d_01_sc_m.m2",
+        value = "helm_armor_icecirclet_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6914236",
+        text = "helm_armor_icecirclet_d_01_ta_f.m2",
+        value = "helm_armor_icecirclet_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6914235",
+        text = "helm_armor_icecirclet_d_01_ta_m.m2",
+        value = "helm_armor_icecirclet_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6914238",
+        text = "helm_armor_icecirclet_d_01_tr_f.m2",
+        value = "helm_armor_icecirclet_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6914237",
+        text = "helm_armor_icecirclet_d_01_tr_m.m2",
+        value = "helm_armor_icecirclet_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6914242",
+        text = "helm_armor_icecirclet_d_01_vu_f.m2",
+        value = "helm_armor_icecirclet_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6914241",
+        text = "helm_armor_icecirclet_d_01_vu_m.m2",
+        value = "helm_armor_icecirclet_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6914244",
+        text = "helm_armor_icecirclet_d_01_wo_f.m2",
+        value = "helm_armor_icecirclet_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6914243",
+        text = "helm_armor_icecirclet_d_01_wo_m.m2",
+        value = "helm_armor_icecirclet_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6914245",
+        text = "helm_armor_icecirclet_d_01_za_m.m2",
+        value = "helm_armor_icecirclet_d_01_za_m.m2",
        },
        {
         fileId = "4381812",
@@ -122818,6 +131201,191 @@ WeakAuras.ModelPaths = {
         value = "helm_armor_luckyhat_c_01_brown_za_m.m2",
        },
        {
+        fileId = "7135156",
+        text = "helm_armor_magni_d_01_be_f.m2",
+        value = "helm_armor_magni_d_01_be_f.m2",
+       },
+       {
+        fileId = "7135155",
+        text = "helm_armor_magni_d_01_be_m.m2",
+        value = "helm_armor_magni_d_01_be_m.m2",
+       },
+       {
+        fileId = "7135158",
+        text = "helm_armor_magni_d_01_dr_f.m2",
+        value = "helm_armor_magni_d_01_dr_f.m2",
+       },
+       {
+        fileId = "7135157",
+        text = "helm_armor_magni_d_01_dr_m.m2",
+        value = "helm_armor_magni_d_01_dr_m.m2",
+       },
+       {
+        fileId = "7135160",
+        text = "helm_armor_magni_d_01_dw_f.m2",
+        value = "helm_armor_magni_d_01_dw_f.m2",
+       },
+       {
+        fileId = "7135159",
+        text = "helm_armor_magni_d_01_dw_m.m2",
+        value = "helm_armor_magni_d_01_dw_m.m2",
+       },
+       {
+        fileId = "7135162",
+        text = "helm_armor_magni_d_01_ed_f.m2",
+        value = "helm_armor_magni_d_01_ed_f.m2",
+       },
+       {
+        fileId = "7135161",
+        text = "helm_armor_magni_d_01_ed_m.m2",
+        value = "helm_armor_magni_d_01_ed_m.m2",
+       },
+       {
+        fileId = "7135164",
+        text = "helm_armor_magni_d_01_gn_f.m2",
+        value = "helm_armor_magni_d_01_gn_f.m2",
+       },
+       {
+        fileId = "7135163",
+        text = "helm_armor_magni_d_01_gn_m.m2",
+        value = "helm_armor_magni_d_01_gn_m.m2",
+       },
+       {
+        fileId = "7135166",
+        text = "helm_armor_magni_d_01_go_f.m2",
+        value = "helm_armor_magni_d_01_go_f.m2",
+       },
+       {
+        fileId = "7135165",
+        text = "helm_armor_magni_d_01_go_m.m2",
+        value = "helm_armor_magni_d_01_go_m.m2",
+       },
+       {
+        fileId = "7135168",
+        text = "helm_armor_magni_d_01_hu_f.m2",
+        value = "helm_armor_magni_d_01_hu_f.m2",
+       },
+       {
+        fileId = "7135167",
+        text = "helm_armor_magni_d_01_hu_m.m2",
+        value = "helm_armor_magni_d_01_hu_m.m2",
+       },
+       {
+        fileId = "7135170",
+        text = "helm_armor_magni_d_01_kt_f.m2",
+        value = "helm_armor_magni_d_01_kt_f.m2",
+       },
+       {
+        fileId = "7135169",
+        text = "helm_armor_magni_d_01_kt_m.m2",
+        value = "helm_armor_magni_d_01_kt_m.m2",
+       },
+       {
+        fileId = "7135172",
+        text = "helm_armor_magni_d_01_mg_f.m2",
+        value = "helm_armor_magni_d_01_mg_f.m2",
+       },
+       {
+        fileId = "7135171",
+        text = "helm_armor_magni_d_01_mg_m.m2",
+        value = "helm_armor_magni_d_01_mg_m.m2",
+       },
+       {
+        fileId = "7135175",
+        text = "helm_armor_magni_d_01_nb_m.m2",
+        value = "helm_armor_magni_d_01_nb_m.m2",
+       },
+       {
+        fileId = "7135174",
+        text = "helm_armor_magni_d_01_ni_f.m2",
+        value = "helm_armor_magni_d_01_ni_f.m2",
+       },
+       {
+        fileId = "7135173",
+        text = "helm_armor_magni_d_01_ni_m.m2",
+        value = "helm_armor_magni_d_01_ni_m.m2",
+       },
+       {
+        fileId = "7135177",
+        text = "helm_armor_magni_d_01_or_f.m2",
+        value = "helm_armor_magni_d_01_or_f.m2",
+       },
+       {
+        fileId = "7135176",
+        text = "helm_armor_magni_d_01_or_m.m2",
+        value = "helm_armor_magni_d_01_or_m.m2",
+       },
+       {
+        fileId = "7135179",
+        text = "helm_armor_magni_d_01_pa_f.m2",
+        value = "helm_armor_magni_d_01_pa_f.m2",
+       },
+       {
+        fileId = "7135178",
+        text = "helm_armor_magni_d_01_pa_m.m2",
+        value = "helm_armor_magni_d_01_pa_m.m2",
+       },
+       {
+        fileId = "7135185",
+        text = "helm_armor_magni_d_01_sc_f.m2",
+        value = "helm_armor_magni_d_01_sc_f.m2",
+       },
+       {
+        fileId = "7135184",
+        text = "helm_armor_magni_d_01_sc_m.m2",
+        value = "helm_armor_magni_d_01_sc_m.m2",
+       },
+       {
+        fileId = "7135181",
+        text = "helm_armor_magni_d_01_ta_f.m2",
+        value = "helm_armor_magni_d_01_ta_f.m2",
+       },
+       {
+        fileId = "7135180",
+        text = "helm_armor_magni_d_01_ta_m.m2",
+        value = "helm_armor_magni_d_01_ta_m.m2",
+       },
+       {
+        fileId = "7135183",
+        text = "helm_armor_magni_d_01_tr_f.m2",
+        value = "helm_armor_magni_d_01_tr_f.m2",
+       },
+       {
+        fileId = "7135182",
+        text = "helm_armor_magni_d_01_tr_m.m2",
+        value = "helm_armor_magni_d_01_tr_m.m2",
+       },
+       {
+        fileId = "7135187",
+        text = "helm_armor_magni_d_01_vu_f.m2",
+        value = "helm_armor_magni_d_01_vu_f.m2",
+       },
+       {
+        fileId = "7135186",
+        text = "helm_armor_magni_d_01_vu_m.m2",
+        value = "helm_armor_magni_d_01_vu_m.m2",
+       },
+       {
+        fileId = "7135189",
+        text = "helm_armor_magni_d_01_wo_f.m2",
+        value = "helm_armor_magni_d_01_wo_f.m2",
+       },
+       {
+        fileId = "7135188",
+        text = "helm_armor_magni_d_01_wo_m.m2",
+        value = "helm_armor_magni_d_01_wo_m.m2",
+       },
+       {
+        fileId = "7135191",
+        text = "helm_armor_magni_d_01_za_f.m2",
+        value = "helm_armor_magni_d_01_za_f.m2",
+       },
+       {
+        fileId = "7135190",
+        text = "helm_armor_magni_d_01_za_m.m2",
+        value = "helm_armor_magni_d_01_za_m.m2",
+       },
+       {
         fileId = "3938229",
         text = "helm_armor_maldraxxuscosmetic_d_01_be_f.m2",
         value = "helm_armor_maldraxxuscosmetic_d_01_be_f.m2",
@@ -124201,6 +132769,171 @@ WeakAuras.ModelPaths = {
         fileId = "5656726",
         text = "helm_armor_pirateeyepatch_b_01_za_m.m2",
         value = "helm_armor_pirateeyepatch_b_01_za_m.m2",
+       },
+       {
+        fileId = "6755653",
+        text = "helm_armor_raincoat_c_01_be_f.m2",
+        value = "helm_armor_raincoat_c_01_be_f.m2",
+       },
+       {
+        fileId = "6755652",
+        text = "helm_armor_raincoat_c_01_be_m.m2",
+        value = "helm_armor_raincoat_c_01_be_m.m2",
+       },
+       {
+        fileId = "6755655",
+        text = "helm_armor_raincoat_c_01_dr_f.m2",
+        value = "helm_armor_raincoat_c_01_dr_f.m2",
+       },
+       {
+        fileId = "6755654",
+        text = "helm_armor_raincoat_c_01_dr_m.m2",
+        value = "helm_armor_raincoat_c_01_dr_m.m2",
+       },
+       {
+        fileId = "6755657",
+        text = "helm_armor_raincoat_c_01_dw_f.m2",
+        value = "helm_armor_raincoat_c_01_dw_f.m2",
+       },
+       {
+        fileId = "6755656",
+        text = "helm_armor_raincoat_c_01_dw_m.m2",
+        value = "helm_armor_raincoat_c_01_dw_m.m2",
+       },
+       {
+        fileId = "6755661",
+        text = "helm_armor_raincoat_c_01_gn_f.m2",
+        value = "helm_armor_raincoat_c_01_gn_f.m2",
+       },
+       {
+        fileId = "6755660",
+        text = "helm_armor_raincoat_c_01_gn_m.m2",
+        value = "helm_armor_raincoat_c_01_gn_m.m2",
+       },
+       {
+        fileId = "6755663",
+        text = "helm_armor_raincoat_c_01_go_f.m2",
+        value = "helm_armor_raincoat_c_01_go_f.m2",
+       },
+       {
+        fileId = "6755662",
+        text = "helm_armor_raincoat_c_01_go_m.m2",
+        value = "helm_armor_raincoat_c_01_go_m.m2",
+       },
+       {
+        fileId = "6755665",
+        text = "helm_armor_raincoat_c_01_hu_f.m2",
+        value = "helm_armor_raincoat_c_01_hu_f.m2",
+       },
+       {
+        fileId = "6755664",
+        text = "helm_armor_raincoat_c_01_hu_m.m2",
+        value = "helm_armor_raincoat_c_01_hu_m.m2",
+       },
+       {
+        fileId = "6755667",
+        text = "helm_armor_raincoat_c_01_kt_f.m2",
+        value = "helm_armor_raincoat_c_01_kt_f.m2",
+       },
+       {
+        fileId = "6755666",
+        text = "helm_armor_raincoat_c_01_kt_m.m2",
+        value = "helm_armor_raincoat_c_01_kt_m.m2",
+       },
+       {
+        fileId = "6755672",
+        text = "helm_armor_raincoat_c_01_nb_m.m2",
+        value = "helm_armor_raincoat_c_01_nb_m.m2",
+       },
+       {
+        fileId = "6755671",
+        text = "helm_armor_raincoat_c_01_ni_f.m2",
+        value = "helm_armor_raincoat_c_01_ni_f.m2",
+       },
+       {
+        fileId = "6755670",
+        text = "helm_armor_raincoat_c_01_ni_m.m2",
+        value = "helm_armor_raincoat_c_01_ni_m.m2",
+       },
+       {
+        fileId = "6755674",
+        text = "helm_armor_raincoat_c_01_or_f.m2",
+        value = "helm_armor_raincoat_c_01_or_f.m2",
+       },
+       {
+        fileId = "6755673",
+        text = "helm_armor_raincoat_c_01_or_m.m2",
+        value = "helm_armor_raincoat_c_01_or_m.m2",
+       },
+       {
+        fileId = "6755676",
+        text = "helm_armor_raincoat_c_01_pa_f.m2",
+        value = "helm_armor_raincoat_c_01_pa_f.m2",
+       },
+       {
+        fileId = "6755675",
+        text = "helm_armor_raincoat_c_01_pa_m.m2",
+        value = "helm_armor_raincoat_c_01_pa_m.m2",
+       },
+       {
+        fileId = "6755682",
+        text = "helm_armor_raincoat_c_01_sc_f.m2",
+        value = "helm_armor_raincoat_c_01_sc_f.m2",
+       },
+       {
+        fileId = "6755681",
+        text = "helm_armor_raincoat_c_01_sc_m.m2",
+        value = "helm_armor_raincoat_c_01_sc_m.m2",
+       },
+       {
+        fileId = "6755678",
+        text = "helm_armor_raincoat_c_01_ta_f.m2",
+        value = "helm_armor_raincoat_c_01_ta_f.m2",
+       },
+       {
+        fileId = "6755677",
+        text = "helm_armor_raincoat_c_01_ta_m.m2",
+        value = "helm_armor_raincoat_c_01_ta_m.m2",
+       },
+       {
+        fileId = "6755680",
+        text = "helm_armor_raincoat_c_01_tr_f.m2",
+        value = "helm_armor_raincoat_c_01_tr_f.m2",
+       },
+       {
+        fileId = "6755679",
+        text = "helm_armor_raincoat_c_01_tr_m.m2",
+        value = "helm_armor_raincoat_c_01_tr_m.m2",
+       },
+       {
+        fileId = "6755684",
+        text = "helm_armor_raincoat_c_01_vu_f.m2",
+        value = "helm_armor_raincoat_c_01_vu_f.m2",
+       },
+       {
+        fileId = "6755683",
+        text = "helm_armor_raincoat_c_01_vu_m.m2",
+        value = "helm_armor_raincoat_c_01_vu_m.m2",
+       },
+       {
+        fileId = "6755686",
+        text = "helm_armor_raincoat_c_01_wo_f.m2",
+        value = "helm_armor_raincoat_c_01_wo_f.m2",
+       },
+       {
+        fileId = "6755685",
+        text = "helm_armor_raincoat_c_01_wo_m.m2",
+        value = "helm_armor_raincoat_c_01_wo_m.m2",
+       },
+       {
+        fileId = "6755688",
+        text = "helm_armor_raincoat_c_01_za_f.m2",
+        value = "helm_armor_raincoat_c_01_za_f.m2",
+       },
+       {
+        fileId = "6755687",
+        text = "helm_armor_raincoat_c_01_za_m.m2",
+        value = "helm_armor_raincoat_c_01_za_m.m2",
        },
        {
         fileId = "3951176",
@@ -138003,6 +146736,191 @@ WeakAuras.ModelPaths = {
         value = "helm_cloth_oribosquesting_b_01_za_m.m2",
        },
        {
+        fileId = "7034296",
+        text = "helm_cloth_outdoorethereal_c_01_be_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_be_f.m2",
+       },
+       {
+        fileId = "7034295",
+        text = "helm_cloth_outdoorethereal_c_01_be_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_be_m.m2",
+       },
+       {
+        fileId = "7034298",
+        text = "helm_cloth_outdoorethereal_c_01_dr_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_dr_f.m2",
+       },
+       {
+        fileId = "7034297",
+        text = "helm_cloth_outdoorethereal_c_01_dr_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_dr_m.m2",
+       },
+       {
+        fileId = "7034300",
+        text = "helm_cloth_outdoorethereal_c_01_dw_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_dw_f.m2",
+       },
+       {
+        fileId = "7034299",
+        text = "helm_cloth_outdoorethereal_c_01_dw_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_dw_m.m2",
+       },
+       {
+        fileId = "7034302",
+        text = "helm_cloth_outdoorethereal_c_01_ed_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_ed_f.m2",
+       },
+       {
+        fileId = "7034301",
+        text = "helm_cloth_outdoorethereal_c_01_ed_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_ed_m.m2",
+       },
+       {
+        fileId = "7034304",
+        text = "helm_cloth_outdoorethereal_c_01_gn_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_gn_f.m2",
+       },
+       {
+        fileId = "7034303",
+        text = "helm_cloth_outdoorethereal_c_01_gn_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_gn_m.m2",
+       },
+       {
+        fileId = "7034306",
+        text = "helm_cloth_outdoorethereal_c_01_go_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_go_f.m2",
+       },
+       {
+        fileId = "7034305",
+        text = "helm_cloth_outdoorethereal_c_01_go_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_go_m.m2",
+       },
+       {
+        fileId = "7034308",
+        text = "helm_cloth_outdoorethereal_c_01_hu_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_hu_f.m2",
+       },
+       {
+        fileId = "7034307",
+        text = "helm_cloth_outdoorethereal_c_01_hu_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_hu_m.m2",
+       },
+       {
+        fileId = "7034310",
+        text = "helm_cloth_outdoorethereal_c_01_kt_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_kt_f.m2",
+       },
+       {
+        fileId = "7034309",
+        text = "helm_cloth_outdoorethereal_c_01_kt_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_kt_m.m2",
+       },
+       {
+        fileId = "7034312",
+        text = "helm_cloth_outdoorethereal_c_01_mg_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_mg_f.m2",
+       },
+       {
+        fileId = "7034311",
+        text = "helm_cloth_outdoorethereal_c_01_mg_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_mg_m.m2",
+       },
+       {
+        fileId = "7034315",
+        text = "helm_cloth_outdoorethereal_c_01_nb_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_nb_m.m2",
+       },
+       {
+        fileId = "7034314",
+        text = "helm_cloth_outdoorethereal_c_01_ni_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_ni_f.m2",
+       },
+       {
+        fileId = "7034313",
+        text = "helm_cloth_outdoorethereal_c_01_ni_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_ni_m.m2",
+       },
+       {
+        fileId = "7034317",
+        text = "helm_cloth_outdoorethereal_c_01_or_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_or_f.m2",
+       },
+       {
+        fileId = "7034316",
+        text = "helm_cloth_outdoorethereal_c_01_or_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_or_m.m2",
+       },
+       {
+        fileId = "7034319",
+        text = "helm_cloth_outdoorethereal_c_01_pa_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_pa_f.m2",
+       },
+       {
+        fileId = "7034318",
+        text = "helm_cloth_outdoorethereal_c_01_pa_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_pa_m.m2",
+       },
+       {
+        fileId = "7034325",
+        text = "helm_cloth_outdoorethereal_c_01_sc_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_sc_f.m2",
+       },
+       {
+        fileId = "7034324",
+        text = "helm_cloth_outdoorethereal_c_01_sc_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_sc_m.m2",
+       },
+       {
+        fileId = "7034321",
+        text = "helm_cloth_outdoorethereal_c_01_ta_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_ta_f.m2",
+       },
+       {
+        fileId = "7034320",
+        text = "helm_cloth_outdoorethereal_c_01_ta_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_ta_m.m2",
+       },
+       {
+        fileId = "7034323",
+        text = "helm_cloth_outdoorethereal_c_01_tr_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_tr_f.m2",
+       },
+       {
+        fileId = "7034322",
+        text = "helm_cloth_outdoorethereal_c_01_tr_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_tr_m.m2",
+       },
+       {
+        fileId = "7034327",
+        text = "helm_cloth_outdoorethereal_c_01_vu_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_vu_f.m2",
+       },
+       {
+        fileId = "7034326",
+        text = "helm_cloth_outdoorethereal_c_01_vu_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_vu_m.m2",
+       },
+       {
+        fileId = "7034329",
+        text = "helm_cloth_outdoorethereal_c_01_wo_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_wo_f.m2",
+       },
+       {
+        fileId = "7034328",
+        text = "helm_cloth_outdoorethereal_c_01_wo_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_wo_m.m2",
+       },
+       {
+        fileId = "7034331",
+        text = "helm_cloth_outdoorethereal_c_01_za_f.m2",
+        value = "helm_cloth_outdoorethereal_c_01_za_f.m2",
+       },
+       {
+        fileId = "7034330",
+        text = "helm_cloth_outdoorethereal_c_01_za_m.m2",
+        value = "helm_cloth_outdoorethereal_c_01_za_m.m2",
+       },
+       {
         fileId = "626021",
         text = "helm_cloth_panda_b_01_bef.m2",
         value = "helm_cloth_panda_b_01_bef.m2",
@@ -144893,6 +153811,181 @@ WeakAuras.ModelPaths = {
         value = "helm_cloth_raidmagedragon_d_01_za_m.m2",
        },
        {
+        fileId = "6122252",
+        text = "helm_cloth_raidmageethereal_d_01_be_f.m2",
+        value = "helm_cloth_raidmageethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6122251",
+        text = "helm_cloth_raidmageethereal_d_01_be_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6122254",
+        text = "helm_cloth_raidmageethereal_d_01_dr_f.m2",
+        value = "helm_cloth_raidmageethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6122253",
+        text = "helm_cloth_raidmageethereal_d_01_dr_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6122256",
+        text = "helm_cloth_raidmageethereal_d_01_dw_f.m2",
+        value = "helm_cloth_raidmageethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6122255",
+        text = "helm_cloth_raidmageethereal_d_01_dw_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6122258",
+        text = "helm_cloth_raidmageethereal_d_01_gn_f.m2",
+        value = "helm_cloth_raidmageethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6122257",
+        text = "helm_cloth_raidmageethereal_d_01_gn_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6122260",
+        text = "helm_cloth_raidmageethereal_d_01_go_f.m2",
+        value = "helm_cloth_raidmageethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6122259",
+        text = "helm_cloth_raidmageethereal_d_01_go_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6122262",
+        text = "helm_cloth_raidmageethereal_d_01_hu_f.m2",
+        value = "helm_cloth_raidmageethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6122261",
+        text = "helm_cloth_raidmageethereal_d_01_hu_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6122264",
+        text = "helm_cloth_raidmageethereal_d_01_kt_f.m2",
+        value = "helm_cloth_raidmageethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6122263",
+        text = "helm_cloth_raidmageethereal_d_01_kt_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6122266",
+        text = "helm_cloth_raidmageethereal_d_01_mg_f.m2",
+        value = "helm_cloth_raidmageethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6122265",
+        text = "helm_cloth_raidmageethereal_d_01_mg_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6122269",
+        text = "helm_cloth_raidmageethereal_d_01_nb_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6122268",
+        text = "helm_cloth_raidmageethereal_d_01_ni_f.m2",
+        value = "helm_cloth_raidmageethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6122267",
+        text = "helm_cloth_raidmageethereal_d_01_ni_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6122271",
+        text = "helm_cloth_raidmageethereal_d_01_or_f.m2",
+        value = "helm_cloth_raidmageethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6122270",
+        text = "helm_cloth_raidmageethereal_d_01_or_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6122273",
+        text = "helm_cloth_raidmageethereal_d_01_pa_f.m2",
+        value = "helm_cloth_raidmageethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6122272",
+        text = "helm_cloth_raidmageethereal_d_01_pa_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6122279",
+        text = "helm_cloth_raidmageethereal_d_01_sc_f.m2",
+        value = "helm_cloth_raidmageethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6122278",
+        text = "helm_cloth_raidmageethereal_d_01_sc_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6122275",
+        text = "helm_cloth_raidmageethereal_d_01_ta_f.m2",
+        value = "helm_cloth_raidmageethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6122274",
+        text = "helm_cloth_raidmageethereal_d_01_ta_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6122277",
+        text = "helm_cloth_raidmageethereal_d_01_tr_f.m2",
+        value = "helm_cloth_raidmageethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6122276",
+        text = "helm_cloth_raidmageethereal_d_01_tr_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6122281",
+        text = "helm_cloth_raidmageethereal_d_01_vu_f.m2",
+        value = "helm_cloth_raidmageethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6122280",
+        text = "helm_cloth_raidmageethereal_d_01_vu_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6122283",
+        text = "helm_cloth_raidmageethereal_d_01_wo_f.m2",
+        value = "helm_cloth_raidmageethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6122282",
+        text = "helm_cloth_raidmageethereal_d_01_wo_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6122285",
+        text = "helm_cloth_raidmageethereal_d_01_za_f.m2",
+        value = "helm_cloth_raidmageethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6122284",
+        text = "helm_cloth_raidmageethereal_d_01_za_m.m2",
+        value = "helm_cloth_raidmageethereal_d_01_za_m.m2",
+       },
+       {
         fileId = "1002786",
         text = "helm_cloth_raidmagemythic_o_01_bef.m2",
         value = "helm_cloth_raidmagemythic_o_01_bef.m2",
@@ -147563,6 +156656,191 @@ WeakAuras.ModelPaths = {
         value = "helm_cloth_raidpriestemerald_d_01_za_m.m2",
        },
        {
+        fileId = "6122357",
+        text = "helm_cloth_raidpriestethereal_d_01_be_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6122356",
+        text = "helm_cloth_raidpriestethereal_d_01_be_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6122359",
+        text = "helm_cloth_raidpriestethereal_d_01_dr_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6122358",
+        text = "helm_cloth_raidpriestethereal_d_01_dr_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6122361",
+        text = "helm_cloth_raidpriestethereal_d_01_dw_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6122360",
+        text = "helm_cloth_raidpriestethereal_d_01_dw_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6785419",
+        text = "helm_cloth_raidpriestethereal_d_01_ed_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6785420",
+        text = "helm_cloth_raidpriestethereal_d_01_ed_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6122363",
+        text = "helm_cloth_raidpriestethereal_d_01_gn_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6122362",
+        text = "helm_cloth_raidpriestethereal_d_01_gn_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6122365",
+        text = "helm_cloth_raidpriestethereal_d_01_go_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6122364",
+        text = "helm_cloth_raidpriestethereal_d_01_go_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6122367",
+        text = "helm_cloth_raidpriestethereal_d_01_hu_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6122366",
+        text = "helm_cloth_raidpriestethereal_d_01_hu_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6122369",
+        text = "helm_cloth_raidpriestethereal_d_01_kt_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6122368",
+        text = "helm_cloth_raidpriestethereal_d_01_kt_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6122371",
+        text = "helm_cloth_raidpriestethereal_d_01_mg_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6122370",
+        text = "helm_cloth_raidpriestethereal_d_01_mg_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6122374",
+        text = "helm_cloth_raidpriestethereal_d_01_nb_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6122373",
+        text = "helm_cloth_raidpriestethereal_d_01_ni_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6122372",
+        text = "helm_cloth_raidpriestethereal_d_01_ni_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6122376",
+        text = "helm_cloth_raidpriestethereal_d_01_or_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6122375",
+        text = "helm_cloth_raidpriestethereal_d_01_or_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6122378",
+        text = "helm_cloth_raidpriestethereal_d_01_pa_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6122377",
+        text = "helm_cloth_raidpriestethereal_d_01_pa_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6122384",
+        text = "helm_cloth_raidpriestethereal_d_01_sc_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6122383",
+        text = "helm_cloth_raidpriestethereal_d_01_sc_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6122380",
+        text = "helm_cloth_raidpriestethereal_d_01_ta_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6122379",
+        text = "helm_cloth_raidpriestethereal_d_01_ta_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6122382",
+        text = "helm_cloth_raidpriestethereal_d_01_tr_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6122381",
+        text = "helm_cloth_raidpriestethereal_d_01_tr_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6122386",
+        text = "helm_cloth_raidpriestethereal_d_01_vu_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6122385",
+        text = "helm_cloth_raidpriestethereal_d_01_vu_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6122388",
+        text = "helm_cloth_raidpriestethereal_d_01_wo_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6122387",
+        text = "helm_cloth_raidpriestethereal_d_01_wo_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6122390",
+        text = "helm_cloth_raidpriestethereal_d_01_za_f.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6122389",
+        text = "helm_cloth_raidpriestethereal_d_01_za_m.m2",
+        value = "helm_cloth_raidpriestethereal_d_01_za_m.m2",
+       },
+       {
         fileId = "5653414",
         text = "helm_cloth_raidpriestgoblin_d_01_be_f.m2",
         value = "helm_cloth_raidpriestgoblin_d_01_be_f.m2",
@@ -150041,6 +159319,191 @@ WeakAuras.ModelPaths = {
         fileId = "1848923",
         text = "helm_cloth_raidwarlock_s_01_za_m.m2",
         value = "helm_cloth_raidwarlock_s_01_za_m.m2",
+       },
+       {
+        fileId = "6122462",
+        text = "helm_cloth_raidwarlockethereal_d_01_be_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6122461",
+        text = "helm_cloth_raidwarlockethereal_d_01_be_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6122464",
+        text = "helm_cloth_raidwarlockethereal_d_01_dr_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6122463",
+        text = "helm_cloth_raidwarlockethereal_d_01_dr_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6122466",
+        text = "helm_cloth_raidwarlockethereal_d_01_dw_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6122465",
+        text = "helm_cloth_raidwarlockethereal_d_01_dw_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852802",
+        text = "helm_cloth_raidwarlockethereal_d_01_ed_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852801",
+        text = "helm_cloth_raidwarlockethereal_d_01_ed_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6122468",
+        text = "helm_cloth_raidwarlockethereal_d_01_gn_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6122467",
+        text = "helm_cloth_raidwarlockethereal_d_01_gn_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6122470",
+        text = "helm_cloth_raidwarlockethereal_d_01_go_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6122469",
+        text = "helm_cloth_raidwarlockethereal_d_01_go_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6122472",
+        text = "helm_cloth_raidwarlockethereal_d_01_hu_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6122471",
+        text = "helm_cloth_raidwarlockethereal_d_01_hu_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6122474",
+        text = "helm_cloth_raidwarlockethereal_d_01_kt_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6122473",
+        text = "helm_cloth_raidwarlockethereal_d_01_kt_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6122476",
+        text = "helm_cloth_raidwarlockethereal_d_01_mg_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6122475",
+        text = "helm_cloth_raidwarlockethereal_d_01_mg_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6122479",
+        text = "helm_cloth_raidwarlockethereal_d_01_nb_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6122478",
+        text = "helm_cloth_raidwarlockethereal_d_01_ni_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6122477",
+        text = "helm_cloth_raidwarlockethereal_d_01_ni_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6122481",
+        text = "helm_cloth_raidwarlockethereal_d_01_or_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6122480",
+        text = "helm_cloth_raidwarlockethereal_d_01_or_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6122483",
+        text = "helm_cloth_raidwarlockethereal_d_01_pa_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6122482",
+        text = "helm_cloth_raidwarlockethereal_d_01_pa_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6122489",
+        text = "helm_cloth_raidwarlockethereal_d_01_sc_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6122488",
+        text = "helm_cloth_raidwarlockethereal_d_01_sc_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6122485",
+        text = "helm_cloth_raidwarlockethereal_d_01_ta_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6122484",
+        text = "helm_cloth_raidwarlockethereal_d_01_ta_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6122487",
+        text = "helm_cloth_raidwarlockethereal_d_01_tr_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6122486",
+        text = "helm_cloth_raidwarlockethereal_d_01_tr_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6122491",
+        text = "helm_cloth_raidwarlockethereal_d_01_vu_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6122490",
+        text = "helm_cloth_raidwarlockethereal_d_01_vu_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6122493",
+        text = "helm_cloth_raidwarlockethereal_d_01_wo_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6122492",
+        text = "helm_cloth_raidwarlockethereal_d_01_wo_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6122495",
+        text = "helm_cloth_raidwarlockethereal_d_01_za_f.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6122494",
+        text = "helm_cloth_raidwarlockethereal_d_01_za_m.m2",
+        value = "helm_cloth_raidwarlockethereal_d_01_za_m.m2",
        },
        {
         fileId = "5653560",
@@ -171818,6 +181281,191 @@ WeakAuras.ModelPaths = {
         value = "helm_leather_oribosdungeon_c_01_za_m.m2",
        },
        {
+        fileId = "7016340",
+        text = "helm_leather_outdoorethereal_c_01_be_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_be_f.m2",
+       },
+       {
+        fileId = "7016339",
+        text = "helm_leather_outdoorethereal_c_01_be_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_be_m.m2",
+       },
+       {
+        fileId = "7016342",
+        text = "helm_leather_outdoorethereal_c_01_dr_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_dr_f.m2",
+       },
+       {
+        fileId = "7016341",
+        text = "helm_leather_outdoorethereal_c_01_dr_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_dr_m.m2",
+       },
+       {
+        fileId = "7016344",
+        text = "helm_leather_outdoorethereal_c_01_dw_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_dw_f.m2",
+       },
+       {
+        fileId = "7016343",
+        text = "helm_leather_outdoorethereal_c_01_dw_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_dw_m.m2",
+       },
+       {
+        fileId = "7016346",
+        text = "helm_leather_outdoorethereal_c_01_ed_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_ed_f.m2",
+       },
+       {
+        fileId = "7016345",
+        text = "helm_leather_outdoorethereal_c_01_ed_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_ed_m.m2",
+       },
+       {
+        fileId = "7016348",
+        text = "helm_leather_outdoorethereal_c_01_gn_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_gn_f.m2",
+       },
+       {
+        fileId = "7016347",
+        text = "helm_leather_outdoorethereal_c_01_gn_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_gn_m.m2",
+       },
+       {
+        fileId = "7016350",
+        text = "helm_leather_outdoorethereal_c_01_go_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_go_f.m2",
+       },
+       {
+        fileId = "7016349",
+        text = "helm_leather_outdoorethereal_c_01_go_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_go_m.m2",
+       },
+       {
+        fileId = "7016352",
+        text = "helm_leather_outdoorethereal_c_01_hu_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_hu_f.m2",
+       },
+       {
+        fileId = "7016351",
+        text = "helm_leather_outdoorethereal_c_01_hu_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_hu_m.m2",
+       },
+       {
+        fileId = "7016354",
+        text = "helm_leather_outdoorethereal_c_01_kt_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_kt_f.m2",
+       },
+       {
+        fileId = "7016353",
+        text = "helm_leather_outdoorethereal_c_01_kt_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_kt_m.m2",
+       },
+       {
+        fileId = "7016356",
+        text = "helm_leather_outdoorethereal_c_01_mg_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_mg_f.m2",
+       },
+       {
+        fileId = "7016355",
+        text = "helm_leather_outdoorethereal_c_01_mg_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_mg_m.m2",
+       },
+       {
+        fileId = "7016359",
+        text = "helm_leather_outdoorethereal_c_01_nb_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_nb_m.m2",
+       },
+       {
+        fileId = "7016358",
+        text = "helm_leather_outdoorethereal_c_01_ni_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_ni_f.m2",
+       },
+       {
+        fileId = "7016357",
+        text = "helm_leather_outdoorethereal_c_01_ni_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_ni_m.m2",
+       },
+       {
+        fileId = "7016361",
+        text = "helm_leather_outdoorethereal_c_01_or_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_or_f.m2",
+       },
+       {
+        fileId = "7016360",
+        text = "helm_leather_outdoorethereal_c_01_or_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_or_m.m2",
+       },
+       {
+        fileId = "7016363",
+        text = "helm_leather_outdoorethereal_c_01_pa_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_pa_f.m2",
+       },
+       {
+        fileId = "7016362",
+        text = "helm_leather_outdoorethereal_c_01_pa_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_pa_m.m2",
+       },
+       {
+        fileId = "7016369",
+        text = "helm_leather_outdoorethereal_c_01_sc_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_sc_f.m2",
+       },
+       {
+        fileId = "7016368",
+        text = "helm_leather_outdoorethereal_c_01_sc_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_sc_m.m2",
+       },
+       {
+        fileId = "7016365",
+        text = "helm_leather_outdoorethereal_c_01_ta_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_ta_f.m2",
+       },
+       {
+        fileId = "7016364",
+        text = "helm_leather_outdoorethereal_c_01_ta_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_ta_m.m2",
+       },
+       {
+        fileId = "7016367",
+        text = "helm_leather_outdoorethereal_c_01_tr_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_tr_f.m2",
+       },
+       {
+        fileId = "7016366",
+        text = "helm_leather_outdoorethereal_c_01_tr_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_tr_m.m2",
+       },
+       {
+        fileId = "7016371",
+        text = "helm_leather_outdoorethereal_c_01_vu_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_vu_f.m2",
+       },
+       {
+        fileId = "7016370",
+        text = "helm_leather_outdoorethereal_c_01_vu_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_vu_m.m2",
+       },
+       {
+        fileId = "7016373",
+        text = "helm_leather_outdoorethereal_c_01_wo_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_wo_f.m2",
+       },
+       {
+        fileId = "7016372",
+        text = "helm_leather_outdoorethereal_c_01_wo_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_wo_m.m2",
+       },
+       {
+        fileId = "7016375",
+        text = "helm_leather_outdoorethereal_c_01_za_f.m2",
+        value = "helm_leather_outdoorethereal_c_01_za_f.m2",
+       },
+       {
+        fileId = "7016374",
+        text = "helm_leather_outdoorethereal_c_01_za_m.m2",
+        value = "helm_leather_outdoorethereal_c_01_za_m.m2",
+       },
+       {
         fileId = "590729",
         text = "helm_leather_panda_b_01_bef.m2",
         value = "helm_leather_panda_b_01_bef.m2",
@@ -177908,6 +187556,191 @@ WeakAuras.ModelPaths = {
         value = "helm_leather_raiddemonhunteremerald_d_01_za_m.m2",
        },
        {
+        fileId = "6122112",
+        text = "helm_leather_raiddemonhunterethereal_d_01_be_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6122111",
+        text = "helm_leather_raiddemonhunterethereal_d_01_be_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6122114",
+        text = "helm_leather_raiddemonhunterethereal_d_01_dr_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6122113",
+        text = "helm_leather_raiddemonhunterethereal_d_01_dr_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6122116",
+        text = "helm_leather_raiddemonhunterethereal_d_01_dw_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6122115",
+        text = "helm_leather_raiddemonhunterethereal_d_01_dw_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852930",
+        text = "helm_leather_raiddemonhunterethereal_d_01_ed_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852929",
+        text = "helm_leather_raiddemonhunterethereal_d_01_ed_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6122118",
+        text = "helm_leather_raiddemonhunterethereal_d_01_gn_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6122117",
+        text = "helm_leather_raiddemonhunterethereal_d_01_gn_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6122120",
+        text = "helm_leather_raiddemonhunterethereal_d_01_go_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6122119",
+        text = "helm_leather_raiddemonhunterethereal_d_01_go_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6122122",
+        text = "helm_leather_raiddemonhunterethereal_d_01_hu_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6122121",
+        text = "helm_leather_raiddemonhunterethereal_d_01_hu_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6122124",
+        text = "helm_leather_raiddemonhunterethereal_d_01_kt_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6122123",
+        text = "helm_leather_raiddemonhunterethereal_d_01_kt_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6122126",
+        text = "helm_leather_raiddemonhunterethereal_d_01_mg_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6122125",
+        text = "helm_leather_raiddemonhunterethereal_d_01_mg_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6122129",
+        text = "helm_leather_raiddemonhunterethereal_d_01_nb_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6122128",
+        text = "helm_leather_raiddemonhunterethereal_d_01_ni_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6122127",
+        text = "helm_leather_raiddemonhunterethereal_d_01_ni_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6122131",
+        text = "helm_leather_raiddemonhunterethereal_d_01_or_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6122130",
+        text = "helm_leather_raiddemonhunterethereal_d_01_or_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6122133",
+        text = "helm_leather_raiddemonhunterethereal_d_01_pa_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6122132",
+        text = "helm_leather_raiddemonhunterethereal_d_01_pa_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6122139",
+        text = "helm_leather_raiddemonhunterethereal_d_01_sc_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6122138",
+        text = "helm_leather_raiddemonhunterethereal_d_01_sc_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6122135",
+        text = "helm_leather_raiddemonhunterethereal_d_01_ta_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6122134",
+        text = "helm_leather_raiddemonhunterethereal_d_01_ta_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6122137",
+        text = "helm_leather_raiddemonhunterethereal_d_01_tr_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6122136",
+        text = "helm_leather_raiddemonhunterethereal_d_01_tr_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6122141",
+        text = "helm_leather_raiddemonhunterethereal_d_01_vu_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6122140",
+        text = "helm_leather_raiddemonhunterethereal_d_01_vu_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6122143",
+        text = "helm_leather_raiddemonhunterethereal_d_01_wo_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6122142",
+        text = "helm_leather_raiddemonhunterethereal_d_01_wo_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6122145",
+        text = "helm_leather_raiddemonhunterethereal_d_01_za_f.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6122144",
+        text = "helm_leather_raiddemonhunterethereal_d_01_za_m.m2",
+        value = "helm_leather_raiddemonhunterethereal_d_01_za_m.m2",
+       },
+       {
         fileId = "5652903",
         text = "helm_leather_raiddemonhuntergoblin_d_01_be_f.m2",
         value = "helm_leather_raiddemonhuntergoblin_d_01_be_f.m2",
@@ -181813,6 +191646,191 @@ WeakAuras.ModelPaths = {
         value = "helm_leather_raiddruid_s_01_za_m.m2",
        },
        {
+        fileId = "6122147",
+        text = "helm_leather_raiddruidethereal_d_01_be_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6122146",
+        text = "helm_leather_raiddruidethereal_d_01_be_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6122149",
+        text = "helm_leather_raiddruidethereal_d_01_dr_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6122148",
+        text = "helm_leather_raiddruidethereal_d_01_dr_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6122151",
+        text = "helm_leather_raiddruidethereal_d_01_dw_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6122150",
+        text = "helm_leather_raiddruidethereal_d_01_dw_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852931",
+        text = "helm_leather_raiddruidethereal_d_01_ed_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852932",
+        text = "helm_leather_raiddruidethereal_d_01_ed_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6122153",
+        text = "helm_leather_raiddruidethereal_d_01_gn_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6122152",
+        text = "helm_leather_raiddruidethereal_d_01_gn_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6122155",
+        text = "helm_leather_raiddruidethereal_d_01_go_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6122154",
+        text = "helm_leather_raiddruidethereal_d_01_go_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6122157",
+        text = "helm_leather_raiddruidethereal_d_01_hu_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6122156",
+        text = "helm_leather_raiddruidethereal_d_01_hu_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6122159",
+        text = "helm_leather_raiddruidethereal_d_01_kt_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6122158",
+        text = "helm_leather_raiddruidethereal_d_01_kt_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6122161",
+        text = "helm_leather_raiddruidethereal_d_01_mg_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6122160",
+        text = "helm_leather_raiddruidethereal_d_01_mg_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6122164",
+        text = "helm_leather_raiddruidethereal_d_01_nb_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6122163",
+        text = "helm_leather_raiddruidethereal_d_01_ni_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6122162",
+        text = "helm_leather_raiddruidethereal_d_01_ni_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6122166",
+        text = "helm_leather_raiddruidethereal_d_01_or_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6122165",
+        text = "helm_leather_raiddruidethereal_d_01_or_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6122168",
+        text = "helm_leather_raiddruidethereal_d_01_pa_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6122167",
+        text = "helm_leather_raiddruidethereal_d_01_pa_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6122174",
+        text = "helm_leather_raiddruidethereal_d_01_sc_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6122173",
+        text = "helm_leather_raiddruidethereal_d_01_sc_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6122170",
+        text = "helm_leather_raiddruidethereal_d_01_ta_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6122169",
+        text = "helm_leather_raiddruidethereal_d_01_ta_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6122172",
+        text = "helm_leather_raiddruidethereal_d_01_tr_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6122171",
+        text = "helm_leather_raiddruidethereal_d_01_tr_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6122176",
+        text = "helm_leather_raiddruidethereal_d_01_vu_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6122175",
+        text = "helm_leather_raiddruidethereal_d_01_vu_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6122178",
+        text = "helm_leather_raiddruidethereal_d_01_wo_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6122177",
+        text = "helm_leather_raiddruidethereal_d_01_wo_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6122180",
+        text = "helm_leather_raiddruidethereal_d_01_za_f.m2",
+        value = "helm_leather_raiddruidethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6122179",
+        text = "helm_leather_raiddruidethereal_d_01_za_m.m2",
+        value = "helm_leather_raiddruidethereal_d_01_za_m.m2",
+       },
+       {
         fileId = "5652976",
         text = "helm_leather_raiddruidgoblin_d_01_be_f.m2",
         value = "helm_leather_raiddruidgoblin_d_01_be_f.m2",
@@ -184676,6 +194694,191 @@ WeakAuras.ModelPaths = {
         fileId = "4994678",
         text = "helm_leather_raidmonkemerald_d_01_za_m.m2",
         value = "helm_leather_raidmonkemerald_d_01_za_m.m2",
+       },
+       {
+        fileId = "6122287",
+        text = "helm_leather_raidmonkethereal_d_01_be_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6122286",
+        text = "helm_leather_raidmonkethereal_d_01_be_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6122289",
+        text = "helm_leather_raidmonkethereal_d_01_dr_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6122288",
+        text = "helm_leather_raidmonkethereal_d_01_dr_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6122291",
+        text = "helm_leather_raidmonkethereal_d_01_dw_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6122290",
+        text = "helm_leather_raidmonkethereal_d_01_dw_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852934",
+        text = "helm_leather_raidmonkethereal_d_01_ed_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852933",
+        text = "helm_leather_raidmonkethereal_d_01_ed_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6122293",
+        text = "helm_leather_raidmonkethereal_d_01_gn_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6122292",
+        text = "helm_leather_raidmonkethereal_d_01_gn_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6122295",
+        text = "helm_leather_raidmonkethereal_d_01_go_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6122294",
+        text = "helm_leather_raidmonkethereal_d_01_go_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6122297",
+        text = "helm_leather_raidmonkethereal_d_01_hu_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6122296",
+        text = "helm_leather_raidmonkethereal_d_01_hu_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6122299",
+        text = "helm_leather_raidmonkethereal_d_01_kt_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6122298",
+        text = "helm_leather_raidmonkethereal_d_01_kt_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6122301",
+        text = "helm_leather_raidmonkethereal_d_01_mg_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6122300",
+        text = "helm_leather_raidmonkethereal_d_01_mg_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6122304",
+        text = "helm_leather_raidmonkethereal_d_01_nb_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6122303",
+        text = "helm_leather_raidmonkethereal_d_01_ni_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6122302",
+        text = "helm_leather_raidmonkethereal_d_01_ni_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6122306",
+        text = "helm_leather_raidmonkethereal_d_01_or_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6122305",
+        text = "helm_leather_raidmonkethereal_d_01_or_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6122308",
+        text = "helm_leather_raidmonkethereal_d_01_pa_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6122307",
+        text = "helm_leather_raidmonkethereal_d_01_pa_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6122314",
+        text = "helm_leather_raidmonkethereal_d_01_sc_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6122313",
+        text = "helm_leather_raidmonkethereal_d_01_sc_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6122310",
+        text = "helm_leather_raidmonkethereal_d_01_ta_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6122309",
+        text = "helm_leather_raidmonkethereal_d_01_ta_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6122312",
+        text = "helm_leather_raidmonkethereal_d_01_tr_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6122311",
+        text = "helm_leather_raidmonkethereal_d_01_tr_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6122316",
+        text = "helm_leather_raidmonkethereal_d_01_vu_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6122315",
+        text = "helm_leather_raidmonkethereal_d_01_vu_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6122318",
+        text = "helm_leather_raidmonkethereal_d_01_wo_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6122317",
+        text = "helm_leather_raidmonkethereal_d_01_wo_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6122320",
+        text = "helm_leather_raidmonkethereal_d_01_za_f.m2",
+        value = "helm_leather_raidmonkethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6122319",
+        text = "helm_leather_raidmonkethereal_d_01_za_m.m2",
+        value = "helm_leather_raidmonkethereal_d_01_za_m.m2",
        },
        {
         fileId = "5653268",
@@ -189386,6 +199589,181 @@ WeakAuras.ModelPaths = {
         fileId = "4994897",
         text = "helm_leather_raidrogueemerald_d_01_za_m.m2",
         value = "helm_leather_raidrogueemerald_d_01_za_m.m2",
+       },
+       {
+        fileId = "6122392",
+        text = "helm_leather_raidrogueethereal_d_01_be_f.m2",
+        value = "helm_leather_raidrogueethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6122391",
+        text = "helm_leather_raidrogueethereal_d_01_be_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6122394",
+        text = "helm_leather_raidrogueethereal_d_01_dr_f.m2",
+        value = "helm_leather_raidrogueethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6122393",
+        text = "helm_leather_raidrogueethereal_d_01_dr_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6122396",
+        text = "helm_leather_raidrogueethereal_d_01_dw_f.m2",
+        value = "helm_leather_raidrogueethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6122395",
+        text = "helm_leather_raidrogueethereal_d_01_dw_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852935",
+        text = "helm_leather_raidrogueethereal_d_01_ed_f.m2",
+        value = "helm_leather_raidrogueethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852936",
+        text = "helm_leather_raidrogueethereal_d_01_ed_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6122398",
+        text = "helm_leather_raidrogueethereal_d_01_gn_f.m2",
+        value = "helm_leather_raidrogueethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6122397",
+        text = "helm_leather_raidrogueethereal_d_01_gn_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6122400",
+        text = "helm_leather_raidrogueethereal_d_01_go_f.m2",
+        value = "helm_leather_raidrogueethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6122399",
+        text = "helm_leather_raidrogueethereal_d_01_go_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6122402",
+        text = "helm_leather_raidrogueethereal_d_01_hu_f.m2",
+        value = "helm_leather_raidrogueethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6122401",
+        text = "helm_leather_raidrogueethereal_d_01_hu_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6122404",
+        text = "helm_leather_raidrogueethereal_d_01_kt_f.m2",
+        value = "helm_leather_raidrogueethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6122403",
+        text = "helm_leather_raidrogueethereal_d_01_kt_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6122406",
+        text = "helm_leather_raidrogueethereal_d_01_mg_f.m2",
+        value = "helm_leather_raidrogueethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6122405",
+        text = "helm_leather_raidrogueethereal_d_01_mg_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6122409",
+        text = "helm_leather_raidrogueethereal_d_01_nb_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6122408",
+        text = "helm_leather_raidrogueethereal_d_01_ni_f.m2",
+        value = "helm_leather_raidrogueethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6122407",
+        text = "helm_leather_raidrogueethereal_d_01_ni_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6122411",
+        text = "helm_leather_raidrogueethereal_d_01_or_f.m2",
+        value = "helm_leather_raidrogueethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6122410",
+        text = "helm_leather_raidrogueethereal_d_01_or_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6122412",
+        text = "helm_leather_raidrogueethereal_d_01_pa_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6122419",
+        text = "helm_leather_raidrogueethereal_d_01_sc_f.m2",
+        value = "helm_leather_raidrogueethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6122418",
+        text = "helm_leather_raidrogueethereal_d_01_sc_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6122415",
+        text = "helm_leather_raidrogueethereal_d_01_ta_f.m2",
+        value = "helm_leather_raidrogueethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6122414",
+        text = "helm_leather_raidrogueethereal_d_01_ta_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6122417",
+        text = "helm_leather_raidrogueethereal_d_01_tr_f.m2",
+        value = "helm_leather_raidrogueethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6122416",
+        text = "helm_leather_raidrogueethereal_d_01_tr_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6122421",
+        text = "helm_leather_raidrogueethereal_d_01_vu_f.m2",
+        value = "helm_leather_raidrogueethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6122420",
+        text = "helm_leather_raidrogueethereal_d_01_vu_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6122423",
+        text = "helm_leather_raidrogueethereal_d_01_wo_f.m2",
+        value = "helm_leather_raidrogueethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6122422",
+        text = "helm_leather_raidrogueethereal_d_01_wo_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6122424",
+        text = "helm_leather_raidrogueethereal_d_01_za_m.m2",
+        value = "helm_leather_raidrogueethereal_d_01_za_m.m2",
        },
        {
         fileId = "5523264",
@@ -205648,6 +216026,191 @@ WeakAuras.ModelPaths = {
         value = "helm_mail_oribosquesting_b_01_za_m.m2",
        },
        {
+        fileId = "7010356",
+        text = "helm_mail_outdoorethereal_c_01_be_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_be_f.m2",
+       },
+       {
+        fileId = "7010355",
+        text = "helm_mail_outdoorethereal_c_01_be_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_be_m.m2",
+       },
+       {
+        fileId = "7010358",
+        text = "helm_mail_outdoorethereal_c_01_dr_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_dr_f.m2",
+       },
+       {
+        fileId = "7010357",
+        text = "helm_mail_outdoorethereal_c_01_dr_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_dr_m.m2",
+       },
+       {
+        fileId = "7010360",
+        text = "helm_mail_outdoorethereal_c_01_dw_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_dw_f.m2",
+       },
+       {
+        fileId = "7010359",
+        text = "helm_mail_outdoorethereal_c_01_dw_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_dw_m.m2",
+       },
+       {
+        fileId = "7010362",
+        text = "helm_mail_outdoorethereal_c_01_ed_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_ed_f.m2",
+       },
+       {
+        fileId = "7010361",
+        text = "helm_mail_outdoorethereal_c_01_ed_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_ed_m.m2",
+       },
+       {
+        fileId = "7010364",
+        text = "helm_mail_outdoorethereal_c_01_gn_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_gn_f.m2",
+       },
+       {
+        fileId = "7010363",
+        text = "helm_mail_outdoorethereal_c_01_gn_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_gn_m.m2",
+       },
+       {
+        fileId = "7010366",
+        text = "helm_mail_outdoorethereal_c_01_go_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_go_f.m2",
+       },
+       {
+        fileId = "7010365",
+        text = "helm_mail_outdoorethereal_c_01_go_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_go_m.m2",
+       },
+       {
+        fileId = "7010368",
+        text = "helm_mail_outdoorethereal_c_01_hu_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_hu_f.m2",
+       },
+       {
+        fileId = "7010367",
+        text = "helm_mail_outdoorethereal_c_01_hu_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_hu_m.m2",
+       },
+       {
+        fileId = "7010370",
+        text = "helm_mail_outdoorethereal_c_01_kt_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_kt_f.m2",
+       },
+       {
+        fileId = "7010369",
+        text = "helm_mail_outdoorethereal_c_01_kt_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_kt_m.m2",
+       },
+       {
+        fileId = "7010372",
+        text = "helm_mail_outdoorethereal_c_01_mg_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_mg_f.m2",
+       },
+       {
+        fileId = "7010371",
+        text = "helm_mail_outdoorethereal_c_01_mg_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_mg_m.m2",
+       },
+       {
+        fileId = "7010375",
+        text = "helm_mail_outdoorethereal_c_01_nb_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_nb_m.m2",
+       },
+       {
+        fileId = "7010374",
+        text = "helm_mail_outdoorethereal_c_01_ni_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_ni_f.m2",
+       },
+       {
+        fileId = "7010373",
+        text = "helm_mail_outdoorethereal_c_01_ni_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_ni_m.m2",
+       },
+       {
+        fileId = "7010377",
+        text = "helm_mail_outdoorethereal_c_01_or_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_or_f.m2",
+       },
+       {
+        fileId = "7010376",
+        text = "helm_mail_outdoorethereal_c_01_or_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_or_m.m2",
+       },
+       {
+        fileId = "7010379",
+        text = "helm_mail_outdoorethereal_c_01_pa_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_pa_f.m2",
+       },
+       {
+        fileId = "7010378",
+        text = "helm_mail_outdoorethereal_c_01_pa_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_pa_m.m2",
+       },
+       {
+        fileId = "7010385",
+        text = "helm_mail_outdoorethereal_c_01_sc_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_sc_f.m2",
+       },
+       {
+        fileId = "7010384",
+        text = "helm_mail_outdoorethereal_c_01_sc_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_sc_m.m2",
+       },
+       {
+        fileId = "7010381",
+        text = "helm_mail_outdoorethereal_c_01_ta_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_ta_f.m2",
+       },
+       {
+        fileId = "7010380",
+        text = "helm_mail_outdoorethereal_c_01_ta_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_ta_m.m2",
+       },
+       {
+        fileId = "7010383",
+        text = "helm_mail_outdoorethereal_c_01_tr_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_tr_f.m2",
+       },
+       {
+        fileId = "7010382",
+        text = "helm_mail_outdoorethereal_c_01_tr_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_tr_m.m2",
+       },
+       {
+        fileId = "7010387",
+        text = "helm_mail_outdoorethereal_c_01_vu_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_vu_f.m2",
+       },
+       {
+        fileId = "7010386",
+        text = "helm_mail_outdoorethereal_c_01_vu_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_vu_m.m2",
+       },
+       {
+        fileId = "7010389",
+        text = "helm_mail_outdoorethereal_c_01_wo_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_wo_f.m2",
+       },
+       {
+        fileId = "7010388",
+        text = "helm_mail_outdoorethereal_c_01_wo_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_wo_m.m2",
+       },
+       {
+        fileId = "7010391",
+        text = "helm_mail_outdoorethereal_c_01_za_f.m2",
+        value = "helm_mail_outdoorethereal_c_01_za_f.m2",
+       },
+       {
+        fileId = "7010390",
+        text = "helm_mail_outdoorethereal_c_01_za_m.m2",
+        value = "helm_mail_outdoorethereal_c_01_za_m.m2",
+       },
+       {
         fileId = "590583",
         text = "helm_mail_panda_b_01_bef.m2",
         value = "helm_mail_panda_b_01_bef.m2",
@@ -210463,6 +221026,186 @@ WeakAuras.ModelPaths = {
         value = "helm_mail_raidevokerdragon_d_01_za_m.m2",
        },
        {
+        fileId = "6122182",
+        text = "helm_mail_raidevokerethereal_d_01_be_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6122181",
+        text = "helm_mail_raidevokerethereal_d_01_be_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6122184",
+        text = "helm_mail_raidevokerethereal_d_01_dr_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6122183",
+        text = "helm_mail_raidevokerethereal_d_01_dr_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6122186",
+        text = "helm_mail_raidevokerethereal_d_01_dw_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6122185",
+        text = "helm_mail_raidevokerethereal_d_01_dw_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852996",
+        text = "helm_mail_raidevokerethereal_d_01_ed_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852995",
+        text = "helm_mail_raidevokerethereal_d_01_ed_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6122188",
+        text = "helm_mail_raidevokerethereal_d_01_gn_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6122187",
+        text = "helm_mail_raidevokerethereal_d_01_gn_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6122190",
+        text = "helm_mail_raidevokerethereal_d_01_go_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6122189",
+        text = "helm_mail_raidevokerethereal_d_01_go_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6122192",
+        text = "helm_mail_raidevokerethereal_d_01_hu_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6122191",
+        text = "helm_mail_raidevokerethereal_d_01_hu_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6122194",
+        text = "helm_mail_raidevokerethereal_d_01_kt_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6122193",
+        text = "helm_mail_raidevokerethereal_d_01_kt_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6122196",
+        text = "helm_mail_raidevokerethereal_d_01_mg_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6122195",
+        text = "helm_mail_raidevokerethereal_d_01_mg_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6122198",
+        text = "helm_mail_raidevokerethereal_d_01_ni_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6122197",
+        text = "helm_mail_raidevokerethereal_d_01_ni_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6122201",
+        text = "helm_mail_raidevokerethereal_d_01_or_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6122200",
+        text = "helm_mail_raidevokerethereal_d_01_or_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6122203",
+        text = "helm_mail_raidevokerethereal_d_01_pa_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6122202",
+        text = "helm_mail_raidevokerethereal_d_01_pa_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6122209",
+        text = "helm_mail_raidevokerethereal_d_01_sc_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6122208",
+        text = "helm_mail_raidevokerethereal_d_01_sc_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6122205",
+        text = "helm_mail_raidevokerethereal_d_01_ta_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6122204",
+        text = "helm_mail_raidevokerethereal_d_01_ta_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6122207",
+        text = "helm_mail_raidevokerethereal_d_01_tr_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6122206",
+        text = "helm_mail_raidevokerethereal_d_01_tr_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6122211",
+        text = "helm_mail_raidevokerethereal_d_01_vu_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6122210",
+        text = "helm_mail_raidevokerethereal_d_01_vu_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6122213",
+        text = "helm_mail_raidevokerethereal_d_01_wo_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6122212",
+        text = "helm_mail_raidevokerethereal_d_01_wo_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6122215",
+        text = "helm_mail_raidevokerethereal_d_01_za_f.m2",
+        value = "helm_mail_raidevokerethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6122214",
+        text = "helm_mail_raidevokerethereal_d_01_za_m.m2",
+        value = "helm_mail_raidevokerethereal_d_01_za_m.m2",
+       },
+       {
         fileId = "5653049",
         text = "helm_mail_raidevokergoblin_d_01_be_f.m2",
         value = "helm_mail_raidevokergoblin_d_01_be_f.m2",
@@ -213901,6 +224644,181 @@ WeakAuras.ModelPaths = {
         fileId = "1850468",
         text = "helm_mail_raidhunter_s_01_za_m.m2",
         value = "helm_mail_raidhunter_s_01_za_m.m2",
+       },
+       {
+        fileId = "6122217",
+        text = "helm_mail_raidhunterethereal_d_01_be_f.m2",
+        value = "helm_mail_raidhunterethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6122216",
+        text = "helm_mail_raidhunterethereal_d_01_be_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6122219",
+        text = "helm_mail_raidhunterethereal_d_01_dr_f.m2",
+        value = "helm_mail_raidhunterethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6122218",
+        text = "helm_mail_raidhunterethereal_d_01_dr_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6122221",
+        text = "helm_mail_raidhunterethereal_d_01_dw_f.m2",
+        value = "helm_mail_raidhunterethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6122220",
+        text = "helm_mail_raidhunterethereal_d_01_dw_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852997",
+        text = "helm_mail_raidhunterethereal_d_01_ed_f.m2",
+        value = "helm_mail_raidhunterethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852998",
+        text = "helm_mail_raidhunterethereal_d_01_ed_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6122223",
+        text = "helm_mail_raidhunterethereal_d_01_gn_f.m2",
+        value = "helm_mail_raidhunterethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6122222",
+        text = "helm_mail_raidhunterethereal_d_01_gn_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6122225",
+        text = "helm_mail_raidhunterethereal_d_01_go_f.m2",
+        value = "helm_mail_raidhunterethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6122224",
+        text = "helm_mail_raidhunterethereal_d_01_go_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6122227",
+        text = "helm_mail_raidhunterethereal_d_01_hu_f.m2",
+        value = "helm_mail_raidhunterethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6122226",
+        text = "helm_mail_raidhunterethereal_d_01_hu_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6122229",
+        text = "helm_mail_raidhunterethereal_d_01_kt_f.m2",
+        value = "helm_mail_raidhunterethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6122228",
+        text = "helm_mail_raidhunterethereal_d_01_kt_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6122234",
+        text = "helm_mail_raidhunterethereal_d_01_nb_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6122233",
+        text = "helm_mail_raidhunterethereal_d_01_ni_f.m2",
+        value = "helm_mail_raidhunterethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6122232",
+        text = "helm_mail_raidhunterethereal_d_01_ni_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6122236",
+        text = "helm_mail_raidhunterethereal_d_01_or_f.m2",
+        value = "helm_mail_raidhunterethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6122235",
+        text = "helm_mail_raidhunterethereal_d_01_or_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6122238",
+        text = "helm_mail_raidhunterethereal_d_01_pa_f.m2",
+        value = "helm_mail_raidhunterethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6122237",
+        text = "helm_mail_raidhunterethereal_d_01_pa_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6122244",
+        text = "helm_mail_raidhunterethereal_d_01_sc_f.m2",
+        value = "helm_mail_raidhunterethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6122243",
+        text = "helm_mail_raidhunterethereal_d_01_sc_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6122240",
+        text = "helm_mail_raidhunterethereal_d_01_ta_f.m2",
+        value = "helm_mail_raidhunterethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6122239",
+        text = "helm_mail_raidhunterethereal_d_01_ta_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6122242",
+        text = "helm_mail_raidhunterethereal_d_01_tr_f.m2",
+        value = "helm_mail_raidhunterethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6122241",
+        text = "helm_mail_raidhunterethereal_d_01_tr_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6122246",
+        text = "helm_mail_raidhunterethereal_d_01_vu_f.m2",
+        value = "helm_mail_raidhunterethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6122245",
+        text = "helm_mail_raidhunterethereal_d_01_vu_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6122248",
+        text = "helm_mail_raidhunterethereal_d_01_wo_f.m2",
+        value = "helm_mail_raidhunterethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6122247",
+        text = "helm_mail_raidhunterethereal_d_01_wo_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6122250",
+        text = "helm_mail_raidhunterethereal_d_01_za_f.m2",
+        value = "helm_mail_raidhunterethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6122249",
+        text = "helm_mail_raidhunterethereal_d_01_za_m.m2",
+        value = "helm_mail_raidhunterethereal_d_01_za_m.m2",
        },
        {
         fileId = "5653122",
@@ -218116,6 +229034,191 @@ WeakAuras.ModelPaths = {
         fileId = "4691709",
         text = "helm_mail_raidshamandragon_d_01_za_m.m2",
         value = "helm_mail_raidshamandragon_d_01_za_m.m2",
+       },
+       {
+        fileId = "6122427",
+        text = "helm_mail_raidshamanethereal_d_01_be_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6122426",
+        text = "helm_mail_raidshamanethereal_d_01_be_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6122429",
+        text = "helm_mail_raidshamanethereal_d_01_dr_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6122428",
+        text = "helm_mail_raidshamanethereal_d_01_dr_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6122431",
+        text = "helm_mail_raidshamanethereal_d_01_dw_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6122430",
+        text = "helm_mail_raidshamanethereal_d_01_dw_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6853000",
+        text = "helm_mail_raidshamanethereal_d_01_ed_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852999",
+        text = "helm_mail_raidshamanethereal_d_01_ed_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6122433",
+        text = "helm_mail_raidshamanethereal_d_01_gn_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6122432",
+        text = "helm_mail_raidshamanethereal_d_01_gn_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6122435",
+        text = "helm_mail_raidshamanethereal_d_01_go_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6122434",
+        text = "helm_mail_raidshamanethereal_d_01_go_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6122437",
+        text = "helm_mail_raidshamanethereal_d_01_hu_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6122436",
+        text = "helm_mail_raidshamanethereal_d_01_hu_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6122439",
+        text = "helm_mail_raidshamanethereal_d_01_kt_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6122438",
+        text = "helm_mail_raidshamanethereal_d_01_kt_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6122441",
+        text = "helm_mail_raidshamanethereal_d_01_mg_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6122440",
+        text = "helm_mail_raidshamanethereal_d_01_mg_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6122444",
+        text = "helm_mail_raidshamanethereal_d_01_nb_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6122443",
+        text = "helm_mail_raidshamanethereal_d_01_ni_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6122442",
+        text = "helm_mail_raidshamanethereal_d_01_ni_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6122446",
+        text = "helm_mail_raidshamanethereal_d_01_or_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6122445",
+        text = "helm_mail_raidshamanethereal_d_01_or_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6122448",
+        text = "helm_mail_raidshamanethereal_d_01_pa_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6122447",
+        text = "helm_mail_raidshamanethereal_d_01_pa_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6122454",
+        text = "helm_mail_raidshamanethereal_d_01_sc_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6122453",
+        text = "helm_mail_raidshamanethereal_d_01_sc_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6122450",
+        text = "helm_mail_raidshamanethereal_d_01_ta_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6122449",
+        text = "helm_mail_raidshamanethereal_d_01_ta_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6122452",
+        text = "helm_mail_raidshamanethereal_d_01_tr_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6122451",
+        text = "helm_mail_raidshamanethereal_d_01_tr_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6122456",
+        text = "helm_mail_raidshamanethereal_d_01_vu_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6122455",
+        text = "helm_mail_raidshamanethereal_d_01_vu_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6122458",
+        text = "helm_mail_raidshamanethereal_d_01_wo_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6122457",
+        text = "helm_mail_raidshamanethereal_d_01_wo_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6122460",
+        text = "helm_mail_raidshamanethereal_d_01_za_f.m2",
+        value = "helm_mail_raidshamanethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6122459",
+        text = "helm_mail_raidshamanethereal_d_01_za_m.m2",
+        value = "helm_mail_raidshamanethereal_d_01_za_m.m2",
        },
        {
         fileId = "5653487",
@@ -241528,6 +252631,191 @@ WeakAuras.ModelPaths = {
         value = "helm_plate_oribosquesting_b_01_za_m.m2",
        },
        {
+        fileId = "6999915",
+        text = "helm_plate_outdoorethereal_c_01_be_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_be_f.m2",
+       },
+       {
+        fileId = "6999914",
+        text = "helm_plate_outdoorethereal_c_01_be_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_be_m.m2",
+       },
+       {
+        fileId = "6999917",
+        text = "helm_plate_outdoorethereal_c_01_dr_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_dr_f.m2",
+       },
+       {
+        fileId = "6999916",
+        text = "helm_plate_outdoorethereal_c_01_dr_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_dr_m.m2",
+       },
+       {
+        fileId = "6999919",
+        text = "helm_plate_outdoorethereal_c_01_dw_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_dw_f.m2",
+       },
+       {
+        fileId = "6999918",
+        text = "helm_plate_outdoorethereal_c_01_dw_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_dw_m.m2",
+       },
+       {
+        fileId = "6999921",
+        text = "helm_plate_outdoorethereal_c_01_ed_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_ed_f.m2",
+       },
+       {
+        fileId = "6999920",
+        text = "helm_plate_outdoorethereal_c_01_ed_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_ed_m.m2",
+       },
+       {
+        fileId = "6999923",
+        text = "helm_plate_outdoorethereal_c_01_gn_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_gn_f.m2",
+       },
+       {
+        fileId = "6999922",
+        text = "helm_plate_outdoorethereal_c_01_gn_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_gn_m.m2",
+       },
+       {
+        fileId = "6999925",
+        text = "helm_plate_outdoorethereal_c_01_go_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_go_f.m2",
+       },
+       {
+        fileId = "6999924",
+        text = "helm_plate_outdoorethereal_c_01_go_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_go_m.m2",
+       },
+       {
+        fileId = "6999927",
+        text = "helm_plate_outdoorethereal_c_01_hu_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_hu_f.m2",
+       },
+       {
+        fileId = "6999926",
+        text = "helm_plate_outdoorethereal_c_01_hu_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_hu_m.m2",
+       },
+       {
+        fileId = "6999929",
+        text = "helm_plate_outdoorethereal_c_01_kt_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_kt_f.m2",
+       },
+       {
+        fileId = "6999928",
+        text = "helm_plate_outdoorethereal_c_01_kt_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_kt_m.m2",
+       },
+       {
+        fileId = "6999931",
+        text = "helm_plate_outdoorethereal_c_01_mg_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_mg_f.m2",
+       },
+       {
+        fileId = "6999930",
+        text = "helm_plate_outdoorethereal_c_01_mg_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_mg_m.m2",
+       },
+       {
+        fileId = "6999934",
+        text = "helm_plate_outdoorethereal_c_01_nb_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_nb_m.m2",
+       },
+       {
+        fileId = "6999933",
+        text = "helm_plate_outdoorethereal_c_01_ni_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_ni_f.m2",
+       },
+       {
+        fileId = "6999932",
+        text = "helm_plate_outdoorethereal_c_01_ni_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_ni_m.m2",
+       },
+       {
+        fileId = "6999936",
+        text = "helm_plate_outdoorethereal_c_01_or_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_or_f.m2",
+       },
+       {
+        fileId = "6999935",
+        text = "helm_plate_outdoorethereal_c_01_or_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_or_m.m2",
+       },
+       {
+        fileId = "6999938",
+        text = "helm_plate_outdoorethereal_c_01_pa_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_pa_f.m2",
+       },
+       {
+        fileId = "6999937",
+        text = "helm_plate_outdoorethereal_c_01_pa_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_pa_m.m2",
+       },
+       {
+        fileId = "6999944",
+        text = "helm_plate_outdoorethereal_c_01_sc_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_sc_f.m2",
+       },
+       {
+        fileId = "6999943",
+        text = "helm_plate_outdoorethereal_c_01_sc_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_sc_m.m2",
+       },
+       {
+        fileId = "6999940",
+        text = "helm_plate_outdoorethereal_c_01_ta_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_ta_f.m2",
+       },
+       {
+        fileId = "6999939",
+        text = "helm_plate_outdoorethereal_c_01_ta_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_ta_m.m2",
+       },
+       {
+        fileId = "6999942",
+        text = "helm_plate_outdoorethereal_c_01_tr_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_tr_f.m2",
+       },
+       {
+        fileId = "6999941",
+        text = "helm_plate_outdoorethereal_c_01_tr_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_tr_m.m2",
+       },
+       {
+        fileId = "6999946",
+        text = "helm_plate_outdoorethereal_c_01_vu_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_vu_f.m2",
+       },
+       {
+        fileId = "6999945",
+        text = "helm_plate_outdoorethereal_c_01_vu_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_vu_m.m2",
+       },
+       {
+        fileId = "6999948",
+        text = "helm_plate_outdoorethereal_c_01_wo_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_wo_f.m2",
+       },
+       {
+        fileId = "6999947",
+        text = "helm_plate_outdoorethereal_c_01_wo_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_wo_m.m2",
+       },
+       {
+        fileId = "6999950",
+        text = "helm_plate_outdoorethereal_c_01_za_f.m2",
+        value = "helm_plate_outdoorethereal_c_01_za_f.m2",
+       },
+       {
+        fileId = "6999949",
+        text = "helm_plate_outdoorethereal_c_01_za_m.m2",
+        value = "helm_plate_outdoorethereal_c_01_za_m.m2",
+       },
+       {
         fileId = "1446286",
         text = "helm_plate_paladinclass_d_01_bef.m2",
         value = "helm_plate_paladinclass_d_01_bef.m2",
@@ -250391,6 +261679,186 @@ WeakAuras.ModelPaths = {
         fileId = "4691794",
         text = "helm_plate_raiddeathknightdragon_d_01_za_m.m2",
         value = "helm_plate_raiddeathknightdragon_d_01_za_m.m2",
+       },
+       {
+        fileId = "6122077",
+        text = "helm_plate_raiddeathknightethereal_d_01_be_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6122076",
+        text = "helm_plate_raiddeathknightethereal_d_01_be_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6122079",
+        text = "helm_plate_raiddeathknightethereal_d_01_dr_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6122078",
+        text = "helm_plate_raiddeathknightethereal_d_01_dr_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6122081",
+        text = "helm_plate_raiddeathknightethereal_d_01_dw_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6122080",
+        text = "helm_plate_raiddeathknightethereal_d_01_dw_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6122083",
+        text = "helm_plate_raiddeathknightethereal_d_01_gn_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6122082",
+        text = "helm_plate_raiddeathknightethereal_d_01_gn_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6122085",
+        text = "helm_plate_raiddeathknightethereal_d_01_go_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6122084",
+        text = "helm_plate_raiddeathknightethereal_d_01_go_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6122087",
+        text = "helm_plate_raiddeathknightethereal_d_01_hu_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6122086",
+        text = "helm_plate_raiddeathknightethereal_d_01_hu_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6122089",
+        text = "helm_plate_raiddeathknightethereal_d_01_kt_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6122088",
+        text = "helm_plate_raiddeathknightethereal_d_01_kt_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6122091",
+        text = "helm_plate_raiddeathknightethereal_d_01_mg_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6122090",
+        text = "helm_plate_raiddeathknightethereal_d_01_mg_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6379279",
+        text = "helm_plate_raiddeathknightethereal_d_01_nb_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_nb_f.m2",
+       },
+       {
+        fileId = "6122094",
+        text = "helm_plate_raiddeathknightethereal_d_01_nb_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6122093",
+        text = "helm_plate_raiddeathknightethereal_d_01_ni_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6122092",
+        text = "helm_plate_raiddeathknightethereal_d_01_ni_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6122096",
+        text = "helm_plate_raiddeathknightethereal_d_01_or_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6122095",
+        text = "helm_plate_raiddeathknightethereal_d_01_or_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6122098",
+        text = "helm_plate_raiddeathknightethereal_d_01_pa_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6122097",
+        text = "helm_plate_raiddeathknightethereal_d_01_pa_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6122104",
+        text = "helm_plate_raiddeathknightethereal_d_01_sc_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6122103",
+        text = "helm_plate_raiddeathknightethereal_d_01_sc_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6122100",
+        text = "helm_plate_raiddeathknightethereal_d_01_ta_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6122099",
+        text = "helm_plate_raiddeathknightethereal_d_01_ta_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6122102",
+        text = "helm_plate_raiddeathknightethereal_d_01_tr_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6122101",
+        text = "helm_plate_raiddeathknightethereal_d_01_tr_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6122106",
+        text = "helm_plate_raiddeathknightethereal_d_01_vu_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6122105",
+        text = "helm_plate_raiddeathknightethereal_d_01_vu_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6122108",
+        text = "helm_plate_raiddeathknightethereal_d_01_wo_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6122107",
+        text = "helm_plate_raiddeathknightethereal_d_01_wo_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6122110",
+        text = "helm_plate_raiddeathknightethereal_d_01_za_f.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6122109",
+        text = "helm_plate_raiddeathknightethereal_d_01_za_m.m2",
+        value = "helm_plate_raiddeathknightethereal_d_01_za_m.m2",
        },
        {
         fileId = "1029400",
@@ -259316,6 +270784,191 @@ WeakAuras.ModelPaths = {
         fileId = "4995043",
         text = "helm_plate_raidwarrioremerald_d_01_za_m.m2",
         value = "helm_plate_raidwarrioremerald_d_01_za_m.m2",
+       },
+       {
+        fileId = "6122497",
+        text = "helm_plate_raidwarriorethereal_d_01_be_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_be_f.m2",
+       },
+       {
+        fileId = "6122496",
+        text = "helm_plate_raidwarriorethereal_d_01_be_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_be_m.m2",
+       },
+       {
+        fileId = "6122499",
+        text = "helm_plate_raidwarriorethereal_d_01_dr_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_dr_f.m2",
+       },
+       {
+        fileId = "6122498",
+        text = "helm_plate_raidwarriorethereal_d_01_dr_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_dr_m.m2",
+       },
+       {
+        fileId = "6122501",
+        text = "helm_plate_raidwarriorethereal_d_01_dw_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_dw_f.m2",
+       },
+       {
+        fileId = "6122500",
+        text = "helm_plate_raidwarriorethereal_d_01_dw_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_dw_m.m2",
+       },
+       {
+        fileId = "6852864",
+        text = "helm_plate_raidwarriorethereal_d_01_ed_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_ed_f.m2",
+       },
+       {
+        fileId = "6852863",
+        text = "helm_plate_raidwarriorethereal_d_01_ed_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_ed_m.m2",
+       },
+       {
+        fileId = "6122503",
+        text = "helm_plate_raidwarriorethereal_d_01_gn_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_gn_f.m2",
+       },
+       {
+        fileId = "6122502",
+        text = "helm_plate_raidwarriorethereal_d_01_gn_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_gn_m.m2",
+       },
+       {
+        fileId = "6122505",
+        text = "helm_plate_raidwarriorethereal_d_01_go_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_go_f.m2",
+       },
+       {
+        fileId = "6122504",
+        text = "helm_plate_raidwarriorethereal_d_01_go_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_go_m.m2",
+       },
+       {
+        fileId = "6122507",
+        text = "helm_plate_raidwarriorethereal_d_01_hu_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_hu_f.m2",
+       },
+       {
+        fileId = "6122506",
+        text = "helm_plate_raidwarriorethereal_d_01_hu_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_hu_m.m2",
+       },
+       {
+        fileId = "6122509",
+        text = "helm_plate_raidwarriorethereal_d_01_kt_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_kt_f.m2",
+       },
+       {
+        fileId = "6122508",
+        text = "helm_plate_raidwarriorethereal_d_01_kt_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_kt_m.m2",
+       },
+       {
+        fileId = "6122511",
+        text = "helm_plate_raidwarriorethereal_d_01_mg_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_mg_f.m2",
+       },
+       {
+        fileId = "6122510",
+        text = "helm_plate_raidwarriorethereal_d_01_mg_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_mg_m.m2",
+       },
+       {
+        fileId = "6122514",
+        text = "helm_plate_raidwarriorethereal_d_01_nb_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_nb_m.m2",
+       },
+       {
+        fileId = "6122513",
+        text = "helm_plate_raidwarriorethereal_d_01_ni_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_ni_f.m2",
+       },
+       {
+        fileId = "6122512",
+        text = "helm_plate_raidwarriorethereal_d_01_ni_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_ni_m.m2",
+       },
+       {
+        fileId = "6122516",
+        text = "helm_plate_raidwarriorethereal_d_01_or_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_or_f.m2",
+       },
+       {
+        fileId = "6122515",
+        text = "helm_plate_raidwarriorethereal_d_01_or_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_or_m.m2",
+       },
+       {
+        fileId = "6122518",
+        text = "helm_plate_raidwarriorethereal_d_01_pa_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_pa_f.m2",
+       },
+       {
+        fileId = "6122517",
+        text = "helm_plate_raidwarriorethereal_d_01_pa_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_pa_m.m2",
+       },
+       {
+        fileId = "6122524",
+        text = "helm_plate_raidwarriorethereal_d_01_sc_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_sc_f.m2",
+       },
+       {
+        fileId = "6122523",
+        text = "helm_plate_raidwarriorethereal_d_01_sc_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_sc_m.m2",
+       },
+       {
+        fileId = "6122520",
+        text = "helm_plate_raidwarriorethereal_d_01_ta_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_ta_f.m2",
+       },
+       {
+        fileId = "6122519",
+        text = "helm_plate_raidwarriorethereal_d_01_ta_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_ta_m.m2",
+       },
+       {
+        fileId = "6122522",
+        text = "helm_plate_raidwarriorethereal_d_01_tr_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_tr_f.m2",
+       },
+       {
+        fileId = "6122521",
+        text = "helm_plate_raidwarriorethereal_d_01_tr_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_tr_m.m2",
+       },
+       {
+        fileId = "6122526",
+        text = "helm_plate_raidwarriorethereal_d_01_vu_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_vu_f.m2",
+       },
+       {
+        fileId = "6122525",
+        text = "helm_plate_raidwarriorethereal_d_01_vu_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_vu_m.m2",
+       },
+       {
+        fileId = "6122528",
+        text = "helm_plate_raidwarriorethereal_d_01_wo_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_wo_f.m2",
+       },
+       {
+        fileId = "6122527",
+        text = "helm_plate_raidwarriorethereal_d_01_wo_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_wo_m.m2",
+       },
+       {
+        fileId = "6122530",
+        text = "helm_plate_raidwarriorethereal_d_01_za_f.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_za_f.m2",
+       },
+       {
+        fileId = "6122529",
+        text = "helm_plate_raidwarriorethereal_d_01_za_m.m2",
+        value = "helm_plate_raidwarriorethereal_d_01_za_m.m2",
        },
        {
         fileId = "5653633",
@@ -278393,6 +290046,181 @@ WeakAuras.ModelPaths = {
         value = "helm_testalign_wom.m2",
        },
        {
+        fileId = "7065032",
+        text = "helm_voidsbindingswimwear_a_01_be_f.m2",
+        value = "helm_voidsbindingswimwear_a_01_be_f.m2",
+       },
+       {
+        fileId = "7065031",
+        text = "helm_voidsbindingswimwear_a_01_be_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_be_m.m2",
+       },
+       {
+        fileId = "7065034",
+        text = "helm_voidsbindingswimwear_a_01_dr_f.m2",
+        value = "helm_voidsbindingswimwear_a_01_dr_f.m2",
+       },
+       {
+        fileId = "7065033",
+        text = "helm_voidsbindingswimwear_a_01_dr_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_dr_m.m2",
+       },
+       {
+        fileId = "7065036",
+        text = "helm_voidsbindingswimwear_a_01_dw_f.m2",
+        value = "helm_voidsbindingswimwear_a_01_dw_f.m2",
+       },
+       {
+        fileId = "7065035",
+        text = "helm_voidsbindingswimwear_a_01_dw_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_dw_m.m2",
+       },
+       {
+        fileId = "7065038",
+        text = "helm_voidsbindingswimwear_a_01_ed_f.m2",
+        value = "helm_voidsbindingswimwear_a_01_ed_f.m2",
+       },
+       {
+        fileId = "7065037",
+        text = "helm_voidsbindingswimwear_a_01_ed_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_ed_m.m2",
+       },
+       {
+        fileId = "7065040",
+        text = "helm_voidsbindingswimwear_a_01_gn_f.m2",
+        value = "helm_voidsbindingswimwear_a_01_gn_f.m2",
+       },
+       {
+        fileId = "7065039",
+        text = "helm_voidsbindingswimwear_a_01_gn_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_gn_m.m2",
+       },
+       {
+        fileId = "7065042",
+        text = "helm_voidsbindingswimwear_a_01_go_f.m2",
+        value = "helm_voidsbindingswimwear_a_01_go_f.m2",
+       },
+       {
+        fileId = "7065041",
+        text = "helm_voidsbindingswimwear_a_01_go_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_go_m.m2",
+       },
+       {
+        fileId = "7065044",
+        text = "helm_voidsbindingswimwear_a_01_hu_f.m2",
+        value = "helm_voidsbindingswimwear_a_01_hu_f.m2",
+       },
+       {
+        fileId = "7065043",
+        text = "helm_voidsbindingswimwear_a_01_hu_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_hu_m.m2",
+       },
+       {
+        fileId = "7065046",
+        text = "helm_voidsbindingswimwear_a_01_kt_f.m2",
+        value = "helm_voidsbindingswimwear_a_01_kt_f.m2",
+       },
+       {
+        fileId = "7065045",
+        text = "helm_voidsbindingswimwear_a_01_kt_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_kt_m.m2",
+       },
+       {
+        fileId = "7065048",
+        text = "helm_voidsbindingswimwear_a_01_mg_f.m2",
+        value = "helm_voidsbindingswimwear_a_01_mg_f.m2",
+       },
+       {
+        fileId = "7065047",
+        text = "helm_voidsbindingswimwear_a_01_mg_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_mg_m.m2",
+       },
+       {
+        fileId = "7065050",
+        text = "helm_voidsbindingswimwear_a_01_ni_f.m2",
+        value = "helm_voidsbindingswimwear_a_01_ni_f.m2",
+       },
+       {
+        fileId = "7065049",
+        text = "helm_voidsbindingswimwear_a_01_ni_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_ni_m.m2",
+       },
+       {
+        fileId = "7065053",
+        text = "helm_voidsbindingswimwear_a_01_or_f.m2",
+        value = "helm_voidsbindingswimwear_a_01_or_f.m2",
+       },
+       {
+        fileId = "7065052",
+        text = "helm_voidsbindingswimwear_a_01_or_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_or_m.m2",
+       },
+       {
+        fileId = "7065055",
+        text = "helm_voidsbindingswimwear_a_01_pa_f.m2",
+        value = "helm_voidsbindingswimwear_a_01_pa_f.m2",
+       },
+       {
+        fileId = "7065054",
+        text = "helm_voidsbindingswimwear_a_01_pa_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_pa_m.m2",
+       },
+       {
+        fileId = "7065061",
+        text = "helm_voidsbindingswimwear_a_01_sc_f.m2",
+        value = "helm_voidsbindingswimwear_a_01_sc_f.m2",
+       },
+       {
+        fileId = "7065060",
+        text = "helm_voidsbindingswimwear_a_01_sc_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_sc_m.m2",
+       },
+       {
+        fileId = "7065057",
+        text = "helm_voidsbindingswimwear_a_01_ta_f.m2",
+        value = "helm_voidsbindingswimwear_a_01_ta_f.m2",
+       },
+       {
+        fileId = "7065056",
+        text = "helm_voidsbindingswimwear_a_01_ta_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_ta_m.m2",
+       },
+       {
+        fileId = "7065059",
+        text = "helm_voidsbindingswimwear_a_01_tr_f.m2",
+        value = "helm_voidsbindingswimwear_a_01_tr_f.m2",
+       },
+       {
+        fileId = "7065058",
+        text = "helm_voidsbindingswimwear_a_01_tr_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_tr_m.m2",
+       },
+       {
+        fileId = "7065063",
+        text = "helm_voidsbindingswimwear_a_01_vu_f.m2",
+        value = "helm_voidsbindingswimwear_a_01_vu_f.m2",
+       },
+       {
+        fileId = "7065062",
+        text = "helm_voidsbindingswimwear_a_01_vu_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_vu_m.m2",
+       },
+       {
+        fileId = "7065065",
+        text = "helm_voidsbindingswimwear_a_01_wo_f.m2",
+        value = "helm_voidsbindingswimwear_a_01_wo_f.m2",
+       },
+       {
+        fileId = "7065064",
+        text = "helm_voidsbindingswimwear_a_01_wo_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_wo_m.m2",
+       },
+       {
+        fileId = "7065066",
+        text = "helm_voidsbindingswimwear_a_01_za_m.m2",
+        value = "helm_voidsbindingswimwear_a_01_za_m.m2",
+       },
+       {
         fileId = "142552",
         text = "helmet_robe_d_04_dwf.m2",
         value = "helmet_robe_d_04_dwf.m2",
@@ -280116,6 +291944,11 @@ WeakAuras.ModelPaths = {
         value = "shield_1h_centaur_c_03.m2",
        },
        {
+        fileId = "6790475",
+        text = "shield_1h_chess_d_01.m2",
+        value = "shield_1h_chess_d_01.m2",
+       },
+       {
         fileId = "6210786",
         text = "shield_1h_clockwork_d_01.m2",
         value = "shield_1h_clockwork_d_01.m2",
@@ -280226,6 +292059,16 @@ WeakAuras.ModelPaths = {
         value = "shield_1h_emeralddreamraid_d_02.m2",
        },
        {
+        fileId = "6226455",
+        text = "shield_1h_etherealdefense_b_01.m2",
+        value = "shield_1h_etherealdefense_b_01.m2",
+       },
+       {
+        fileId = "6214711",
+        text = "shield_1h_etherealraid_d_01.m2",
+        value = "shield_1h_etherealraid_d_01.m2",
+       },
+       {
         fileId = "4252714",
         text = "shield_1h_felfire_d_01.m2",
         value = "shield_1h_felfire_d_01.m2",
@@ -280259,6 +292102,11 @@ WeakAuras.ModelPaths = {
         fileId = "5404286",
         text = "shield_1h_harronir_b_01.m2",
         value = "shield_1h_harronir_b_01.m2",
+       },
+       {
+        fileId = "6916894",
+        text = "shield_1h_headless_d_01_green.m2",
+        value = "shield_1h_headless_d_01_green.m2",
        },
        {
         fileId = "1597753",
@@ -280399,6 +292247,11 @@ WeakAuras.ModelPaths = {
         fileId = "3482349",
         text = "shield_1h_oribosdungeon_c_01.m2",
         value = "shield_1h_oribosdungeon_c_01.m2",
+       },
+       {
+        fileId = "6118988",
+        text = "shield_1h_outdoorethereal_c_01.m2",
+        value = "shield_1h_outdoorethereal_c_01.m2",
        },
        {
         fileId = "5739274",
@@ -288177,6 +300030,16 @@ WeakAuras.ModelPaths = {
         value = "shoulder_armor_azjkahet_c_01_r.m2",
        },
        {
+        fileId = "6871502",
+        text = "shoulder_armor_banshee_d_01_l.m2",
+        value = "shoulder_armor_banshee_d_01_l.m2",
+       },
+       {
+        fileId = "6871503",
+        text = "shoulder_armor_banshee_d_01_r.m2",
+        value = "shoulder_armor_banshee_d_01_r.m2",
+       },
+       {
         fileId = "2459330",
         text = "shoulder_armor_bloodelf_d_01_l.m2",
         value = "shoulder_armor_bloodelf_d_01_l.m2",
@@ -288265,6 +300128,16 @@ WeakAuras.ModelPaths = {
         fileId = "4562046",
         text = "shoulder_armor_centaur_b_03_r.m2",
         value = "shoulder_armor_centaur_b_03_r.m2",
+       },
+       {
+        fileId = "6865676",
+        text = "shoulder_armor_chess_d_01_l.m2",
+        value = "shoulder_armor_chess_d_01_l.m2",
+       },
+       {
+        fileId = "6865677",
+        text = "shoulder_armor_chess_d_01_r.m2",
+        value = "shoulder_armor_chess_d_01_r.m2",
        },
        {
         fileId = "5201682",
@@ -288477,6 +300350,46 @@ WeakAuras.ModelPaths = {
         value = "shoulder_armor_earthenmilitary_d_01_copper_r.m2",
        },
        {
+        fileId = "6251925",
+        text = "shoulder_armor_etherealshawl_d_01_l.m2",
+        value = "shoulder_armor_etherealshawl_d_01_l.m2",
+       },
+       {
+        fileId = "6251924",
+        text = "shoulder_armor_etherealshawl_d_01_r.m2",
+        value = "shoulder_armor_etherealshawl_d_01_r.m2",
+       },
+       {
+        fileId = "6378618",
+        text = "shoulder_armor_etherealwastelander_d_01_l.m2",
+        value = "shoulder_armor_etherealwastelander_d_01_l.m2",
+       },
+       {
+        fileId = "6378617",
+        text = "shoulder_armor_etherealwastelander_d_01_r.m2",
+        value = "shoulder_armor_etherealwastelander_d_01_r.m2",
+       },
+       {
+        fileId = "6692785",
+        text = "shoulder_armor_faerin_d_01_l.m2",
+        value = "shoulder_armor_faerin_d_01_l.m2",
+       },
+       {
+        fileId = "6692786",
+        text = "shoulder_armor_faerin_d_01_r.m2",
+        value = "shoulder_armor_faerin_d_01_r.m2",
+       },
+       {
+        fileId = "7096258",
+        text = "shoulder_armor_felreaver_d_01_l.m2",
+        value = "shoulder_armor_felreaver_d_01_l.m2",
+       },
+       {
+        fileId = "7096259",
+        text = "shoulder_armor_felreaver_d_01_r.m2",
+        value = "shoulder_armor_felreaver_d_01_r.m2",
+       },
+       {
         fileId = "4421866",
         text = "shoulder_armor_fireplume_l.m2",
         value = "shoulder_armor_fireplume_l.m2",
@@ -288485,6 +300398,16 @@ WeakAuras.ModelPaths = {
         fileId = "4421867",
         text = "shoulder_armor_fireplume_r.m2",
         value = "shoulder_armor_fireplume_r.m2",
+       },
+       {
+        fileId = "6893249",
+        text = "shoulder_armor_fisherfolk_c_01_l.m2",
+        value = "shoulder_armor_fisherfolk_c_01_l.m2",
+       },
+       {
+        fileId = "6893250",
+        text = "shoulder_armor_fisherfolk_c_01_r.m2",
+        value = "shoulder_armor_fisherfolk_c_01_r.m2",
        },
        {
         fileId = "5145294",
@@ -288567,6 +300490,16 @@ WeakAuras.ModelPaths = {
         value = "shoulder_armor_gryphonrider_d_01_gold_r.m2",
        },
        {
+        fileId = "7016460",
+        text = "shoulder_armor_headless_d_01_l.m2",
+        value = "shoulder_armor_headless_d_01_l.m2",
+       },
+       {
+        fileId = "7016461",
+        text = "shoulder_armor_headless_d_01_r.m2",
+        value = "shoulder_armor_headless_d_01_r.m2",
+       },
+       {
         fileId = "6181437",
         text = "shoulder_armor_heartshoulder_c_01_l.m2",
         value = "shoulder_armor_heartshoulder_c_01_l.m2",
@@ -288597,6 +300530,16 @@ WeakAuras.ModelPaths = {
         value = "shoulder_armor_highmountaintauren_d_01_r.m2",
        },
        {
+        fileId = "6393144",
+        text = "shoulder_armor_karesh_c_01_l.m2",
+        value = "shoulder_armor_karesh_c_01_l.m2",
+       },
+       {
+        fileId = "6393145",
+        text = "shoulder_armor_karesh_c_01_r.m2",
+        value = "shoulder_armor_karesh_c_01_r.m2",
+       },
+       {
         fileId = "2324139",
         text = "shoulder_armor_kultiranhuman_d_01_l.m2",
         value = "shoulder_armor_kultiranhuman_d_01_l.m2",
@@ -288615,6 +300558,16 @@ WeakAuras.ModelPaths = {
         fileId = "1624168",
         text = "shoulder_armor_lightforgeddraenei_d_01_r.m2",
         value = "shoulder_armor_lightforgeddraenei_d_01_r.m2",
+       },
+       {
+        fileId = "7135194",
+        text = "shoulder_armor_magni_d_01_l.m2",
+        value = "shoulder_armor_magni_d_01_l.m2",
+       },
+       {
+        fileId = "7135195",
+        text = "shoulder_armor_magni_d_01_r.m2",
+        value = "shoulder_armor_magni_d_01_r.m2",
        },
        {
         fileId = "3938263",
@@ -294369,6 +306322,11 @@ WeakAuras.ModelPaths = {
         value = "axe_1h_cataclysm_c_01.m2",
        },
        {
+        fileId = "6783857",
+        text = "axe_1h_chess_d_01.m2",
+        value = "axe_1h_chess_d_01.m2",
+       },
+       {
         fileId = "6663515",
         text = "axe_1h_corehound_d_01.m2",
         value = "axe_1h_corehound_d_01.m2",
@@ -294622,6 +306580,11 @@ WeakAuras.ModelPaths = {
         fileId = "4993941",
         text = "axe_1h_emeralddreamraid_d_01.m2",
         value = "axe_1h_emeralddreamraid_d_01.m2",
+       },
+       {
+        fileId = "6214695",
+        text = "axe_1h_etherealraid_d_01.m2",
+        value = "axe_1h_etherealraid_d_01.m2",
        },
        {
         fileId = "1717138",
@@ -295032,6 +306995,11 @@ WeakAuras.ModelPaths = {
         fileId = "3509641",
         text = "axe_1h_oribosdungeon_c_01.m2",
         value = "axe_1h_oribosdungeon_c_01.m2",
+       },
+       {
+        fileId = "6118989",
+        text = "axe_1h_outdoorethereal_c_01.m2",
+        value = "axe_1h_outdoorethereal_c_01.m2",
        },
        {
         fileId = "5739271",
@@ -296544,6 +308512,11 @@ WeakAuras.ModelPaths = {
         value = "bow_1h_encrypted18_b_01.m2",
        },
        {
+        fileId = "6214696",
+        text = "bow_1h_etherealraid_d_01.m2",
+        value = "bow_1h_etherealraid_d_01.m2",
+       },
+       {
         fileId = "1097662",
         text = "bow_1h_felfireraid_d_01.m2",
         value = "bow_1h_felfireraid_d_01.m2",
@@ -296552,6 +308525,11 @@ WeakAuras.ModelPaths = {
         fileId = "528248",
         text = "bow_1h_firelandsraid_d_01.m2",
         value = "bow_1h_firelandsraid_d_01.m2",
+       },
+       {
+        fileId = "6736671",
+        text = "bow_1h_forsaken_d_01.m2",
+        value = "bow_1h_forsaken_d_01.m2",
        },
        {
         fileId = "332406",
@@ -297304,6 +309282,11 @@ WeakAuras.ModelPaths = {
         value = "bow_2h_crossbow_zulgurub_d_01.m2",
        },
        {
+        fileId = "7064530",
+        text = "bow_2h_dwarf_d_01.m2",
+        value = "bow_2h_dwarf_d_01.m2",
+       },
+       {
         fileId = "3486058",
         text = "bullet_firearm_2h_maldraxxus_d_01.m2",
         value = "bullet_firearm_2h_maldraxxus_d_01.m2",
@@ -297367,6 +309350,11 @@ WeakAuras.ModelPaths = {
         fileId = "5242030",
         text = "crossbow_2h_earthendungeon_c_01.m2",
         value = "crossbow_2h_earthendungeon_c_01.m2",
+       },
+       {
+        fileId = "6214705",
+        text = "crossbow_2h_etherealraid_d_01.m2",
+        value = "crossbow_2h_etherealraid_d_01.m2",
        },
        {
         fileId = "4274743",
@@ -297587,6 +309575,11 @@ WeakAuras.ModelPaths = {
         fileId = "3059920",
         text = "firearm_2h_nzothraid_d_01.m2",
         value = "firearm_2h_nzothraid_d_01.m2",
+       },
+       {
+        fileId = "6214685",
+        text = "firearm_2h_outdoorethereal_c_01.m2",
+        value = "firearm_2h_outdoorethereal_c_01.m2",
        },
        {
         fileId = "5739268",
@@ -298284,9 +310277,29 @@ WeakAuras.ModelPaths = {
         value = "glaive_1h_emeralddreamraid_d_01.m2",
        },
        {
+        fileId = "6214697",
+        text = "glaive_1h_etherealraid_d_01.m2",
+        value = "glaive_1h_etherealraid_d_01.m2",
+       },
+       {
         fileId = "1269076",
         text = "glaive_1h_felcordana_b_01.m2",
         value = "glaive_1h_felcordana_b_01.m2",
+       },
+       {
+        fileId = "6758264",
+        text = "glaive_1h_forsaken_d_01.m2",
+        value = "glaive_1h_forsaken_d_01.m2",
+       },
+       {
+        fileId = "7208732",
+        text = "glaive_1h_generic_b_01.m2",
+        value = "glaive_1h_generic_b_01.m2",
+       },
+       {
+        fileId = "7208733",
+        text = "glaive_1h_generic_b_02.m2",
+        value = "glaive_1h_generic_b_02.m2",
        },
        {
         fileId = "5676867",
@@ -298377,6 +310390,11 @@ WeakAuras.ModelPaths = {
         fileId = "3490109",
         text = "glaive_1h_oribosdungeon_c_01.m2",
         value = "glaive_1h_oribosdungeon_c_01.m2",
+       },
+       {
+        fileId = "6214686",
+        text = "glaive_1h_outdoorethereal_c_01.m2",
+        value = "glaive_1h_outdoorethereal_c_01.m2",
        },
        {
         fileId = "5739269",
@@ -300739,6 +312757,21 @@ WeakAuras.ModelPaths = {
         value = "knife_1h_epic_a_05alt.m2",
        },
        {
+        fileId = "6214699",
+        text = "knife_1h_etherealraid_d_01.m2",
+        value = "knife_1h_etherealraid_d_01.m2",
+       },
+       {
+        fileId = "6214700",
+        text = "knife_1h_etherealraid_d_02.m2",
+        value = "knife_1h_etherealraid_d_02.m2",
+       },
+       {
+        fileId = "6226458",
+        text = "knife_1h_etherealtool_b_01.m2",
+        value = "knife_1h_etherealtool_b_01.m2",
+       },
+       {
         fileId = "146148",
         text = "knife_1h_exotic_a_01.m2",
         value = "knife_1h_exotic_a_01.m2",
@@ -300757,6 +312790,11 @@ WeakAuras.ModelPaths = {
         fileId = "146160",
         text = "knife_1h_exotic_b_02.m2",
         value = "knife_1h_exotic_b_02.m2",
+       },
+       {
+        fileId = "7074597",
+        text = "knife_1h_fel_d_01_v1.m2",
+        value = "knife_1h_fel_d_01_v1.m2",
        },
        {
         fileId = "1717100",
@@ -300802,6 +312840,16 @@ WeakAuras.ModelPaths = {
         fileId = "1064502",
         text = "knife_1h_garrison_a_01.m2",
         value = "knife_1h_garrison_a_01.m2",
+       },
+       {
+        fileId = "7208734",
+        text = "knife_1h_generic_b_01.m2",
+        value = "knife_1h_generic_b_01.m2",
+       },
+       {
+        fileId = "7208739",
+        text = "knife_1h_generic_b_02.m2",
+        value = "knife_1h_generic_b_02.m2",
        },
        {
         fileId = "331057",
@@ -301172,6 +313220,11 @@ WeakAuras.ModelPaths = {
         fileId = "3537001",
         text = "knife_1h_oribosdungeon_c_02.m2",
         value = "knife_1h_oribosdungeon_c_02.m2",
+       },
+       {
+        fileId = "6214687",
+        text = "knife_1h_outdoorethereal_c_01.m2",
+        value = "knife_1h_outdoorethereal_c_01.m2",
        },
        {
         fileId = "5739279",
@@ -301944,6 +313997,11 @@ WeakAuras.ModelPaths = {
         value = "mace_1h_artifactdoomhammer_d_06.m2",
        },
        {
+        fileId = "1137531",
+        text = "mace_1h_artifactheartofkure_d_01.m2",
+        value = "mace_1h_artifactheartofkure_d_01.m2",
+       },
+       {
         fileId = "1385853",
         text = "mace_1h_artifactmagnar_d_05.m2",
         value = "mace_1h_artifactmagnar_d_05.m2",
@@ -302379,6 +314437,11 @@ WeakAuras.ModelPaths = {
         value = "mace_1h_drogbar_b_01.m2",
        },
        {
+        fileId = "6926977",
+        text = "mace_1h_dwarf_d_01.m2",
+        value = "mace_1h_dwarf_d_01.m2",
+       },
+       {
         fileId = "5242016",
         text = "mace_1h_earthendungeon_c_01.m2",
         value = "mace_1h_earthendungeon_c_01.m2",
@@ -302422,6 +314485,21 @@ WeakAuras.ModelPaths = {
         fileId = "1992026",
         text = "mace_1h_enprofession_c_01.m2",
         value = "mace_1h_enprofession_c_01.m2",
+       },
+       {
+        fileId = "6226460",
+        text = "mace_1h_etherealdefense_b_01.m2",
+        value = "mace_1h_etherealdefense_b_01.m2",
+       },
+       {
+        fileId = "6214701",
+        text = "mace_1h_etherealraid_d_01.m2",
+        value = "mace_1h_etherealraid_d_01.m2",
+       },
+       {
+        fileId = "6214702",
+        text = "mace_1h_etherealraid_d_02.m2",
+        value = "mace_1h_etherealraid_d_02.m2",
        },
        {
         fileId = "1892677",
@@ -302512,6 +314590,11 @@ WeakAuras.ModelPaths = {
         fileId = "146546",
         text = "mace_1h_flanged_d_01.m2",
         value = "mace_1h_flanged_d_01.m2",
+       },
+       {
+        fileId = "6733755",
+        text = "mace_1h_forsaken_d_01.m2",
+        value = "mace_1h_forsaken_d_01.m2",
        },
        {
         fileId = "238747",
@@ -302842,6 +314925,16 @@ WeakAuras.ModelPaths = {
         fileId = "3551571",
         text = "mace_1h_oribosdungeon_c_02.m2",
         value = "mace_1h_oribosdungeon_c_02.m2",
+       },
+       {
+        fileId = "6214688",
+        text = "mace_1h_outdoorethereal_c_01.m2",
+        value = "mace_1h_outdoorethereal_c_01.m2",
+       },
+       {
+        fileId = "6214689",
+        text = "mace_1h_outdoorethereal_c_02.m2",
+        value = "mace_1h_outdoorethereal_c_02.m2",
        },
        {
         fileId = "5739270",
@@ -303579,6 +315672,11 @@ WeakAuras.ModelPaths = {
         value = "mace_2h_cataclysm_c_01.m2",
        },
        {
+        fileId = "6796724",
+        text = "mace_2h_chess_d_01.m2",
+        value = "mace_2h_chess_d_01.m2",
+       },
+       {
         fileId = "6210767",
         text = "mace_2h_clockwork_d_01.m2",
         value = "mace_2h_clockwork_d_01.m2",
@@ -303739,6 +315837,16 @@ WeakAuras.ModelPaths = {
         value = "mace_2h_emeralddreamraid_d_02.m2",
        },
        {
+        fileId = "6374103",
+        text = "mace_2h_etherealking_d_01.m2",
+        value = "mace_2h_etherealking_d_01.m2",
+       },
+       {
+        fileId = "6214706",
+        text = "mace_2h_etherealraid_d_01.m2",
+        value = "mace_2h_etherealraid_d_01.m2",
+       },
+       {
         fileId = "1093846",
         text = "mace_2h_felfireraid_d_01.m2",
         value = "mace_2h_felfireraid_d_01.m2",
@@ -303872,6 +315980,11 @@ WeakAuras.ModelPaths = {
         fileId = "305442",
         text = "mace_2h_misc_d_01.m2",
         value = "mace_2h_misc_d_01.m2",
+       },
+       {
+        fileId = "7048772",
+        text = "mace_2h_mithrilcrusher_d_01.m2",
+        value = "mace_2h_mithrilcrusher_d_01.m2",
        },
        {
         fileId = "238782",
@@ -305184,6 +317297,11 @@ WeakAuras.ModelPaths = {
         value = "misc_nightelfspyglass.m2",
        },
        {
+        fileId = "6787465",
+        text = "misc_offhand_1h_brokerslantern_c_01.m2",
+        value = "misc_offhand_1h_brokerslantern_c_01.m2",
+       },
+       {
         fileId = "4618737",
         text = "misc_rope_01_yellowblue.m2",
         value = "misc_rope_01_yellowblue.m2",
@@ -305594,6 +317712,11 @@ WeakAuras.ModelPaths = {
         value = "offhand_1h_drustvar_d_01.m2",
        },
        {
+        fileId = "6892798",
+        text = "offhand_1h_dwarf_d_01.m2",
+        value = "offhand_1h_dwarf_d_01.m2",
+       },
+       {
         fileId = "4201348",
         text = "offhand_1h_dynamite_a_01.m2",
         value = "offhand_1h_dynamite_a_01.m2",
@@ -305617,6 +317740,26 @@ WeakAuras.ModelPaths = {
         fileId = "4993939",
         text = "offhand_1h_emeralddreamraid_d_01.m2",
         value = "offhand_1h_emeralddreamraid_d_01.m2",
+       },
+       {
+        fileId = "6214703",
+        text = "offhand_1h_etherealraid_d_01.m2",
+        value = "offhand_1h_etherealraid_d_01.m2",
+       },
+       {
+        fileId = "6214704",
+        text = "offhand_1h_etherealraid_d_02.m2",
+        value = "offhand_1h_etherealraid_d_02.m2",
+       },
+       {
+        fileId = "6226457",
+        text = "offhand_1h_etherealtool_b_01.m2",
+        value = "offhand_1h_etherealtool_b_01.m2",
+       },
+       {
+        fileId = "6226459",
+        text = "offhand_1h_etherealtool_b_02.m2",
+        value = "offhand_1h_etherealtool_b_02.m2",
        },
        {
         fileId = "1102413",
@@ -305742,6 +317885,11 @@ WeakAuras.ModelPaths = {
         fileId = "3501999",
         text = "offhand_1h_oribosdungeon_c_01.m2",
         value = "offhand_1h_oribosdungeon_c_01.m2",
+       },
+       {
+        fileId = "6214690",
+        text = "offhand_1h_outdoorethereal_c_01.m2",
+        value = "offhand_1h_outdoorethereal_c_01.m2",
        },
        {
         fileId = "5739275",
@@ -306639,6 +318787,11 @@ WeakAuras.ModelPaths = {
         value = "polearm_2h_epic_d_07.m2",
        },
        {
+        fileId = "6214707",
+        text = "polearm_2h_etherealraid_d_01.m2",
+        value = "polearm_2h_etherealraid_d_01.m2",
+       },
+       {
         fileId = "1717153",
         text = "polearm_2h_felbroken_a_01.m2",
         value = "polearm_2h_felbroken_a_01.m2",
@@ -306967,6 +319120,11 @@ WeakAuras.ModelPaths = {
         fileId = "3614622",
         text = "polearm_2h_oribosdungeon_c_02.m2",
         value = "polearm_2h_oribosdungeon_c_02.m2",
+       },
+       {
+        fileId = "6214693",
+        text = "polearm_2h_outdoorethereal_c_01.m2",
+        value = "polearm_2h_outdoorethereal_c_01.m2",
        },
        {
         fileId = "5739272",
@@ -307809,6 +319967,11 @@ WeakAuras.ModelPaths = {
         value = "staff_2h_bwonsamdi_d_01.m2",
        },
        {
+        fileId = "6789236",
+        text = "staff_2h_chess_d_01.m2",
+        value = "staff_2h_chess_d_01.m2",
+       },
+       {
         fileId = "2120018",
         text = "staff_2h_darkirondwarf_d_01.m2",
         value = "staff_2h_darkirondwarf_d_01.m2",
@@ -308174,6 +320337,26 @@ WeakAuras.ModelPaths = {
         value = "staff_2h_eredarbosspc_c_01.m2",
        },
        {
+        fileId = "6226456",
+        text = "staff_2h_etherealdefense_b_01.m2",
+        value = "staff_2h_etherealdefense_b_01.m2",
+       },
+       {
+        fileId = "6214708",
+        text = "staff_2h_etherealraid_d_01.m2",
+        value = "staff_2h_etherealraid_d_01.m2",
+       },
+       {
+        fileId = "6214709",
+        text = "staff_2h_etherealraid_d_02.m2",
+        value = "staff_2h_etherealraid_d_02.m2",
+       },
+       {
+        fileId = "7074599",
+        text = "staff_2h_fel_d_01_green.m2",
+        value = "staff_2h_fel_d_01_green.m2",
+       },
+       {
         fileId = "1114220",
         text = "staff_2h_felfireraid_d_01.m2",
         value = "staff_2h_felfireraid_d_01.m2",
@@ -308324,6 +320507,11 @@ WeakAuras.ModelPaths = {
         value = "staff_2h_mechagnome_c_01.m2",
        },
        {
+        fileId = "6880001",
+        text = "staff_2h_midsummerscythe_d_01_blue.m2",
+        value = "staff_2h_midsummerscythe_d_01_blue.m2",
+       },
+       {
         fileId = "4407235",
         text = "staff_2h_monk_c_01.m2",
         value = "staff_2h_monk_c_01.m2",
@@ -308457,6 +320645,11 @@ WeakAuras.ModelPaths = {
         fileId = "3461472",
         text = "staff_2h_oribosdungeon_c_01.m2",
         value = "staff_2h_oribosdungeon_c_01.m2",
+       },
+       {
+        fileId = "6214694",
+        text = "staff_2h_outdoorethereal_c_01.m2",
+        value = "staff_2h_outdoorethereal_c_01.m2",
        },
        {
         fileId = "5739278",
@@ -310049,6 +322242,11 @@ WeakAuras.ModelPaths = {
         value = "sword_1h_broker2boss_d_01.m2",
        },
        {
+        fileId = "6904856",
+        text = "sword_1h_broker2boss_d_01_green.m2",
+        value = "sword_1h_broker2boss_d_01_green.m2",
+       },
+       {
         fileId = "3894428",
         text = "sword_1h_broker_c_01.m2",
         value = "sword_1h_broker_c_01.m2",
@@ -310419,6 +322617,21 @@ WeakAuras.ModelPaths = {
         value = "sword_1h_emeralddreamraid_d_02.m2",
        },
        {
+        fileId = "6226461",
+        text = "sword_1h_etherealdefense_b_01.m2",
+        value = "sword_1h_etherealdefense_b_01.m2",
+       },
+       {
+        fileId = "6865895",
+        text = "sword_1h_etherealraid_d_01.m2",
+        value = "sword_1h_etherealraid_d_01.m2",
+       },
+       {
+        fileId = "7074598",
+        text = "sword_1h_fel_d_01.m2",
+        value = "sword_1h_fel_d_01.m2",
+       },
+       {
         fileId = "4252713",
         text = "sword_1h_felfire_d_01.m2",
         value = "sword_1h_felfire_d_01.m2",
@@ -310464,6 +322677,11 @@ WeakAuras.ModelPaths = {
         value = "sword_1h_firelandsraid_d_04.m2",
        },
        {
+        fileId = "6840699",
+        text = "sword_1h_forsaken_d_01.m2",
+        value = "sword_1h_forsaken_d_01.m2",
+       },
+       {
         fileId = "1063826",
         text = "sword_1h_garrison_a_01.m2",
         value = "sword_1h_garrison_a_01.m2",
@@ -310489,6 +322707,16 @@ WeakAuras.ModelPaths = {
         value = "sword_1h_garrison_a_05.m2",
        },
        {
+        fileId = "7208735",
+        text = "sword_1h_generic_b_01.m2",
+        value = "sword_1h_generic_b_01.m2",
+       },
+       {
+        fileId = "7208738",
+        text = "sword_1h_generic_b_02.m2",
+        value = "sword_1h_generic_b_02.m2",
+       },
+       {
         fileId = "331061",
         text = "sword_1h_goblin_b_01.m2",
         value = "sword_1h_goblin_b_01.m2",
@@ -310512,6 +322740,11 @@ WeakAuras.ModelPaths = {
         fileId = "147862",
         text = "sword_1h_haremmatron_d_01.m2",
         value = "sword_1h_haremmatron_d_01.m2",
+       },
+       {
+        fileId = "6914164",
+        text = "sword_1h_headless_d_01.m2",
+        value = "sword_1h_headless_d_01.m2",
        },
        {
         fileId = "147864",
@@ -311027,6 +323260,11 @@ WeakAuras.ModelPaths = {
         fileId = "3502002",
         text = "sword_1h_oribosdungeon_c_01.m2",
         value = "sword_1h_oribosdungeon_c_01.m2",
+       },
+       {
+        fileId = "6214691",
+        text = "sword_1h_outdoorethereal_c_01.m2",
+        value = "sword_1h_outdoorethereal_c_01.m2",
        },
        {
         fileId = "5739280",
@@ -311649,6 +323887,11 @@ WeakAuras.ModelPaths = {
         value = "sword_1h_zulgurub_d_02.m2",
        },
        {
+        fileId = "6887151",
+        text = "sword_22.m2",
+        value = "sword_22.m2",
+       },
+       {
         fileId = "5684398",
         text = "sword_29.m2",
         value = "sword_29.m2",
@@ -312154,6 +324397,11 @@ WeakAuras.ModelPaths = {
         value = "sword_2h_epic_a_03alt.m2",
        },
        {
+        fileId = "6214710",
+        text = "sword_2h_etherealraid_d_01.m2",
+        value = "sword_2h_etherealraid_d_01.m2",
+       },
+       {
         fileId = "1094531",
         text = "sword_2h_felfireraid_d_01.m2",
         value = "sword_2h_felfireraid_d_01.m2",
@@ -312174,6 +324422,11 @@ WeakAuras.ModelPaths = {
         value = "sword_2h_foam_a_01.m2",
        },
        {
+        fileId = "6840924",
+        text = "sword_2h_forsaken_d_01.m2",
+        value = "sword_2h_forsaken_d_01.m2",
+       },
+       {
         fileId = "148362",
         text = "sword_2h_frostmourne_d_01.m2",
         value = "sword_2h_frostmourne_d_01.m2",
@@ -312189,6 +324442,16 @@ WeakAuras.ModelPaths = {
         value = "sword_2h_frostmourne_d_02_broken.m2",
        },
        {
+        fileId = "7208736",
+        text = "sword_2h_generic_b_01.m2",
+        value = "sword_2h_generic_b_01.m2",
+       },
+       {
+        fileId = "7208737",
+        text = "sword_2h_generic_b_02.m2",
+        value = "sword_2h_generic_b_02.m2",
+       },
+       {
         fileId = "4628112",
         text = "sword_2h_gladiatorshalamayne_c_01.m2",
         value = "sword_2h_gladiatorshalamayne_c_01.m2",
@@ -312197,6 +324460,11 @@ WeakAuras.ModelPaths = {
         fileId = "368893",
         text = "sword_2h_grimbatolraid_d_01.m2",
         value = "sword_2h_grimbatolraid_d_01.m2",
+       },
+       {
+        fileId = "6992688",
+        text = "sword_2h_headless_d_01.m2",
+        value = "sword_2h_headless_d_01.m2",
        },
        {
         fileId = "148364",
@@ -312417,6 +324685,11 @@ WeakAuras.ModelPaths = {
         fileId = "3526701",
         text = "sword_2h_oribosdungeon_c_02.m2",
         value = "sword_2h_oribosdungeon_c_02.m2",
+       },
+       {
+        fileId = "6118987",
+        text = "sword_2h_outdoorethereal_c_01.m2",
+        value = "sword_2h_outdoorethereal_c_01.m2",
        },
        {
         fileId = "5739273",
@@ -313144,6 +325417,11 @@ WeakAuras.ModelPaths = {
         value = "wand_1h_enchanting_b_01.m2",
        },
        {
+        fileId = "7074600",
+        text = "wand_1h_fel_d_01.m2",
+        value = "wand_1h_fel_d_01.m2",
+       },
+       {
         fileId = "1113708",
         text = "wand_1h_felfireraid_d_01.m2",
         value = "wand_1h_felfireraid_d_01.m2",
@@ -313157,6 +325435,11 @@ WeakAuras.ModelPaths = {
         fileId = "469755",
         text = "wand_1h_firelandsraid_d_02.m2",
         value = "wand_1h_firelandsraid_d_02.m2",
+       },
+       {
+        fileId = "6794314",
+        text = "wand_1h_forsaken_d_01.m2",
+        value = "wand_1h_forsaken_d_01.m2",
        },
        {
         fileId = "372199",
@@ -313247,6 +325530,11 @@ WeakAuras.ModelPaths = {
         fileId = "893781",
         text = "wand_1h_orgrimmarraid_d_01.m2",
         value = "wand_1h_orgrimmarraid_d_01.m2",
+       },
+       {
+        fileId = "6214692",
+        text = "wand_1h_outdoorethereal_c_01.m2",
+        value = "wand_1h_outdoorethereal_c_01.m2",
        },
        {
         fileId = "5739276",
@@ -313525,6 +325813,28 @@ WeakAuras.ModelPaths = {
      {
       children = {
        {
+        fileId = "6181813",
+        text = "6181813.m2",
+        value = "6181813.m2",
+       },
+      },
+      text = "unk_exp10_6181813",
+      value = "unk_exp10_6181813",
+     },
+     {
+      children = {
+       {
+        fileId = "6405963",
+        text = "6405963.m2",
+        value = "6405963.m2",
+       },
+      },
+      text = "unk_exp10_6405963",
+      value = "unk_exp10_6405963",
+     },
+     {
+      children = {
+       {
         fileId = "6433189",
         text = "6433189.m2",
         value = "6433189.m2",
@@ -313536,6 +325846,17 @@ WeakAuras.ModelPaths = {
      {
       children = {
        {
+        fileId = "6658771",
+        text = "6658771.m2",
+        value = "6658771.m2",
+       },
+      },
+      text = "unk_exp10_6658771",
+      value = "unk_exp10_6658771",
+     },
+     {
+      children = {
+       {
         fileId = "6663431",
         text = "6663431.m2",
         value = "6663431.m2",
@@ -313543,6 +325864,39 @@ WeakAuras.ModelPaths = {
       },
       text = "unk_exp10_6663431",
       value = "unk_exp10_6663431",
+     },
+     {
+      children = {
+       {
+        fileId = "6724508",
+        text = "6724508.m2",
+        value = "6724508.m2",
+       },
+      },
+      text = "unk_exp10_6724508",
+      value = "unk_exp10_6724508",
+     },
+     {
+      children = {
+       {
+        fileId = "6798783",
+        text = "6798783.m2",
+        value = "6798783.m2",
+       },
+      },
+      text = "unk_exp10_6798783",
+      value = "unk_exp10_6798783",
+     },
+     {
+      children = {
+       {
+        fileId = "6838756",
+        text = "6838756.m2",
+        value = "6838756.m2",
+       },
+      },
+      text = "unk_exp10_6838756",
+      value = "unk_exp10_6838756",
      },
     },
     text = "creature",
@@ -314048,6 +326402,2041 @@ WeakAuras.ModelPaths = {
      {
       children = {
        {
+        fileId = "6217699",
+        text = "6217699_be_m.m2",
+        value = "6217699_be_m.m2",
+       },
+      },
+      text = "unk_exp10_6217699_be_m",
+      value = "unk_exp10_6217699_be_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217700",
+        text = "6217700_be_f.m2",
+        value = "6217700_be_f.m2",
+       },
+      },
+      text = "unk_exp10_6217700_be_f",
+      value = "unk_exp10_6217700_be_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6217701",
+        text = "6217701_dr_m.m2",
+        value = "6217701_dr_m.m2",
+       },
+      },
+      text = "unk_exp10_6217701_dr_m",
+      value = "unk_exp10_6217701_dr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217702",
+        text = "6217702_dr_f.m2",
+        value = "6217702_dr_f.m2",
+       },
+      },
+      text = "unk_exp10_6217702_dr_f",
+      value = "unk_exp10_6217702_dr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6217703",
+        text = "6217703_dw_m.m2",
+        value = "6217703_dw_m.m2",
+       },
+      },
+      text = "unk_exp10_6217703_dw_m",
+      value = "unk_exp10_6217703_dw_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217704",
+        text = "6217704_dw_f.m2",
+        value = "6217704_dw_f.m2",
+       },
+      },
+      text = "unk_exp10_6217704_dw_f",
+      value = "unk_exp10_6217704_dw_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6217705",
+        text = "6217705_gn_m.m2",
+        value = "6217705_gn_m.m2",
+       },
+      },
+      text = "unk_exp10_6217705_gn_m",
+      value = "unk_exp10_6217705_gn_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217706",
+        text = "6217706_gn_f.m2",
+        value = "6217706_gn_f.m2",
+       },
+      },
+      text = "unk_exp10_6217706_gn_f",
+      value = "unk_exp10_6217706_gn_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6217707",
+        text = "6217707_go_m.m2",
+        value = "6217707_go_m.m2",
+       },
+      },
+      text = "unk_exp10_6217707_go_m",
+      value = "unk_exp10_6217707_go_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217708",
+        text = "6217708_go_f.m2",
+        value = "6217708_go_f.m2",
+       },
+      },
+      text = "unk_exp10_6217708_go_f",
+      value = "unk_exp10_6217708_go_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6217709",
+        text = "6217709_hu_m.m2",
+        value = "6217709_hu_m.m2",
+       },
+      },
+      text = "unk_exp10_6217709_hu_m",
+      value = "unk_exp10_6217709_hu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217710",
+        text = "6217710_hu_f.m2",
+        value = "6217710_hu_f.m2",
+       },
+      },
+      text = "unk_exp10_6217710_hu_f",
+      value = "unk_exp10_6217710_hu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6217711",
+        text = "6217711_kt_m.m2",
+        value = "6217711_kt_m.m2",
+       },
+      },
+      text = "unk_exp10_6217711_kt_m",
+      value = "unk_exp10_6217711_kt_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217712",
+        text = "6217712_kt_f.m2",
+        value = "6217712_kt_f.m2",
+       },
+      },
+      text = "unk_exp10_6217712_kt_f",
+      value = "unk_exp10_6217712_kt_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6217713",
+        text = "6217713_mg_m.m2",
+        value = "6217713_mg_m.m2",
+       },
+      },
+      text = "unk_exp10_6217713_mg_m",
+      value = "unk_exp10_6217713_mg_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217714",
+        text = "6217714_mg_f.m2",
+        value = "6217714_mg_f.m2",
+       },
+      },
+      text = "unk_exp10_6217714_mg_f",
+      value = "unk_exp10_6217714_mg_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6217715",
+        text = "6217715_ni_m.m2",
+        value = "6217715_ni_m.m2",
+       },
+      },
+      text = "unk_exp10_6217715_ni_m",
+      value = "unk_exp10_6217715_ni_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217716",
+        text = "6217716_ni_f.m2",
+        value = "6217716_ni_f.m2",
+       },
+      },
+      text = "unk_exp10_6217716_ni_f",
+      value = "unk_exp10_6217716_ni_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6217717",
+        text = "6217717_nb_m.m2",
+        value = "6217717_nb_m.m2",
+       },
+      },
+      text = "unk_exp10_6217717_nb_m",
+      value = "unk_exp10_6217717_nb_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217718",
+        text = "6217718_or_m.m2",
+        value = "6217718_or_m.m2",
+       },
+      },
+      text = "unk_exp10_6217718_or_m",
+      value = "unk_exp10_6217718_or_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217719",
+        text = "6217719_or_f.m2",
+        value = "6217719_or_f.m2",
+       },
+      },
+      text = "unk_exp10_6217719_or_f",
+      value = "unk_exp10_6217719_or_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6217720",
+        text = "6217720_pa_m.m2",
+        value = "6217720_pa_m.m2",
+       },
+      },
+      text = "unk_exp10_6217720_pa_m",
+      value = "unk_exp10_6217720_pa_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217721",
+        text = "6217721_pa_f.m2",
+        value = "6217721_pa_f.m2",
+       },
+      },
+      text = "unk_exp10_6217721_pa_f",
+      value = "unk_exp10_6217721_pa_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6217722",
+        text = "6217722_ta_m.m2",
+        value = "6217722_ta_m.m2",
+       },
+      },
+      text = "unk_exp10_6217722_ta_m",
+      value = "unk_exp10_6217722_ta_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217723",
+        text = "6217723_ta_f.m2",
+        value = "6217723_ta_f.m2",
+       },
+      },
+      text = "unk_exp10_6217723_ta_f",
+      value = "unk_exp10_6217723_ta_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6217724",
+        text = "6217724_tr_m.m2",
+        value = "6217724_tr_m.m2",
+       },
+      },
+      text = "unk_exp10_6217724_tr_m",
+      value = "unk_exp10_6217724_tr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217725",
+        text = "6217725_tr_f.m2",
+        value = "6217725_tr_f.m2",
+       },
+      },
+      text = "unk_exp10_6217725_tr_f",
+      value = "unk_exp10_6217725_tr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6217726",
+        text = "6217726_sc_m.m2",
+        value = "6217726_sc_m.m2",
+       },
+      },
+      text = "unk_exp10_6217726_sc_m",
+      value = "unk_exp10_6217726_sc_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217727",
+        text = "6217727_sc_f.m2",
+        value = "6217727_sc_f.m2",
+       },
+      },
+      text = "unk_exp10_6217727_sc_f",
+      value = "unk_exp10_6217727_sc_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6217728",
+        text = "6217728_vu_m.m2",
+        value = "6217728_vu_m.m2",
+       },
+      },
+      text = "unk_exp10_6217728_vu_m",
+      value = "unk_exp10_6217728_vu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217729",
+        text = "6217729_vu_f.m2",
+        value = "6217729_vu_f.m2",
+       },
+      },
+      text = "unk_exp10_6217729_vu_f",
+      value = "unk_exp10_6217729_vu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6217730",
+        text = "6217730_wo_m.m2",
+        value = "6217730_wo_m.m2",
+       },
+      },
+      text = "unk_exp10_6217730_wo_m",
+      value = "unk_exp10_6217730_wo_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217731",
+        text = "6217731_wo_f.m2",
+        value = "6217731_wo_f.m2",
+       },
+      },
+      text = "unk_exp10_6217731_wo_f",
+      value = "unk_exp10_6217731_wo_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6217732",
+        text = "6217732_za_m.m2",
+        value = "6217732_za_m.m2",
+       },
+      },
+      text = "unk_exp10_6217732_za_m",
+      value = "unk_exp10_6217732_za_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6217733",
+        text = "6217733_za_f.m2",
+        value = "6217733_za_f.m2",
+       },
+      },
+      text = "unk_exp10_6217733_za_f",
+      value = "unk_exp10_6217733_za_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422643",
+        text = "6422643_be_m.m2",
+        value = "6422643_be_m.m2",
+       },
+      },
+      text = "unk_exp10_6422643_be_m",
+      value = "unk_exp10_6422643_be_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422644",
+        text = "6422644_be_f.m2",
+        value = "6422644_be_f.m2",
+       },
+      },
+      text = "unk_exp10_6422644_be_f",
+      value = "unk_exp10_6422644_be_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422645",
+        text = "6422645_dr_m.m2",
+        value = "6422645_dr_m.m2",
+       },
+      },
+      text = "unk_exp10_6422645_dr_m",
+      value = "unk_exp10_6422645_dr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422646",
+        text = "6422646_dr_f.m2",
+        value = "6422646_dr_f.m2",
+       },
+      },
+      text = "unk_exp10_6422646_dr_f",
+      value = "unk_exp10_6422646_dr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422647",
+        text = "6422647_dw_m.m2",
+        value = "6422647_dw_m.m2",
+       },
+      },
+      text = "unk_exp10_6422647_dw_m",
+      value = "unk_exp10_6422647_dw_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422648",
+        text = "6422648_dw_f.m2",
+        value = "6422648_dw_f.m2",
+       },
+      },
+      text = "unk_exp10_6422648_dw_f",
+      value = "unk_exp10_6422648_dw_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422649",
+        text = "6422649_gn_m.m2",
+        value = "6422649_gn_m.m2",
+       },
+      },
+      text = "unk_exp10_6422649_gn_m",
+      value = "unk_exp10_6422649_gn_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422650",
+        text = "6422650_gn_f.m2",
+        value = "6422650_gn_f.m2",
+       },
+      },
+      text = "unk_exp10_6422650_gn_f",
+      value = "unk_exp10_6422650_gn_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422651",
+        text = "6422651_go_m.m2",
+        value = "6422651_go_m.m2",
+       },
+      },
+      text = "unk_exp10_6422651_go_m",
+      value = "unk_exp10_6422651_go_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422652",
+        text = "6422652_go_f.m2",
+        value = "6422652_go_f.m2",
+       },
+      },
+      text = "unk_exp10_6422652_go_f",
+      value = "unk_exp10_6422652_go_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422653",
+        text = "6422653_hu_m.m2",
+        value = "6422653_hu_m.m2",
+       },
+      },
+      text = "unk_exp10_6422653_hu_m",
+      value = "unk_exp10_6422653_hu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422654",
+        text = "6422654_hu_f.m2",
+        value = "6422654_hu_f.m2",
+       },
+      },
+      text = "unk_exp10_6422654_hu_f",
+      value = "unk_exp10_6422654_hu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422655",
+        text = "6422655_kt_m.m2",
+        value = "6422655_kt_m.m2",
+       },
+      },
+      text = "unk_exp10_6422655_kt_m",
+      value = "unk_exp10_6422655_kt_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422656",
+        text = "6422656_kt_f.m2",
+        value = "6422656_kt_f.m2",
+       },
+      },
+      text = "unk_exp10_6422656_kt_f",
+      value = "unk_exp10_6422656_kt_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422657",
+        text = "6422657_mg_m.m2",
+        value = "6422657_mg_m.m2",
+       },
+      },
+      text = "unk_exp10_6422657_mg_m",
+      value = "unk_exp10_6422657_mg_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422658",
+        text = "6422658_mg_f.m2",
+        value = "6422658_mg_f.m2",
+       },
+      },
+      text = "unk_exp10_6422658_mg_f",
+      value = "unk_exp10_6422658_mg_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422659",
+        text = "6422659_ni_m.m2",
+        value = "6422659_ni_m.m2",
+       },
+      },
+      text = "unk_exp10_6422659_ni_m",
+      value = "unk_exp10_6422659_ni_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422660",
+        text = "6422660_ni_f.m2",
+        value = "6422660_ni_f.m2",
+       },
+      },
+      text = "unk_exp10_6422660_ni_f",
+      value = "unk_exp10_6422660_ni_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422661",
+        text = "6422661_nb_m.m2",
+        value = "6422661_nb_m.m2",
+       },
+      },
+      text = "unk_exp10_6422661_nb_m",
+      value = "unk_exp10_6422661_nb_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422662",
+        text = "6422662_or_m.m2",
+        value = "6422662_or_m.m2",
+       },
+      },
+      text = "unk_exp10_6422662_or_m",
+      value = "unk_exp10_6422662_or_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422663",
+        text = "6422663_or_f.m2",
+        value = "6422663_or_f.m2",
+       },
+      },
+      text = "unk_exp10_6422663_or_f",
+      value = "unk_exp10_6422663_or_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422664",
+        text = "6422664_pa_m.m2",
+        value = "6422664_pa_m.m2",
+       },
+      },
+      text = "unk_exp10_6422664_pa_m",
+      value = "unk_exp10_6422664_pa_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422665",
+        text = "6422665_pa_f.m2",
+        value = "6422665_pa_f.m2",
+       },
+      },
+      text = "unk_exp10_6422665_pa_f",
+      value = "unk_exp10_6422665_pa_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422666",
+        text = "6422666_ta_m.m2",
+        value = "6422666_ta_m.m2",
+       },
+      },
+      text = "unk_exp10_6422666_ta_m",
+      value = "unk_exp10_6422666_ta_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422667",
+        text = "6422667_ta_f.m2",
+        value = "6422667_ta_f.m2",
+       },
+      },
+      text = "unk_exp10_6422667_ta_f",
+      value = "unk_exp10_6422667_ta_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422668",
+        text = "6422668_tr_m.m2",
+        value = "6422668_tr_m.m2",
+       },
+      },
+      text = "unk_exp10_6422668_tr_m",
+      value = "unk_exp10_6422668_tr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422669",
+        text = "6422669_tr_f.m2",
+        value = "6422669_tr_f.m2",
+       },
+      },
+      text = "unk_exp10_6422669_tr_f",
+      value = "unk_exp10_6422669_tr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422670",
+        text = "6422670_sc_m.m2",
+        value = "6422670_sc_m.m2",
+       },
+      },
+      text = "unk_exp10_6422670_sc_m",
+      value = "unk_exp10_6422670_sc_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422671",
+        text = "6422671_sc_f.m2",
+        value = "6422671_sc_f.m2",
+       },
+      },
+      text = "unk_exp10_6422671_sc_f",
+      value = "unk_exp10_6422671_sc_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422672",
+        text = "6422672_vu_m.m2",
+        value = "6422672_vu_m.m2",
+       },
+      },
+      text = "unk_exp10_6422672_vu_m",
+      value = "unk_exp10_6422672_vu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422673",
+        text = "6422673_vu_f.m2",
+        value = "6422673_vu_f.m2",
+       },
+      },
+      text = "unk_exp10_6422673_vu_f",
+      value = "unk_exp10_6422673_vu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422674",
+        text = "6422674_wo_m.m2",
+        value = "6422674_wo_m.m2",
+       },
+      },
+      text = "unk_exp10_6422674_wo_m",
+      value = "unk_exp10_6422674_wo_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422675",
+        text = "6422675_wo_f.m2",
+        value = "6422675_wo_f.m2",
+       },
+      },
+      text = "unk_exp10_6422675_wo_f",
+      value = "unk_exp10_6422675_wo_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422676",
+        text = "6422676_za_m.m2",
+        value = "6422676_za_m.m2",
+       },
+      },
+      text = "unk_exp10_6422676_za_m",
+      value = "unk_exp10_6422676_za_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422677",
+        text = "6422677_za_f.m2",
+        value = "6422677_za_f.m2",
+       },
+      },
+      text = "unk_exp10_6422677_za_f",
+      value = "unk_exp10_6422677_za_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422678",
+        text = "6422678_be_m.m2",
+        value = "6422678_be_m.m2",
+       },
+      },
+      text = "unk_exp10_6422678_be_m",
+      value = "unk_exp10_6422678_be_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422679",
+        text = "6422679_be_f.m2",
+        value = "6422679_be_f.m2",
+       },
+      },
+      text = "unk_exp10_6422679_be_f",
+      value = "unk_exp10_6422679_be_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422680",
+        text = "6422680_dr_m.m2",
+        value = "6422680_dr_m.m2",
+       },
+      },
+      text = "unk_exp10_6422680_dr_m",
+      value = "unk_exp10_6422680_dr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422681",
+        text = "6422681_dr_f.m2",
+        value = "6422681_dr_f.m2",
+       },
+      },
+      text = "unk_exp10_6422681_dr_f",
+      value = "unk_exp10_6422681_dr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422682",
+        text = "6422682_dw_m.m2",
+        value = "6422682_dw_m.m2",
+       },
+      },
+      text = "unk_exp10_6422682_dw_m",
+      value = "unk_exp10_6422682_dw_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422683",
+        text = "6422683_dw_f.m2",
+        value = "6422683_dw_f.m2",
+       },
+      },
+      text = "unk_exp10_6422683_dw_f",
+      value = "unk_exp10_6422683_dw_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422684",
+        text = "6422684_gn_m.m2",
+        value = "6422684_gn_m.m2",
+       },
+      },
+      text = "unk_exp10_6422684_gn_m",
+      value = "unk_exp10_6422684_gn_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422685",
+        text = "6422685_gn_f.m2",
+        value = "6422685_gn_f.m2",
+       },
+      },
+      text = "unk_exp10_6422685_gn_f",
+      value = "unk_exp10_6422685_gn_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422686",
+        text = "6422686_go_m.m2",
+        value = "6422686_go_m.m2",
+       },
+      },
+      text = "unk_exp10_6422686_go_m",
+      value = "unk_exp10_6422686_go_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422687",
+        text = "6422687_go_f.m2",
+        value = "6422687_go_f.m2",
+       },
+      },
+      text = "unk_exp10_6422687_go_f",
+      value = "unk_exp10_6422687_go_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422688",
+        text = "6422688_hu_m.m2",
+        value = "6422688_hu_m.m2",
+       },
+      },
+      text = "unk_exp10_6422688_hu_m",
+      value = "unk_exp10_6422688_hu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422689",
+        text = "6422689_hu_f.m2",
+        value = "6422689_hu_f.m2",
+       },
+      },
+      text = "unk_exp10_6422689_hu_f",
+      value = "unk_exp10_6422689_hu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422690",
+        text = "6422690_kt_m.m2",
+        value = "6422690_kt_m.m2",
+       },
+      },
+      text = "unk_exp10_6422690_kt_m",
+      value = "unk_exp10_6422690_kt_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422691",
+        text = "6422691_kt_f.m2",
+        value = "6422691_kt_f.m2",
+       },
+      },
+      text = "unk_exp10_6422691_kt_f",
+      value = "unk_exp10_6422691_kt_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422692",
+        text = "6422692_mg_m.m2",
+        value = "6422692_mg_m.m2",
+       },
+      },
+      text = "unk_exp10_6422692_mg_m",
+      value = "unk_exp10_6422692_mg_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422693",
+        text = "6422693_mg_f.m2",
+        value = "6422693_mg_f.m2",
+       },
+      },
+      text = "unk_exp10_6422693_mg_f",
+      value = "unk_exp10_6422693_mg_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422694",
+        text = "6422694_ni_m.m2",
+        value = "6422694_ni_m.m2",
+       },
+      },
+      text = "unk_exp10_6422694_ni_m",
+      value = "unk_exp10_6422694_ni_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422695",
+        text = "6422695_ni_f.m2",
+        value = "6422695_ni_f.m2",
+       },
+      },
+      text = "unk_exp10_6422695_ni_f",
+      value = "unk_exp10_6422695_ni_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422696",
+        text = "6422696_nb_m.m2",
+        value = "6422696_nb_m.m2",
+       },
+      },
+      text = "unk_exp10_6422696_nb_m",
+      value = "unk_exp10_6422696_nb_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422697",
+        text = "6422697_or_m.m2",
+        value = "6422697_or_m.m2",
+       },
+      },
+      text = "unk_exp10_6422697_or_m",
+      value = "unk_exp10_6422697_or_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422698",
+        text = "6422698_or_f.m2",
+        value = "6422698_or_f.m2",
+       },
+      },
+      text = "unk_exp10_6422698_or_f",
+      value = "unk_exp10_6422698_or_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422699",
+        text = "6422699_pa_m.m2",
+        value = "6422699_pa_m.m2",
+       },
+      },
+      text = "unk_exp10_6422699_pa_m",
+      value = "unk_exp10_6422699_pa_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422700",
+        text = "6422700_pa_f.m2",
+        value = "6422700_pa_f.m2",
+       },
+      },
+      text = "unk_exp10_6422700_pa_f",
+      value = "unk_exp10_6422700_pa_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422701",
+        text = "6422701_ta_m.m2",
+        value = "6422701_ta_m.m2",
+       },
+      },
+      text = "unk_exp10_6422701_ta_m",
+      value = "unk_exp10_6422701_ta_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422702",
+        text = "6422702_ta_f.m2",
+        value = "6422702_ta_f.m2",
+       },
+      },
+      text = "unk_exp10_6422702_ta_f",
+      value = "unk_exp10_6422702_ta_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422703",
+        text = "6422703_tr_m.m2",
+        value = "6422703_tr_m.m2",
+       },
+      },
+      text = "unk_exp10_6422703_tr_m",
+      value = "unk_exp10_6422703_tr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422704",
+        text = "6422704_tr_f.m2",
+        value = "6422704_tr_f.m2",
+       },
+      },
+      text = "unk_exp10_6422704_tr_f",
+      value = "unk_exp10_6422704_tr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422705",
+        text = "6422705_sc_m.m2",
+        value = "6422705_sc_m.m2",
+       },
+      },
+      text = "unk_exp10_6422705_sc_m",
+      value = "unk_exp10_6422705_sc_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422706",
+        text = "6422706_sc_f.m2",
+        value = "6422706_sc_f.m2",
+       },
+      },
+      text = "unk_exp10_6422706_sc_f",
+      value = "unk_exp10_6422706_sc_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422707",
+        text = "6422707_vu_m.m2",
+        value = "6422707_vu_m.m2",
+       },
+      },
+      text = "unk_exp10_6422707_vu_m",
+      value = "unk_exp10_6422707_vu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422708",
+        text = "6422708_vu_f.m2",
+        value = "6422708_vu_f.m2",
+       },
+      },
+      text = "unk_exp10_6422708_vu_f",
+      value = "unk_exp10_6422708_vu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422709",
+        text = "6422709_wo_m.m2",
+        value = "6422709_wo_m.m2",
+       },
+      },
+      text = "unk_exp10_6422709_wo_m",
+      value = "unk_exp10_6422709_wo_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422710",
+        text = "6422710_wo_f.m2",
+        value = "6422710_wo_f.m2",
+       },
+      },
+      text = "unk_exp10_6422710_wo_f",
+      value = "unk_exp10_6422710_wo_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422711",
+        text = "6422711_za_m.m2",
+        value = "6422711_za_m.m2",
+       },
+      },
+      text = "unk_exp10_6422711_za_m",
+      value = "unk_exp10_6422711_za_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422712",
+        text = "6422712_za_f.m2",
+        value = "6422712_za_f.m2",
+       },
+      },
+      text = "unk_exp10_6422712_za_f",
+      value = "unk_exp10_6422712_za_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422713",
+        text = "6422713_be_m.m2",
+        value = "6422713_be_m.m2",
+       },
+      },
+      text = "unk_exp10_6422713_be_m",
+      value = "unk_exp10_6422713_be_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422714",
+        text = "6422714_be_f.m2",
+        value = "6422714_be_f.m2",
+       },
+      },
+      text = "unk_exp10_6422714_be_f",
+      value = "unk_exp10_6422714_be_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422715",
+        text = "6422715_dr_m.m2",
+        value = "6422715_dr_m.m2",
+       },
+      },
+      text = "unk_exp10_6422715_dr_m",
+      value = "unk_exp10_6422715_dr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422716",
+        text = "6422716_dr_f.m2",
+        value = "6422716_dr_f.m2",
+       },
+      },
+      text = "unk_exp10_6422716_dr_f",
+      value = "unk_exp10_6422716_dr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422717",
+        text = "6422717_dw_m.m2",
+        value = "6422717_dw_m.m2",
+       },
+      },
+      text = "unk_exp10_6422717_dw_m",
+      value = "unk_exp10_6422717_dw_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422718",
+        text = "6422718_dw_f.m2",
+        value = "6422718_dw_f.m2",
+       },
+      },
+      text = "unk_exp10_6422718_dw_f",
+      value = "unk_exp10_6422718_dw_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422719",
+        text = "6422719_gn_m.m2",
+        value = "6422719_gn_m.m2",
+       },
+      },
+      text = "unk_exp10_6422719_gn_m",
+      value = "unk_exp10_6422719_gn_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422720",
+        text = "6422720_gn_f.m2",
+        value = "6422720_gn_f.m2",
+       },
+      },
+      text = "unk_exp10_6422720_gn_f",
+      value = "unk_exp10_6422720_gn_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422721",
+        text = "6422721_go_m.m2",
+        value = "6422721_go_m.m2",
+       },
+      },
+      text = "unk_exp10_6422721_go_m",
+      value = "unk_exp10_6422721_go_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422722",
+        text = "6422722_go_f.m2",
+        value = "6422722_go_f.m2",
+       },
+      },
+      text = "unk_exp10_6422722_go_f",
+      value = "unk_exp10_6422722_go_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422723",
+        text = "6422723_hu_m.m2",
+        value = "6422723_hu_m.m2",
+       },
+      },
+      text = "unk_exp10_6422723_hu_m",
+      value = "unk_exp10_6422723_hu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422724",
+        text = "6422724_hu_f.m2",
+        value = "6422724_hu_f.m2",
+       },
+      },
+      text = "unk_exp10_6422724_hu_f",
+      value = "unk_exp10_6422724_hu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422725",
+        text = "6422725_kt_m.m2",
+        value = "6422725_kt_m.m2",
+       },
+      },
+      text = "unk_exp10_6422725_kt_m",
+      value = "unk_exp10_6422725_kt_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422726",
+        text = "6422726_kt_f.m2",
+        value = "6422726_kt_f.m2",
+       },
+      },
+      text = "unk_exp10_6422726_kt_f",
+      value = "unk_exp10_6422726_kt_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422727",
+        text = "6422727_mg_m.m2",
+        value = "6422727_mg_m.m2",
+       },
+      },
+      text = "unk_exp10_6422727_mg_m",
+      value = "unk_exp10_6422727_mg_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422728",
+        text = "6422728_mg_f.m2",
+        value = "6422728_mg_f.m2",
+       },
+      },
+      text = "unk_exp10_6422728_mg_f",
+      value = "unk_exp10_6422728_mg_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422729",
+        text = "6422729_ni_m.m2",
+        value = "6422729_ni_m.m2",
+       },
+      },
+      text = "unk_exp10_6422729_ni_m",
+      value = "unk_exp10_6422729_ni_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422730",
+        text = "6422730_ni_f.m2",
+        value = "6422730_ni_f.m2",
+       },
+      },
+      text = "unk_exp10_6422730_ni_f",
+      value = "unk_exp10_6422730_ni_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422731",
+        text = "6422731_nb_m.m2",
+        value = "6422731_nb_m.m2",
+       },
+      },
+      text = "unk_exp10_6422731_nb_m",
+      value = "unk_exp10_6422731_nb_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422732",
+        text = "6422732_or_m.m2",
+        value = "6422732_or_m.m2",
+       },
+      },
+      text = "unk_exp10_6422732_or_m",
+      value = "unk_exp10_6422732_or_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422733",
+        text = "6422733_or_f.m2",
+        value = "6422733_or_f.m2",
+       },
+      },
+      text = "unk_exp10_6422733_or_f",
+      value = "unk_exp10_6422733_or_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422734",
+        text = "6422734_pa_m.m2",
+        value = "6422734_pa_m.m2",
+       },
+      },
+      text = "unk_exp10_6422734_pa_m",
+      value = "unk_exp10_6422734_pa_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422735",
+        text = "6422735_pa_f.m2",
+        value = "6422735_pa_f.m2",
+       },
+      },
+      text = "unk_exp10_6422735_pa_f",
+      value = "unk_exp10_6422735_pa_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422736",
+        text = "6422736_ta_m.m2",
+        value = "6422736_ta_m.m2",
+       },
+      },
+      text = "unk_exp10_6422736_ta_m",
+      value = "unk_exp10_6422736_ta_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422737",
+        text = "6422737_ta_f.m2",
+        value = "6422737_ta_f.m2",
+       },
+      },
+      text = "unk_exp10_6422737_ta_f",
+      value = "unk_exp10_6422737_ta_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422738",
+        text = "6422738_tr_m.m2",
+        value = "6422738_tr_m.m2",
+       },
+      },
+      text = "unk_exp10_6422738_tr_m",
+      value = "unk_exp10_6422738_tr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422739",
+        text = "6422739_tr_f.m2",
+        value = "6422739_tr_f.m2",
+       },
+      },
+      text = "unk_exp10_6422739_tr_f",
+      value = "unk_exp10_6422739_tr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422740",
+        text = "6422740_sc_m.m2",
+        value = "6422740_sc_m.m2",
+       },
+      },
+      text = "unk_exp10_6422740_sc_m",
+      value = "unk_exp10_6422740_sc_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422741",
+        text = "6422741_sc_f.m2",
+        value = "6422741_sc_f.m2",
+       },
+      },
+      text = "unk_exp10_6422741_sc_f",
+      value = "unk_exp10_6422741_sc_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422742",
+        text = "6422742_vu_m.m2",
+        value = "6422742_vu_m.m2",
+       },
+      },
+      text = "unk_exp10_6422742_vu_m",
+      value = "unk_exp10_6422742_vu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422743",
+        text = "6422743_vu_f.m2",
+        value = "6422743_vu_f.m2",
+       },
+      },
+      text = "unk_exp10_6422743_vu_f",
+      value = "unk_exp10_6422743_vu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422744",
+        text = "6422744_wo_m.m2",
+        value = "6422744_wo_m.m2",
+       },
+      },
+      text = "unk_exp10_6422744_wo_m",
+      value = "unk_exp10_6422744_wo_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422745",
+        text = "6422745_wo_f.m2",
+        value = "6422745_wo_f.m2",
+       },
+      },
+      text = "unk_exp10_6422745_wo_f",
+      value = "unk_exp10_6422745_wo_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422746",
+        text = "6422746_za_m.m2",
+        value = "6422746_za_m.m2",
+       },
+      },
+      text = "unk_exp10_6422746_za_m",
+      value = "unk_exp10_6422746_za_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422747",
+        text = "6422747_za_f.m2",
+        value = "6422747_za_f.m2",
+       },
+      },
+      text = "unk_exp10_6422747_za_f",
+      value = "unk_exp10_6422747_za_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422748",
+        text = "6422748_be_m.m2",
+        value = "6422748_be_m.m2",
+       },
+      },
+      text = "unk_exp10_6422748_be_m",
+      value = "unk_exp10_6422748_be_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422749",
+        text = "6422749_be_f.m2",
+        value = "6422749_be_f.m2",
+       },
+      },
+      text = "unk_exp10_6422749_be_f",
+      value = "unk_exp10_6422749_be_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422750",
+        text = "6422750_dr_m.m2",
+        value = "6422750_dr_m.m2",
+       },
+      },
+      text = "unk_exp10_6422750_dr_m",
+      value = "unk_exp10_6422750_dr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422751",
+        text = "6422751_dr_f.m2",
+        value = "6422751_dr_f.m2",
+       },
+      },
+      text = "unk_exp10_6422751_dr_f",
+      value = "unk_exp10_6422751_dr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422752",
+        text = "6422752_dw_m.m2",
+        value = "6422752_dw_m.m2",
+       },
+      },
+      text = "unk_exp10_6422752_dw_m",
+      value = "unk_exp10_6422752_dw_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422753",
+        text = "6422753_dw_f.m2",
+        value = "6422753_dw_f.m2",
+       },
+      },
+      text = "unk_exp10_6422753_dw_f",
+      value = "unk_exp10_6422753_dw_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422754",
+        text = "6422754_gn_m.m2",
+        value = "6422754_gn_m.m2",
+       },
+      },
+      text = "unk_exp10_6422754_gn_m",
+      value = "unk_exp10_6422754_gn_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422755",
+        text = "6422755_gn_f.m2",
+        value = "6422755_gn_f.m2",
+       },
+      },
+      text = "unk_exp10_6422755_gn_f",
+      value = "unk_exp10_6422755_gn_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422756",
+        text = "6422756_go_m.m2",
+        value = "6422756_go_m.m2",
+       },
+      },
+      text = "unk_exp10_6422756_go_m",
+      value = "unk_exp10_6422756_go_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422757",
+        text = "6422757_go_f.m2",
+        value = "6422757_go_f.m2",
+       },
+      },
+      text = "unk_exp10_6422757_go_f",
+      value = "unk_exp10_6422757_go_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422758",
+        text = "6422758_hu_m.m2",
+        value = "6422758_hu_m.m2",
+       },
+      },
+      text = "unk_exp10_6422758_hu_m",
+      value = "unk_exp10_6422758_hu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422759",
+        text = "6422759_hu_f.m2",
+        value = "6422759_hu_f.m2",
+       },
+      },
+      text = "unk_exp10_6422759_hu_f",
+      value = "unk_exp10_6422759_hu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422760",
+        text = "6422760_kt_m.m2",
+        value = "6422760_kt_m.m2",
+       },
+      },
+      text = "unk_exp10_6422760_kt_m",
+      value = "unk_exp10_6422760_kt_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422761",
+        text = "6422761_kt_f.m2",
+        value = "6422761_kt_f.m2",
+       },
+      },
+      text = "unk_exp10_6422761_kt_f",
+      value = "unk_exp10_6422761_kt_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422762",
+        text = "6422762_mg_m.m2",
+        value = "6422762_mg_m.m2",
+       },
+      },
+      text = "unk_exp10_6422762_mg_m",
+      value = "unk_exp10_6422762_mg_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422763",
+        text = "6422763_mg_f.m2",
+        value = "6422763_mg_f.m2",
+       },
+      },
+      text = "unk_exp10_6422763_mg_f",
+      value = "unk_exp10_6422763_mg_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422764",
+        text = "6422764_ni_m.m2",
+        value = "6422764_ni_m.m2",
+       },
+      },
+      text = "unk_exp10_6422764_ni_m",
+      value = "unk_exp10_6422764_ni_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422765",
+        text = "6422765_ni_f.m2",
+        value = "6422765_ni_f.m2",
+       },
+      },
+      text = "unk_exp10_6422765_ni_f",
+      value = "unk_exp10_6422765_ni_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422766",
+        text = "6422766_nb_m.m2",
+        value = "6422766_nb_m.m2",
+       },
+      },
+      text = "unk_exp10_6422766_nb_m",
+      value = "unk_exp10_6422766_nb_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422767",
+        text = "6422767_or_m.m2",
+        value = "6422767_or_m.m2",
+       },
+      },
+      text = "unk_exp10_6422767_or_m",
+      value = "unk_exp10_6422767_or_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422768",
+        text = "6422768_or_f.m2",
+        value = "6422768_or_f.m2",
+       },
+      },
+      text = "unk_exp10_6422768_or_f",
+      value = "unk_exp10_6422768_or_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422769",
+        text = "6422769_pa_m.m2",
+        value = "6422769_pa_m.m2",
+       },
+      },
+      text = "unk_exp10_6422769_pa_m",
+      value = "unk_exp10_6422769_pa_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422770",
+        text = "6422770_pa_f.m2",
+        value = "6422770_pa_f.m2",
+       },
+      },
+      text = "unk_exp10_6422770_pa_f",
+      value = "unk_exp10_6422770_pa_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422771",
+        text = "6422771_ta_m.m2",
+        value = "6422771_ta_m.m2",
+       },
+      },
+      text = "unk_exp10_6422771_ta_m",
+      value = "unk_exp10_6422771_ta_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422772",
+        text = "6422772_ta_f.m2",
+        value = "6422772_ta_f.m2",
+       },
+      },
+      text = "unk_exp10_6422772_ta_f",
+      value = "unk_exp10_6422772_ta_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422773",
+        text = "6422773_tr_m.m2",
+        value = "6422773_tr_m.m2",
+       },
+      },
+      text = "unk_exp10_6422773_tr_m",
+      value = "unk_exp10_6422773_tr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422774",
+        text = "6422774_tr_f.m2",
+        value = "6422774_tr_f.m2",
+       },
+      },
+      text = "unk_exp10_6422774_tr_f",
+      value = "unk_exp10_6422774_tr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422775",
+        text = "6422775_sc_m.m2",
+        value = "6422775_sc_m.m2",
+       },
+      },
+      text = "unk_exp10_6422775_sc_m",
+      value = "unk_exp10_6422775_sc_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422776",
+        text = "6422776_sc_f.m2",
+        value = "6422776_sc_f.m2",
+       },
+      },
+      text = "unk_exp10_6422776_sc_f",
+      value = "unk_exp10_6422776_sc_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422777",
+        text = "6422777_vu_m.m2",
+        value = "6422777_vu_m.m2",
+       },
+      },
+      text = "unk_exp10_6422777_vu_m",
+      value = "unk_exp10_6422777_vu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422778",
+        text = "6422778_vu_f.m2",
+        value = "6422778_vu_f.m2",
+       },
+      },
+      text = "unk_exp10_6422778_vu_f",
+      value = "unk_exp10_6422778_vu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422779",
+        text = "6422779_wo_m.m2",
+        value = "6422779_wo_m.m2",
+       },
+      },
+      text = "unk_exp10_6422779_wo_m",
+      value = "unk_exp10_6422779_wo_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422780",
+        text = "6422780_wo_f.m2",
+        value = "6422780_wo_f.m2",
+       },
+      },
+      text = "unk_exp10_6422780_wo_f",
+      value = "unk_exp10_6422780_wo_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422781",
+        text = "6422781_za_m.m2",
+        value = "6422781_za_m.m2",
+       },
+      },
+      text = "unk_exp10_6422781_za_m",
+      value = "unk_exp10_6422781_za_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422782",
+        text = "6422782_za_f.m2",
+        value = "6422782_za_f.m2",
+       },
+      },
+      text = "unk_exp10_6422782_za_f",
+      value = "unk_exp10_6422782_za_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422783",
+        text = "6422783_l.m2",
+        value = "6422783_l.m2",
+       },
+      },
+      text = "unk_exp10_6422783_l",
+      value = "unk_exp10_6422783_l",
+     },
+     {
+      children = {
+       {
+        fileId = "6422784",
+        text = "6422784_r.m2",
+        value = "6422784_r.m2",
+       },
+      },
+      text = "unk_exp10_6422784_r",
+      value = "unk_exp10_6422784_r",
+     },
+     {
+      children = {
+       {
+        fileId = "6422785",
+        text = "6422785_r.m2",
+        value = "6422785_r.m2",
+       },
+      },
+      text = "unk_exp10_6422785_r",
+      value = "unk_exp10_6422785_r",
+     },
+     {
+      children = {
+       {
+        fileId = "6422786",
+        text = "6422786_l.m2",
+        value = "6422786_l.m2",
+       },
+      },
+      text = "unk_exp10_6422786_l",
+      value = "unk_exp10_6422786_l",
+     },
+     {
+      children = {
+       {
+        fileId = "6422787",
+        text = "6422787.m2",
+        value = "6422787.m2",
+       },
+      },
+      text = "unk_exp10_6422787",
+      value = "unk_exp10_6422787",
+     },
+     {
+      children = {
+       {
+        fileId = "6422788",
+        text = "6422788.m2",
+        value = "6422788.m2",
+       },
+      },
+      text = "unk_exp10_6422788",
+      value = "unk_exp10_6422788",
+     },
+     {
+      children = {
+       {
+        fileId = "6422789",
+        text = "6422789_ed_f.m2",
+        value = "6422789_ed_f.m2",
+       },
+      },
+      text = "unk_exp10_6422789_ed_f",
+      value = "unk_exp10_6422789_ed_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422790",
+        text = "6422790_ed_m.m2",
+        value = "6422790_ed_m.m2",
+       },
+      },
+      text = "unk_exp10_6422790_ed_m",
+      value = "unk_exp10_6422790_ed_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6422791",
+        text = "6422791_ed_f.m2",
+        value = "6422791_ed_f.m2",
+       },
+      },
+      text = "unk_exp10_6422791_ed_f",
+      value = "unk_exp10_6422791_ed_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6422792",
+        text = "6422792_ed_m.m2",
+        value = "6422792_ed_m.m2",
+       },
+      },
+      text = "unk_exp10_6422792_ed_m",
+      value = "unk_exp10_6422792_ed_m",
+     },
+     {
+      children = {
+       {
         fileId = "6655111",
         text = "6655111_be_m.m2",
         value = "6655111_be_m.m2",
@@ -314440,391 +328829,6 @@ WeakAuras.ModelPaths = {
       },
       text = "unk_exp10_6655148",
       value = "unk_exp10_6655148",
-     },
-     {
-      children = {
-       {
-        fileId = "6661031",
-        text = "6661031.m2",
-        value = "6661031.m2",
-       },
-      },
-      text = "unk_exp10_6661031",
-      value = "unk_exp10_6661031",
-     },
-     {
-      children = {
-       {
-        fileId = "6697760",
-        text = "6697760_be_m.m2",
-        value = "6697760_be_m.m2",
-       },
-      },
-      text = "unk_exp10_6697760_be_m",
-      value = "unk_exp10_6697760_be_m",
-     },
-     {
-      children = {
-       {
-        fileId = "6697761",
-        text = "6697761_be_f.m2",
-        value = "6697761_be_f.m2",
-       },
-      },
-      text = "unk_exp10_6697761_be_f",
-      value = "unk_exp10_6697761_be_f",
-     },
-     {
-      children = {
-       {
-        fileId = "6697762",
-        text = "6697762_dr_m.m2",
-        value = "6697762_dr_m.m2",
-       },
-      },
-      text = "unk_exp10_6697762_dr_m",
-      value = "unk_exp10_6697762_dr_m",
-     },
-     {
-      children = {
-       {
-        fileId = "6697763",
-        text = "6697763_dr_f.m2",
-        value = "6697763_dr_f.m2",
-       },
-      },
-      text = "unk_exp10_6697763_dr_f",
-      value = "unk_exp10_6697763_dr_f",
-     },
-     {
-      children = {
-       {
-        fileId = "6697764",
-        text = "6697764_dw_m.m2",
-        value = "6697764_dw_m.m2",
-       },
-      },
-      text = "unk_exp10_6697764_dw_m",
-      value = "unk_exp10_6697764_dw_m",
-     },
-     {
-      children = {
-       {
-        fileId = "6697765",
-        text = "6697765_dw_f.m2",
-        value = "6697765_dw_f.m2",
-       },
-      },
-      text = "unk_exp10_6697765_dw_f",
-      value = "unk_exp10_6697765_dw_f",
-     },
-     {
-      children = {
-       {
-        fileId = "6697766",
-        text = "6697766_ed_m.m2",
-        value = "6697766_ed_m.m2",
-       },
-      },
-      text = "unk_exp10_6697766_ed_m",
-      value = "unk_exp10_6697766_ed_m",
-     },
-     {
-      children = {
-       {
-        fileId = "6697767",
-        text = "6697767_ed_f.m2",
-        value = "6697767_ed_f.m2",
-       },
-      },
-      text = "unk_exp10_6697767_ed_f",
-      value = "unk_exp10_6697767_ed_f",
-     },
-     {
-      children = {
-       {
-        fileId = "6697768",
-        text = "6697768_gn_m.m2",
-        value = "6697768_gn_m.m2",
-       },
-      },
-      text = "unk_exp10_6697768_gn_m",
-      value = "unk_exp10_6697768_gn_m",
-     },
-     {
-      children = {
-       {
-        fileId = "6697769",
-        text = "6697769_gn_f.m2",
-        value = "6697769_gn_f.m2",
-       },
-      },
-      text = "unk_exp10_6697769_gn_f",
-      value = "unk_exp10_6697769_gn_f",
-     },
-     {
-      children = {
-       {
-        fileId = "6697770",
-        text = "6697770_go_m.m2",
-        value = "6697770_go_m.m2",
-       },
-      },
-      text = "unk_exp10_6697770_go_m",
-      value = "unk_exp10_6697770_go_m",
-     },
-     {
-      children = {
-       {
-        fileId = "6697771",
-        text = "6697771_go_f.m2",
-        value = "6697771_go_f.m2",
-       },
-      },
-      text = "unk_exp10_6697771_go_f",
-      value = "unk_exp10_6697771_go_f",
-     },
-     {
-      children = {
-       {
-        fileId = "6697772",
-        text = "6697772_hu_m.m2",
-        value = "6697772_hu_m.m2",
-       },
-      },
-      text = "unk_exp10_6697772_hu_m",
-      value = "unk_exp10_6697772_hu_m",
-     },
-     {
-      children = {
-       {
-        fileId = "6697773",
-        text = "6697773_hu_f.m2",
-        value = "6697773_hu_f.m2",
-       },
-      },
-      text = "unk_exp10_6697773_hu_f",
-      value = "unk_exp10_6697773_hu_f",
-     },
-     {
-      children = {
-       {
-        fileId = "6697774",
-        text = "6697774_kt_m.m2",
-        value = "6697774_kt_m.m2",
-       },
-      },
-      text = "unk_exp10_6697774_kt_m",
-      value = "unk_exp10_6697774_kt_m",
-     },
-     {
-      children = {
-       {
-        fileId = "6697775",
-        text = "6697775_kt_f.m2",
-        value = "6697775_kt_f.m2",
-       },
-      },
-      text = "unk_exp10_6697775_kt_f",
-      value = "unk_exp10_6697775_kt_f",
-     },
-     {
-      children = {
-       {
-        fileId = "6697778",
-        text = "6697778_ni_m.m2",
-        value = "6697778_ni_m.m2",
-       },
-      },
-      text = "unk_exp10_6697778_ni_m",
-      value = "unk_exp10_6697778_ni_m",
-     },
-     {
-      children = {
-       {
-        fileId = "6697779",
-        text = "6697779_ni_f.m2",
-        value = "6697779_ni_f.m2",
-       },
-      },
-      text = "unk_exp10_6697779_ni_f",
-      value = "unk_exp10_6697779_ni_f",
-     },
-     {
-      children = {
-       {
-        fileId = "6697781",
-        text = "6697781_or_m.m2",
-        value = "6697781_or_m.m2",
-       },
-      },
-      text = "unk_exp10_6697781_or_m",
-      value = "unk_exp10_6697781_or_m",
-     },
-     {
-      children = {
-       {
-        fileId = "6697782",
-        text = "6697782_or_f.m2",
-        value = "6697782_or_f.m2",
-       },
-      },
-      text = "unk_exp10_6697782_or_f",
-      value = "unk_exp10_6697782_or_f",
-     },
-     {
-      children = {
-       {
-        fileId = "6697783",
-        text = "6697783_pa_m.m2",
-        value = "6697783_pa_m.m2",
-       },
-      },
-      text = "unk_exp10_6697783_pa_m",
-      value = "unk_exp10_6697783_pa_m",
-     },
-     {
-      children = {
-       {
-        fileId = "6697784",
-        text = "6697784_pa_f.m2",
-        value = "6697784_pa_f.m2",
-       },
-      },
-      text = "unk_exp10_6697784_pa_f",
-      value = "unk_exp10_6697784_pa_f",
-     },
-     {
-      children = {
-       {
-        fileId = "6697785",
-        text = "6697785_ta_m.m2",
-        value = "6697785_ta_m.m2",
-       },
-      },
-      text = "unk_exp10_6697785_ta_m",
-      value = "unk_exp10_6697785_ta_m",
-     },
-     {
-      children = {
-       {
-        fileId = "6697786",
-        text = "6697786_ta_f.m2",
-        value = "6697786_ta_f.m2",
-       },
-      },
-      text = "unk_exp10_6697786_ta_f",
-      value = "unk_exp10_6697786_ta_f",
-     },
-     {
-      children = {
-       {
-        fileId = "6697787",
-        text = "6697787_tr_m.m2",
-        value = "6697787_tr_m.m2",
-       },
-      },
-      text = "unk_exp10_6697787_tr_m",
-      value = "unk_exp10_6697787_tr_m",
-     },
-     {
-      children = {
-       {
-        fileId = "6697788",
-        text = "6697788_tr_f.m2",
-        value = "6697788_tr_f.m2",
-       },
-      },
-      text = "unk_exp10_6697788_tr_f",
-      value = "unk_exp10_6697788_tr_f",
-     },
-     {
-      children = {
-       {
-        fileId = "6697789",
-        text = "6697789_sc_m.m2",
-        value = "6697789_sc_m.m2",
-       },
-      },
-      text = "unk_exp10_6697789_sc_m",
-      value = "unk_exp10_6697789_sc_m",
-     },
-     {
-      children = {
-       {
-        fileId = "6697790",
-        text = "6697790_sc_f.m2",
-        value = "6697790_sc_f.m2",
-       },
-      },
-      text = "unk_exp10_6697790_sc_f",
-      value = "unk_exp10_6697790_sc_f",
-     },
-     {
-      children = {
-       {
-        fileId = "6697791",
-        text = "6697791_vu_m.m2",
-        value = "6697791_vu_m.m2",
-       },
-      },
-      text = "unk_exp10_6697791_vu_m",
-      value = "unk_exp10_6697791_vu_m",
-     },
-     {
-      children = {
-       {
-        fileId = "6697792",
-        text = "6697792_vu_f.m2",
-        value = "6697792_vu_f.m2",
-       },
-      },
-      text = "unk_exp10_6697792_vu_f",
-      value = "unk_exp10_6697792_vu_f",
-     },
-     {
-      children = {
-       {
-        fileId = "6697793",
-        text = "6697793_wo_m.m2",
-        value = "6697793_wo_m.m2",
-       },
-      },
-      text = "unk_exp10_6697793_wo_m",
-      value = "unk_exp10_6697793_wo_m",
-     },
-     {
-      children = {
-       {
-        fileId = "6697794",
-        text = "6697794_wo_f.m2",
-        value = "6697794_wo_f.m2",
-       },
-      },
-      text = "unk_exp10_6697794_wo_f",
-      value = "unk_exp10_6697794_wo_f",
-     },
-     {
-      children = {
-       {
-        fileId = "6697795",
-        text = "6697795_za_m.m2",
-        value = "6697795_za_m.m2",
-       },
-      },
-      text = "unk_exp10_6697795_za_m",
-      value = "unk_exp10_6697795_za_m",
-     },
-     {
-      children = {
-       {
-        fileId = "6697796",
-        text = "6697796_za_f.m2",
-        value = "6697796_za_f.m2",
-       },
-      },
-      text = "unk_exp10_6697796_za_f",
-      value = "unk_exp10_6697796_za_f",
      },
      {
       children = {
@@ -316817,6 +330821,2514 @@ WeakAuras.ModelPaths = {
       text = "unk_exp10_6708538_za_f",
       value = "unk_exp10_6708538_za_f",
      },
+     {
+      children = {
+       {
+        fileId = "6887294",
+        text = "6887294_be_m.m2",
+        value = "6887294_be_m.m2",
+       },
+      },
+      text = "unk_exp10_6887294_be_m",
+      value = "unk_exp10_6887294_be_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887295",
+        text = "6887295_be_f.m2",
+        value = "6887295_be_f.m2",
+       },
+      },
+      text = "unk_exp10_6887295_be_f",
+      value = "unk_exp10_6887295_be_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6887296",
+        text = "6887296_dr_m.m2",
+        value = "6887296_dr_m.m2",
+       },
+      },
+      text = "unk_exp10_6887296_dr_m",
+      value = "unk_exp10_6887296_dr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887297",
+        text = "6887297_dr_f.m2",
+        value = "6887297_dr_f.m2",
+       },
+      },
+      text = "unk_exp10_6887297_dr_f",
+      value = "unk_exp10_6887297_dr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6887298",
+        text = "6887298_dw_m.m2",
+        value = "6887298_dw_m.m2",
+       },
+      },
+      text = "unk_exp10_6887298_dw_m",
+      value = "unk_exp10_6887298_dw_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887299",
+        text = "6887299_dw_f.m2",
+        value = "6887299_dw_f.m2",
+       },
+      },
+      text = "unk_exp10_6887299_dw_f",
+      value = "unk_exp10_6887299_dw_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6887300",
+        text = "6887300_ed_m.m2",
+        value = "6887300_ed_m.m2",
+       },
+      },
+      text = "unk_exp10_6887300_ed_m",
+      value = "unk_exp10_6887300_ed_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887301",
+        text = "6887301_ed_f.m2",
+        value = "6887301_ed_f.m2",
+       },
+      },
+      text = "unk_exp10_6887301_ed_f",
+      value = "unk_exp10_6887301_ed_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6887302",
+        text = "6887302_gn_m.m2",
+        value = "6887302_gn_m.m2",
+       },
+      },
+      text = "unk_exp10_6887302_gn_m",
+      value = "unk_exp10_6887302_gn_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887303",
+        text = "6887303_gn_f.m2",
+        value = "6887303_gn_f.m2",
+       },
+      },
+      text = "unk_exp10_6887303_gn_f",
+      value = "unk_exp10_6887303_gn_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6887304",
+        text = "6887304_go_m.m2",
+        value = "6887304_go_m.m2",
+       },
+      },
+      text = "unk_exp10_6887304_go_m",
+      value = "unk_exp10_6887304_go_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887305",
+        text = "6887305_go_f.m2",
+        value = "6887305_go_f.m2",
+       },
+      },
+      text = "unk_exp10_6887305_go_f",
+      value = "unk_exp10_6887305_go_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6887306",
+        text = "6887306_hu_m.m2",
+        value = "6887306_hu_m.m2",
+       },
+      },
+      text = "unk_exp10_6887306_hu_m",
+      value = "unk_exp10_6887306_hu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887307",
+        text = "6887307_hu_f.m2",
+        value = "6887307_hu_f.m2",
+       },
+      },
+      text = "unk_exp10_6887307_hu_f",
+      value = "unk_exp10_6887307_hu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6887308",
+        text = "6887308_kt_m.m2",
+        value = "6887308_kt_m.m2",
+       },
+      },
+      text = "unk_exp10_6887308_kt_m",
+      value = "unk_exp10_6887308_kt_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887309",
+        text = "6887309_kt_f.m2",
+        value = "6887309_kt_f.m2",
+       },
+      },
+      text = "unk_exp10_6887309_kt_f",
+      value = "unk_exp10_6887309_kt_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6887310",
+        text = "6887310_mg_m.m2",
+        value = "6887310_mg_m.m2",
+       },
+      },
+      text = "unk_exp10_6887310_mg_m",
+      value = "unk_exp10_6887310_mg_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887311",
+        text = "6887311_mg_f.m2",
+        value = "6887311_mg_f.m2",
+       },
+      },
+      text = "unk_exp10_6887311_mg_f",
+      value = "unk_exp10_6887311_mg_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6887312",
+        text = "6887312_ni_m.m2",
+        value = "6887312_ni_m.m2",
+       },
+      },
+      text = "unk_exp10_6887312_ni_m",
+      value = "unk_exp10_6887312_ni_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887313",
+        text = "6887313_ni_f.m2",
+        value = "6887313_ni_f.m2",
+       },
+      },
+      text = "unk_exp10_6887313_ni_f",
+      value = "unk_exp10_6887313_ni_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6887314",
+        text = "6887314_nb_m.m2",
+        value = "6887314_nb_m.m2",
+       },
+      },
+      text = "unk_exp10_6887314_nb_m",
+      value = "unk_exp10_6887314_nb_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887315",
+        text = "6887315_or_m.m2",
+        value = "6887315_or_m.m2",
+       },
+      },
+      text = "unk_exp10_6887315_or_m",
+      value = "unk_exp10_6887315_or_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887316",
+        text = "6887316_or_f.m2",
+        value = "6887316_or_f.m2",
+       },
+      },
+      text = "unk_exp10_6887316_or_f",
+      value = "unk_exp10_6887316_or_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6887317",
+        text = "6887317_pa_m.m2",
+        value = "6887317_pa_m.m2",
+       },
+      },
+      text = "unk_exp10_6887317_pa_m",
+      value = "unk_exp10_6887317_pa_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887318",
+        text = "6887318_pa_f.m2",
+        value = "6887318_pa_f.m2",
+       },
+      },
+      text = "unk_exp10_6887318_pa_f",
+      value = "unk_exp10_6887318_pa_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6887319",
+        text = "6887319_ta_m.m2",
+        value = "6887319_ta_m.m2",
+       },
+      },
+      text = "unk_exp10_6887319_ta_m",
+      value = "unk_exp10_6887319_ta_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887320",
+        text = "6887320_ta_f.m2",
+        value = "6887320_ta_f.m2",
+       },
+      },
+      text = "unk_exp10_6887320_ta_f",
+      value = "unk_exp10_6887320_ta_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6887321",
+        text = "6887321_tr_m.m2",
+        value = "6887321_tr_m.m2",
+       },
+      },
+      text = "unk_exp10_6887321_tr_m",
+      value = "unk_exp10_6887321_tr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887322",
+        text = "6887322_tr_f.m2",
+        value = "6887322_tr_f.m2",
+       },
+      },
+      text = "unk_exp10_6887322_tr_f",
+      value = "unk_exp10_6887322_tr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6887323",
+        text = "6887323_sc_m.m2",
+        value = "6887323_sc_m.m2",
+       },
+      },
+      text = "unk_exp10_6887323_sc_m",
+      value = "unk_exp10_6887323_sc_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887324",
+        text = "6887324_sc_f.m2",
+        value = "6887324_sc_f.m2",
+       },
+      },
+      text = "unk_exp10_6887324_sc_f",
+      value = "unk_exp10_6887324_sc_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6887325",
+        text = "6887325_vu_m.m2",
+        value = "6887325_vu_m.m2",
+       },
+      },
+      text = "unk_exp10_6887325_vu_m",
+      value = "unk_exp10_6887325_vu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887326",
+        text = "6887326_vu_f.m2",
+        value = "6887326_vu_f.m2",
+       },
+      },
+      text = "unk_exp10_6887326_vu_f",
+      value = "unk_exp10_6887326_vu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6887327",
+        text = "6887327_wo_m.m2",
+        value = "6887327_wo_m.m2",
+       },
+      },
+      text = "unk_exp10_6887327_wo_m",
+      value = "unk_exp10_6887327_wo_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887328",
+        text = "6887328_wo_f.m2",
+        value = "6887328_wo_f.m2",
+       },
+      },
+      text = "unk_exp10_6887328_wo_f",
+      value = "unk_exp10_6887328_wo_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6887329",
+        text = "6887329_za_m.m2",
+        value = "6887329_za_m.m2",
+       },
+      },
+      text = "unk_exp10_6887329_za_m",
+      value = "unk_exp10_6887329_za_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6887330",
+        text = "6887330_za_f.m2",
+        value = "6887330_za_f.m2",
+       },
+      },
+      text = "unk_exp10_6887330_za_f",
+      value = "unk_exp10_6887330_za_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888907",
+        text = "6888907_be_m.m2",
+        value = "6888907_be_m.m2",
+       },
+      },
+      text = "unk_exp10_6888907_be_m",
+      value = "unk_exp10_6888907_be_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888908",
+        text = "6888908_be_f.m2",
+        value = "6888908_be_f.m2",
+       },
+      },
+      text = "unk_exp10_6888908_be_f",
+      value = "unk_exp10_6888908_be_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888909",
+        text = "6888909_dr_m.m2",
+        value = "6888909_dr_m.m2",
+       },
+      },
+      text = "unk_exp10_6888909_dr_m",
+      value = "unk_exp10_6888909_dr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888910",
+        text = "6888910_dr_f.m2",
+        value = "6888910_dr_f.m2",
+       },
+      },
+      text = "unk_exp10_6888910_dr_f",
+      value = "unk_exp10_6888910_dr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888911",
+        text = "6888911_dw_m.m2",
+        value = "6888911_dw_m.m2",
+       },
+      },
+      text = "unk_exp10_6888911_dw_m",
+      value = "unk_exp10_6888911_dw_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888912",
+        text = "6888912_dw_f.m2",
+        value = "6888912_dw_f.m2",
+       },
+      },
+      text = "unk_exp10_6888912_dw_f",
+      value = "unk_exp10_6888912_dw_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888913",
+        text = "6888913_ed_m.m2",
+        value = "6888913_ed_m.m2",
+       },
+      },
+      text = "unk_exp10_6888913_ed_m",
+      value = "unk_exp10_6888913_ed_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888914",
+        text = "6888914_ed_f.m2",
+        value = "6888914_ed_f.m2",
+       },
+      },
+      text = "unk_exp10_6888914_ed_f",
+      value = "unk_exp10_6888914_ed_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888915",
+        text = "6888915_gn_m.m2",
+        value = "6888915_gn_m.m2",
+       },
+      },
+      text = "unk_exp10_6888915_gn_m",
+      value = "unk_exp10_6888915_gn_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888916",
+        text = "6888916_gn_f.m2",
+        value = "6888916_gn_f.m2",
+       },
+      },
+      text = "unk_exp10_6888916_gn_f",
+      value = "unk_exp10_6888916_gn_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888917",
+        text = "6888917_go_m.m2",
+        value = "6888917_go_m.m2",
+       },
+      },
+      text = "unk_exp10_6888917_go_m",
+      value = "unk_exp10_6888917_go_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888918",
+        text = "6888918_go_f.m2",
+        value = "6888918_go_f.m2",
+       },
+      },
+      text = "unk_exp10_6888918_go_f",
+      value = "unk_exp10_6888918_go_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888919",
+        text = "6888919_hu_m.m2",
+        value = "6888919_hu_m.m2",
+       },
+      },
+      text = "unk_exp10_6888919_hu_m",
+      value = "unk_exp10_6888919_hu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888920",
+        text = "6888920_hu_f.m2",
+        value = "6888920_hu_f.m2",
+       },
+      },
+      text = "unk_exp10_6888920_hu_f",
+      value = "unk_exp10_6888920_hu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888921",
+        text = "6888921_kt_m.m2",
+        value = "6888921_kt_m.m2",
+       },
+      },
+      text = "unk_exp10_6888921_kt_m",
+      value = "unk_exp10_6888921_kt_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888922",
+        text = "6888922_kt_f.m2",
+        value = "6888922_kt_f.m2",
+       },
+      },
+      text = "unk_exp10_6888922_kt_f",
+      value = "unk_exp10_6888922_kt_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888923",
+        text = "6888923_mg_m.m2",
+        value = "6888923_mg_m.m2",
+       },
+      },
+      text = "unk_exp10_6888923_mg_m",
+      value = "unk_exp10_6888923_mg_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888924",
+        text = "6888924_mg_f.m2",
+        value = "6888924_mg_f.m2",
+       },
+      },
+      text = "unk_exp10_6888924_mg_f",
+      value = "unk_exp10_6888924_mg_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888925",
+        text = "6888925_ni_m.m2",
+        value = "6888925_ni_m.m2",
+       },
+      },
+      text = "unk_exp10_6888925_ni_m",
+      value = "unk_exp10_6888925_ni_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888926",
+        text = "6888926_ni_f.m2",
+        value = "6888926_ni_f.m2",
+       },
+      },
+      text = "unk_exp10_6888926_ni_f",
+      value = "unk_exp10_6888926_ni_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888927",
+        text = "6888927_nb_m.m2",
+        value = "6888927_nb_m.m2",
+       },
+      },
+      text = "unk_exp10_6888927_nb_m",
+      value = "unk_exp10_6888927_nb_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888928",
+        text = "6888928_or_m.m2",
+        value = "6888928_or_m.m2",
+       },
+      },
+      text = "unk_exp10_6888928_or_m",
+      value = "unk_exp10_6888928_or_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888929",
+        text = "6888929_or_f.m2",
+        value = "6888929_or_f.m2",
+       },
+      },
+      text = "unk_exp10_6888929_or_f",
+      value = "unk_exp10_6888929_or_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888930",
+        text = "6888930_pa_m.m2",
+        value = "6888930_pa_m.m2",
+       },
+      },
+      text = "unk_exp10_6888930_pa_m",
+      value = "unk_exp10_6888930_pa_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888931",
+        text = "6888931_pa_f.m2",
+        value = "6888931_pa_f.m2",
+       },
+      },
+      text = "unk_exp10_6888931_pa_f",
+      value = "unk_exp10_6888931_pa_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888932",
+        text = "6888932_ta_m.m2",
+        value = "6888932_ta_m.m2",
+       },
+      },
+      text = "unk_exp10_6888932_ta_m",
+      value = "unk_exp10_6888932_ta_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888933",
+        text = "6888933_ta_f.m2",
+        value = "6888933_ta_f.m2",
+       },
+      },
+      text = "unk_exp10_6888933_ta_f",
+      value = "unk_exp10_6888933_ta_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888934",
+        text = "6888934_tr_m.m2",
+        value = "6888934_tr_m.m2",
+       },
+      },
+      text = "unk_exp10_6888934_tr_m",
+      value = "unk_exp10_6888934_tr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888935",
+        text = "6888935_tr_f.m2",
+        value = "6888935_tr_f.m2",
+       },
+      },
+      text = "unk_exp10_6888935_tr_f",
+      value = "unk_exp10_6888935_tr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888936",
+        text = "6888936_sc_m.m2",
+        value = "6888936_sc_m.m2",
+       },
+      },
+      text = "unk_exp10_6888936_sc_m",
+      value = "unk_exp10_6888936_sc_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888937",
+        text = "6888937_sc_f.m2",
+        value = "6888937_sc_f.m2",
+       },
+      },
+      text = "unk_exp10_6888937_sc_f",
+      value = "unk_exp10_6888937_sc_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888938",
+        text = "6888938_vu_m.m2",
+        value = "6888938_vu_m.m2",
+       },
+      },
+      text = "unk_exp10_6888938_vu_m",
+      value = "unk_exp10_6888938_vu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888939",
+        text = "6888939_vu_f.m2",
+        value = "6888939_vu_f.m2",
+       },
+      },
+      text = "unk_exp10_6888939_vu_f",
+      value = "unk_exp10_6888939_vu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888940",
+        text = "6888940_wo_m.m2",
+        value = "6888940_wo_m.m2",
+       },
+      },
+      text = "unk_exp10_6888940_wo_m",
+      value = "unk_exp10_6888940_wo_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888941",
+        text = "6888941_wo_f.m2",
+        value = "6888941_wo_f.m2",
+       },
+      },
+      text = "unk_exp10_6888941_wo_f",
+      value = "unk_exp10_6888941_wo_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888942",
+        text = "6888942_za_m.m2",
+        value = "6888942_za_m.m2",
+       },
+      },
+      text = "unk_exp10_6888942_za_m",
+      value = "unk_exp10_6888942_za_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888943",
+        text = "6888943_za_f.m2",
+        value = "6888943_za_f.m2",
+       },
+      },
+      text = "unk_exp10_6888943_za_f",
+      value = "unk_exp10_6888943_za_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888948",
+        text = "6888948_be_m.m2",
+        value = "6888948_be_m.m2",
+       },
+      },
+      text = "unk_exp10_6888948_be_m",
+      value = "unk_exp10_6888948_be_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888949",
+        text = "6888949_be_f.m2",
+        value = "6888949_be_f.m2",
+       },
+      },
+      text = "unk_exp10_6888949_be_f",
+      value = "unk_exp10_6888949_be_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888950",
+        text = "6888950_dr_m.m2",
+        value = "6888950_dr_m.m2",
+       },
+      },
+      text = "unk_exp10_6888950_dr_m",
+      value = "unk_exp10_6888950_dr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888951",
+        text = "6888951_dr_f.m2",
+        value = "6888951_dr_f.m2",
+       },
+      },
+      text = "unk_exp10_6888951_dr_f",
+      value = "unk_exp10_6888951_dr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888952",
+        text = "6888952_dw_m.m2",
+        value = "6888952_dw_m.m2",
+       },
+      },
+      text = "unk_exp10_6888952_dw_m",
+      value = "unk_exp10_6888952_dw_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888953",
+        text = "6888953_dw_f.m2",
+        value = "6888953_dw_f.m2",
+       },
+      },
+      text = "unk_exp10_6888953_dw_f",
+      value = "unk_exp10_6888953_dw_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888954",
+        text = "6888954_ed_m.m2",
+        value = "6888954_ed_m.m2",
+       },
+      },
+      text = "unk_exp10_6888954_ed_m",
+      value = "unk_exp10_6888954_ed_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888955",
+        text = "6888955_ed_f.m2",
+        value = "6888955_ed_f.m2",
+       },
+      },
+      text = "unk_exp10_6888955_ed_f",
+      value = "unk_exp10_6888955_ed_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888956",
+        text = "6888956_gn_m.m2",
+        value = "6888956_gn_m.m2",
+       },
+      },
+      text = "unk_exp10_6888956_gn_m",
+      value = "unk_exp10_6888956_gn_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888957",
+        text = "6888957_gn_f.m2",
+        value = "6888957_gn_f.m2",
+       },
+      },
+      text = "unk_exp10_6888957_gn_f",
+      value = "unk_exp10_6888957_gn_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888958",
+        text = "6888958_go_m.m2",
+        value = "6888958_go_m.m2",
+       },
+      },
+      text = "unk_exp10_6888958_go_m",
+      value = "unk_exp10_6888958_go_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888959",
+        text = "6888959_go_f.m2",
+        value = "6888959_go_f.m2",
+       },
+      },
+      text = "unk_exp10_6888959_go_f",
+      value = "unk_exp10_6888959_go_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888960",
+        text = "6888960_hu_m.m2",
+        value = "6888960_hu_m.m2",
+       },
+      },
+      text = "unk_exp10_6888960_hu_m",
+      value = "unk_exp10_6888960_hu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888961",
+        text = "6888961_hu_f.m2",
+        value = "6888961_hu_f.m2",
+       },
+      },
+      text = "unk_exp10_6888961_hu_f",
+      value = "unk_exp10_6888961_hu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888962",
+        text = "6888962_kt_m.m2",
+        value = "6888962_kt_m.m2",
+       },
+      },
+      text = "unk_exp10_6888962_kt_m",
+      value = "unk_exp10_6888962_kt_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888963",
+        text = "6888963_kt_f.m2",
+        value = "6888963_kt_f.m2",
+       },
+      },
+      text = "unk_exp10_6888963_kt_f",
+      value = "unk_exp10_6888963_kt_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888964",
+        text = "6888964_mg_m.m2",
+        value = "6888964_mg_m.m2",
+       },
+      },
+      text = "unk_exp10_6888964_mg_m",
+      value = "unk_exp10_6888964_mg_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888965",
+        text = "6888965_mg_f.m2",
+        value = "6888965_mg_f.m2",
+       },
+      },
+      text = "unk_exp10_6888965_mg_f",
+      value = "unk_exp10_6888965_mg_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888966",
+        text = "6888966_ni_m.m2",
+        value = "6888966_ni_m.m2",
+       },
+      },
+      text = "unk_exp10_6888966_ni_m",
+      value = "unk_exp10_6888966_ni_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888967",
+        text = "6888967_ni_f.m2",
+        value = "6888967_ni_f.m2",
+       },
+      },
+      text = "unk_exp10_6888967_ni_f",
+      value = "unk_exp10_6888967_ni_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888968",
+        text = "6888968_nb_m.m2",
+        value = "6888968_nb_m.m2",
+       },
+      },
+      text = "unk_exp10_6888968_nb_m",
+      value = "unk_exp10_6888968_nb_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888969",
+        text = "6888969_or_m.m2",
+        value = "6888969_or_m.m2",
+       },
+      },
+      text = "unk_exp10_6888969_or_m",
+      value = "unk_exp10_6888969_or_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888970",
+        text = "6888970_or_f.m2",
+        value = "6888970_or_f.m2",
+       },
+      },
+      text = "unk_exp10_6888970_or_f",
+      value = "unk_exp10_6888970_or_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888971",
+        text = "6888971_pa_m.m2",
+        value = "6888971_pa_m.m2",
+       },
+      },
+      text = "unk_exp10_6888971_pa_m",
+      value = "unk_exp10_6888971_pa_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888972",
+        text = "6888972_pa_f.m2",
+        value = "6888972_pa_f.m2",
+       },
+      },
+      text = "unk_exp10_6888972_pa_f",
+      value = "unk_exp10_6888972_pa_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888973",
+        text = "6888973_ta_m.m2",
+        value = "6888973_ta_m.m2",
+       },
+      },
+      text = "unk_exp10_6888973_ta_m",
+      value = "unk_exp10_6888973_ta_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888974",
+        text = "6888974_ta_f.m2",
+        value = "6888974_ta_f.m2",
+       },
+      },
+      text = "unk_exp10_6888974_ta_f",
+      value = "unk_exp10_6888974_ta_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888975",
+        text = "6888975_tr_m.m2",
+        value = "6888975_tr_m.m2",
+       },
+      },
+      text = "unk_exp10_6888975_tr_m",
+      value = "unk_exp10_6888975_tr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888976",
+        text = "6888976_tr_f.m2",
+        value = "6888976_tr_f.m2",
+       },
+      },
+      text = "unk_exp10_6888976_tr_f",
+      value = "unk_exp10_6888976_tr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888977",
+        text = "6888977_sc_m.m2",
+        value = "6888977_sc_m.m2",
+       },
+      },
+      text = "unk_exp10_6888977_sc_m",
+      value = "unk_exp10_6888977_sc_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888978",
+        text = "6888978_sc_f.m2",
+        value = "6888978_sc_f.m2",
+       },
+      },
+      text = "unk_exp10_6888978_sc_f",
+      value = "unk_exp10_6888978_sc_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888979",
+        text = "6888979_vu_m.m2",
+        value = "6888979_vu_m.m2",
+       },
+      },
+      text = "unk_exp10_6888979_vu_m",
+      value = "unk_exp10_6888979_vu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888980",
+        text = "6888980_vu_f.m2",
+        value = "6888980_vu_f.m2",
+       },
+      },
+      text = "unk_exp10_6888980_vu_f",
+      value = "unk_exp10_6888980_vu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888981",
+        text = "6888981_wo_m.m2",
+        value = "6888981_wo_m.m2",
+       },
+      },
+      text = "unk_exp10_6888981_wo_m",
+      value = "unk_exp10_6888981_wo_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888982",
+        text = "6888982_wo_f.m2",
+        value = "6888982_wo_f.m2",
+       },
+      },
+      text = "unk_exp10_6888982_wo_f",
+      value = "unk_exp10_6888982_wo_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888983",
+        text = "6888983_za_m.m2",
+        value = "6888983_za_m.m2",
+       },
+      },
+      text = "unk_exp10_6888983_za_m",
+      value = "unk_exp10_6888983_za_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888984",
+        text = "6888984_za_f.m2",
+        value = "6888984_za_f.m2",
+       },
+      },
+      text = "unk_exp10_6888984_za_f",
+      value = "unk_exp10_6888984_za_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888989",
+        text = "6888989_be_m.m2",
+        value = "6888989_be_m.m2",
+       },
+      },
+      text = "unk_exp10_6888989_be_m",
+      value = "unk_exp10_6888989_be_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888990",
+        text = "6888990_be_f.m2",
+        value = "6888990_be_f.m2",
+       },
+      },
+      text = "unk_exp10_6888990_be_f",
+      value = "unk_exp10_6888990_be_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888991",
+        text = "6888991_dr_m.m2",
+        value = "6888991_dr_m.m2",
+       },
+      },
+      text = "unk_exp10_6888991_dr_m",
+      value = "unk_exp10_6888991_dr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888992",
+        text = "6888992_dr_f.m2",
+        value = "6888992_dr_f.m2",
+       },
+      },
+      text = "unk_exp10_6888992_dr_f",
+      value = "unk_exp10_6888992_dr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888993",
+        text = "6888993_dw_m.m2",
+        value = "6888993_dw_m.m2",
+       },
+      },
+      text = "unk_exp10_6888993_dw_m",
+      value = "unk_exp10_6888993_dw_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888994",
+        text = "6888994_dw_f.m2",
+        value = "6888994_dw_f.m2",
+       },
+      },
+      text = "unk_exp10_6888994_dw_f",
+      value = "unk_exp10_6888994_dw_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888995",
+        text = "6888995_ed_m.m2",
+        value = "6888995_ed_m.m2",
+       },
+      },
+      text = "unk_exp10_6888995_ed_m",
+      value = "unk_exp10_6888995_ed_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888996",
+        text = "6888996_ed_f.m2",
+        value = "6888996_ed_f.m2",
+       },
+      },
+      text = "unk_exp10_6888996_ed_f",
+      value = "unk_exp10_6888996_ed_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888997",
+        text = "6888997_gn_m.m2",
+        value = "6888997_gn_m.m2",
+       },
+      },
+      text = "unk_exp10_6888997_gn_m",
+      value = "unk_exp10_6888997_gn_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6888998",
+        text = "6888998_gn_f.m2",
+        value = "6888998_gn_f.m2",
+       },
+      },
+      text = "unk_exp10_6888998_gn_f",
+      value = "unk_exp10_6888998_gn_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6888999",
+        text = "6888999_go_m.m2",
+        value = "6888999_go_m.m2",
+       },
+      },
+      text = "unk_exp10_6888999_go_m",
+      value = "unk_exp10_6888999_go_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889000",
+        text = "6889000_go_f.m2",
+        value = "6889000_go_f.m2",
+       },
+      },
+      text = "unk_exp10_6889000_go_f",
+      value = "unk_exp10_6889000_go_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889001",
+        text = "6889001_hu_m.m2",
+        value = "6889001_hu_m.m2",
+       },
+      },
+      text = "unk_exp10_6889001_hu_m",
+      value = "unk_exp10_6889001_hu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889002",
+        text = "6889002_hu_f.m2",
+        value = "6889002_hu_f.m2",
+       },
+      },
+      text = "unk_exp10_6889002_hu_f",
+      value = "unk_exp10_6889002_hu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889003",
+        text = "6889003_kt_m.m2",
+        value = "6889003_kt_m.m2",
+       },
+      },
+      text = "unk_exp10_6889003_kt_m",
+      value = "unk_exp10_6889003_kt_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889004",
+        text = "6889004_kt_f.m2",
+        value = "6889004_kt_f.m2",
+       },
+      },
+      text = "unk_exp10_6889004_kt_f",
+      value = "unk_exp10_6889004_kt_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889005",
+        text = "6889005_mg_m.m2",
+        value = "6889005_mg_m.m2",
+       },
+      },
+      text = "unk_exp10_6889005_mg_m",
+      value = "unk_exp10_6889005_mg_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889006",
+        text = "6889006_mg_f.m2",
+        value = "6889006_mg_f.m2",
+       },
+      },
+      text = "unk_exp10_6889006_mg_f",
+      value = "unk_exp10_6889006_mg_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889007",
+        text = "6889007_ni_m.m2",
+        value = "6889007_ni_m.m2",
+       },
+      },
+      text = "unk_exp10_6889007_ni_m",
+      value = "unk_exp10_6889007_ni_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889008",
+        text = "6889008_ni_f.m2",
+        value = "6889008_ni_f.m2",
+       },
+      },
+      text = "unk_exp10_6889008_ni_f",
+      value = "unk_exp10_6889008_ni_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889009",
+        text = "6889009_nb_m.m2",
+        value = "6889009_nb_m.m2",
+       },
+      },
+      text = "unk_exp10_6889009_nb_m",
+      value = "unk_exp10_6889009_nb_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889010",
+        text = "6889010_or_m.m2",
+        value = "6889010_or_m.m2",
+       },
+      },
+      text = "unk_exp10_6889010_or_m",
+      value = "unk_exp10_6889010_or_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889011",
+        text = "6889011_or_f.m2",
+        value = "6889011_or_f.m2",
+       },
+      },
+      text = "unk_exp10_6889011_or_f",
+      value = "unk_exp10_6889011_or_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889012",
+        text = "6889012_pa_m.m2",
+        value = "6889012_pa_m.m2",
+       },
+      },
+      text = "unk_exp10_6889012_pa_m",
+      value = "unk_exp10_6889012_pa_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889013",
+        text = "6889013_pa_f.m2",
+        value = "6889013_pa_f.m2",
+       },
+      },
+      text = "unk_exp10_6889013_pa_f",
+      value = "unk_exp10_6889013_pa_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889014",
+        text = "6889014_ta_m.m2",
+        value = "6889014_ta_m.m2",
+       },
+      },
+      text = "unk_exp10_6889014_ta_m",
+      value = "unk_exp10_6889014_ta_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889015",
+        text = "6889015_ta_f.m2",
+        value = "6889015_ta_f.m2",
+       },
+      },
+      text = "unk_exp10_6889015_ta_f",
+      value = "unk_exp10_6889015_ta_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889016",
+        text = "6889016_tr_m.m2",
+        value = "6889016_tr_m.m2",
+       },
+      },
+      text = "unk_exp10_6889016_tr_m",
+      value = "unk_exp10_6889016_tr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889017",
+        text = "6889017_tr_f.m2",
+        value = "6889017_tr_f.m2",
+       },
+      },
+      text = "unk_exp10_6889017_tr_f",
+      value = "unk_exp10_6889017_tr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889018",
+        text = "6889018_sc_m.m2",
+        value = "6889018_sc_m.m2",
+       },
+      },
+      text = "unk_exp10_6889018_sc_m",
+      value = "unk_exp10_6889018_sc_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889019",
+        text = "6889019_sc_f.m2",
+        value = "6889019_sc_f.m2",
+       },
+      },
+      text = "unk_exp10_6889019_sc_f",
+      value = "unk_exp10_6889019_sc_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889020",
+        text = "6889020_vu_m.m2",
+        value = "6889020_vu_m.m2",
+       },
+      },
+      text = "unk_exp10_6889020_vu_m",
+      value = "unk_exp10_6889020_vu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889021",
+        text = "6889021_vu_f.m2",
+        value = "6889021_vu_f.m2",
+       },
+      },
+      text = "unk_exp10_6889021_vu_f",
+      value = "unk_exp10_6889021_vu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889022",
+        text = "6889022_wo_m.m2",
+        value = "6889022_wo_m.m2",
+       },
+      },
+      text = "unk_exp10_6889022_wo_m",
+      value = "unk_exp10_6889022_wo_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889023",
+        text = "6889023_wo_f.m2",
+        value = "6889023_wo_f.m2",
+       },
+      },
+      text = "unk_exp10_6889023_wo_f",
+      value = "unk_exp10_6889023_wo_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889024",
+        text = "6889024_za_m.m2",
+        value = "6889024_za_m.m2",
+       },
+      },
+      text = "unk_exp10_6889024_za_m",
+      value = "unk_exp10_6889024_za_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889025",
+        text = "6889025_za_f.m2",
+        value = "6889025_za_f.m2",
+       },
+      },
+      text = "unk_exp10_6889025_za_f",
+      value = "unk_exp10_6889025_za_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889761",
+        text = "6889761_be_m.m2",
+        value = "6889761_be_m.m2",
+       },
+      },
+      text = "unk_exp10_6889761_be_m",
+      value = "unk_exp10_6889761_be_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889762",
+        text = "6889762_be_f.m2",
+        value = "6889762_be_f.m2",
+       },
+      },
+      text = "unk_exp10_6889762_be_f",
+      value = "unk_exp10_6889762_be_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889763",
+        text = "6889763_dr_m.m2",
+        value = "6889763_dr_m.m2",
+       },
+      },
+      text = "unk_exp10_6889763_dr_m",
+      value = "unk_exp10_6889763_dr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889764",
+        text = "6889764_dr_f.m2",
+        value = "6889764_dr_f.m2",
+       },
+      },
+      text = "unk_exp10_6889764_dr_f",
+      value = "unk_exp10_6889764_dr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889765",
+        text = "6889765_dw_m.m2",
+        value = "6889765_dw_m.m2",
+       },
+      },
+      text = "unk_exp10_6889765_dw_m",
+      value = "unk_exp10_6889765_dw_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889766",
+        text = "6889766_dw_f.m2",
+        value = "6889766_dw_f.m2",
+       },
+      },
+      text = "unk_exp10_6889766_dw_f",
+      value = "unk_exp10_6889766_dw_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889767",
+        text = "6889767_ed_m.m2",
+        value = "6889767_ed_m.m2",
+       },
+      },
+      text = "unk_exp10_6889767_ed_m",
+      value = "unk_exp10_6889767_ed_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889768",
+        text = "6889768_ed_f.m2",
+        value = "6889768_ed_f.m2",
+       },
+      },
+      text = "unk_exp10_6889768_ed_f",
+      value = "unk_exp10_6889768_ed_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889769",
+        text = "6889769_gn_m.m2",
+        value = "6889769_gn_m.m2",
+       },
+      },
+      text = "unk_exp10_6889769_gn_m",
+      value = "unk_exp10_6889769_gn_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889770",
+        text = "6889770_gn_f.m2",
+        value = "6889770_gn_f.m2",
+       },
+      },
+      text = "unk_exp10_6889770_gn_f",
+      value = "unk_exp10_6889770_gn_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889771",
+        text = "6889771_go_m.m2",
+        value = "6889771_go_m.m2",
+       },
+      },
+      text = "unk_exp10_6889771_go_m",
+      value = "unk_exp10_6889771_go_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889772",
+        text = "6889772_go_f.m2",
+        value = "6889772_go_f.m2",
+       },
+      },
+      text = "unk_exp10_6889772_go_f",
+      value = "unk_exp10_6889772_go_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889773",
+        text = "6889773_hu_m.m2",
+        value = "6889773_hu_m.m2",
+       },
+      },
+      text = "unk_exp10_6889773_hu_m",
+      value = "unk_exp10_6889773_hu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889774",
+        text = "6889774_hu_f.m2",
+        value = "6889774_hu_f.m2",
+       },
+      },
+      text = "unk_exp10_6889774_hu_f",
+      value = "unk_exp10_6889774_hu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889775",
+        text = "6889775_kt_m.m2",
+        value = "6889775_kt_m.m2",
+       },
+      },
+      text = "unk_exp10_6889775_kt_m",
+      value = "unk_exp10_6889775_kt_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889776",
+        text = "6889776_kt_f.m2",
+        value = "6889776_kt_f.m2",
+       },
+      },
+      text = "unk_exp10_6889776_kt_f",
+      value = "unk_exp10_6889776_kt_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889777",
+        text = "6889777_mg_m.m2",
+        value = "6889777_mg_m.m2",
+       },
+      },
+      text = "unk_exp10_6889777_mg_m",
+      value = "unk_exp10_6889777_mg_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889778",
+        text = "6889778_mg_f.m2",
+        value = "6889778_mg_f.m2",
+       },
+      },
+      text = "unk_exp10_6889778_mg_f",
+      value = "unk_exp10_6889778_mg_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889779",
+        text = "6889779_ni_m.m2",
+        value = "6889779_ni_m.m2",
+       },
+      },
+      text = "unk_exp10_6889779_ni_m",
+      value = "unk_exp10_6889779_ni_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889780",
+        text = "6889780_ni_f.m2",
+        value = "6889780_ni_f.m2",
+       },
+      },
+      text = "unk_exp10_6889780_ni_f",
+      value = "unk_exp10_6889780_ni_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889781",
+        text = "6889781_nb_m.m2",
+        value = "6889781_nb_m.m2",
+       },
+      },
+      text = "unk_exp10_6889781_nb_m",
+      value = "unk_exp10_6889781_nb_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889782",
+        text = "6889782_or_m.m2",
+        value = "6889782_or_m.m2",
+       },
+      },
+      text = "unk_exp10_6889782_or_m",
+      value = "unk_exp10_6889782_or_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889783",
+        text = "6889783_or_f.m2",
+        value = "6889783_or_f.m2",
+       },
+      },
+      text = "unk_exp10_6889783_or_f",
+      value = "unk_exp10_6889783_or_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889784",
+        text = "6889784_pa_m.m2",
+        value = "6889784_pa_m.m2",
+       },
+      },
+      text = "unk_exp10_6889784_pa_m",
+      value = "unk_exp10_6889784_pa_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889785",
+        text = "6889785_pa_f.m2",
+        value = "6889785_pa_f.m2",
+       },
+      },
+      text = "unk_exp10_6889785_pa_f",
+      value = "unk_exp10_6889785_pa_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889786",
+        text = "6889786_ta_m.m2",
+        value = "6889786_ta_m.m2",
+       },
+      },
+      text = "unk_exp10_6889786_ta_m",
+      value = "unk_exp10_6889786_ta_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889787",
+        text = "6889787_ta_f.m2",
+        value = "6889787_ta_f.m2",
+       },
+      },
+      text = "unk_exp10_6889787_ta_f",
+      value = "unk_exp10_6889787_ta_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889788",
+        text = "6889788_tr_m.m2",
+        value = "6889788_tr_m.m2",
+       },
+      },
+      text = "unk_exp10_6889788_tr_m",
+      value = "unk_exp10_6889788_tr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889789",
+        text = "6889789_tr_f.m2",
+        value = "6889789_tr_f.m2",
+       },
+      },
+      text = "unk_exp10_6889789_tr_f",
+      value = "unk_exp10_6889789_tr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889790",
+        text = "6889790_sc_m.m2",
+        value = "6889790_sc_m.m2",
+       },
+      },
+      text = "unk_exp10_6889790_sc_m",
+      value = "unk_exp10_6889790_sc_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889791",
+        text = "6889791_sc_f.m2",
+        value = "6889791_sc_f.m2",
+       },
+      },
+      text = "unk_exp10_6889791_sc_f",
+      value = "unk_exp10_6889791_sc_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889792",
+        text = "6889792_vu_m.m2",
+        value = "6889792_vu_m.m2",
+       },
+      },
+      text = "unk_exp10_6889792_vu_m",
+      value = "unk_exp10_6889792_vu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889793",
+        text = "6889793_vu_f.m2",
+        value = "6889793_vu_f.m2",
+       },
+      },
+      text = "unk_exp10_6889793_vu_f",
+      value = "unk_exp10_6889793_vu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889794",
+        text = "6889794_wo_m.m2",
+        value = "6889794_wo_m.m2",
+       },
+      },
+      text = "unk_exp10_6889794_wo_m",
+      value = "unk_exp10_6889794_wo_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889795",
+        text = "6889795_wo_f.m2",
+        value = "6889795_wo_f.m2",
+       },
+      },
+      text = "unk_exp10_6889795_wo_f",
+      value = "unk_exp10_6889795_wo_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889796",
+        text = "6889796_za_m.m2",
+        value = "6889796_za_m.m2",
+       },
+      },
+      text = "unk_exp10_6889796_za_m",
+      value = "unk_exp10_6889796_za_m",
+     },
+     {
+      children = {
+       {
+        fileId = "6889797",
+        text = "6889797_za_f.m2",
+        value = "6889797_za_f.m2",
+       },
+      },
+      text = "unk_exp10_6889797_za_f",
+      value = "unk_exp10_6889797_za_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6889800",
+        text = "6889800_l.m2",
+        value = "6889800_l.m2",
+       },
+      },
+      text = "unk_exp10_6889800_l",
+      value = "unk_exp10_6889800_l",
+     },
+     {
+      children = {
+       {
+        fileId = "6889801",
+        text = "6889801_r.m2",
+        value = "6889801_r.m2",
+       },
+      },
+      text = "unk_exp10_6889801_r",
+      value = "unk_exp10_6889801_r",
+     },
+     {
+      children = {
+       {
+        fileId = "7144094",
+        text = "7144094_l.m2",
+        value = "7144094_l.m2",
+       },
+      },
+      text = "unk_exp10_7144094_l",
+      value = "unk_exp10_7144094_l",
+     },
+     {
+      children = {
+       {
+        fileId = "7144095",
+        text = "7144095_r.m2",
+        value = "7144095_r.m2",
+       },
+      },
+      text = "unk_exp10_7144095_r",
+      value = "unk_exp10_7144095_r",
+     },
+     {
+      children = {
+       {
+        fileId = "7246026",
+        text = "7246026_be_m.m2",
+        value = "7246026_be_m.m2",
+       },
+      },
+      text = "unk_exp10_7246026_be_m",
+      value = "unk_exp10_7246026_be_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246027",
+        text = "7246027_be_f.m2",
+        value = "7246027_be_f.m2",
+       },
+      },
+      text = "unk_exp10_7246027_be_f",
+      value = "unk_exp10_7246027_be_f",
+     },
+     {
+      children = {
+       {
+        fileId = "7246028",
+        text = "7246028_dr_m.m2",
+        value = "7246028_dr_m.m2",
+       },
+      },
+      text = "unk_exp10_7246028_dr_m",
+      value = "unk_exp10_7246028_dr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246029",
+        text = "7246029_dr_f.m2",
+        value = "7246029_dr_f.m2",
+       },
+      },
+      text = "unk_exp10_7246029_dr_f",
+      value = "unk_exp10_7246029_dr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "7246030",
+        text = "7246030_dw_m.m2",
+        value = "7246030_dw_m.m2",
+       },
+      },
+      text = "unk_exp10_7246030_dw_m",
+      value = "unk_exp10_7246030_dw_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246031",
+        text = "7246031_dw_f.m2",
+        value = "7246031_dw_f.m2",
+       },
+      },
+      text = "unk_exp10_7246031_dw_f",
+      value = "unk_exp10_7246031_dw_f",
+     },
+     {
+      children = {
+       {
+        fileId = "7246032",
+        text = "7246032_ed_m.m2",
+        value = "7246032_ed_m.m2",
+       },
+      },
+      text = "unk_exp10_7246032_ed_m",
+      value = "unk_exp10_7246032_ed_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246033",
+        text = "7246033_ed_f.m2",
+        value = "7246033_ed_f.m2",
+       },
+      },
+      text = "unk_exp10_7246033_ed_f",
+      value = "unk_exp10_7246033_ed_f",
+     },
+     {
+      children = {
+       {
+        fileId = "7246034",
+        text = "7246034_gn_m.m2",
+        value = "7246034_gn_m.m2",
+       },
+      },
+      text = "unk_exp10_7246034_gn_m",
+      value = "unk_exp10_7246034_gn_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246035",
+        text = "7246035_gn_f.m2",
+        value = "7246035_gn_f.m2",
+       },
+      },
+      text = "unk_exp10_7246035_gn_f",
+      value = "unk_exp10_7246035_gn_f",
+     },
+     {
+      children = {
+       {
+        fileId = "7246036",
+        text = "7246036_go_m.m2",
+        value = "7246036_go_m.m2",
+       },
+      },
+      text = "unk_exp10_7246036_go_m",
+      value = "unk_exp10_7246036_go_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246037",
+        text = "7246037_go_f.m2",
+        value = "7246037_go_f.m2",
+       },
+      },
+      text = "unk_exp10_7246037_go_f",
+      value = "unk_exp10_7246037_go_f",
+     },
+     {
+      children = {
+       {
+        fileId = "7246038",
+        text = "7246038_hu_m.m2",
+        value = "7246038_hu_m.m2",
+       },
+      },
+      text = "unk_exp10_7246038_hu_m",
+      value = "unk_exp10_7246038_hu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246039",
+        text = "7246039_hu_f.m2",
+        value = "7246039_hu_f.m2",
+       },
+      },
+      text = "unk_exp10_7246039_hu_f",
+      value = "unk_exp10_7246039_hu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "7246040",
+        text = "7246040_kt_m.m2",
+        value = "7246040_kt_m.m2",
+       },
+      },
+      text = "unk_exp10_7246040_kt_m",
+      value = "unk_exp10_7246040_kt_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246041",
+        text = "7246041_kt_f.m2",
+        value = "7246041_kt_f.m2",
+       },
+      },
+      text = "unk_exp10_7246041_kt_f",
+      value = "unk_exp10_7246041_kt_f",
+     },
+     {
+      children = {
+       {
+        fileId = "7246042",
+        text = "7246042_mg_m.m2",
+        value = "7246042_mg_m.m2",
+       },
+      },
+      text = "unk_exp10_7246042_mg_m",
+      value = "unk_exp10_7246042_mg_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246043",
+        text = "7246043_mg_f.m2",
+        value = "7246043_mg_f.m2",
+       },
+      },
+      text = "unk_exp10_7246043_mg_f",
+      value = "unk_exp10_7246043_mg_f",
+     },
+     {
+      children = {
+       {
+        fileId = "7246044",
+        text = "7246044_ni_m.m2",
+        value = "7246044_ni_m.m2",
+       },
+      },
+      text = "unk_exp10_7246044_ni_m",
+      value = "unk_exp10_7246044_ni_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246045",
+        text = "7246045_ni_f.m2",
+        value = "7246045_ni_f.m2",
+       },
+      },
+      text = "unk_exp10_7246045_ni_f",
+      value = "unk_exp10_7246045_ni_f",
+     },
+     {
+      children = {
+       {
+        fileId = "7246046",
+        text = "7246046_nb_m.m2",
+        value = "7246046_nb_m.m2",
+       },
+      },
+      text = "unk_exp10_7246046_nb_m",
+      value = "unk_exp10_7246046_nb_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246047",
+        text = "7246047_or_m.m2",
+        value = "7246047_or_m.m2",
+       },
+      },
+      text = "unk_exp10_7246047_or_m",
+      value = "unk_exp10_7246047_or_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246048",
+        text = "7246048_or_f.m2",
+        value = "7246048_or_f.m2",
+       },
+      },
+      text = "unk_exp10_7246048_or_f",
+      value = "unk_exp10_7246048_or_f",
+     },
+     {
+      children = {
+       {
+        fileId = "7246049",
+        text = "7246049_pa_m.m2",
+        value = "7246049_pa_m.m2",
+       },
+      },
+      text = "unk_exp10_7246049_pa_m",
+      value = "unk_exp10_7246049_pa_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246050",
+        text = "7246050_pa_f.m2",
+        value = "7246050_pa_f.m2",
+       },
+      },
+      text = "unk_exp10_7246050_pa_f",
+      value = "unk_exp10_7246050_pa_f",
+     },
+     {
+      children = {
+       {
+        fileId = "7246051",
+        text = "7246051_ta_m.m2",
+        value = "7246051_ta_m.m2",
+       },
+      },
+      text = "unk_exp10_7246051_ta_m",
+      value = "unk_exp10_7246051_ta_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246052",
+        text = "7246052_ta_f.m2",
+        value = "7246052_ta_f.m2",
+       },
+      },
+      text = "unk_exp10_7246052_ta_f",
+      value = "unk_exp10_7246052_ta_f",
+     },
+     {
+      children = {
+       {
+        fileId = "7246053",
+        text = "7246053_tr_m.m2",
+        value = "7246053_tr_m.m2",
+       },
+      },
+      text = "unk_exp10_7246053_tr_m",
+      value = "unk_exp10_7246053_tr_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246054",
+        text = "7246054_tr_f.m2",
+        value = "7246054_tr_f.m2",
+       },
+      },
+      text = "unk_exp10_7246054_tr_f",
+      value = "unk_exp10_7246054_tr_f",
+     },
+     {
+      children = {
+       {
+        fileId = "7246055",
+        text = "7246055_sc_m.m2",
+        value = "7246055_sc_m.m2",
+       },
+      },
+      text = "unk_exp10_7246055_sc_m",
+      value = "unk_exp10_7246055_sc_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246056",
+        text = "7246056_sc_f.m2",
+        value = "7246056_sc_f.m2",
+       },
+      },
+      text = "unk_exp10_7246056_sc_f",
+      value = "unk_exp10_7246056_sc_f",
+     },
+     {
+      children = {
+       {
+        fileId = "7246057",
+        text = "7246057_vu_m.m2",
+        value = "7246057_vu_m.m2",
+       },
+      },
+      text = "unk_exp10_7246057_vu_m",
+      value = "unk_exp10_7246057_vu_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246058",
+        text = "7246058_vu_f.m2",
+        value = "7246058_vu_f.m2",
+       },
+      },
+      text = "unk_exp10_7246058_vu_f",
+      value = "unk_exp10_7246058_vu_f",
+     },
+     {
+      children = {
+       {
+        fileId = "7246059",
+        text = "7246059_wo_m.m2",
+        value = "7246059_wo_m.m2",
+       },
+      },
+      text = "unk_exp10_7246059_wo_m",
+      value = "unk_exp10_7246059_wo_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246060",
+        text = "7246060_wo_f.m2",
+        value = "7246060_wo_f.m2",
+       },
+      },
+      text = "unk_exp10_7246060_wo_f",
+      value = "unk_exp10_7246060_wo_f",
+     },
+     {
+      children = {
+       {
+        fileId = "7246061",
+        text = "7246061_za_m.m2",
+        value = "7246061_za_m.m2",
+       },
+      },
+      text = "unk_exp10_7246061_za_m",
+      value = "unk_exp10_7246061_za_m",
+     },
+     {
+      children = {
+       {
+        fileId = "7246062",
+        text = "7246062_za_f.m2",
+        value = "7246062_za_f.m2",
+       },
+      },
+      text = "unk_exp10_7246062_za_f",
+      value = "unk_exp10_7246062_za_f",
+     },
+     {
+      children = {
+       {
+        fileId = "6914201",
+        text = "blowdart_bloodtroll.m2",
+        value = "blowdart_bloodtroll.m2",
+       },
+      },
+      text = "unk_exp10_blowdart_bloodtroll",
+      value = "unk_exp10_blowdart_bloodtroll",
+     },
+     {
+      children = {
+       {
+        fileId = "6914205",
+        text = "blowdart_zandalari.m2",
+        value = "blowdart_zandalari.m2",
+       },
+      },
+      text = "unk_exp10_blowdart_zandalari",
+      value = "unk_exp10_blowdart_zandalari",
+     },
     },
     text = "item",
     value = "item",
@@ -317057,17 +333569,6 @@ WeakAuras.ModelPaths = {
      {
       children = {
        {
-        fileId = "6020262",
-        text = "6020262.m2",
-        value = "6020262.m2",
-       },
-      },
-      text = "unk_exp10_6020262",
-      value = "unk_exp10_6020262",
-     },
-     {
-      children = {
-       {
         fileId = "6025532",
         text = "6025532.m2",
         value = "6025532.m2",
@@ -317123,6 +333624,28 @@ WeakAuras.ModelPaths = {
      {
       children = {
        {
+        fileId = "6127609",
+        text = "6127609.m2",
+        value = "6127609.m2",
+       },
+      },
+      text = "unk_exp10_6127609",
+      value = "unk_exp10_6127609",
+     },
+     {
+      children = {
+       {
+        fileId = "6127610",
+        text = "6127610.m2",
+        value = "6127610.m2",
+       },
+      },
+      text = "unk_exp10_6127610",
+      value = "unk_exp10_6127610",
+     },
+     {
+      children = {
+       {
         fileId = "6129762",
         text = "6129762.m2",
         value = "6129762.m2",
@@ -317141,17 +333664,6 @@ WeakAuras.ModelPaths = {
       },
       text = "unk_exp10_6129763",
       value = "unk_exp10_6129763",
-     },
-     {
-      children = {
-       {
-        fileId = "6181813",
-        text = "6181813.m2",
-        value = "6181813.m2",
-       },
-      },
-      text = "unk_exp10_6181813",
-      value = "unk_exp10_6181813",
      },
      {
       children = {
@@ -317288,6 +333800,17 @@ WeakAuras.ModelPaths = {
      {
       children = {
        {
+        fileId = "6195747",
+        text = "6195747.m2",
+        value = "6195747.m2",
+       },
+      },
+      text = "unk_exp10_6195747",
+      value = "unk_exp10_6195747",
+     },
+     {
+      children = {
+       {
         fileId = "6211591",
         text = "6211591.m2",
         value = "6211591.m2",
@@ -317361,6 +333884,17 @@ WeakAuras.ModelPaths = {
       },
       text = "unk_exp10_6216758",
       value = "unk_exp10_6216758",
+     },
+     {
+      children = {
+       {
+        fileId = "6220515",
+        text = "6220515.m2",
+        value = "6220515.m2",
+       },
+      },
+      text = "unk_exp10_6220515",
+      value = "unk_exp10_6220515",
      },
      {
       children = {
@@ -317673,6 +334207,17 @@ WeakAuras.ModelPaths = {
      {
       children = {
        {
+        fileId = "6374105",
+        text = "6374105.m2",
+        value = "6374105.m2",
+       },
+      },
+      text = "unk_exp10_6374105",
+      value = "unk_exp10_6374105",
+     },
+     {
+      children = {
+       {
         fileId = "6379322",
         text = "6379322.m2",
         value = "6379322.m2",
@@ -317835,6 +334380,347 @@ WeakAuras.ModelPaths = {
       text = "unk_exp10_6404378",
       value = "unk_exp10_6404378",
      },
+     {
+      children = {
+       {
+        fileId = "6725910",
+        text = "6725910.m2",
+        value = "6725910.m2",
+       },
+      },
+      text = "unk_exp10_6725910",
+      value = "unk_exp10_6725910",
+     },
+     {
+      children = {
+       {
+        fileId = "6736708",
+        text = "6736708.m2",
+        value = "6736708.m2",
+       },
+      },
+      text = "unk_exp10_6736708",
+      value = "unk_exp10_6736708",
+     },
+     {
+      children = {
+       {
+        fileId = "6865792",
+        text = "6865792.m2",
+        value = "6865792.m2",
+       },
+      },
+      text = "unk_exp10_6865792",
+      value = "unk_exp10_6865792",
+     },
+     {
+      children = {
+       {
+        fileId = "6872671",
+        text = "6872671.m2",
+        value = "6872671.m2",
+       },
+      },
+      text = "unk_exp10_6872671",
+      value = "unk_exp10_6872671",
+     },
+     {
+      children = {
+       {
+        fileId = "6872672",
+        text = "6872672.m2",
+        value = "6872672.m2",
+       },
+      },
+      text = "unk_exp10_6872672",
+      value = "unk_exp10_6872672",
+     },
+     {
+      children = {
+       {
+        fileId = "6872673",
+        text = "6872673.m2",
+        value = "6872673.m2",
+       },
+      },
+      text = "unk_exp10_6872673",
+      value = "unk_exp10_6872673",
+     },
+     {
+      children = {
+       {
+        fileId = "6872674",
+        text = "6872674.m2",
+        value = "6872674.m2",
+       },
+      },
+      text = "unk_exp10_6872674",
+      value = "unk_exp10_6872674",
+     },
+     {
+      children = {
+       {
+        fileId = "7065154",
+        text = "7065154.m2",
+        value = "7065154.m2",
+       },
+      },
+      text = "unk_exp10_7065154",
+      value = "unk_exp10_7065154",
+     },
+     {
+      children = {
+       {
+        fileId = "7096380",
+        text = "7096380.m2",
+        value = "7096380.m2",
+       },
+      },
+      text = "unk_exp10_7096380",
+      value = "unk_exp10_7096380",
+     },
+     {
+      children = {
+       {
+        fileId = "7096381",
+        text = "7096381.m2",
+        value = "7096381.m2",
+       },
+      },
+      text = "unk_exp10_7096381",
+      value = "unk_exp10_7096381",
+     },
+     {
+      children = {
+       {
+        fileId = "7096382",
+        text = "7096382.m2",
+        value = "7096382.m2",
+       },
+      },
+      text = "unk_exp10_7096382",
+      value = "unk_exp10_7096382",
+     },
+     {
+      children = {
+       {
+        fileId = "7096383",
+        text = "7096383.m2",
+        value = "7096383.m2",
+       },
+      },
+      text = "unk_exp10_7096383",
+      value = "unk_exp10_7096383",
+     },
+     {
+      children = {
+       {
+        fileId = "7096384",
+        text = "7096384.m2",
+        value = "7096384.m2",
+       },
+      },
+      text = "unk_exp10_7096384",
+      value = "unk_exp10_7096384",
+     },
+     {
+      children = {
+       {
+        fileId = "7096385",
+        text = "7096385.m2",
+        value = "7096385.m2",
+       },
+      },
+      text = "unk_exp10_7096385",
+      value = "unk_exp10_7096385",
+     },
+     {
+      children = {
+       {
+        fileId = "7114905",
+        text = "7114905.m2",
+        value = "7114905.m2",
+       },
+      },
+      text = "unk_exp10_7114905",
+      value = "unk_exp10_7114905",
+     },
+     {
+      children = {
+       {
+        fileId = "7114906",
+        text = "7114906.m2",
+        value = "7114906.m2",
+       },
+      },
+      text = "unk_exp10_7114906",
+      value = "unk_exp10_7114906",
+     },
+     {
+      children = {
+       {
+        fileId = "7114933",
+        text = "7114933.m2",
+        value = "7114933.m2",
+       },
+      },
+      text = "unk_exp10_7114933",
+      value = "unk_exp10_7114933",
+     },
+     {
+      children = {
+       {
+        fileId = "7114944",
+        text = "7114944.m2",
+        value = "7114944.m2",
+       },
+      },
+      text = "unk_exp10_7114944",
+      value = "unk_exp10_7114944",
+     },
+     {
+      children = {
+       {
+        fileId = "7114955",
+        text = "7114955.m2",
+        value = "7114955.m2",
+       },
+      },
+      text = "unk_exp10_7114955",
+      value = "unk_exp10_7114955",
+     },
+     {
+      children = {
+       {
+        fileId = "7114966",
+        text = "7114966.m2",
+        value = "7114966.m2",
+       },
+      },
+      text = "unk_exp10_7114966",
+      value = "unk_exp10_7114966",
+     },
+     {
+      children = {
+       {
+        fileId = "7114979",
+        text = "7114979.m2",
+        value = "7114979.m2",
+       },
+      },
+      text = "unk_exp10_7114979",
+      value = "unk_exp10_7114979",
+     },
+     {
+      children = {
+       {
+        fileId = "7149540",
+        text = "7149540.m2",
+        value = "7149540.m2",
+       },
+      },
+      text = "unk_exp10_7149540",
+      value = "unk_exp10_7149540",
+     },
+     {
+      children = {
+       {
+        fileId = "7212000",
+        text = "7212000.m2",
+        value = "7212000.m2",
+       },
+      },
+      text = "unk_exp10_7212000",
+      value = "unk_exp10_7212000",
+     },
+     {
+      children = {
+       {
+        fileId = "7213759",
+        text = "7213759.m2",
+        value = "7213759.m2",
+       },
+      },
+      text = "unk_exp10_7213759",
+      value = "unk_exp10_7213759",
+     },
+     {
+      children = {
+       {
+        fileId = "7213760",
+        text = "7213760.m2",
+        value = "7213760.m2",
+       },
+      },
+      text = "unk_exp10_7213760",
+      value = "unk_exp10_7213760",
+     },
+     {
+      children = {
+       {
+        fileId = "7238592",
+        text = "7238592.m2",
+        value = "7238592.m2",
+       },
+      },
+      text = "unk_exp10_7238592",
+      value = "unk_exp10_7238592",
+     },
+     {
+      children = {
+       {
+        fileId = "7242151",
+        text = "7242151.m2",
+        value = "7242151.m2",
+       },
+      },
+      text = "unk_exp10_7242151",
+      value = "unk_exp10_7242151",
+     },
+     {
+      children = {
+       {
+        fileId = "7245777",
+        text = "7245777.m2",
+        value = "7245777.m2",
+       },
+      },
+      text = "unk_exp10_7245777",
+      value = "unk_exp10_7245777",
+     },
+     {
+      children = {
+       {
+        fileId = "7245778",
+        text = "7245778.m2",
+        value = "7245778.m2",
+       },
+      },
+      text = "unk_exp10_7245778",
+      value = "unk_exp10_7245778",
+     },
+     {
+      children = {
+       {
+        fileId = "7245779",
+        text = "7245779.m2",
+        value = "7245779.m2",
+       },
+      },
+      text = "unk_exp10_7245779",
+      value = "unk_exp10_7245779",
+     },
+     {
+      children = {
+       {
+        fileId = "7245780",
+        text = "7245780.m2",
+        value = "7245780.m2",
+       },
+      },
+      text = "unk_exp10_7245780",
+      value = "unk_exp10_7245780",
+     },
     },
     text = "spells",
     value = "spells",
@@ -317873,6 +334759,17 @@ WeakAuras.ModelPaths = {
       },
       text = "unk_exp10_6008448",
       value = "unk_exp10_6008448",
+     },
+     {
+      children = {
+       {
+        fileId = "6049693",
+        text = "6049693.m2",
+        value = "6049693.m2",
+       },
+      },
+      text = "unk_exp10_6049693",
+      value = "unk_exp10_6049693",
      },
      {
       children = {
@@ -317921,6 +334818,17 @@ WeakAuras.ModelPaths = {
      {
       children = {
        {
+        fileId = "6184803",
+        text = "6184803.m2",
+        value = "6184803.m2",
+       },
+      },
+      text = "unk_exp10_6184803",
+      value = "unk_exp10_6184803",
+     },
+     {
+      children = {
+       {
         fileId = "6322768",
         text = "6322768.m2",
         value = "6322768.m2",
@@ -317928,6 +334836,39 @@ WeakAuras.ModelPaths = {
       },
       text = "unk_exp10_6322768",
       value = "unk_exp10_6322768",
+     },
+     {
+      children = {
+       {
+        fileId = "6382061",
+        text = "6382061.m2",
+        value = "6382061.m2",
+       },
+      },
+      text = "unk_exp10_6382061",
+      value = "unk_exp10_6382061",
+     },
+     {
+      children = {
+       {
+        fileId = "6382063",
+        text = "6382063.m2",
+        value = "6382063.m2",
+       },
+      },
+      text = "unk_exp10_6382063",
+      value = "unk_exp10_6382063",
+     },
+     {
+      children = {
+       {
+        fileId = "6428961",
+        text = "6428961.m2",
+        value = "6428961.m2",
+       },
+      },
+      text = "unk_exp10_6428961",
+      value = "unk_exp10_6428961",
      },
      {
       children = {
@@ -317972,6 +334913,17 @@ WeakAuras.ModelPaths = {
       },
       text = "unk_exp10_6639953",
       value = "unk_exp10_6639953",
+     },
+     {
+      children = {
+       {
+        fileId = "6640994",
+        text = "6640994.m2",
+        value = "6640994.m2",
+       },
+      },
+      text = "unk_exp10_6640994",
+      value = "unk_exp10_6640994",
      },
      {
       children = {
@@ -318042,6 +334994,17 @@ WeakAuras.ModelPaths = {
      {
       children = {
        {
+        fileId = "6661031",
+        text = "6661031.m2",
+        value = "6661031.m2",
+       },
+      },
+      text = "unk_exp10_6661031",
+      value = "unk_exp10_6661031",
+     },
+     {
+      children = {
+       {
         fileId = "6692910",
         text = "6692910.m2",
         value = "6692910.m2",
@@ -318082,6 +335045,204 @@ WeakAuras.ModelPaths = {
       },
       text = "unk_exp10_6707793",
       value = "unk_exp10_6707793",
+     },
+     {
+      children = {
+       {
+        fileId = "6749304",
+        text = "6749304.m2",
+        value = "6749304.m2",
+       },
+      },
+      text = "unk_exp10_6749304",
+      value = "unk_exp10_6749304",
+     },
+     {
+      children = {
+       {
+        fileId = "6794317",
+        text = "6794317.m2",
+        value = "6794317.m2",
+       },
+      },
+      text = "unk_exp10_6794317",
+      value = "unk_exp10_6794317",
+     },
+     {
+      children = {
+       {
+        fileId = "6795110",
+        text = "6795110.m2",
+        value = "6795110.m2",
+       },
+      },
+      text = "unk_exp10_6795110",
+      value = "unk_exp10_6795110",
+     },
+     {
+      children = {
+       {
+        fileId = "6889822",
+        text = "6889822.m2",
+        value = "6889822.m2",
+       },
+      },
+      text = "unk_exp10_6889822",
+      value = "unk_exp10_6889822",
+     },
+     {
+      children = {
+       {
+        fileId = "7233207",
+        text = "7233207.m2",
+        value = "7233207.m2",
+       },
+      },
+      text = "unk_exp10_7233207",
+      value = "unk_exp10_7233207",
+     },
+     {
+      children = {
+       {
+        fileId = "7233208",
+        text = "7233208.m2",
+        value = "7233208.m2",
+       },
+      },
+      text = "unk_exp10_7233208",
+      value = "unk_exp10_7233208",
+     },
+     {
+      children = {
+       {
+        fileId = "7233209",
+        text = "7233209.m2",
+        value = "7233209.m2",
+       },
+      },
+      text = "unk_exp10_7233209",
+      value = "unk_exp10_7233209",
+     },
+     {
+      children = {
+       {
+        fileId = "7233210",
+        text = "7233210.m2",
+        value = "7233210.m2",
+       },
+      },
+      text = "unk_exp10_7233210",
+      value = "unk_exp10_7233210",
+     },
+     {
+      children = {
+       {
+        fileId = "7233211",
+        text = "7233211.m2",
+        value = "7233211.m2",
+       },
+      },
+      text = "unk_exp10_7233211",
+      value = "unk_exp10_7233211",
+     },
+     {
+      children = {
+       {
+        fileId = "7233212",
+        text = "7233212.m2",
+        value = "7233212.m2",
+       },
+      },
+      text = "unk_exp10_7233212",
+      value = "unk_exp10_7233212",
+     },
+     {
+      children = {
+       {
+        fileId = "7233213",
+        text = "7233213.m2",
+        value = "7233213.m2",
+       },
+      },
+      text = "unk_exp10_7233213",
+      value = "unk_exp10_7233213",
+     },
+     {
+      children = {
+       {
+        fileId = "7233214",
+        text = "7233214.m2",
+        value = "7233214.m2",
+       },
+      },
+      text = "unk_exp10_7233214",
+      value = "unk_exp10_7233214",
+     },
+     {
+      children = {
+       {
+        fileId = "7233215",
+        text = "7233215.m2",
+        value = "7233215.m2",
+       },
+      },
+      text = "unk_exp10_7233215",
+      value = "unk_exp10_7233215",
+     },
+     {
+      children = {
+       {
+        fileId = "7233216",
+        text = "7233216.m2",
+        value = "7233216.m2",
+       },
+      },
+      text = "unk_exp10_7233216",
+      value = "unk_exp10_7233216",
+     },
+     {
+      children = {
+       {
+        fileId = "7233217",
+        text = "7233217.m2",
+        value = "7233217.m2",
+       },
+      },
+      text = "unk_exp10_7233217",
+      value = "unk_exp10_7233217",
+     },
+     {
+      children = {
+       {
+        fileId = "7233218",
+        text = "7233218.m2",
+        value = "7233218.m2",
+       },
+      },
+      text = "unk_exp10_7233218",
+      value = "unk_exp10_7233218",
+     },
+     {
+      children = {
+       {
+        fileId = "7233219",
+        text = "7233219.m2",
+        value = "7233219.m2",
+       },
+      },
+      text = "unk_exp10_7233219",
+      value = "unk_exp10_7233219",
+     },
+     {
+      children = {
+       {
+        fileId = "7233220",
+        text = "7233220.m2",
+        value = "7233220.m2",
+       },
+      },
+      text = "unk_exp10_7233220",
+      value = "unk_exp10_7233220",
      },
     },
     text = "unknown",
@@ -318254,6 +335415,39 @@ WeakAuras.ModelPaths = {
      {
       children = {
        {
+        fileId = "5928059",
+        text = "5928059.m2",
+        value = "5928059.m2",
+       },
+      },
+      text = "unk_exp10_5928059",
+      value = "unk_exp10_5928059",
+     },
+     {
+      children = {
+       {
+        fileId = "5928060",
+        text = "5928060.m2",
+        value = "5928060.m2",
+       },
+      },
+      text = "unk_exp10_5928060",
+      value = "unk_exp10_5928060",
+     },
+     {
+      children = {
+       {
+        fileId = "6020262",
+        text = "6020262.m2",
+        value = "6020262.m2",
+       },
+      },
+      text = "unk_exp10_6020262",
+      value = "unk_exp10_6020262",
+     },
+     {
+      children = {
+       {
         fileId = "6194799",
         text = "6194799.m2",
         value = "6194799.m2",
@@ -318261,6 +335455,17 @@ WeakAuras.ModelPaths = {
       },
       text = "unk_exp10_6194799",
       value = "unk_exp10_6194799",
+     },
+     {
+      children = {
+       {
+        fileId = "6195746",
+        text = "6195746.m2",
+        value = "6195746.m2",
+       },
+      },
+      text = "unk_exp10_6195746",
+      value = "unk_exp10_6195746",
      },
      {
       children = {
@@ -318283,6 +335488,160 @@ WeakAuras.ModelPaths = {
       },
       text = "unk_exp10_6226074",
       value = "unk_exp10_6226074",
+     },
+     {
+      children = {
+       {
+        fileId = "6405953",
+        text = "6405953.m2",
+        value = "6405953.m2",
+       },
+      },
+      text = "unk_exp10_6405953",
+      value = "unk_exp10_6405953",
+     },
+     {
+      children = {
+       {
+        fileId = "6405954",
+        text = "6405954.m2",
+        value = "6405954.m2",
+       },
+      },
+      text = "unk_exp10_6405954",
+      value = "unk_exp10_6405954",
+     },
+     {
+      children = {
+       {
+        fileId = "6405957",
+        text = "6405957.m2",
+        value = "6405957.m2",
+       },
+      },
+      text = "unk_exp10_6405957",
+      value = "unk_exp10_6405957",
+     },
+     {
+      children = {
+       {
+        fileId = "6405958",
+        text = "6405958.m2",
+        value = "6405958.m2",
+       },
+      },
+      text = "unk_exp10_6405958",
+      value = "unk_exp10_6405958",
+     },
+     {
+      children = {
+       {
+        fileId = "6405962",
+        text = "6405962.m2",
+        value = "6405962.m2",
+       },
+      },
+      text = "unk_exp10_6405962",
+      value = "unk_exp10_6405962",
+     },
+     {
+      children = {
+       {
+        fileId = "6856682",
+        text = "6856682.m2",
+        value = "6856682.m2",
+       },
+      },
+      text = "unk_exp10_6856682",
+      value = "unk_exp10_6856682",
+     },
+     {
+      children = {
+       {
+        fileId = "6856683",
+        text = "6856683.m2",
+        value = "6856683.m2",
+       },
+      },
+      text = "unk_exp10_6856683",
+      value = "unk_exp10_6856683",
+     },
+     {
+      children = {
+       {
+        fileId = "6866839",
+        text = "6866839.m2",
+        value = "6866839.m2",
+       },
+      },
+      text = "unk_exp10_6866839",
+      value = "unk_exp10_6866839",
+     },
+     {
+      children = {
+       {
+        fileId = "6885671",
+        text = "6885671.m2",
+        value = "6885671.m2",
+       },
+      },
+      text = "unk_exp10_6885671",
+      value = "unk_exp10_6885671",
+     },
+     {
+      children = {
+       {
+        fileId = "6926978",
+        text = "6926978.m2",
+        value = "6926978.m2",
+       },
+      },
+      text = "unk_exp10_6926978",
+      value = "unk_exp10_6926978",
+     },
+     {
+      children = {
+       {
+        fileId = "6927669",
+        text = "6927669.m2",
+        value = "6927669.m2",
+       },
+      },
+      text = "unk_exp10_6927669",
+      value = "unk_exp10_6927669",
+     },
+     {
+      children = {
+       {
+        fileId = "6927674",
+        text = "6927674.m2",
+        value = "6927674.m2",
+       },
+      },
+      text = "unk_exp10_6927674",
+      value = "unk_exp10_6927674",
+     },
+     {
+      children = {
+       {
+        fileId = "6927675",
+        text = "6927675.m2",
+        value = "6927675.m2",
+       },
+      },
+      text = "unk_exp10_6927675",
+      value = "unk_exp10_6927675",
+     },
+     {
+      children = {
+       {
+        fileId = "7114014",
+        text = "7114014.m2",
+        value = "7114014.m2",
+       },
+      },
+      text = "unk_exp10_7114014",
+      value = "unk_exp10_7114014",
      },
     },
     text = "world",
@@ -320320,6 +337679,11 @@ WeakAuras.ModelPaths = {
     value = "11fx_20anniversary_ring",
    },
    {
+    fileId = "6855922",
+    text = "11fx_accretiondisk_areatrigger.m2",
+    value = "11fx_accretiondisk_areatrigger.m2",
+   },
+   {
     fileId = "5688730",
     text = "11fx_acidmissile01.m2",
     value = "11fx_acidmissile01.m2",
@@ -320395,9 +337759,54 @@ WeakAuras.ModelPaths = {
     value = "11fx_arathor_areatrigger05.m2",
    },
    {
+    fileId = "6981315",
+    text = "11fx_arcanedagger_missile01.m2",
+    value = "11fx_arcanedagger_missile01.m2",
+   },
+   {
+    fileId = "7109609",
+    text = "11fx_arcanejavelin_aura.m2",
+    value = "11fx_arcanejavelin_aura.m2",
+   },
+   {
+    fileId = "6013969",
+    text = "11fx_arcaneorb01.m2",
+    value = "11fx_arcaneorb01.m2",
+   },
+   {
+    fileId = "7154281",
+    text = "11fx_arcaneorb02.m2",
+    value = "11fx_arcaneorb02.m2",
+   },
+   {
     fileId = "5870480",
     text = "11fx_arcaneportal01.m2",
     value = "11fx_arcaneportal01.m2",
+   },
+   {
+    fileId = "6734966",
+    text = "11fx_arcanerepulsor01.m2",
+    value = "11fx_arcanerepulsor01.m2",
+   },
+   {
+    fileId = "6907664",
+    text = "11fx_arcanesparkles01.m2",
+    value = "11fx_arcanesparkles01.m2",
+   },
+   {
+    fileId = "6642267",
+    text = "11fx_arcaneturbine_aura.m2",
+    value = "11fx_arcaneturbine_aura.m2",
+   },
+   {
+    fileId = "6735299",
+    text = "11fx_arcanomatrixsieve_aura.m2",
+    value = "11fx_arcanomatrixsieve_aura.m2",
+   },
+   {
+    fileId = "6735298",
+    text = "11fx_arcanomatrixsieve_aura01.m2",
+    value = "11fx_arcanomatrixsieve_aura01.m2",
    },
    {
     fileId = "5684324",
@@ -320415,14 +337824,84 @@ WeakAuras.ModelPaths = {
     value = "11fx_arrowmissile01.m2",
    },
    {
+    fileId = "6892803",
+    text = "11fx_astrophysicaljet_areatrigger.m2",
+    value = "11fx_astrophysicaljet_areatrigger.m2",
+   },
+   {
     fileId = "5888020",
     text = "11fx_azeritemist01.m2",
     value = "11fx_azeritemist01.m2",
    },
    {
+    fileId = "6435980",
+    text = "11fx_backfire01.m2",
+    value = "11fx_backfire01.m2",
+   },
+   {
+    fileId = "6920478",
+    text = "11fx_behead_areatrigger.m2",
+    value = "11fx_behead_areatrigger.m2",
+   },
+   {
+    fileId = "6055073",
+    text = "11fx_blackdust01.m2",
+    value = "11fx_blackdust01.m2",
+   },
+   {
+    fileId = "6055074",
+    text = "11fx_blackdust02.m2",
+    value = "11fx_blackdust02.m2",
+   },
+   {
+    fileId = "6104440",
+    text = "11fx_blackdust03.m2",
+    value = "11fx_blackdust03.m2",
+   },
+   {
+    fileId = "6104441",
+    text = "11fx_blackdust04.m2",
+    value = "11fx_blackdust04.m2",
+   },
+   {
+    fileId = "7074741",
+    text = "11fx_blackdust05.m2",
+    value = "11fx_blackdust05.m2",
+   },
+   {
+    fileId = "6990173",
+    text = "11fx_blue_areatrigger01.m2",
+    value = "11fx_blue_areatrigger01.m2",
+   },
+   {
     fileId = "6696195",
     text = "11fx_blueexhaustflame01.m2",
     value = "11fx_blueexhaustflame01.m2",
+   },
+   {
+    fileId = "6904845",
+    text = "11fx_brokenworld_areatrigger01.m2",
+    value = "11fx_brokenworld_areatrigger01.m2",
+   },
+   {
+    fileId = "6904846",
+    text = "11fx_brokenworld_areatrigger02.m2",
+    value = "11fx_brokenworld_areatrigger02.m2",
+   },
+   {
+    fileId = "6904847",
+    text = "11fx_brokenworld_areatrigger03.m2",
+    value = "11fx_brokenworld_areatrigger03.m2",
+   },
+   {
+    fileId = "7082558",
+    text = "11fx_brokenworld_areatrigger04.m2",
+    value = "11fx_brokenworld_areatrigger04.m2",
+   },
+   {
+    fileId = "7109488",
+    text = "11fx_brokenworld_areatrigger05.m2",
+    value = "11fx_brokenworld_areatrigger05.m2",
    },
    {
     fileId = "5465247",
@@ -320480,6 +337959,76 @@ WeakAuras.ModelPaths = {
     value = "11fx_cloudybackgroundmask01.m2",
    },
    {
+    fileId = "6860239",
+    text = "11fx_consume_aura.m2",
+    value = "11fx_consume_aura.m2",
+   },
+   {
+    fileId = "6860236",
+    text = "11fx_consume_cast.m2",
+    value = "11fx_consume_cast.m2",
+   },
+   {
+    fileId = "6860237",
+    text = "11fx_consume_cast01.m2",
+    value = "11fx_consume_cast01.m2",
+   },
+   {
+    fileId = "6860238",
+    text = "11fx_consume_precast.m2",
+    value = "11fx_consume_precast.m2",
+   },
+   {
+    fileId = "6758306",
+    text = "11fx_cosmeticfog_aura.m2",
+    value = "11fx_cosmeticfog_aura.m2",
+   },
+   {
+    fileId = "6788360",
+    text = "11fx_cosmeticfog_aura01.m2",
+    value = "11fx_cosmeticfog_aura01.m2",
+   },
+   {
+    fileId = "7013718",
+    text = "11fx_cosmeticfog_aura02.m2",
+    value = "11fx_cosmeticfog_aura02.m2",
+   },
+   {
+    fileId = "6727431",
+    text = "11fx_cosmeticorbs_aura.m2",
+    value = "11fx_cosmeticorbs_aura.m2",
+   },
+   {
+    fileId = "6435977",
+    text = "11fx_cosmeticorbs_cast01.m2",
+    value = "11fx_cosmeticorbs_cast01.m2",
+   },
+   {
+    fileId = "6907665",
+    text = "11fx_cosmeticweaponenchant_aura.m2",
+    value = "11fx_cosmeticweaponenchant_aura.m2",
+   },
+   {
+    fileId = "6907666",
+    text = "11fx_cosmeticweaponenchant_aura2.m2",
+    value = "11fx_cosmeticweaponenchant_aura2.m2",
+   },
+   {
+    fileId = "6907667",
+    text = "11fx_cosmeticweaponenchant_aura3.m2",
+    value = "11fx_cosmeticweaponenchant_aura3.m2",
+   },
+   {
+    fileId = "6907668",
+    text = "11fx_cosmeticweaponenchant_aura4.m2",
+    value = "11fx_cosmeticweaponenchant_aura4.m2",
+   },
+   {
+    fileId = "7116162",
+    text = "11fx_crystalmissile01.m2",
+    value = "11fx_crystalmissile01.m2",
+   },
+   {
     fileId = "6385702",
     text = "11fx_darkflamecleft_thecandleking_cursedwax_areatrigger.m2",
     value = "11fx_darkflamecleft_thecandleking_cursedwax_areatrigger.m2",
@@ -320500,9 +338049,49 @@ WeakAuras.ModelPaths = {
     value = "11fx_darkflamecleft_thecandleking_paranoidmind_precast.m2",
    },
    {
+    fileId = "6788361",
+    text = "11fx_darkheart_aura.m2",
+    value = "11fx_darkheart_aura.m2",
+   },
+   {
+    fileId = "6841829",
+    text = "11fx_darkheart_aura01.m2",
+    value = "11fx_darkheart_aura01.m2",
+   },
+   {
+    fileId = "6856826",
+    text = "11fx_darkheart_aura02.m2",
+    value = "11fx_darkheart_aura02.m2",
+   },
+   {
     fileId = "5854919",
     text = "11fx_darkjet02.m2",
     value = "11fx_darkjet02.m2",
+   },
+   {
+    fileId = "6872669",
+    text = "11fx_darkpierce01.m2",
+    value = "11fx_darkpierce01.m2",
+   },
+   {
+    fileId = "6839404",
+    text = "11fx_darkportal01.m2",
+    value = "11fx_darkportal01.m2",
+   },
+   {
+    fileId = "6839405",
+    text = "11fx_darksingularity_aura.m2",
+    value = "11fx_darksingularity_aura.m2",
+   },
+   {
+    fileId = "7082154",
+    text = "11fx_darksingularity_aura01.m2",
+    value = "11fx_darksingularity_aura01.m2",
+   },
+   {
+    fileId = "6872667",
+    text = "11fx_darkstar_areatrigger.m2",
+    value = "11fx_darkstar_areatrigger.m2",
    },
    {
     fileId = "5855151",
@@ -320513,6 +338102,21 @@ WeakAuras.ModelPaths = {
     fileId = "5855152",
     text = "11fx_darkswirl02.m2",
     value = "11fx_darkswirl02.m2",
+   },
+   {
+    fileId = "6324654",
+    text = "11fx_dashedcircle01.m2",
+    value = "11fx_dashedcircle01.m2",
+   },
+   {
+    fileId = "7013717",
+    text = "11fx_devour_areatrigger.m2",
+    value = "11fx_devour_areatrigger.m2",
+   },
+   {
+    fileId = "7109485",
+    text = "11fx_devour_areatrigger01.m2",
+    value = "11fx_devour_areatrigger01.m2",
    },
    {
     fileId = "5905180",
@@ -320575,6 +338179,11 @@ WeakAuras.ModelPaths = {
     value = "11fx_earthen_totem_water01.m2",
    },
    {
+    fileId = "6914728",
+    text = "11fx_ecodomealdani_taahbatandawazj_arcaneoverload_missile.m2",
+    value = "11fx_ecodomealdani_taahbatandawazj_arcaneoverload_missile.m2",
+   },
+   {
     fileId = "6402409",
     text = "11fx_electriccircle01.m2",
     value = "11fx_electriccircle01.m2",
@@ -320583,6 +338192,11 @@ WeakAuras.ModelPaths = {
     fileId = "6402408",
     text = "11fx_electriccirclefull01.m2",
     value = "11fx_electriccirclefull01.m2",
+   },
+   {
+    fileId = "7129328",
+    text = "11fx_electriccirclefull02.m2",
+    value = "11fx_electriccirclefull02.m2",
    },
    {
     fileId = "5872072",
@@ -320620,9 +338234,69 @@ WeakAuras.ModelPaths = {
     value = "11fx_embers05.m2",
    },
    {
+    fileId = "7129331",
+    text = "11fx_errantzap_travel.m2",
+    value = "11fx_errantzap_travel.m2",
+   },
+   {
+    fileId = "7129333",
+    text = "11fx_errantzap_travel02.m2",
+    value = "11fx_errantzap_travel02.m2",
+   },
+   {
+    fileId = "7129334",
+    text = "11fx_errantzap_travel03.m2",
+    value = "11fx_errantzap_travel03.m2",
+   },
+   {
+    fileId = "7111426",
+    text = "11fx_erraticrift_areatrigger.m2",
+    value = "11fx_erraticrift_areatrigger.m2",
+   },
+   {
+    fileId = "6852536",
+    text = "11fx_exhaustbeam_precast.m2",
+    value = "11fx_exhaustbeam_precast.m2",
+   },
+   {
     fileId = "5185048",
     text = "11fx_explodingroot01.m2",
     value = "11fx_explodingroot01.m2",
+   },
+   {
+    fileId = "6791815",
+    text = "11fx_expulsionzone_areatrigger.m2",
+    value = "11fx_expulsionzone_areatrigger.m2",
+   },
+   {
+    fileId = "7082152",
+    text = "11fx_extinction_areatrigger.m2",
+    value = "11fx_extinction_areatrigger.m2",
+   },
+   {
+    fileId = "6907663",
+    text = "11fx_fade_aura.m2",
+    value = "11fx_fade_aura.m2",
+   },
+   {
+    fileId = "7082973",
+    text = "11fx_feigndeath_aura.m2",
+    value = "11fx_feigndeath_aura.m2",
+   },
+   {
+    fileId = "6849974",
+    text = "11fx_felinferno_areatrigger.m2",
+    value = "11fx_felinferno_areatrigger.m2",
+   },
+   {
+    fileId = "6849979",
+    text = "11fx_felinferno_areatrigger02.m2",
+    value = "11fx_felinferno_areatrigger02.m2",
+   },
+   {
+    fileId = "6740110",
+    text = "11fx_felrush_channel.m2",
+    value = "11fx_felrush_channel.m2",
    },
    {
     fileId = "5612095",
@@ -320660,6 +338334,11 @@ WeakAuras.ModelPaths = {
     value = "11fx_flowerbloom01.m2",
    },
    {
+    fileId = "6850207",
+    text = "11fx_fog_aura.m2",
+    value = "11fx_fog_aura.m2",
+   },
+   {
     fileId = "5868064",
     text = "11fx_forged_legends_pennant01.m2",
     value = "11fx_forged_legends_pennant01.m2",
@@ -320673,6 +338352,11 @@ WeakAuras.ModelPaths = {
     fileId = "5855149",
     text = "11fx_frostswirl01.m2",
     value = "11fx_frostswirl01.m2",
+   },
+   {
+    fileId = "6435979",
+    text = "11fx_gateway01.m2",
+    value = "11fx_gateway01.m2",
    },
    {
     fileId = "6438136",
@@ -320753,6 +338437,11 @@ WeakAuras.ModelPaths = {
     fileId = "5855150",
     text = "11fx_greenswirl01.m2",
     value = "11fx_greenswirl01.m2",
+   },
+   {
+    fileId = "6321354",
+    text = "11fx_greenswirl02.m2",
+    value = "11fx_greenswirl02.m2",
    },
    {
     fileId = "5749211",
@@ -320865,6 +338554,66 @@ WeakAuras.ModelPaths = {
     value = "11fx_holy_swipe02.m2",
    },
    {
+    fileId = "6937922",
+    text = "11fx_infusiontether_aura.m2",
+    value = "11fx_infusiontether_aura.m2",
+   },
+   {
+    fileId = "7109487",
+    text = "11fx_intermission_areatrigger.m2",
+    value = "11fx_intermission_areatrigger.m2",
+   },
+   {
+    fileId = "6055059",
+    text = "11fx_karesh_grounddecal01.m2",
+    value = "11fx_karesh_grounddecal01.m2",
+   },
+   {
+    fileId = "6055060",
+    text = "11fx_karesh_grounddecal02.m2",
+    value = "11fx_karesh_grounddecal02.m2",
+   },
+   {
+    fileId = "6055062",
+    text = "11fx_karesh_grounddecal03.m2",
+    value = "11fx_karesh_grounddecal03.m2",
+   },
+   {
+    fileId = "6055068",
+    text = "11fx_karesh_grounddecal04.m2",
+    value = "11fx_karesh_grounddecal04.m2",
+   },
+   {
+    fileId = "6055069",
+    text = "11fx_karesh_grounddecal05.m2",
+    value = "11fx_karesh_grounddecal05.m2",
+   },
+   {
+    fileId = "6055070",
+    text = "11fx_karesh_grounddecal06.m2",
+    value = "11fx_karesh_grounddecal06.m2",
+   },
+   {
+    fileId = "6055071",
+    text = "11fx_karesh_grounddecalblack01.m2",
+    value = "11fx_karesh_grounddecalblack01.m2",
+   },
+   {
+    fileId = "6435981",
+    text = "11fx_khazalgar_reshanortheuntethered_errantzap_aura.m2",
+    value = "11fx_khazalgar_reshanortheuntethered_errantzap_aura.m2",
+   },
+   {
+    fileId = "6708049",
+    text = "11fx_khazalgar_reshanortheuntethered_errantzap_impact.m2",
+    value = "11fx_khazalgar_reshanortheuntethered_errantzap_impact.m2",
+   },
+   {
+    fileId = "6435978",
+    text = "11fx_khazalgar_reshanortheuntethered_erraticrift_areatrigger.m2",
+    value = "11fx_khazalgar_reshanortheuntethered_erraticrift_areatrigger.m2",
+   },
+   {
     fileId = "5875396",
     text = "11fx_leaf01.m2",
     value = "11fx_leaf01.m2",
@@ -320900,6 +338649,16 @@ WeakAuras.ModelPaths = {
     value = "11fx_lightimpact02.m2",
    },
    {
+    fileId = "6653813",
+    text = "11fx_lightning01.m2",
+    value = "11fx_lightning01.m2",
+   },
+   {
+    fileId = "6653814",
+    text = "11fx_lightning02.m2",
+    value = "11fx_lightning02.m2",
+   },
+   {
     fileId = "5242270",
     text = "11fx_lightradial01.m2",
     value = "11fx_lightradial01.m2",
@@ -320910,9 +338669,184 @@ WeakAuras.ModelPaths = {
     value = "11fx_lightshield01.m2",
    },
    {
+    fileId = "7074740",
+    text = "11fx_longdamagevisualareatrigger_areatrigger.m2",
+    value = "11fx_longdamagevisualareatrigger_areatrigger.m2",
+   },
+   {
+    fileId = "7111425",
+    text = "11fx_longdamagevisualareatriggermythic_areatrigger.m2",
+    value = "11fx_longdamagevisualareatriggermythic_areatrigger.m2",
+   },
+   {
+    fileId = "7111779",
+    text = "11fx_longdamagevisualareatriggermythic_areatrigger01.m2",
+    value = "11fx_longdamagevisualareatriggermythic_areatrigger01.m2",
+   },
+   {
     fileId = "5735510",
     text = "11fx_lootsparkles01.m2",
     value = "11fx_lootsparkles01.m2",
+   },
+   {
+    fileId = "6892799",
+    text = "11fx_machineopeningenergyvisualbuff_aura.m2",
+    value = "11fx_machineopeningenergyvisualbuff_aura.m2",
+   },
+   {
+    fileId = "6869479",
+    text = "11fx_manaforge_aura01.m2",
+    value = "11fx_manaforge_aura01.m2",
+   },
+   {
+    fileId = "6758305",
+    text = "11fx_manaforgeomega_dimensiusthealldevouring_astrophysicaljet_precast.m2",
+    value = "11fx_manaforgeomega_dimensiusthealldevouring_astrophysicaljet_precast.m2",
+   },
+   {
+    fileId = "6914729",
+    text = "11fx_manaforgeomega_dimensiusthealldevouring_blackhole_areatrigger.m2",
+    value = "11fx_manaforgeomega_dimensiusthealldevouring_blackhole_areatrigger.m2",
+   },
+   {
+    fileId = "7109486",
+    text = "11fx_manaforgeomega_dimensiusthealldevouring_devour_precast.m2",
+    value = "11fx_manaforgeomega_dimensiusthealldevouring_devour_precast.m2",
+   },
+   {
+    fileId = "6866894",
+    text = "11fx_manaforgeomega_dimensiusthealldevouring_extinguishthestars_areatrigger.m2",
+    value = "11fx_manaforgeomega_dimensiusthealldevouring_extinguishthestars_areatrigger.m2",
+   },
+   {
+    fileId = "6892802",
+    text = "11fx_manaforgeomega_dimensiusthealldevouring_gammaburst_precast.m2",
+    value = "11fx_manaforgeomega_dimensiusthealldevouring_gammaburst_precast.m2",
+   },
+   {
+    fileId = "6915104",
+    text = "11fx_manaforgeomega_dimensiusthealldevouring_gammaburst_precast01.m2",
+    value = "11fx_manaforgeomega_dimensiusthealldevouring_gammaburst_precast01.m2",
+   },
+   {
+    fileId = "7082133",
+    text = "11fx_manaforgeomega_dimensiusthealldevouring_inversegravity_aura.m2",
+    value = "11fx_manaforgeomega_dimensiusthealldevouring_inversegravity_aura.m2",
+   },
+   {
+    fileId = "7082153",
+    text = "11fx_manaforgeomega_dimensiusthealldevouring_stellarcore_aura.m2",
+    value = "11fx_manaforgeomega_dimensiusthealldevouring_stellarcore_aura.m2",
+   },
+   {
+    fileId = "6728238",
+    text = "11fx_manaforgeomega_forgeweaveraraz_astralharvest_impact.m2",
+    value = "11fx_manaforgeomega_forgeweaveraraz_astralharvest_impact.m2",
+   },
+   {
+    fileId = "6703761",
+    text = "11fx_manaforgeomega_forgeweaveraraz_powermanifested_impact.m2",
+    value = "11fx_manaforgeomega_forgeweaveraraz_powermanifested_impact.m2",
+   },
+   {
+    fileId = "6981927",
+    text = "11fx_manaforgeomega_fractillus_crystallized_aura.m2",
+    value = "11fx_manaforgeomega_fractillus_crystallized_aura.m2",
+   },
+   {
+    fileId = "6981928",
+    text = "11fx_manaforgeomega_fractillus_nethercrystallization_aura.m2",
+    value = "11fx_manaforgeomega_fractillus_nethercrystallization_aura.m2",
+   },
+   {
+    fileId = "7129332",
+    text = "11fx_manaforgeomega_loomithar_overinfusionburst_aura.m2",
+    value = "11fx_manaforgeomega_loomithar_overinfusionburst_aura.m2",
+   },
+   {
+    fileId = "6789105",
+    text = "11fx_manaforgeomega_nexuskingsalhadaar_conquer_precast.m2",
+    value = "11fx_manaforgeomega_nexuskingsalhadaar_conquer_precast.m2",
+   },
+   {
+    fileId = "6872668",
+    text = "11fx_manaforgeomega_nexuskingsalhadaar_dimensionbreath_cast.m2",
+    value = "11fx_manaforgeomega_nexuskingsalhadaar_dimensionbreath_cast.m2",
+   },
+   {
+    fileId = "6869478",
+    text = "11fx_manaforgeomega_plexussentinel_arcanomatrixsieve_aura.m2",
+    value = "11fx_manaforgeomega_plexussentinel_arcanomatrixsieve_aura.m2",
+   },
+   {
+    fileId = "6869472",
+    text = "11fx_manaforgeomega_soulbindernaazindhri_mysticlash_precast.m2",
+    value = "11fx_manaforgeomega_soulbindernaazindhri_mysticlash_precast.m2",
+   },
+   {
+    fileId = "6855663",
+    text = "11fx_manaforgeomega_soulbindernaazindhri_soulcalling_precast.m2",
+    value = "11fx_manaforgeomega_soulbindernaazindhri_soulcalling_precast.m2",
+   },
+   {
+    fileId = "6855665",
+    text = "11fx_manaforgeomega_soulbindernaazindhri_soulfrayannihilation_aura.m2",
+    value = "11fx_manaforgeomega_soulbindernaazindhri_soulfrayannihilation_aura.m2",
+   },
+   {
+    fileId = "6892801",
+    text = "11fx_manaforgeomega_soulbindernaazindhri_soulweavechrysalis_cast.m2",
+    value = "11fx_manaforgeomega_soulbindernaazindhri_soulweavechrysalis_cast.m2",
+   },
+   {
+    fileId = "6892800",
+    text = "11fx_manaforgeomega_soulbindernaazindhri_soulweavechrysalis_precast.m2",
+    value = "11fx_manaforgeomega_soulbindernaazindhri_soulweavechrysalis_precast.m2",
+   },
+   {
+    fileId = "6849981",
+    text = "11fx_manaforgeomega_thesoulhunters_eyebeam_channel.m2",
+    value = "11fx_manaforgeomega_thesoulhunters_eyebeam_channel.m2",
+   },
+   {
+    fileId = "6849980",
+    text = "11fx_manaforgeomega_thesoulhunters_eyebeam_channel01.m2",
+    value = "11fx_manaforgeomega_thesoulhunters_eyebeam_channel01.m2",
+   },
+   {
+    fileId = "6731946",
+    text = "11fx_manaforgeomega_thesoulhunters_feldevastation_aura.m2",
+    value = "11fx_manaforgeomega_thesoulhunters_feldevastation_aura.m2",
+   },
+   {
+    fileId = "6731947",
+    text = "11fx_manaforgeomega_thesoulhunters_feldevastation_aura01.m2",
+    value = "11fx_manaforgeomega_thesoulhunters_feldevastation_aura01.m2",
+   },
+   {
+    fileId = "6435939",
+    text = "11fx_manasplinter01.m2",
+    value = "11fx_manasplinter01.m2",
+   },
+   {
+    fileId = "6854886",
+    text = "11fx_manavent_aura.m2",
+    value = "11fx_manavent_aura.m2",
+   },
+   {
+    fileId = "7129329",
+    text = "11fx_manifestmatrices_aura.m2",
+    value = "11fx_manifestmatrices_aura.m2",
+   },
+   {
+    fileId = "7129330",
+    text = "11fx_manifestmatrices_aura02.m2",
+    value = "11fx_manifestmatrices_aura02.m2",
+   },
+   {
+    fileId = "7082135",
+    text = "11fx_modelecodome_aura.m2",
+    value = "11fx_modelecodome_aura.m2",
    },
    {
     fileId = "6220802",
@@ -321150,9 +339084,124 @@ WeakAuras.ModelPaths = {
     value = "11fx_operationfloodgate_swampface_rushingtide_areatrigger.m2",
    },
    {
+    fileId = "6435982",
+    text = "11fx_overloading_precast.m2",
+    value = "11fx_overloading_precast.m2",
+   },
+   {
+    fileId = "6860240",
+    text = "11fx_phaseblades_impact.m2",
+    value = "11fx_phaseblades_impact.m2",
+   },
+   {
+    fileId = "7116163",
+    text = "11fx_phaseblink_cast.m2",
+    value = "11fx_phaseblink_cast.m2",
+   },
+   {
+    fileId = "6392174",
+    text = "11fx_phasediving_aura01.m2",
+    value = "11fx_phasediving_aura01.m2",
+   },
+   {
+    fileId = "6392175",
+    text = "11fx_phasediving_aura02.m2",
+    value = "11fx_phasediving_aura02.m2",
+   },
+   {
+    fileId = "6371012",
+    text = "11fx_phasedivingaura01.m2",
+    value = "11fx_phasedivingaura01.m2",
+   },
+   {
+    fileId = "6854887",
+    text = "11fx_phaseport_cast.m2",
+    value = "11fx_phaseport_cast.m2",
+   },
+   {
+    fileId = "6727432",
+    text = "11fx_phaseportal01.m2",
+    value = "11fx_phaseportal01.m2",
+   },
+   {
+    fileId = "6435940",
+    text = "11fx_photonblast01.m2",
+    value = "11fx_photonblast01.m2",
+   },
+   {
     fileId = "5854940",
     text = "11fx_poisonmissile01.m2",
     value = "11fx_poisonmissile01.m2",
+   },
+   {
+    fileId = "6727368",
+    text = "11fx_portal01.m2",
+    value = "11fx_portal01.m2",
+   },
+   {
+    fileId = "6727369",
+    text = "11fx_portal02.m2",
+    value = "11fx_portal02.m2",
+   },
+   {
+    fileId = "6727370",
+    text = "11fx_portal03.m2",
+    value = "11fx_portal03.m2",
+   },
+   {
+    fileId = "6727371",
+    text = "11fx_portal04.m2",
+    value = "11fx_portal04.m2",
+   },
+   {
+    fileId = "6727372",
+    text = "11fx_portal05.m2",
+    value = "11fx_portal05.m2",
+   },
+   {
+    fileId = "6727373",
+    text = "11fx_portal06.m2",
+    value = "11fx_portal06.m2",
+   },
+   {
+    fileId = "6727374",
+    text = "11fx_portal07.m2",
+    value = "11fx_portal07.m2",
+   },
+   {
+    fileId = "6727375",
+    text = "11fx_portal08.m2",
+    value = "11fx_portal08.m2",
+   },
+   {
+    fileId = "6727376",
+    text = "11fx_portal09.m2",
+    value = "11fx_portal09.m2",
+   },
+   {
+    fileId = "6727377",
+    text = "11fx_portal10.m2",
+    value = "11fx_portal10.m2",
+   },
+   {
+    fileId = "6727378",
+    text = "11fx_portal11.m2",
+    value = "11fx_portal11.m2",
+   },
+   {
+    fileId = "6727379",
+    text = "11fx_portal12.m2",
+    value = "11fx_portal12.m2",
+   },
+   {
+    fileId = "6727380",
+    text = "11fx_portal13.m2",
+    value = "11fx_portal13.m2",
+   },
+   {
+    fileId = "6729493",
+    text = "11fx_portal14.m2",
+    value = "11fx_portal14.m2",
    },
    {
     fileId = "5906259",
@@ -321205,9 +339254,29 @@ WeakAuras.ModelPaths = {
     value = "11fx_rainbow01.m2",
    },
    {
+    fileId = "6735427",
+    text = "11fx_screenshattertransition01.m2",
+    value = "11fx_screenshattertransition01.m2",
+   },
+   {
     fileId = "6663514",
     text = "11fx_shadowmist01.m2",
     value = "11fx_shadowmist01.m2",
+   },
+   {
+    fileId = "6870611",
+    text = "11fx_shadowquake_areatrigger.m2",
+    value = "11fx_shadowquake_areatrigger.m2",
+   },
+   {
+    fileId = "7129327",
+    text = "11fx_silencingtempest_travel.m2",
+    value = "11fx_silencingtempest_travel.m2",
+   },
+   {
+    fileId = "6914726",
+    text = "11fx_silkball_aura.m2",
+    value = "11fx_silkball_aura.m2",
    },
    {
     fileId = "5869870",
@@ -321270,6 +339339,11 @@ WeakAuras.ModelPaths = {
     value = "11fx_spidercrawler01.m2",
    },
    {
+    fileId = "6915105",
+    text = "11fx_spinningcards01.m2",
+    value = "11fx_spinningcards01.m2",
+   },
+   {
     fileId = "6226105",
     text = "11fx_spottingeagle.m2",
     value = "11fx_spottingeagle.m2",
@@ -321315,6 +339389,11 @@ WeakAuras.ModelPaths = {
     value = "11fx_swordskullcoin04.m2",
    },
    {
+    fileId = "7110575",
+    text = "11fx_teleport_aura01.m2",
+    value = "11fx_teleport_aura01.m2",
+   },
+   {
     fileId = "6385706",
     text = "11fx_theaterofpain_mordrethatheendlessempress_manifestdeath_aura.m2",
     value = "11fx_theaterofpain_mordrethatheendlessempress_manifestdeath_aura.m2",
@@ -321355,6 +339434,21 @@ WeakAuras.ModelPaths = {
     value = "11fx_thestonevault_highspeakereirich_entropicreckoning_travele.m2",
    },
    {
+    fileId = "6872670",
+    text = "11fx_twilightspikes_areatrigger01.m2",
+    value = "11fx_twilightspikes_areatrigger01.m2",
+   },
+   {
+    fileId = "6989812",
+    text = "11fx_umbralgate_aura.m2",
+    value = "11fx_umbralgate_aura.m2",
+   },
+   {
+    fileId = "7136076",
+    text = "11fx_umbralstomp_precast.m2",
+    value = "11fx_umbralstomp_precast.m2",
+   },
+   {
     fileId = "5868067",
     text = "11fx_unbound_legends_pennant01.m2",
     value = "11fx_unbound_legends_pennant01.m2",
@@ -321363,6 +339457,16 @@ WeakAuras.ModelPaths = {
     fileId = "5874242",
     text = "11fx_unbound_strategists_pennant01.m2",
     value = "11fx_unbound_strategists_pennant01.m2",
+   },
+   {
+    fileId = "6891196",
+    text = "11fx_unboundrage_cast.m2",
+    value = "11fx_unboundrage_cast.m2",
+   },
+   {
+    fileId = "6891195",
+    text = "11fx_unboundrage_cast01.m2",
+    value = "11fx_unboundrage_cast01.m2",
    },
    {
     fileId = "6703029",
@@ -321620,6 +339724,16 @@ WeakAuras.ModelPaths = {
     value = "11fx_voidbarrier01.m2",
    },
    {
+    fileId = "7164040",
+    text = "11fx_voidbarrierbreak01.m2",
+    value = "11fx_voidbarrierbreak01.m2",
+   },
+   {
+    fileId = "6726376",
+    text = "11fx_voidbeam_aura.m2",
+    value = "11fx_voidbeam_aura.m2",
+   },
+   {
     fileId = "5862808",
     text = "11fx_voidblob01.m2",
     value = "11fx_voidblob01.m2",
@@ -321660,6 +339774,21 @@ WeakAuras.ModelPaths = {
     value = "11fx_voidcircle02.m2",
    },
    {
+    fileId = "7117335",
+    text = "11fx_voidcrack01.m2",
+    value = "11fx_voidcrack01.m2",
+   },
+   {
+    fileId = "7134661",
+    text = "11fx_voidcrack02.m2",
+    value = "11fx_voidcrack02.m2",
+   },
+   {
+    fileId = "7134662",
+    text = "11fx_voidcrack03.m2",
+    value = "11fx_voidcrack03.m2",
+   },
+   {
     fileId = "5852181",
     text = "11fx_voidgather01.m2",
     value = "11fx_voidgather01.m2",
@@ -321685,6 +339814,16 @@ WeakAuras.ModelPaths = {
     value = "11fx_voidinfusion02.m2",
    },
    {
+    fileId = "7135878",
+    text = "11fx_voidmeteor01.m2",
+    value = "11fx_voidmeteor01.m2",
+   },
+   {
+    fileId = "7135873",
+    text = "11fx_voidmeteor_travel.m2",
+    value = "11fx_voidmeteor_travel.m2",
+   },
+   {
     fileId = "5679914",
     text = "11fx_voidmissile01.m2",
     value = "11fx_voidmissile01.m2",
@@ -321693,6 +339832,26 @@ WeakAuras.ModelPaths = {
     fileId = "5679917",
     text = "11fx_voidmissile02.m2",
     value = "11fx_voidmissile02.m2",
+   },
+   {
+    fileId = "7164041",
+    text = "11fx_voidorbexplode01.m2",
+    value = "11fx_voidorbexplode01.m2",
+   },
+   {
+    fileId = "6731345",
+    text = "11fx_voidroot_aura.m2",
+    value = "11fx_voidroot_aura.m2",
+   },
+   {
+    fileId = "6759465",
+    text = "11fx_voidseed01.m2",
+    value = "11fx_voidseed01.m2",
+   },
+   {
+    fileId = "7135867",
+    text = "11fx_voidswirl01.m2",
+    value = "11fx_voidswirl01.m2",
    },
    {
     fileId = "5873233",
@@ -321705,9 +339864,84 @@ WeakAuras.ModelPaths = {
     value = "11fx_voidwall01.m2",
    },
    {
+    fileId = "7117333",
+    text = "11fx_voidwall02.m2",
+    value = "11fx_voidwall02.m2",
+   },
+   {
+    fileId = "7117334",
+    text = "11fx_voidwall03.m2",
+    value = "11fx_voidwall03.m2",
+   },
+   {
+    fileId = "7049133",
+    text = "11fx_wallvisualstalker10beam_aura.m2",
+    value = "11fx_wallvisualstalker10beam_aura.m2",
+   },
+   {
+    fileId = "7050523",
+    text = "11fx_wallvisualstalker10beam_aura01.m2",
+    value = "11fx_wallvisualstalker10beam_aura01.m2",
+   },
+   {
+    fileId = "7050522",
+    text = "11fx_wallvisualstalker10beam_aura02.m2",
+    value = "11fx_wallvisualstalker10beam_aura02.m2",
+   },
+   {
+    fileId = "6993214",
+    text = "11fx_wallvisualstalker6beam_aura.m2",
+    value = "11fx_wallvisualstalker6beam_aura.m2",
+   },
+   {
+    fileId = "6993215",
+    text = "11fx_wallvisualstalker6beam_aura01.m2",
+    value = "11fx_wallvisualstalker6beam_aura01.m2",
+   },
+   {
+    fileId = "7049130",
+    text = "11fx_wallvisualstalker7beam_aura.m2",
+    value = "11fx_wallvisualstalker7beam_aura.m2",
+   },
+   {
+    fileId = "7049131",
+    text = "11fx_wallvisualstalker8beam_aura.m2",
+    value = "11fx_wallvisualstalker8beam_aura.m2",
+   },
+   {
+    fileId = "7050521",
+    text = "11fx_wallvisualstalker8beam_aura01.m2",
+    value = "11fx_wallvisualstalker8beam_aura01.m2",
+   },
+   {
+    fileId = "7049132",
+    text = "11fx_wallvisualstalker9beam_aura.m2",
+    value = "11fx_wallvisualstalker9beam_aura.m2",
+   },
+   {
+    fileId = "7049134",
+    text = "11fx_wallvisualstalkerenragebeam_aura.m2",
+    value = "11fx_wallvisualstalkerenragebeam_aura.m2",
+   },
+   {
+    fileId = "7050524",
+    text = "11fx_wallvisualstalkerenragebeam_aura01.m2",
+    value = "11fx_wallvisualstalkerenragebeam_aura01.m2",
+   },
+   {
     fileId = "5876718",
     text = "11fx_warlockcircle01.m2",
     value = "11fx_warlockcircle01.m2",
+   },
+   {
+    fileId = "7035002",
+    text = "11fx_warp_aura.m2",
+    value = "11fx_warp_aura.m2",
+   },
+   {
+    fileId = "6855664",
+    text = "11fx_warp_cast.m2",
+    value = "11fx_warp_cast.m2",
    },
    {
     fileId = "5550653",
@@ -321743,6 +339977,11 @@ WeakAuras.ModelPaths = {
     fileId = "5531013",
     text = "11fx_waximpact04.m2",
     value = "11fx_waximpact04.m2",
+   },
+   {
+    fileId = "6941861",
+    text = "11fx_waystonevisual_aura.m2",
+    value = "11fx_waystonevisual_aura.m2",
    },
    {
     fileId = "5727850",
@@ -321783,6 +340022,16 @@ WeakAuras.ModelPaths = {
     fileId = "6438135",
     text = "11fx_wrenchhologram01.m2",
     value = "11fx_wrenchhologram01.m2",
+   },
+   {
+    fileId = "7117336",
+    text = "11fx_writhingwave_precast.m2",
+    value = "11fx_writhingwave_precast.m2",
+   },
+   {
+    fileId = "7134663",
+    text = "11fx_writhingwave_precast02.m2",
+    value = "11fx_writhingwave_precast02.m2",
    },
    {
     fileId = "5552700",
@@ -333290,9 +351539,24 @@ WeakAuras.ModelPaths = {
     value = "cfx_druid_ravage_impact.m2",
    },
    {
+    fileId = "6657635",
+    text = "cfx_druid_regrowth_impact.m2",
+    value = "cfx_druid_regrowth_impact.m2",
+   },
+   {
     fileId = "1519919",
     text = "cfx_druid_regrowth_impactbase.m2",
     value = "cfx_druid_regrowth_impactbase.m2",
+   },
+   {
+    fileId = "6693302",
+    text = "cfx_druid_rejuvenation_cast.m2",
+    value = "cfx_druid_rejuvenation_cast.m2",
+   },
+   {
+    fileId = "6657631",
+    text = "cfx_druid_rejuvenation_impact.m2",
+    value = "cfx_druid_rejuvenation_impact.m2",
    },
    {
     fileId = "1340893",
@@ -333390,6 +351654,11 @@ WeakAuras.ModelPaths = {
     value = "cfx_druid_survivialinstincts_statebase.m2",
    },
    {
+    fileId = "6693304",
+    text = "cfx_druid_swiftmend_cast.m2",
+    value = "cfx_druid_swiftmend_cast.m2",
+   },
+   {
     fileId = "1598214",
     text = "cfx_druid_swiftmend_impactbase.m2",
     value = "cfx_druid_swiftmend_impactbase.m2",
@@ -333438,6 +351707,11 @@ WeakAuras.ModelPaths = {
     fileId = "1387349",
     text = "cfx_druid_tigersfury_casthead.m2",
     value = "cfx_druid_tigersfury_casthead.m2",
+   },
+   {
+    fileId = "6693303",
+    text = "cfx_druid_tranquility_channel.m2",
+    value = "cfx_druid_tranquility_channel.m2",
    },
    {
     fileId = "1562133",
@@ -343842,6 +362116,11 @@ WeakAuras.ModelPaths = {
     value = "fx_arachnophobiafacehider_aura.m2",
    },
    {
+    fileId = "6727430",
+    text = "fx_arcanearmor_precast.m2",
+    value = "fx_arcanearmor_precast.m2",
+   },
+   {
     fileId = "5925303",
     text = "fx_arcanebombardment_cast.m2",
     value = "fx_arcanebombardment_cast.m2",
@@ -344935,6 +363214,16 @@ WeakAuras.ModelPaths = {
     fileId = "5679916",
     text = "fx_darkbarrage_precast.m2",
     value = "fx_darkbarrage_precast.m2",
+   },
+   {
+    fileId = "6891198",
+    text = "fx_darkenedsky_areatrigger.m2",
+    value = "fx_darkenedsky_areatrigger.m2",
+   },
+   {
+    fileId = "6891197",
+    text = "fx_darkenedsky_areatrigger01.m2",
+    value = "fx_darkenedsky_areatrigger01.m2",
    },
    {
     fileId = "6336240",
@@ -546210,6 +564499,11 @@ WeakAuras.ModelPaths = {
           value = "10dg_pylonsnowy01.m2",
          },
          {
+          fileId = "6856680",
+          text = "10dg_rug01.m2",
+          value = "10dg_rug01.m2",
+         },
+         {
           fileId = "4901625",
           text = "10dg_statue01.m2",
           value = "10dg_statue01.m2",
@@ -561030,9 +579324,49 @@ WeakAuras.ModelPaths = {
         value = "11xp_deleteme224.m2",
        },
        {
+        fileId = "5916199",
+        text = "11xp_deleteme225.m2",
+        value = "11xp_deleteme225.m2",
+       },
+       {
+        fileId = "5916204",
+        text = "11xp_deleteme226.m2",
+        value = "11xp_deleteme226.m2",
+       },
+       {
+        fileId = "5916205",
+        text = "11xp_deleteme227.m2",
+        value = "11xp_deleteme227.m2",
+       },
+       {
+        fileId = "5916214",
+        text = "11xp_deleteme228.m2",
+        value = "11xp_deleteme228.m2",
+       },
+       {
+        fileId = "5916216",
+        text = "11xp_deleteme229.m2",
+        value = "11xp_deleteme229.m2",
+       },
+       {
         fileId = "4627262",
         text = "11xp_deleteme23.m2",
         value = "11xp_deleteme23.m2",
+       },
+       {
+        fileId = "5928061",
+        text = "11xp_deleteme230.m2",
+        value = "11xp_deleteme230.m2",
+       },
+       {
+        fileId = "6009483",
+        text = "11xp_deleteme231.m2",
+        value = "11xp_deleteme231.m2",
+       },
+       {
+        fileId = "6074767",
+        text = "11xp_deleteme232.m2",
+        value = "11xp_deleteme232.m2",
        },
        {
         fileId = "4627263",
@@ -564088,6 +582422,11 @@ WeakAuras.ModelPaths = {
         fileId = "4889371",
         text = "11xp_plantweb_nerubian03.m2",
         value = "11xp_plantweb_nerubian03.m2",
+       },
+       {
+        fileId = "6703028",
+        text = "11xp_plates01.m2",
+        value = "11xp_plates01.m2",
        },
        {
         fileId = "5686315",
@@ -567618,6 +585957,42 @@ WeakAuras.ModelPaths = {
        {
         children = {
          {
+          fileId = "6217654",
+          text = "11bo_brokers_console01.m2",
+          value = "11bo_brokers_console01.m2",
+         },
+         {
+          fileId = "5932480",
+          text = "11bo_brokers_lamp01.m2",
+          value = "11bo_brokers_lamp01.m2",
+         },
+         {
+          fileId = "6380292",
+          text = "11bo_brokers_lamp02.m2",
+          value = "11bo_brokers_lamp02.m2",
+         },
+         {
+          fileId = "6998407",
+          text = "11bo_brokers_luggage01.m2",
+          value = "11bo_brokers_luggage01.m2",
+         },
+         {
+          fileId = "6998408",
+          text = "11bo_brokers_luggage02.m2",
+          value = "11bo_brokers_luggage02.m2",
+         },
+         {
+          fileId = "5932478",
+          text = "11bo_brokers_pad01.m2",
+          value = "11bo_brokers_pad01.m2",
+         },
+        },
+        text = "broker",
+        value = "broker",
+       },
+       {
+        children = {
+         {
           fileId = "5788550",
           text = "11dl_rhonin_statue01.m2",
           value = "11dl_rhonin_statue01.m2",
@@ -567813,6 +586188,123 @@ WeakAuras.ModelPaths = {
           fileId = "5778212",
           text = "11du_nerubianraid_special_webwall01.m2",
           value = "11du_nerubianraid_special_webwall01.m2",
+         },
+         {
+          children = {
+           {
+            fileId = "6860992",
+            text = "11du_azurevault_brokendoor01.m2",
+            value = "11du_azurevault_brokendoor01.m2",
+           },
+           {
+            fileId = "6860991",
+            text = "11du_azurevault_door01.m2",
+            value = "11du_azurevault_door01.m2",
+           },
+           {
+            fileId = "6892918",
+            text = "11du_azurevault_gateway01.m2",
+            value = "11du_azurevault_gateway01.m2",
+           },
+          },
+          text = "azurevault",
+          value = "azurevault",
+         },
+         {
+          children = {
+           {
+            fileId = "6740246",
+            text = "11du_etherealraid_decor_pad01.m2",
+            value = "11du_etherealraid_decor_pad01.m2",
+           },
+           {
+            fileId = "6718145",
+            text = "11du_etherealraid_decor_silkworm_bolt01.m2",
+            value = "11du_etherealraid_decor_silkworm_bolt01.m2",
+           },
+           {
+            fileId = "6718146",
+            text = "11du_etherealraid_decor_silkworm_bolt02.m2",
+            value = "11du_etherealraid_decor_silkworm_bolt02.m2",
+           },
+           {
+            fileId = "6733946",
+            text = "11du_etherealraid_decor_silkworm_boltcrate01.m2",
+            value = "11du_etherealraid_decor_silkworm_boltcrate01.m2",
+           },
+           {
+            fileId = "6405956",
+            text = "11du_etherealraid_decor_silkworm_machine01.m2",
+            value = "11du_etherealraid_decor_silkworm_machine01.m2",
+           },
+           {
+            fileId = "6405959",
+            text = "11du_etherealraid_decor_silkworm_machine02.m2",
+            value = "11du_etherealraid_decor_silkworm_machine02.m2",
+           },
+           {
+            fileId = "6405960",
+            text = "11du_etherealraid_decor_silkworm_machine03.m2",
+            value = "11du_etherealraid_decor_silkworm_machine03.m2",
+           },
+           {
+            fileId = "7084190",
+            text = "11du_etherealraid_decor_silkworm_spool01.m2",
+            value = "11du_etherealraid_decor_silkworm_spool01.m2",
+           },
+           {
+            fileId = "6405961",
+            text = "11du_etherealraid_decor_silkworm_spool02.m2",
+            value = "11du_etherealraid_decor_silkworm_spool02.m2",
+           },
+           {
+            fileId = "6435138",
+            text = "11du_etherealraid_main_aperture01.m2",
+            value = "11du_etherealraid_main_aperture01.m2",
+           },
+           {
+            fileId = "6405964",
+            text = "11du_etherealraid_main_console.m2",
+            value = "11du_etherealraid_main_console.m2",
+           },
+           {
+            fileId = "6689962",
+            text = "11du_etherealraid_main_door01.m2",
+            value = "11du_etherealraid_main_door01.m2",
+           },
+           {
+            fileId = "6740247",
+            text = "11du_etherealraid_main_door01_broken.m2",
+            value = "11du_etherealraid_main_door01_broken.m2",
+           },
+           {
+            fileId = "6791802",
+            text = "11du_etherealraid_main_door02.m2",
+            value = "11du_etherealraid_main_door02.m2",
+           },
+           {
+            fileId = "6798965",
+            text = "11du_etherealraid_main_emitters01.m2",
+            value = "11du_etherealraid_main_emitters01.m2",
+           },
+           {
+            fileId = "6794647",
+            text = "11du_etherealraid_main_pipe01.m2",
+            value = "11du_etherealraid_main_pipe01.m2",
+           },
+           {
+            fileId = "6927677",
+            text = "11du_etherealraid_main_pylon01.m2",
+            value = "11du_etherealraid_main_pylon01.m2",
+           },
+           {
+            fileId = "7075223",
+            text = "11du_etherealraid_main_wraps01.m2",
+            value = "11du_etherealraid_main_wraps01.m2",
+           },
+          },
+          text = "etherealraid",
+          value = "etherealraid",
          },
         },
         text = "dungeon",
@@ -571537,6 +590029,987 @@ WeakAuras.ModelPaths = {
        {
         children = {
          {
+          fileId = "5928054",
+          text = "11et_ethereal_bannerhanging01.m2",
+          value = "11et_ethereal_bannerhanging01.m2",
+         },
+         {
+          fileId = "6118547",
+          text = "11et_ethereal_bannerhanging02.m2",
+          value = "11et_ethereal_bannerhanging02.m2",
+         },
+         {
+          fileId = "6368617",
+          text = "11et_ethereal_bannerhanging03.m2",
+          value = "11et_ethereal_bannerhanging03.m2",
+         },
+         {
+          fileId = "5928053",
+          text = "11et_ethereal_bannerstanding01.m2",
+          value = "11et_ethereal_bannerstanding01.m2",
+         },
+         {
+          fileId = "6118546",
+          text = "11et_ethereal_bannerstanding02.m2",
+          value = "11et_ethereal_bannerstanding02.m2",
+         },
+         {
+          fileId = "6368616",
+          text = "11et_ethereal_bannerstanding03.m2",
+          value = "11et_ethereal_bannerstanding03.m2",
+         },
+         {
+          fileId = "5916227",
+          text = "11et_ethereal_barrel01.m2",
+          value = "11et_ethereal_barrel01.m2",
+         },
+         {
+          fileId = "5917539",
+          text = "11et_ethereal_barrel02.m2",
+          value = "11et_ethereal_barrel02.m2",
+         },
+         {
+          fileId = "5928068",
+          text = "11et_ethereal_barrel03.m2",
+          value = "11et_ethereal_barrel03.m2",
+         },
+         {
+          fileId = "6159542",
+          text = "11et_ethereal_barrel04.m2",
+          value = "11et_ethereal_barrel04.m2",
+         },
+         {
+          fileId = "6320658",
+          text = "11et_ethereal_barrel05.m2",
+          value = "11et_ethereal_barrel05.m2",
+         },
+         {
+          fileId = "5928056",
+          text = "11et_ethereal_barrier01.m2",
+          value = "11et_ethereal_barrier01.m2",
+         },
+         {
+          fileId = "5928069",
+          text = "11et_ethereal_boat01.m2",
+          value = "11et_ethereal_boat01.m2",
+         },
+         {
+          fileId = "5928070",
+          text = "11et_ethereal_boat02.m2",
+          value = "11et_ethereal_boat02.m2",
+         },
+         {
+          fileId = "5931584",
+          text = "11et_ethereal_boat03.m2",
+          value = "11et_ethereal_boat03.m2",
+         },
+         {
+          fileId = "5916219",
+          text = "11et_ethereal_book01.m2",
+          value = "11et_ethereal_book01.m2",
+         },
+         {
+          fileId = "5916220",
+          text = "11et_ethereal_book02.m2",
+          value = "11et_ethereal_book02.m2",
+         },
+         {
+          fileId = "5917579",
+          text = "11et_ethereal_bookshelf01.m2",
+          value = "11et_ethereal_bookshelf01.m2",
+         },
+         {
+          fileId = "5916221",
+          text = "11et_ethereal_brazier01.m2",
+          value = "11et_ethereal_brazier01.m2",
+         },
+         {
+          fileId = "5916198",
+          text = "11et_ethereal_chair01.m2",
+          value = "11et_ethereal_chair01.m2",
+         },
+         {
+          fileId = "5928055",
+          text = "11et_ethereal_console01.m2",
+          value = "11et_ethereal_console01.m2",
+         },
+         {
+          fileId = "5916224",
+          text = "11et_ethereal_crate01.m2",
+          value = "11et_ethereal_crate01.m2",
+         },
+         {
+          fileId = "6159540",
+          text = "11et_ethereal_crate02.m2",
+          value = "11et_ethereal_crate02.m2",
+         },
+         {
+          fileId = "6404182",
+          text = "11et_ethereal_cylinder01.m2",
+          value = "11et_ethereal_cylinder01.m2",
+         },
+         {
+          fileId = "6404183",
+          text = "11et_ethereal_cylinder02.m2",
+          value = "11et_ethereal_cylinder02.m2",
+         },
+         {
+          fileId = "6404184",
+          text = "11et_ethereal_cylinder03.m2",
+          value = "11et_ethereal_cylinder03.m2",
+         },
+         {
+          fileId = "6404185",
+          text = "11et_ethereal_cylinder04.m2",
+          value = "11et_ethereal_cylinder04.m2",
+         },
+         {
+          fileId = "7011606",
+          text = "11et_ethereal_darkheartswirls01.m2",
+          value = "11et_ethereal_darkheartswirls01.m2",
+         },
+         {
+          fileId = "6034137",
+          text = "11et_ethereal_domeforcefield01.m2",
+          value = "11et_ethereal_domeforcefield01.m2",
+         },
+         {
+          fileId = "6034138",
+          text = "11et_ethereal_domeforcefield02.m2",
+          value = "11et_ethereal_domeforcefield02.m2",
+         },
+         {
+          fileId = "6034139",
+          text = "11et_ethereal_domeforcefield03.m2",
+          value = "11et_ethereal_domeforcefield03.m2",
+         },
+         {
+          fileId = "6212841",
+          text = "11et_ethereal_domeforcefield04.m2",
+          value = "11et_ethereal_domeforcefield04.m2",
+         },
+         {
+          fileId = "6642266",
+          text = "11et_ethereal_domeforcefield05.m2",
+          value = "11et_ethereal_domeforcefield05.m2",
+         },
+         {
+          fileId = "6653801",
+          text = "11et_ethereal_energybeam01.m2",
+          value = "11et_ethereal_energybeam01.m2",
+         },
+         {
+          fileId = "6159176",
+          text = "11et_ethereal_energyorb01.m2",
+          value = "11et_ethereal_energyorb01.m2",
+         },
+         {
+          fileId = "5931587",
+          text = "11et_ethereal_forcefield01.m2",
+          value = "11et_ethereal_forcefield01.m2",
+         },
+         {
+          fileId = "6034140",
+          text = "11et_ethereal_forcefield02.m2",
+          value = "11et_ethereal_forcefield02.m2",
+         },
+         {
+          fileId = "6692765",
+          text = "11et_ethereal_forcefield03.m2",
+          value = "11et_ethereal_forcefield03.m2",
+         },
+         {
+          fileId = "6725034",
+          text = "11et_ethereal_forcefield04.m2",
+          value = "11et_ethereal_forcefield04.m2",
+         },
+         {
+          fileId = "6797206",
+          text = "11et_ethereal_forcefield05.m2",
+          value = "11et_ethereal_forcefield05.m2",
+         },
+         {
+          fileId = "6855666",
+          text = "11et_ethereal_forcefield06.m2",
+          value = "11et_ethereal_forcefield06.m2",
+         },
+         {
+          fileId = "6885672",
+          text = "11et_ethereal_forcefield07.m2",
+          value = "11et_ethereal_forcefield07.m2",
+         },
+         {
+          fileId = "6885673",
+          text = "11et_ethereal_forcefield08.m2",
+          value = "11et_ethereal_forcefield08.m2",
+         },
+         {
+          fileId = "7126895",
+          text = "11et_ethereal_forcefield09.m2",
+          value = "11et_ethereal_forcefield09.m2",
+         },
+         {
+          fileId = "5931585",
+          text = "11et_ethereal_gateway01.m2",
+          value = "11et_ethereal_gateway01.m2",
+         },
+         {
+          fileId = "5936800",
+          text = "11et_ethereal_gatewayhalf01.m2",
+          value = "11et_ethereal_gatewayhalf01.m2",
+         },
+         {
+          fileId = "5916193",
+          text = "11et_ethereal_gyroscope01.m2",
+          value = "11et_ethereal_gyroscope01.m2",
+         },
+         {
+          fileId = "6323399",
+          text = "11et_ethereal_hookah01.m2",
+          value = "11et_ethereal_hookah01.m2",
+         },
+         {
+          fileId = "6380242",
+          text = "11et_ethereal_labequipment01.m2",
+          value = "11et_ethereal_labequipment01.m2",
+         },
+         {
+          fileId = "5932477",
+          text = "11et_ethereal_lamp01.m2",
+          value = "11et_ethereal_lamp01.m2",
+         },
+         {
+          fileId = "5916222",
+          text = "11et_ethereal_lamppost01.m2",
+          value = "11et_ethereal_lamppost01.m2",
+         },
+         {
+          fileId = "6380243",
+          text = "11et_ethereal_lever01.m2",
+          value = "11et_ethereal_lever01.m2",
+         },
+         {
+          fileId = "6218295",
+          text = "11et_ethereal_meteor01.m2",
+          value = "11et_ethereal_meteor01.m2",
+         },
+         {
+          fileId = "5928064",
+          text = "11et_ethereal_pad01.m2",
+          value = "11et_ethereal_pad01.m2",
+         },
+         {
+          fileId = "5932230",
+          text = "11et_ethereal_pad02.m2",
+          value = "11et_ethereal_pad02.m2",
+         },
+         {
+          fileId = "6118548",
+          text = "11et_ethereal_pad03.m2",
+          value = "11et_ethereal_pad03.m2",
+         },
+         {
+          fileId = "6118549",
+          text = "11et_ethereal_pad04.m2",
+          value = "11et_ethereal_pad04.m2",
+         },
+         {
+          fileId = "6026258",
+          text = "11et_ethereal_phasecrystal01.m2",
+          value = "11et_ethereal_phasecrystal01.m2",
+         },
+         {
+          fileId = "6026259",
+          text = "11et_ethereal_phasecrystal02.m2",
+          value = "11et_ethereal_phasecrystal02.m2",
+         },
+         {
+          fileId = "6026262",
+          text = "11et_ethereal_phasecrystal03.m2",
+          value = "11et_ethereal_phasecrystal03.m2",
+         },
+         {
+          fileId = "6026263",
+          text = "11et_ethereal_phasecrystal04.m2",
+          value = "11et_ethereal_phasecrystal04.m2",
+         },
+         {
+          fileId = "6026264",
+          text = "11et_ethereal_phasecrystal05.m2",
+          value = "11et_ethereal_phasecrystal05.m2",
+         },
+         {
+          fileId = "6026265",
+          text = "11et_ethereal_phasecrystal06.m2",
+          value = "11et_ethereal_phasecrystal06.m2",
+         },
+         {
+          fileId = "6026266",
+          text = "11et_ethereal_phasecrystal07.m2",
+          value = "11et_ethereal_phasecrystal07.m2",
+         },
+         {
+          fileId = "6026267",
+          text = "11et_ethereal_phasecrystal08.m2",
+          value = "11et_ethereal_phasecrystal08.m2",
+         },
+         {
+          fileId = "6026268",
+          text = "11et_ethereal_phasecrystal09.m2",
+          value = "11et_ethereal_phasecrystal09.m2",
+         },
+         {
+          fileId = "6049322",
+          text = "11et_ethereal_phasecrystal10.m2",
+          value = "11et_ethereal_phasecrystal10.m2",
+         },
+         {
+          fileId = "6049323",
+          text = "11et_ethereal_phasecrystal11.m2",
+          value = "11et_ethereal_phasecrystal11.m2",
+         },
+         {
+          fileId = "6049324",
+          text = "11et_ethereal_phasecrystal12.m2",
+          value = "11et_ethereal_phasecrystal12.m2",
+         },
+         {
+          fileId = "6049325",
+          text = "11et_ethereal_phasecrystal13.m2",
+          value = "11et_ethereal_phasecrystal13.m2",
+         },
+         {
+          fileId = "6049326",
+          text = "11et_ethereal_phasecrystal14.m2",
+          value = "11et_ethereal_phasecrystal14.m2",
+         },
+         {
+          fileId = "6049327",
+          text = "11et_ethereal_phasecrystal15.m2",
+          value = "11et_ethereal_phasecrystal15.m2",
+         },
+         {
+          fileId = "6380241",
+          text = "11et_ethereal_phasecrystallab01.m2",
+          value = "11et_ethereal_phasecrystallab01.m2",
+         },
+         {
+          fileId = "5723045",
+          text = "11et_ethereal_plant01.m2",
+          value = "11et_ethereal_plant01.m2",
+         },
+         {
+          fileId = "5723046",
+          text = "11et_ethereal_plant02.m2",
+          value = "11et_ethereal_plant02.m2",
+         },
+         {
+          fileId = "5723047",
+          text = "11et_ethereal_plant03.m2",
+          value = "11et_ethereal_plant03.m2",
+         },
+         {
+          fileId = "5794741",
+          text = "11et_ethereal_plantgreenleaf01.m2",
+          value = "11et_ethereal_plantgreenleaf01.m2",
+         },
+         {
+          fileId = "5794743",
+          text = "11et_ethereal_plantgreenleaf02.m2",
+          value = "11et_ethereal_plantgreenleaf02.m2",
+         },
+         {
+          fileId = "5794744",
+          text = "11et_ethereal_plantgreenleaf03.m2",
+          value = "11et_ethereal_plantgreenleaf03.m2",
+         },
+         {
+          fileId = "5795387",
+          text = "11et_ethereal_plantgreenleaf04.m2",
+          value = "11et_ethereal_plantgreenleaf04.m2",
+         },
+         {
+          fileId = "5868199",
+          text = "11et_ethereal_plantgreenpod01.m2",
+          value = "11et_ethereal_plantgreenpod01.m2",
+         },
+         {
+          fileId = "5868200",
+          text = "11et_ethereal_plantgreenpod02.m2",
+          value = "11et_ethereal_plantgreenpod02.m2",
+         },
+         {
+          fileId = "5868201",
+          text = "11et_ethereal_plantgreenpod03.m2",
+          value = "11et_ethereal_plantgreenpod03.m2",
+         },
+         {
+          fileId = "5876213",
+          text = "11et_ethereal_plantleafteal01.m2",
+          value = "11et_ethereal_plantleafteal01.m2",
+         },
+         {
+          fileId = "5876214",
+          text = "11et_ethereal_plantleafteal02.m2",
+          value = "11et_ethereal_plantleafteal02.m2",
+         },
+         {
+          fileId = "5876215",
+          text = "11et_ethereal_plantleafteal03.m2",
+          value = "11et_ethereal_plantleafteal03.m2",
+         },
+         {
+          fileId = "5760400",
+          text = "11et_ethereal_plantorangecactus01.m2",
+          value = "11et_ethereal_plantorangecactus01.m2",
+         },
+         {
+          fileId = "5760401",
+          text = "11et_ethereal_plantorangecactus02.m2",
+          value = "11et_ethereal_plantorangecactus02.m2",
+         },
+         {
+          fileId = "5760402",
+          text = "11et_ethereal_plantorangecactus03.m2",
+          value = "11et_ethereal_plantorangecactus03.m2",
+         },
+         {
+          fileId = "5876205",
+          text = "11et_ethereal_plantpurplecactus01.m2",
+          value = "11et_ethereal_plantpurplecactus01.m2",
+         },
+         {
+          fileId = "5876206",
+          text = "11et_ethereal_plantpurplecactus02.m2",
+          value = "11et_ethereal_plantpurplecactus02.m2",
+         },
+         {
+          fileId = "5876207",
+          text = "11et_ethereal_plantpurplecactus03.m2",
+          value = "11et_ethereal_plantpurplecactus03.m2",
+         },
+         {
+          fileId = "5751962",
+          text = "11et_ethereal_plantpurpleflower01.m2",
+          value = "11et_ethereal_plantpurpleflower01.m2",
+         },
+         {
+          fileId = "5751963",
+          text = "11et_ethereal_plantpurpleflower02.m2",
+          value = "11et_ethereal_plantpurpleflower02.m2",
+         },
+         {
+          fileId = "5751964",
+          text = "11et_ethereal_plantpurpleflower03.m2",
+          value = "11et_ethereal_plantpurpleflower03.m2",
+         },
+         {
+          fileId = "5751965",
+          text = "11et_ethereal_plantpurpleflower04.m2",
+          value = "11et_ethereal_plantpurpleflower04.m2",
+         },
+         {
+          fileId = "5756302",
+          text = "11et_ethereal_plantpurpleflower05.m2",
+          value = "11et_ethereal_plantpurpleflower05.m2",
+         },
+         {
+          fileId = "5876191",
+          text = "11et_ethereal_plantshinyleaf01.m2",
+          value = "11et_ethereal_plantshinyleaf01.m2",
+         },
+         {
+          fileId = "5876192",
+          text = "11et_ethereal_plantshinyleaf02.m2",
+          value = "11et_ethereal_plantshinyleaf02.m2",
+         },
+         {
+          fileId = "5876193",
+          text = "11et_ethereal_plantshinyleaf03.m2",
+          value = "11et_ethereal_plantshinyleaf03.m2",
+         },
+         {
+          fileId = "5876194",
+          text = "11et_ethereal_plantshinyleaf04.m2",
+          value = "11et_ethereal_plantshinyleaf04.m2",
+         },
+         {
+          fileId = "5876195",
+          text = "11et_ethereal_plantshinypod01.m2",
+          value = "11et_ethereal_plantshinypod01.m2",
+         },
+         {
+          fileId = "5876196",
+          text = "11et_ethereal_plantshinypod02.m2",
+          value = "11et_ethereal_plantshinypod02.m2",
+         },
+         {
+          fileId = "5876197",
+          text = "11et_ethereal_plantshinypod03.m2",
+          value = "11et_ethereal_plantshinypod03.m2",
+         },
+         {
+          fileId = "5876199",
+          text = "11et_ethereal_plantshinypod04.m2",
+          value = "11et_ethereal_plantshinypod04.m2",
+         },
+         {
+          fileId = "5876200",
+          text = "11et_ethereal_plantshinypod05.m2",
+          value = "11et_ethereal_plantshinypod05.m2",
+         },
+         {
+          fileId = "5876201",
+          text = "11et_ethereal_plantshinypod06.m2",
+          value = "11et_ethereal_plantshinypod06.m2",
+         },
+         {
+          fileId = "5876203",
+          text = "11et_ethereal_plantshinypod07.m2",
+          value = "11et_ethereal_plantshinypod07.m2",
+         },
+         {
+          fileId = "5876204",
+          text = "11et_ethereal_plantshinypod08.m2",
+          value = "11et_ethereal_plantshinypod08.m2",
+         },
+         {
+          fileId = "5746393",
+          text = "11et_ethereal_plantstalk01.m2",
+          value = "11et_ethereal_plantstalk01.m2",
+         },
+         {
+          fileId = "5746394",
+          text = "11et_ethereal_plantstalk02.m2",
+          value = "11et_ethereal_plantstalk02.m2",
+         },
+         {
+          fileId = "5746395",
+          text = "11et_ethereal_plantstalk03.m2",
+          value = "11et_ethereal_plantstalk03.m2",
+         },
+         {
+          fileId = "5746396",
+          text = "11et_ethereal_plantstalk04.m2",
+          value = "11et_ethereal_plantstalk04.m2",
+         },
+         {
+          fileId = "5746397",
+          text = "11et_ethereal_plantstalk05.m2",
+          value = "11et_ethereal_plantstalk05.m2",
+         },
+         {
+          fileId = "5876208",
+          text = "11et_ethereal_plantstalk06.m2",
+          value = "11et_ethereal_plantstalk06.m2",
+         },
+         {
+          fileId = "5876209",
+          text = "11et_ethereal_plantstalk07.m2",
+          value = "11et_ethereal_plantstalk07.m2",
+         },
+         {
+          fileId = "5876210",
+          text = "11et_ethereal_plantstalk08.m2",
+          value = "11et_ethereal_plantstalk08.m2",
+         },
+         {
+          fileId = "5876211",
+          text = "11et_ethereal_plantstalk09.m2",
+          value = "11et_ethereal_plantstalk09.m2",
+         },
+         {
+          fileId = "5876212",
+          text = "11et_ethereal_plantstalk10.m2",
+          value = "11et_ethereal_plantstalk10.m2",
+         },
+         {
+          fileId = "6941946",
+          text = "11et_ethereal_projectorpad01.m2",
+          value = "11et_ethereal_projectorpad01.m2",
+         },
+         {
+          fileId = "5928062",
+          text = "11et_ethereal_pylon01.m2",
+          value = "11et_ethereal_pylon01.m2",
+         },
+         {
+          fileId = "5928063",
+          text = "11et_ethereal_pylon02.m2",
+          value = "11et_ethereal_pylon02.m2",
+         },
+         {
+          fileId = "6119713",
+          text = "11et_ethereal_pylon03.m2",
+          value = "11et_ethereal_pylon03.m2",
+         },
+         {
+          fileId = "5928067",
+          text = "11et_ethereal_pylonbroken01.m2",
+          value = "11et_ethereal_pylonbroken01.m2",
+         },
+         {
+          fileId = "5931588",
+          text = "11et_ethereal_rod01.m2",
+          value = "11et_ethereal_rod01.m2",
+         },
+         {
+          fileId = "5916213",
+          text = "11et_ethereal_rug01.m2",
+          value = "11et_ethereal_rug01.m2",
+         },
+         {
+          fileId = "5916215",
+          text = "11et_ethereal_rug02.m2",
+          value = "11et_ethereal_rug02.m2",
+         },
+         {
+          fileId = "6080222",
+          text = "11et_ethereal_sandpile01.m2",
+          value = "11et_ethereal_sandpile01.m2",
+         },
+         {
+          fileId = "6080223",
+          text = "11et_ethereal_sandpile02.m2",
+          value = "11et_ethereal_sandpile02.m2",
+         },
+         {
+          fileId = "6380244",
+          text = "11et_ethereal_scale01.m2",
+          value = "11et_ethereal_scale01.m2",
+         },
+         {
+          fileId = "5916217",
+          text = "11et_ethereal_scroll01.m2",
+          value = "11et_ethereal_scroll01.m2",
+         },
+         {
+          fileId = "5916218",
+          text = "11et_ethereal_scroll02.m2",
+          value = "11et_ethereal_scroll02.m2",
+         },
+         {
+          fileId = "5932283",
+          text = "11et_ethereal_stasispod01.m2",
+          value = "11et_ethereal_stasispod01.m2",
+         },
+         {
+          fileId = "6994524",
+          text = "11et_ethereal_stasispod02.m2",
+          value = "11et_ethereal_stasispod02.m2",
+         },
+         {
+          fileId = "5916200",
+          text = "11et_ethereal_stool01.m2",
+          value = "11et_ethereal_stool01.m2",
+         },
+         {
+          fileId = "5916194",
+          text = "11et_ethereal_structure_pipe01.m2",
+          value = "11et_ethereal_structure_pipe01.m2",
+         },
+         {
+          fileId = "6438280",
+          text = "11et_ethereal_structure_pipe01_broken.m2",
+          value = "11et_ethereal_structure_pipe01_broken.m2",
+         },
+         {
+          fileId = "6438275",
+          text = "11et_ethereal_structure_pipe01_cracked.m2",
+          value = "11et_ethereal_structure_pipe01_cracked.m2",
+         },
+         {
+          fileId = "5916195",
+          text = "11et_ethereal_structure_pipe02.m2",
+          value = "11et_ethereal_structure_pipe02.m2",
+         },
+         {
+          fileId = "6438281",
+          text = "11et_ethereal_structure_pipe02_broken.m2",
+          value = "11et_ethereal_structure_pipe02_broken.m2",
+         },
+         {
+          fileId = "6438276",
+          text = "11et_ethereal_structure_pipe02_cracked.m2",
+          value = "11et_ethereal_structure_pipe02_cracked.m2",
+         },
+         {
+          fileId = "5916196",
+          text = "11et_ethereal_structure_pipe03.m2",
+          value = "11et_ethereal_structure_pipe03.m2",
+         },
+         {
+          fileId = "6438282",
+          text = "11et_ethereal_structure_pipe03_broken.m2",
+          value = "11et_ethereal_structure_pipe03_broken.m2",
+         },
+         {
+          fileId = "6438277",
+          text = "11et_ethereal_structure_pipe03_cracked.m2",
+          value = "11et_ethereal_structure_pipe03_cracked.m2",
+         },
+         {
+          fileId = "5916197",
+          text = "11et_ethereal_structure_pipe04.m2",
+          value = "11et_ethereal_structure_pipe04.m2",
+         },
+         {
+          fileId = "6438283",
+          text = "11et_ethereal_structure_pipe04_broken.m2",
+          value = "11et_ethereal_structure_pipe04_broken.m2",
+         },
+         {
+          fileId = "6438278",
+          text = "11et_ethereal_structure_pipe04_cracked.m2",
+          value = "11et_ethereal_structure_pipe04_cracked.m2",
+         },
+         {
+          fileId = "6009481",
+          text = "11et_ethereal_structure_pipe05.m2",
+          value = "11et_ethereal_structure_pipe05.m2",
+         },
+         {
+          fileId = "6438284",
+          text = "11et_ethereal_structure_pipe05_broken.m2",
+          value = "11et_ethereal_structure_pipe05_broken.m2",
+         },
+         {
+          fileId = "6438279",
+          text = "11et_ethereal_structure_pipe05_cracked.m2",
+          value = "11et_ethereal_structure_pipe05_cracked.m2",
+         },
+         {
+          fileId = "6009482",
+          text = "11et_ethereal_structure_pipe06.m2",
+          value = "11et_ethereal_structure_pipe06.m2",
+         },
+         {
+          fileId = "6791801",
+          text = "11et_ethereal_structure_pipe06_cracked.m2",
+          value = "11et_ethereal_structure_pipe06_cracked.m2",
+         },
+         {
+          fileId = "6023169",
+          text = "11et_ethereal_structure_pipe07.m2",
+          value = "11et_ethereal_structure_pipe07.m2",
+         },
+         {
+          fileId = "6023177",
+          text = "11et_ethereal_structure_pipe08.m2",
+          value = "11et_ethereal_structure_pipe08.m2",
+         },
+         {
+          fileId = "6023218",
+          text = "11et_ethereal_structure_pipe09.m2",
+          value = "11et_ethereal_structure_pipe09.m2",
+         },
+         {
+          fileId = "6255847",
+          text = "11et_ethereal_structure_pipe10.m2",
+          value = "11et_ethereal_structure_pipe10.m2",
+         },
+         {
+          fileId = "6791800",
+          text = "11et_ethereal_structure_pipe11.m2",
+          value = "11et_ethereal_structure_pipe11.m2",
+         },
+         {
+          fileId = "7136536",
+          text = "11et_ethereal_structure_pipe12.m2",
+          value = "11et_ethereal_structure_pipe12.m2",
+         },
+         {
+          fileId = "6009479",
+          text = "11et_ethereal_structure_pipeend01.m2",
+          value = "11et_ethereal_structure_pipeend01.m2",
+         },
+         {
+          fileId = "6075658",
+          text = "11et_ethereal_structure_pipeend02.m2",
+          value = "11et_ethereal_structure_pipeend02.m2",
+         },
+         {
+          fileId = "6009480",
+          text = "11et_ethereal_structure_pipestand01.m2",
+          value = "11et_ethereal_structure_pipestand01.m2",
+         },
+         {
+          fileId = "5916201",
+          text = "11et_ethereal_table01.m2",
+          value = "11et_ethereal_table01.m2",
+         },
+         {
+          fileId = "5916202",
+          text = "11et_ethereal_table02.m2",
+          value = "11et_ethereal_table02.m2",
+         },
+         {
+          fileId = "5916203",
+          text = "11et_ethereal_table03.m2",
+          value = "11et_ethereal_table03.m2",
+         },
+         {
+          fileId = "5916206",
+          text = "11et_ethereal_table04.m2",
+          value = "11et_ethereal_table04.m2",
+         },
+         {
+          fileId = "6159541",
+          text = "11et_ethereal_table05.m2",
+          value = "11et_ethereal_table05.m2",
+         },
+         {
+          fileId = "5916189",
+          text = "11et_ethereal_tent01.m2",
+          value = "11et_ethereal_tent01.m2",
+         },
+         {
+          fileId = "5916191",
+          text = "11et_ethereal_tent02.m2",
+          value = "11et_ethereal_tent02.m2",
+         },
+         {
+          fileId = "5916192",
+          text = "11et_ethereal_tent03.m2",
+          value = "11et_ethereal_tent03.m2",
+         },
+         {
+          fileId = "5928065",
+          text = "11et_ethereal_tentruined01.m2",
+          value = "11et_ethereal_tentruined01.m2",
+         },
+         {
+          fileId = "5933753",
+          text = "11et_ethereal_tentruined02.m2",
+          value = "11et_ethereal_tentruined02.m2",
+         },
+         {
+          fileId = "5916208",
+          text = "11et_ethereal_tool01.m2",
+          value = "11et_ethereal_tool01.m2",
+         },
+         {
+          fileId = "5916209",
+          text = "11et_ethereal_tool02.m2",
+          value = "11et_ethereal_tool02.m2",
+         },
+         {
+          fileId = "5916210",
+          text = "11et_ethereal_tool03.m2",
+          value = "11et_ethereal_tool03.m2",
+         },
+         {
+          fileId = "5916211",
+          text = "11et_ethereal_toolrack01.m2",
+          value = "11et_ethereal_toolrack01.m2",
+         },
+         {
+          fileId = "5916212",
+          text = "11et_ethereal_toolrack02.m2",
+          value = "11et_ethereal_toolrack02.m2",
+         },
+         {
+          fileId = "6321896",
+          text = "11et_ethereal_toolrack03.m2",
+          value = "11et_ethereal_toolrack03.m2",
+         },
+         {
+          fileId = "6321897",
+          text = "11et_ethereal_toolrack04.m2",
+          value = "11et_ethereal_toolrack04.m2",
+         },
+         {
+          fileId = "5916223",
+          text = "11et_ethereal_torch01.m2",
+          value = "11et_ethereal_torch01.m2",
+         },
+         {
+          fileId = "5928066",
+          text = "11et_ethereal_torch02.m2",
+          value = "11et_ethereal_torch02.m2",
+         },
+         {
+          fileId = "6009484",
+          text = "11et_ethereal_turret01.m2",
+          value = "11et_ethereal_turret01.m2",
+         },
+         {
+          fileId = "6941947",
+          text = "11et_ethereal_turret02.m2",
+          value = "11et_ethereal_turret02.m2",
+         },
+         {
+          fileId = "5916228",
+          text = "11et_ethereal_vat01.m2",
+          value = "11et_ethereal_vat01.m2",
+         },
+         {
+          fileId = "5916229",
+          text = "11et_ethereal_vat02.m2",
+          value = "11et_ethereal_vat02.m2",
+         },
+         {
+          fileId = "6320657",
+          text = "11et_ethereal_vat03.m2",
+          value = "11et_ethereal_vat03.m2",
+         },
+         {
+          fileId = "6320659",
+          text = "11et_ethereal_vat04.m2",
+          value = "11et_ethereal_vat04.m2",
+         },
+         {
+          fileId = "5928057",
+          text = "11et_ethereal_weaponrack01.m2",
+          value = "11et_ethereal_weaponrack01.m2",
+         },
+         {
+          fileId = "5928058",
+          text = "11et_ethereal_weaponrack02.m2",
+          value = "11et_ethereal_weaponrack02.m2",
+         },
+         {
+          fileId = "5933754",
+          text = "11et_ethereal_wire01.m2",
+          value = "11et_ethereal_wire01.m2",
+         },
+         {
+          fileId = "5933755",
+          text = "11et_ethereal_wire02.m2",
+          value = "11et_ethereal_wire02.m2",
+         },
+         {
+          fileId = "5933756",
+          text = "11et_ethereal_wire03.m2",
+          value = "11et_ethereal_wire03.m2",
+         },
+         {
+          fileId = "6377239",
+          text = "11et_ethereal_wirecap01.m2",
+          value = "11et_ethereal_wirecap01.m2",
+         },
+         {
+          fileId = "5933757",
+          text = "11et_ethereal_wirecoupler01.m2",
+          value = "11et_ethereal_wirecoupler01.m2",
+         },
+         {
+          fileId = "5933758",
+          text = "11et_ethereal_wirecoupler02.m2",
+          value = "11et_ethereal_wirecoupler02.m2",
+         },
+         {
+          fileId = "5933759",
+          text = "11et_ethereal_wirecoupler03.m2",
+          value = "11et_ethereal_wirecoupler03.m2",
+         },
+        },
+        text = "ethereal",
+        value = "ethereal",
+       },
+       {
+        children = {
+         {
           fileId = "6159474",
           text = "11go_fishing_canbobber.m2",
           value = "11go_fishing_canbobber.m2",
@@ -572590,11 +592063,6 @@ WeakAuras.ModelPaths = {
           fileId = "6076862",
           text = "11go_goblin_holder01.m2",
           value = "11go_goblin_holder01.m2",
-         },
-         {
-          fileId = "6323399",
-          text = "11go_goblin_hookah01.m2",
-          value = "11go_goblin_hookah01.m2",
          },
          {
           fileId = "5907453",
@@ -581056,6 +600524,51 @@ WeakAuras.ModelPaths = {
        },
        {
         children = {
+         {
+          fileId = "6914249",
+          text = "11xp_brewfest_balloons01.m2",
+          value = "11xp_brewfest_balloons01.m2",
+         },
+         {
+          fileId = "6914250",
+          text = "11xp_brewfest_balloons02.m2",
+          value = "11xp_brewfest_balloons02.m2",
+         },
+         {
+          fileId = "6914251",
+          text = "11xp_brewfest_balloons03.m2",
+          value = "11xp_brewfest_balloons03.m2",
+         },
+         {
+          fileId = "6914259",
+          text = "11xp_brewfest_balloons04.m2",
+          value = "11xp_brewfest_balloons04.m2",
+         },
+         {
+          fileId = "6914260",
+          text = "11xp_brewfest_balloons05.m2",
+          value = "11xp_brewfest_balloons05.m2",
+         },
+         {
+          fileId = "6914261",
+          text = "11xp_brewfest_balloons06.m2",
+          value = "11xp_brewfest_balloons06.m2",
+         },
+         {
+          fileId = "6914262",
+          text = "11xp_brewfest_balloons07.m2",
+          value = "11xp_brewfest_balloons07.m2",
+         },
+         {
+          fileId = "6914263",
+          text = "11xp_brewfest_balloons08.m2",
+          value = "11xp_brewfest_balloons08.m2",
+         },
+         {
+          fileId = "6914947",
+          text = "11xp_brewfest_balloons09.m2",
+          value = "11xp_brewfest_balloons09.m2",
+         },
          {
           fileId = "526019",
           text = "beerfest_keg01.m2",
@@ -607893,6 +627406,21 @@ WeakAuras.ModelPaths = {
           value = "11xp_grassgreen08.m2",
          },
          {
+          fileId = "5890521",
+          text = "11xp_grassgreen09.m2",
+          value = "11xp_grassgreen09.m2",
+         },
+         {
+          fileId = "5890522",
+          text = "11xp_grassgreen10.m2",
+          value = "11xp_grassgreen10.m2",
+         },
+         {
+          fileId = "5890524",
+          text = "11xp_grassgreen11.m2",
+          value = "11xp_grassgreen11.m2",
+         },
+         {
           fileId = "4914686",
           text = "11xp_grassgreen_flowers01.m2",
           value = "11xp_grassgreen_flowers01.m2",
@@ -607941,6 +627469,16 @@ WeakAuras.ModelPaths = {
           fileId = "4914685",
           text = "11xp_grassgreen_petals02.m2",
           value = "11xp_grassgreen_petals02.m2",
+         },
+         {
+          fileId = "6080224",
+          text = "11xp_grasskaresh01.m2",
+          value = "11xp_grasskaresh01.m2",
+         },
+         {
+          fileId = "6080225",
+          text = "11xp_grasskaresh02.m2",
+          value = "11xp_grasskaresh02.m2",
          },
          {
           fileId = "4867030",
@@ -608006,6 +627544,11 @@ WeakAuras.ModelPaths = {
           fileId = "5225640",
           text = "11xp_grassyellow10.m2",
           value = "11xp_grassyellow10.m2",
+         },
+         {
+          fileId = "5890523",
+          text = "11xp_greenredstalk01.m2",
+          value = "11xp_greenredstalk01.m2",
          },
          {
           fileId = "5546684",
@@ -608081,6 +627624,41 @@ WeakAuras.ModelPaths = {
           fileId = "5198894",
           text = "11xp_particles01.m2",
           value = "11xp_particles01.m2",
+         },
+         {
+          fileId = "5890525",
+          text = "11xp_pebblecrystal01.m2",
+          value = "11xp_pebblecrystal01.m2",
+         },
+         {
+          fileId = "5890526",
+          text = "11xp_pebblecrystal02.m2",
+          value = "11xp_pebblecrystal02.m2",
+         },
+         {
+          fileId = "5890527",
+          text = "11xp_pebblecrystal03.m2",
+          value = "11xp_pebblecrystal03.m2",
+         },
+         {
+          fileId = "5890528",
+          text = "11xp_pebblecrystal04.m2",
+          value = "11xp_pebblecrystal04.m2",
+         },
+         {
+          fileId = "5890529",
+          text = "11xp_pebblecrystal05.m2",
+          value = "11xp_pebblecrystal05.m2",
+         },
+         {
+          fileId = "5890926",
+          text = "11xp_pebblecrystal06.m2",
+          value = "11xp_pebblecrystal06.m2",
+         },
+         {
+          fileId = "5890927",
+          text = "11xp_pebblecrystal07.m2",
+          value = "11xp_pebblecrystal07.m2",
          },
          {
           fileId = "4854027",
@@ -608363,6 +627941,11 @@ WeakAuras.ModelPaths = {
           value = "11xp_shells01.m2",
          },
          {
+          fileId = "5890530",
+          text = "11xp_sparkles01.m2",
+          value = "11xp_sparkles01.m2",
+         },
+         {
           fileId = "5567768",
           text = "11xp_sunflower01.m2",
           value = "11xp_sunflower01.m2",
@@ -608406,6 +627989,46 @@ WeakAuras.ModelPaths = {
           fileId = "5198893",
           text = "11xp_waterplants07.m2",
           value = "11xp_waterplants07.m2",
+         },
+         {
+          fileId = "6403899",
+          text = "11xp_weedsdead01.m2",
+          value = "11xp_weedsdead01.m2",
+         },
+         {
+          fileId = "6403900",
+          text = "11xp_weedsdead02.m2",
+          value = "11xp_weedsdead02.m2",
+         },
+         {
+          fileId = "6403901",
+          text = "11xp_weedsdead03.m2",
+          value = "11xp_weedsdead03.m2",
+         },
+         {
+          fileId = "6403902",
+          text = "11xp_weedsdead04.m2",
+          value = "11xp_weedsdead04.m2",
+         },
+         {
+          fileId = "6403903",
+          text = "11xp_weedsdead05.m2",
+          value = "11xp_weedsdead05.m2",
+         },
+         {
+          fileId = "6403904",
+          text = "11xp_weedsdead06.m2",
+          value = "11xp_weedsdead06.m2",
+         },
+         {
+          fileId = "6403905",
+          text = "11xp_weedsdead07.m2",
+          value = "11xp_weedsdead07.m2",
+         },
+         {
+          fileId = "6403906",
+          text = "11xp_weedsdead08.m2",
+          value = "11xp_weedsdead08.m2",
          },
          {
           fileId = "4867031",
