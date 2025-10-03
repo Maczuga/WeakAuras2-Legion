@@ -1025,10 +1025,15 @@ local function CreatePvPTalentCache()
   --- @type fun(talentId: number): number, string
   local function formatTalent(talentId)
     local _, name, icon, _, _, spellId = GetPvpTalentInfoByID(talentId);
-    return spellId, "|T"..icon..":0|t "..name
-  end
+      return spellId, "|T"..icon..":0|t "..name
+    end
 
   if WeakAuras.IsLegion() then
+    -- Check first CELL, if it returns nothing - it's not ready.
+    if not GetPvpTalentInfo(1, 1, 1) then
+      return
+    end
+
     for tier = 1, MAX_PVP_TALENT_TIERS do
       for column = 1, MAX_PVP_TALENT_COLUMNS do
         local talentId = GetPvpTalentInfo(tier, column, 1);
