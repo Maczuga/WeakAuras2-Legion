@@ -707,7 +707,7 @@ for classID = 1, 20 do -- GetNumClasses not supported by wow classic
 end
 table.sort(WeakAuras.classes_sorted)
 
-if WeakAuras.IsClassicOrCata() or WeakAuras.IsLegion() then
+if WeakAuras.IsClassicOrCata() then
   ---@param index integer
   ---@param extraOption boolean?
   ---@return boolean? hasTalent
@@ -728,7 +728,7 @@ if WeakAuras.IsClassicOrCata() or WeakAuras.IsLegion() then
   end
 end
 
-if WeakAuras.IsMists() then
+if WeakAuras.IsMists() and not WeakAuras.IsLegion() then
   function WeakAuras.CheckTalentByIndex(index, extraOption)
     local talentInfo = C_SpecializationInfo.GetTalentInfo({
       tier = math.ceil(index / 3),
@@ -1393,11 +1393,11 @@ Private.load_prototype = {
       name = "warmode",
       display = L["In War Mode"],
       type = "tristate",
-      init = WeakAuras.HasWarMode() and "arg" or nil,
+      init = WeakAuras.IsRetail() and "arg" or nil,
       width = WeakAuras.normalWidth,
       optional = true,
-      enable = WeakAuras.HasWarMode(),
-      hidden = not WeakAuras.HasWarMode(),
+      enable = WeakAuras.IsRetail(),
+      hidden = not WeakAuras.IsRetail(),
       events = {"PLAYER_FLAGS_CHANGED"}
     },
     {
@@ -1436,11 +1436,11 @@ Private.load_prototype = {
       name = "dragonriding",
       display = L["Skyriding"],
       type = "tristate",
-      init = WeakAuras.HasSkyriding() and "arg" or nil,
+      init = WeakAuras.IsRetail() and "arg" or nil,
       width = WeakAuras.normalWidth,
       optional = true,
-      enable = WeakAuras.HasSkyriding(),
-      hidden = not WeakAuras.HasSkyriding(),
+      enable = WeakAuras.IsRetail(),
+      hidden = not WeakAuras.IsRetail(),
       events = {"WA_DRAGONRIDING_UPDATE"}
     },
     {
@@ -1548,13 +1548,13 @@ Private.load_prototype = {
       multiUseControlWhenFalse = WeakAuras.IsCataOrMistsOrRetail(),
       enable = function(trigger)
         return WeakAuras.IsClassicEra()
-            or (WeakAuras.IsCataOrMists() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
+            or (WeakAuras.IsCataOrMistsAndNotLegion() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
             or (WeakAuras.IsMistsOrRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil)
       end,
       hidden = function(trigger)
         return not (
             WeakAuras.IsClassicEra()
-            or (WeakAuras.IsCataOrMists() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
+            or (WeakAuras.IsCataOrMistsAndNotLegion() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
             or (WeakAuras.IsMistsOrRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil))
       end,
     },
@@ -1611,14 +1611,14 @@ Private.load_prototype = {
       enable = function(trigger)
         return (trigger.use_talent ~= nil or trigger.use_talent2 ~= nil) and (
           WeakAuras.IsClassicEra()
-          or (WeakAuras.IsCataOrMists() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
+          or (WeakAuras.IsCataOrMistsAndNotLegion() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
           or (WeakAuras.IsMistsOrRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil)
         )
       end,
       hidden = function(trigger)
         return not((trigger.use_talent ~= nil or trigger.use_talent2 ~= nil) and (
           WeakAuras.IsClassicEra()
-          or (WeakAuras.IsCataOrMists() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
+          or (WeakAuras.IsCataOrMistsAndNotLegion() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
           or (WeakAuras.IsMistsOrRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil))
         )
       end,
@@ -1676,14 +1676,14 @@ Private.load_prototype = {
       enable = function(trigger)
         return ((trigger.use_talent ~= nil and trigger.use_talent2 ~= nil) or trigger.use_talent3 ~= nil) and (
           WeakAuras.IsClassicEra()
-          or (WeakAuras.IsCataOrMists() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
+          or (WeakAuras.IsCataOrMistsAndNotLegion() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
           or (WeakAuras.IsMistsOrRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil)
         )
       end,
       hidden = function(trigger)
         return not(((trigger.use_talent ~= nil and trigger.use_talent2 ~= nil) or trigger.use_talent3 ~= nil) and (
           WeakAuras.IsClassicEra()
-          or (WeakAuras.IsCataOrMists() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
+          or (WeakAuras.IsCataOrMistsAndNotLegion() and Private.checkForSingleLoadCondition(trigger, "class") ~= nil)
           or (WeakAuras.IsMistsOrRetail() and Private.checkForSingleLoadCondition(trigger, "class_and_spec") ~= nil)
         ))
       end
@@ -1809,6 +1809,7 @@ Private.load_prototype = {
       test = "WeakAuras.IsGlyphActive(%s)",
       events = {"GLYPH_ADDED", "GLYPH_REMOVED", "GLYPH_UPDATED", "USE_GLYPH"},
       enable = WeakAuras.IsMists(),
+      hidden = not WeakAuras.IsMists()
     },
     {
       name = "spellknown",
@@ -9911,34 +9912,34 @@ Private.event_prototypes = {
         type = "header",
         name = "empoweredHeader",
         display = L["Empowered Cast"],
-        enable = WeakAuras.HasEmpowerCasting() and function(trigger) return not trigger.use_inverse end or false,
-        hidden = not WeakAuras.HasEmpowerCasting()
+        enable = WeakAuras.IsRetail() and function(trigger) return not trigger.use_inverse end or false,
+        hidden = not WeakAuras.IsRetail()
       },
       {
         name = "empowered",
         display = L["Empowered"],
         type = "tristate",
-        enable = WeakAuras.HasEmpowerCasting() and function(trigger) return not trigger.use_inverse end or false,
+        enable = WeakAuras.IsRetail() and function(trigger) return not trigger.use_inverse end or false,
         store = true,
         conditionType = "bool",
-        hidden = not WeakAuras.HasEmpowerCasting()
+        hidden = not WeakAuras.IsRetail()
       },
       {
         name = "showChargedDuration",
         display = L["Show charged duration for empowered casts"],
         type = "toggle",
-        enable = WeakAuras.HasEmpowerCasting() and function(trigger) return not trigger.use_inverse end or false,
-        hidden = not WeakAuras.HasEmpowerCasting(),
+        enable = WeakAuras.IsRetail() and function(trigger) return not trigger.use_inverse end or false,
+        hidden = not WeakAuras.IsRetail(),
         reloadOptions = true,
       },
       {
         name = "stage",
         display = L["Current Stage"],
         type = "number",
-        enable = WeakAuras.HasEmpowerCasting() and function(trigger) return not trigger.use_inverse end or false,
+        enable = WeakAuras.IsRetail() and function(trigger) return not trigger.use_inverse end or false,
         store = true,
         conditionType = "number",
-        hidden = not WeakAuras.HasEmpowerCasting(),
+        hidden = not WeakAuras.IsRetail(),
         multiEntry = {
           operator = "and",
           limit = 2
@@ -9948,10 +9949,10 @@ Private.event_prototypes = {
         name = "stageTotal",
         display = L["Total Stages"],
         type = "number",
-        enable = WeakAuras.HasEmpowerCasting() and function(trigger) return not trigger.use_inverse end or false,
+        enable = WeakAuras.IsRetail() and function(trigger) return not trigger.use_inverse end or false,
         store = true,
         conditionType = "number",
-        hidden = not WeakAuras.HasEmpowerCasting()
+        hidden = not WeakAuras.IsRetail()
       },
       {
         name = "charged",
@@ -9959,7 +9960,7 @@ Private.event_prototypes = {
         hidden = true,
         init = "stage == stageTotal",
         test = "true",
-        enable = WeakAuras.HasEmpowerCasting() and function(trigger) return not trigger.use_inverse end or false,
+        enable = WeakAuras.IsRetail() and function(trigger) return not trigger.use_inverse end or false,
         store = true,
         type = "toggle",
         conditionType = "bool",

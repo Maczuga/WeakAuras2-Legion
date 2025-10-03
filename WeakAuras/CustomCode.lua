@@ -22,21 +22,6 @@ function WeakAuras.IsLegionOrRetail()
   return WeakAuras.IsRetail() or WeakAuras.IsLegion()
 end
 
----@return boolean result
-function WeakAuras.HasWarMode()
-  return WeakAuras.BuildInfo >= 80000
-end
-
----@return boolean result
-function WeakAuras.HasSkyriding()
-  return WeakAuras.BuildInfo >= 100000
-end
-
----@return boolean result
-function WeakAuras.HasEmpowerCasting()
-  return WeakAuras.BuildInfo >= 100000
-end
-
 if WeakAuras.IsLegion() then
   ---@param index integer
   ---@param extraOption boolean?
