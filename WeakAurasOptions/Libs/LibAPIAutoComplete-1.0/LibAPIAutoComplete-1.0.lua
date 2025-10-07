@@ -53,6 +53,27 @@ function lib:Hide()
   self.scrollBar:Hide()
 end
 
+function lib:UpdateList()
+  local offset = FauxScrollFrame_GetOffset(self.scrollFrame)
+  local maxLinesShown = (config[self.editbox] and config[self.editbox].maxLinesShown) or 7
+
+  for i = 1, #self.scrollBox.buttons do
+    local button = self.scrollBox.buttons[i]
+    local dataIndex = i + offset
+
+    if dataIndex <= #self.data and i <= maxLinesShown then
+      local elementData = self.data[dataIndex]
+      button:Init(elementData)
+      button:SetSelected(dataIndex == self.selectedIndex)
+      button:Show()
+    else
+      button:Hide()
+    end
+  end
+
+  FauxScrollFrame_Update(self.scrollFrame, #self.data, maxLinesShown, 20)
+end
+
 ---Create APIDoc widget and ensure Blizzard_APIDocumentation is loaded
 local isInit = false
 local function Init()
@@ -64,7 +85,7 @@ local function Init()
   -- load Blizzard_APIDocumentation
   LoadBlizzard_APIDocumentation()
 
-  local scrollBox = CreateFrame("Frame", nil, UIParent, "WowScrollBoxList")
+  local scrollBox = CreateFrame("Frame", nil, UIParent)
   scrollBox:SetSize(400, 150)
   scrollBox:Hide()
 
@@ -72,84 +93,86 @@ local function Init()
   background:SetAllPoints()
   scrollBox.background = background
 
-  local scrollBar = CreateFrame("EventFrame", nil, UIParent, "WowTrimScrollBar")
-  scrollBar:SetPoint("TOPLEFT", scrollBox, "TOPRIGHT")
-  scrollBar:SetPoint("BOTTOMLEFT", scrollBox, "BOTTOMRIGHT")
-  scrollBar:Hide()
+  local scrollFrame = CreateFrame("ScrollFrame", "LibAPIAutoCompleteScrollFrame", scrollBox, "FauxScrollFrameTemplate")
+  lib.scrollFrame = scrollFrame
+  lib.scrollBar = _G[scrollFrame:GetName() .. "ScrollBar"]
 
-  local view = CreateScrollBoxListLinearView()
-  view:SetElementExtentCalculator(function(dataIndex, elementData)
-    return 20
-  end)
-  view:SetElementInitializer("button", function(frame, elementData)
-    Mixin(frame, APIAutoCompleteLineMixin)
-    frame:Init(elementData)
-  end)
-  ScrollUtil.InitScrollBoxListWithScrollBar(scrollBox, scrollBar, view)
-  local selectionBehaviour = ScrollUtil.AddSelectionBehavior(scrollBox, SelectionBehaviorFlags.Deselectable, SelectionBehaviorFlags.Intrusive)
-  selectionBehaviour:RegisterCallback(SelectionBehaviorMixin.Event.OnSelectionChanged, function(o, elementData, selected)
-    local elementFrame = scrollBox:FindFrame(elementData)
-    if elementFrame then
-      elementFrame:SetSelected(selected)
-    end
+  lib.scrollBar:SetParent(UIParent)
+  lib.scrollBar:SetFrameStrata("TOOLTIP")
+  lib.scrollBar:ClearAllPoints()
+  lib.scrollBar:SetPoint("TOPLEFT", scrollBox, "TOPRIGHT", 2, -16)
+  lib.scrollBar:SetPoint("BOTTOMLEFT", scrollBox, "BOTTOMRIGHT", 2, 16)
 
-    if selected and lib.editbox and config[lib.editbox] then
-      local maxLinesShown = config[lib.editbox].maxLinesShown
-      local index = lib.data:FindIndex(elementData)
-      local divisor = lib.data:GetSize() - maxLinesShown
-      if divisor == 0 then
-        divisor = 1
-      end
-      local percent = (index - maxLinesShown / 2) / divisor
-      if percent < 0 then
-        percent = 0
-      elseif percent > 1 then
-        percent = 1
-      end
-      scrollBar:SetScrollPercentage(percent)
-    end
+  scrollFrame:SetScript("OnVerticalScroll", function(self, offset)
+    FauxScrollFrame_OnVerticalScroll(self, offset, 20, function() lib:UpdateList() end)
   end)
 
-  lib.data = CreateDataProvider()
-  scrollBox:SetDataProvider(lib.data)
+  scrollBox.buttons = {}
+  for i = 1, 15 do
+    local button = CreateFrame("Button", nil, scrollBox)
+    button:SetHeight(20)
+    button:SetPoint("TOPLEFT", 5, -(5 + (i - 1) * 20))
+    button:SetPoint("RIGHT", -5, 0)
+    Mixin(button, APIAutoCompleteLineMixin)
+    button:Hide()
+    table.insert(scrollBox.buttons, button)
+  end
 
-  lib.scrollBar = scrollBar
+  lib.data = {}
   lib.scrollBox = scrollBox
-  lib.selectionBehaviour = selectionBehaviour
+  lib.selectedIndex = 0
 
-  scrollBox.selectionBehaviour = selectionBehaviour
-
+  scrollBox:EnableKeyboard(true)
   scrollBox:SetScript("OnKeyDown", function(self, key)
+    local maxLinesShown = config[lib.editbox] and config[lib.editbox].maxLinesShown or 7
+    local selectedIndex = lib.selectedIndex
     if key == "DOWN" then
       lib.scrollBox:SetPropagateKeyboardInput(false)
-      if not self.selectionBehaviour:HasSelection() then
-        self.selectionBehaviour:SelectFirstElementData()
-      else
-        self.selectionBehaviour:SelectNextElementData()
+      if selectedIndex == 0 then
+        selectedIndex = 1
+      elseif selectedIndex < #lib.data then
+        selectedIndex = selectedIndex + 1
       end
     elseif key == "UP" then
       lib.scrollBox:SetPropagateKeyboardInput(false)
-      if not self.selectionBehaviour:HasSelection() then
-        self.selectionBehaviour:SelectFirstElementData()
-      else
-        self.selectionBehaviour:SelectPreviousElementData()
+      if selectedIndex == 0 then
+        selectedIndex = 1
+      elseif selectedIndex > 1 then
+        selectedIndex = selectedIndex - 1
       end
     elseif key == "ENTER" and not IsModifierKeyDown() then
-      local selectedElementData = self.selectionBehaviour:GetFirstSelectedElementData()
-      if selectedElementData then
+      if lib.selectedIndex > 0 and lib.data[lib.selectedIndex] then
         lib.scrollBox:SetPropagateKeyboardInput(false)
-        local elementFrame = scrollBox:FindFrame(selectedElementData)
-        elementFrame:Insert()
+        local offset = FauxScrollFrame_GetOffset(lib.scrollFrame)
+        local buttonIndex = lib.selectedIndex - offset
+        if buttonIndex > 0 and buttonIndex <= #lib.scrollBox.buttons then
+          local button = lib.scrollBox.buttons[buttonIndex]
+          if button:IsShown() then
+            button:Insert()
+          end
+        end
       end
     elseif key == "ESCAPE" then
       lib.scrollBox:SetPropagateKeyboardInput(false)
-      lib.data:Flush()
+      wipe(lib.data)
       lib:UpdateWidget(lib.editbox)
     else
       lib.scrollBox:SetPropagateKeyboardInput(true)
-      lib.data:Flush()
+      wipe(lib.data)
       lib:UpdateWidget(lib.editbox)
     end
+
+    if selectedIndex ~= lib.selectedIndex then
+      lib.selectedIndex = selectedIndex
+      local offset = (lib.selectedIndex - math.floor(maxLinesShown / 2)) * 20
+      local maxScroll = math.max(0, (#lib.data - maxLinesShown) * 20)
+      if offset < 0 then offset = 0 elseif offset > maxScroll then offset = maxScroll end
+      lib.scrollFrame:SetVerticalScroll(offset)
+      lib:UpdateList()
+    end
+  end)
+  scrollBox:SetScript("OnMouseWheel", function(self, delta)
+    if delta > 0 then lib.scrollBar.ScrollUpButton:Click() else lib.scrollBar.ScrollDownButton:Click() end
   end)
 end
 
@@ -170,8 +193,8 @@ local function OnTextChanged(editbox, x, y, w, h)
     local currentWord = lib:GetWord(editbox)
     if #currentWord > 4 and not skipWords[currentWord] then
       lib:Search(currentWord, config[editbox])
-      if lib.data:GetSize() == 1 and lib.data:Find(1).name == currentWord then
-        lib.data:Flush()
+      if #lib.data == 1 and lib.data[1].name == currentWord then
+        wipe(lib.data)
       end
       lib:UpdateWidget(editbox)
     end
@@ -269,14 +292,14 @@ function lib:addLine(apiInfo)
   elseif apiInfo.Type == "Event" then
     name = apiInfo.LiteralName
   end
-  self.data:Insert({ name = name, apiInfo = apiInfo })
+  table.insert(self.data, { name = name, apiInfo = apiInfo })
 end
 
 ---Search a word in documentation, set results in lib.data
 ---@param word string
 ---@param config Params
 function lib:Search(word, config)
-  self.data:Flush()
+  wipe(self.data)
   if word and #word > 3 then
     local lowerWord = word:lower();
     local nsName, rest = lowerWord:match("^([%w%_]+)(.*)")
@@ -318,7 +341,7 @@ function lib:Search(word, config)
         end
       end
 
-      if self.data:GetSize() > maxMatches then
+      if #self.data > maxMatches then
         break
       end
     end
@@ -327,7 +350,7 @@ end
 
 ---set in lib.data the list of systems
 function lib:ListSystems()
-  self.data:Flush()
+  wipe(self.data)
   for i, systemInfo in ipairs(APIDocumentation.systems) do
     if systemInfo.Namespace and #systemInfo.Functions > 0 then
       self:addLine(systemInfo)
@@ -338,36 +361,37 @@ end
 ---Hide, or Show and fill APIDoc widget, using lib.data data
 ---@param editbox EditBox
 function lib:UpdateWidget(editbox)
-  if self.data:IsEmpty() then
+  if #self.data == 0 then
     self:Hide()
     self.editbox = nil
   else
+    self.editbox = editbox
     -- fix size
     local maxLinesShown = config[editbox].maxLinesShown
-    local lines = self.data:GetSize()
-    local height = math.min(lines, maxLinesShown) * 20
+    local lines = #self.data
+    local height = math.min(lines, maxLinesShown) * 20 + 10
     local width = 0
     local hiddenString = editbox.APIDoc_hiddenString
     local fontPath = SharedMedia:Fetch("font", "Fira Mono Medium")
     hiddenString:SetFont(fontPath, 12, "")
-    for _, elementData in self.data:Enumerate() do
+    for _, elementData in ipairs(self.data) do
       hiddenString:SetText(elementData.name)
       width = math.max(width, hiddenString:GetStringWidth())
     end
-    self.scrollBox:SetSize(width, height)
+    self.scrollBox:SetSize(width + 25, height)
 
     -- fix look
     local backgroundColor = config[editbox].backgroundColor
     self.scrollBox.background:SetColorTexture(unpack(backgroundColor))
 
     -- show
-    self.scrollBox:SetParent(UIParent)
     self.scrollBar:SetParent(UIParent)
     self.scrollBox:SetFrameStrata("TOOLTIP")
     self.scrollBar:SetFrameStrata("TOOLTIP")
     self.scrollBox:Show()
     self.scrollBar:SetShown(lines > maxLinesShown)
-    self.editbox = editbox
+    self.selectedIndex = 0
+    self:UpdateList()
   end
 end
 
