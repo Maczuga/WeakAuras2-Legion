@@ -6,6 +6,11 @@ function WeakAuras.IsLegion()
 end
 
 ---@return boolean result
+function WeakAuras.IsClassicOrCataOrMistsAndNotLegion()
+  return WeakAuras.IsClassicOrCataOrMists() and not WeakAuras.IsLegion()
+end
+
+---@return boolean result
 function WeakAuras.IsCataOrMistsAndNotLegion()
   return WeakAuras.IsCataOrMists() and not WeakAuras.IsLegion()
 end

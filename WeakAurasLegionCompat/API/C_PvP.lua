@@ -1,12 +1,8 @@
-function C_PvP.IsWarModeDesired()
-  return false
+if not C_PvP then
+  C_PvP = {
+    IsWarModeDesired = function()
+      return false
+    end,
+    IsRatedBattleground = IsRatedBattleground,
+  }
 end
-
-function C_PvP.IsRatedBattleground()
-  return IsRatedBattleground()
-end
-
--- NYI, TODO
--- function C_PvP.IsRatedArena()
---   return false
--- end
