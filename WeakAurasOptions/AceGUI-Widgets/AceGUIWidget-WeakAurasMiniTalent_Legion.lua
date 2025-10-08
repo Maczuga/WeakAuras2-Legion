@@ -2,7 +2,7 @@ if not WeakAuras.IsLibsOK() then
   return
 end
 
-local widgetType, widgetVersion = "WeakAurasMiniTalent", 3
+local widgetType, widgetVersion = "WeakAurasMiniTalent", 1
 local AceGUI = LibStub and LibStub("AceGUI-3.0", true)
 if not AceGUI or (AceGUI:GetWidgetVersion(widgetType) or 0) >= widgetVersion then
   return
@@ -11,9 +11,7 @@ local L = WeakAuras.L
 
 local buttonSize = 32
 local buttonSizePadded = 45
-
 local MAX_NUM_TALENTS = MAX_TALENT_TIERS * NUM_TALENT_COLUMNS
-local TABS = 1
 
 local function CreateTalentButton(parent)
   local button = CreateFrame("Button", nil, parent)
@@ -100,10 +98,6 @@ local function CreateTalentButton(parent)
     end
     self.obj.obj:Fire("OnValueChanged", self.index, self.state)
   end)
-  button:SetScript("OnEnter", function(self)
-    GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:SetTalent(self.tab, self.index - (self.tab - 1) * MAX_NUM_TALENTS, false, false, false, false)
-  end)
   button:Clear()
   return button
 end
@@ -142,9 +136,7 @@ local function TalentFrame_Update(self)
         button:SetScript("OnLeave", Button_HideToolTip)
         button:SetMotionScriptsWhileDisabled(true)
         if self.open then
-          button:SetPoint("TOPLEFT", button.obj, "TOPLEFT",
-            buttonSizePadded * (column - 1) + (button.tab - 1) * buttonSizePadded * 4 + 5,
-            -buttonSizePadded * (tier - 1) - 5)
+          button:SetPoint("TOPLEFT", button.obj, "TOP", buttonSizePadded * (column - 2), -buttonSizePadded * (tier - 1) - 5)
           button:SetEnabled(true)
           button:SetMouseClickEnabled(true)
           button:Show()
@@ -178,20 +170,6 @@ local function TalentFrame_Update(self)
       self.frame:SetHeight(1)
     end
   end
-  -- if self.list then
-  --   local backgroundIndex = MAX_NUM_TALENTS * TABS + 1
-  --   for tab = 1, TABS do
-  --     local background = self.backgrounds[tab]
-  --     local texture = self.list[backgroundIndex][tab]
-  --     local base = "Interface\\TalentFrame\\" .. texture .. "-"
-  --     background:SetTexture(base .. "TopLeft")
-  --     if self.open then
-  --       background:Show()
-  --     else
-  --       background:Hide()
-  --     end
-  --   end
-  -- end
 end
 
 local methods = {
@@ -215,9 +193,6 @@ local methods = {
     if disabled then
       for _, button in pairs(self.buttons) do
         button:Hide()
-      end
-      for _, background in pairs(self.backgrounds) do
-        background:Hide()
       end
       self.open = nil
       self.toggle.frame:Hide()
@@ -259,23 +234,16 @@ local function Constructor()
   talentFrame:SetFrameStrata("FULLSCREEN_DIALOG")
 
   local buttons = {}
-  for i = 1, MAX_TALENT_TIERS * NUM_TALENT_COLUMNS do
+  for i = 1, MAX_NUM_TALENTS do
     local button = CreateTalentButton(talentFrame)
     button.index = i
-    button.tab = ceil(i / MAX_NUM_TALENTS)
+    button.tier = math.ceil(i / NUM_TALENT_COLUMNS)
+    button.column = (i - 1) % NUM_TALENT_COLUMNS + 1
     table.insert(buttons, button)
   end
-  local backgrounds = {}
-  for tab = 1, TABS do
-    local background = talentFrame:CreateTexture(nil, "BACKGROUND")
-    background:SetPoint("TOPLEFT", talentFrame, "TOPLEFT", (tab - 1) * buttonSizePadded * 4, 0)
-    background:SetPoint("BOTTOMRIGHT", talentFrame, "BOTTOMLEFT", tab * buttonSizePadded * 4, 0)
-    background:SetTexCoord(0, 1, 0, 1)
-    background:Show()
-    table.insert(backgrounds, background)
-  end
+
   -- rescale buttons and resize frame to fit in weakauras options
-  local width = buttonSizePadded * 2 * 3 + 10
+  local width = buttonSizePadded * 3 + 400
   local height = buttonSizePadded * MAX_TALENT_TIERS + 10
   local finalWidth = 440
   local scale = (finalWidth / width)
@@ -283,9 +251,7 @@ local function Constructor()
   for _, button in ipairs(buttons) do
     button:SetScale(scale)
   end
-  for _, background in ipairs(backgrounds) do
-    -- background:SetScale(scale)
-  end
+
   talentFrame:SetSize(finalWidth, finalHeight)
   talentFrame:SetScript("OnClick", function(self)
     self.obj:ToggleView()
@@ -313,7 +279,6 @@ local function Constructor()
     type = widgetType,
     buttons = buttons,
     toggle = toggle,
-    backgrounds = backgrounds,
     saveSize = {
       fullWidth = finalWidth,
       fullHeight = finalHeight,

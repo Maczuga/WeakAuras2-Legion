@@ -7130,21 +7130,21 @@ Private.event_prototypes = {
         store = true,
         conditionType = "select",
         required = true,
-        enable = WeakAuras.IsRetail(),
-        hidden = not WeakAuras.IsRetail(),
+        enable = WeakAuras.IsLegionOrRetail(),
+        hidden = not WeakAuras.IsLegionOrRetail(),
         reloadOptions = true,
       },
       {
         name = "spec",
         display = L["Talent Specialization"],
         type = "select",
-        init = "WeakAuras.IsRetail() and Private.ExecEnv.GetSpecialization()",
+        init = "WeakAuras.IsLegionOrRetail() and Private.ExecEnv.GetSpecialization()",
         required = true,
         values = function(trigger)
           return WeakAuras.spec_types_specific[trigger.class]
         end,
         enable = function(trigger)
-          if WeakAuras.IsRetail() and trigger.use_class and trigger.class then
+          if WeakAuras.IsLegionOrRetail() and trigger.use_class and trigger.class then
             return true
           else
             return false
@@ -7190,7 +7190,7 @@ Private.event_prototypes = {
         multiNoSingle = WeakAuras.IsMistsOrRetail(),
         multiTristate = WeakAuras.IsMistsOrRetail(), -- values can be true/false/nil
         control = WeakAuras.IsMistsOrRetail() and "WeakAurasMiniTalent" or nil,
-        multiConvertKey = WeakAuras.IsRetail() and function(trigger, key)
+        multiConvertKey = WeakAuras.IsLegionOrRetail() and function(trigger, key)
           local classId
           for i = 1, GetNumClasses() do
             if select(2, GetClassInfo(i)) == trigger.class then
@@ -7208,7 +7208,7 @@ Private.event_prototypes = {
           end
         end or nil,
         enable = function(trigger)
-          if WeakAuras.IsRetail() then
+          if WeakAuras.IsLegionOrRetail() then
             if trigger.use_class and trigger.class and trigger.use_spec and trigger.spec then
               return true
             else
