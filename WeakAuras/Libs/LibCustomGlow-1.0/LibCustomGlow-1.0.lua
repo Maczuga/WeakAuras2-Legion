@@ -761,6 +761,9 @@ local function ProcGlowResetter(framePool, frame)
     frame:ClearAllPoints()
     frame:SetScript("OnShow", nil)
     frame:SetScript("OnHide", nil)
+    if not procGlowSupported then
+      frame:SetScript("OnUpdate", nil)
+    end
     local parent = frame:GetParent()
     if frame.key and parent[frame.key] then
         parent[frame.key] = nil
@@ -770,123 +773,127 @@ end
 local ProcGlowPool = CreateFramePool("Frame", GlowParent, nil, ProcGlowResetter)
 lib.ProcGlowPool = ProcGlowPool
 
-local function InitProcGlow(f)
-    f.ProcStart = f:CreateTexture(nil, "ARTWORK")
-    f.ProcStart:SetBlendMode("ADD")
-    f.ProcStart:SetAtlas("UI-HUD-ActionBar-Proc-Start-Flipbook")
-    f.ProcStart:SetAlpha(1)
-    f.ProcStart:SetSize(150, 150)
-    f.ProcStart:SetPoint("CENTER")
+local InitProcGlow, SetupProcGlow
 
-    f.ProcLoop = f:CreateTexture(nil, "ARTWORK")
-    f.ProcLoop:SetAtlas("UI-HUD-ActionBar-Proc-Loop-Flipbook")
-    f.ProcLoop:SetAlpha(0)
-    f.ProcLoop:SetAllPoints()
+if procGlowSupported then
+    InitProcGlow = function(f)
+        f.ProcStart = f:CreateTexture(nil, "ARTWORK")
+        f.ProcStart:SetBlendMode("ADD")
+        f.ProcStart:SetAtlas("UI-HUD-ActionBar-Proc-Start-Flipbook")
+        f.ProcStart:SetAlpha(1)
+        f.ProcStart:SetSize(150, 150)
+        f.ProcStart:SetPoint("CENTER")
 
-    f.ProcLoopAnim = f:CreateAnimationGroup()
-    f.ProcLoopAnim:SetLooping("REPEAT")
-    f.ProcLoopAnim:SetToFinalAlpha(true)
+        f.ProcLoop = f:CreateTexture(nil, "ARTWORK")
+        f.ProcLoop:SetAtlas("UI-HUD-ActionBar-Proc-Loop-Flipbook")
+        f.ProcLoop:SetAlpha(0)
+        f.ProcLoop:SetAllPoints()
 
-    local alphaRepeat = f.ProcLoopAnim:CreateAnimation("Alpha")
-    alphaRepeat:SetChildKey("ProcLoop")
-    alphaRepeat:SetFromAlpha(1)
-    alphaRepeat:SetToAlpha(1)
-    alphaRepeat:SetDuration(.001)
-    alphaRepeat:SetOrder(0)
-    f.ProcLoopAnim.alphaRepeat = alphaRepeat
+        f.ProcLoopAnim = f:CreateAnimationGroup()
+        f.ProcLoopAnim:SetLooping("REPEAT")
+        f.ProcLoopAnim:SetToFinalAlpha(true)
 
-    local flipbookRepeat = f.ProcLoopAnim:CreateAnimation("FlipBook")
-    flipbookRepeat:SetChildKey("ProcLoop")
-    flipbookRepeat:SetDuration(1)
-    flipbookRepeat:SetOrder(0)
-    flipbookRepeat:SetFlipBookRows(6)
-    flipbookRepeat:SetFlipBookColumns(5)
-    flipbookRepeat:SetFlipBookFrames(30)
-    flipbookRepeat:SetFlipBookFrameWidth(0)
-    flipbookRepeat:SetFlipBookFrameHeight(0)
-    f.ProcLoopAnim.flipbookRepeat = flipbookRepeat
+        local alphaRepeat = f.ProcLoopAnim:CreateAnimation("Alpha")
+        alphaRepeat:SetChildKey("ProcLoop")
+        alphaRepeat:SetFromAlpha(1)
+        alphaRepeat:SetToAlpha(1)
+        alphaRepeat:SetDuration(.001)
+        alphaRepeat:SetOrder(0)
+        f.ProcLoopAnim.alphaRepeat = alphaRepeat
 
-    f.ProcStartAnim = f:CreateAnimationGroup()
-    f.ProcStartAnim:SetToFinalAlpha(true)
+        local flipbookRepeat = f.ProcLoopAnim:CreateAnimation("FlipBook")
+        flipbookRepeat:SetChildKey("ProcLoop")
+        flipbookRepeat:SetDuration(1)
+        flipbookRepeat:SetOrder(0)
+        flipbookRepeat:SetFlipBookRows(6)
+        flipbookRepeat:SetFlipBookColumns(5)
+        flipbookRepeat:SetFlipBookFrames(30)
+        flipbookRepeat:SetFlipBookFrameWidth(0)
+        flipbookRepeat:SetFlipBookFrameHeight(0)
+        f.ProcLoopAnim.flipbookRepeat = flipbookRepeat
 
-    local flipbookStartAlphaIn = f.ProcStartAnim:CreateAnimation("Alpha")
-    flipbookStartAlphaIn:SetChildKey("ProcStart")
-    flipbookStartAlphaIn:SetDuration(.001)
-    flipbookStartAlphaIn:SetOrder(0)
-    flipbookStartAlphaIn:SetFromAlpha(1)
-    flipbookStartAlphaIn:SetToAlpha(1)
+        f.ProcStartAnim = f:CreateAnimationGroup()
+        f.ProcStartAnim:SetToFinalAlpha(true)
 
-    local flipbookStart = f.ProcStartAnim:CreateAnimation("FlipBook")
-    flipbookStart:SetChildKey("ProcStart")
-    flipbookStart:SetDuration(0.7)
-    flipbookStart:SetOrder(1)
-    flipbookStart:SetFlipBookRows(6)
-    flipbookStart:SetFlipBookColumns(5)
-    flipbookStart:SetFlipBookFrames(30)
-    flipbookStart:SetFlipBookFrameWidth(0)
-    flipbookStart:SetFlipBookFrameHeight(0)
+        local flipbookStartAlphaIn = f.ProcStartAnim:CreateAnimation("Alpha")
+        flipbookStartAlphaIn:SetChildKey("ProcStart")
+        flipbookStartAlphaIn:SetDuration(.001)
+        flipbookStartAlphaIn:SetOrder(0)
+        flipbookStartAlphaIn:SetFromAlpha(1)
+        flipbookStartAlphaIn:SetToAlpha(1)
 
-    local flipbookStartAlphaOut = f.ProcStartAnim:CreateAnimation("Alpha")
-    flipbookStartAlphaOut:SetChildKey("ProcStart")
-    flipbookStartAlphaOut:SetDuration(.001)
-    flipbookStartAlphaOut:SetOrder(2)
-    flipbookStartAlphaOut:SetFromAlpha(1)
-    flipbookStartAlphaOut:SetToAlpha(0)
+        local flipbookStart = f.ProcStartAnim:CreateAnimation("FlipBook")
+        flipbookStart:SetChildKey("ProcStart")
+        flipbookStart:SetDuration(0.7)
+        flipbookStart:SetOrder(1)
+        flipbookStart:SetFlipBookRows(6)
+        flipbookStart:SetFlipBookColumns(5)
+        flipbookStart:SetFlipBookFrames(30)
+        flipbookStart:SetFlipBookFrameWidth(0)
+        flipbookStart:SetFlipBookFrameHeight(0)
 
-    f.ProcStartAnim.flipbookStart = flipbookStart
-    f.ProcStartAnim:SetScript("OnFinished", function(self)
-        self:GetParent().ProcLoopAnim:Play()
-        self:GetParent().ProcLoop:Show()
-    end)
+        local flipbookStartAlphaOut = f.ProcStartAnim:CreateAnimation("Alpha")
+        flipbookStartAlphaOut:SetChildKey("ProcStart")
+        flipbookStartAlphaOut:SetDuration(.001)
+        flipbookStartAlphaOut:SetOrder(2)
+        flipbookStartAlphaOut:SetFromAlpha(1)
+        flipbookStartAlphaOut:SetToAlpha(0)
 
-end
+        f.ProcStartAnim.flipbookStart = flipbookStart
+        f.ProcStartAnim:SetScript("OnFinished", function(self)
+            self:GetParent().ProcLoopAnim:Play()
+            self:GetParent().ProcLoop:Show()
+        end)
 
-local function SetupProcGlow(f, options)
-    f.key = "_ProcGlow" .. options.key -- for resetter
-    f:SetScript("OnHide", function(self)
-        if self.ProcStartAnim:IsPlaying() then
-            self.ProcStartAnim:Stop()
-        end
-        if self.ProcLoopAnim:IsPlaying() then
-            self.ProcLoopAnim:Stop()
-        end
-    end)
-    f:SetScript("OnShow", function(self)
-        if self.startAnim then
-            if not self.ProcStartAnim:IsPlaying() and not self.ProcLoopAnim:IsPlaying() then
+    end
+
+    SetupProcGlow = function(f, options)
+        f.key = "_ProcGlow" .. options.key -- for resetter
+        f:SetScript("OnHide", function(self)
+            if self.ProcStartAnim:IsPlaying() then
+                self.ProcStartAnim:Stop()
+            end
+            if self.ProcLoopAnim:IsPlaying() then
+                self.ProcLoopAnim:Stop()
+            end
+        end)
+        f:SetScript("OnShow", function(self)
+            if self.startAnim then
+                if not self.ProcStartAnim:IsPlaying() and not self.ProcLoopAnim:IsPlaying() then
                 --[[
 to future me:
 i wish you'r ok, if you wonder where are this constants coming from, check:
 https://github.com/Gethe/wow-ui-source/blob/eb4459c679a1bd8919cad92934ea83c4f5e77e8b/Interface/FrameXML/ActionButton.lua#L816
 https://github.com/Gethe/wow-ui-source/blob/d8e8ebf572c3b28237cf83e8fc5c0583b5453a2b/Interface/FrameXML/ActionButtonTemplate.xml#L5-L14
                 ]]
-                local width, height = self:GetSize()
-                self.ProcStart:SetSize((width / 42 * 150) / 1.4, (height / 42 * 150) / 1.4)
-                self.ProcStart:Show()
-                self.ProcLoop:Hide()
-                self.ProcStartAnim:Play()
+                    local width, height = self:GetSize()
+                    self.ProcStart:SetSize((width / 42 * 150) / 1.4, (height / 42 * 150) / 1.4)
+                    self.ProcStart:Show()
+                    self.ProcLoop:Hide()
+                    self.ProcStartAnim:Play()
+                end
+            else
+                if not self.ProcLoopAnim:IsPlaying() then
+                    self.ProcStart:Hide()
+                    self.ProcLoop:Show()
+                    self.ProcLoopAnim:Play()
+                end
             end
+        end)
+        if not options.color then
+            f.ProcStart:SetDesaturated(nil)
+            f.ProcStart:SetVertexColor(1, 1, 1, 1)
+            f.ProcLoop:SetDesaturated(nil)
+            f.ProcLoop:SetVertexColor(1, 1, 1, 1)
         else
-            if not self.ProcLoopAnim:IsPlaying() then
-                self.ProcStart:Hide()
-                self.ProcLoop:Show()
-                self.ProcLoopAnim:Play()
-            end
+            f.ProcStart:SetDesaturated(1)
+            f.ProcStart:SetVertexColor(options.color[1], options.color[2], options.color[3], options.color[4])
+            f.ProcLoop:SetDesaturated(1)
+            f.ProcLoop:SetVertexColor(options.color[1], options.color[2], options.color[3], options.color[4])
         end
-    end)
-    if not options.color then
-        f.ProcStart:SetDesaturated(nil)
-        f.ProcStart:SetVertexColor(1, 1, 1, 1)
-        f.ProcLoop:SetDesaturated(nil)
-        f.ProcLoop:SetVertexColor(1, 1, 1, 1)
-    else
-        f.ProcStart:SetDesaturated(1)
-        f.ProcStart:SetVertexColor(options.color[1], options.color[2], options.color[3], options.color[4])
-        f.ProcLoop:SetDesaturated(1)
-        f.ProcLoop:SetVertexColor(options.color[1], options.color[2], options.color[3], options.color[4])
+        f.ProcLoopAnim.flipbookRepeat:SetDuration(options.duration)
+        f.startAnim = options.startAnim
     end
-    f.ProcLoopAnim.flipbookRepeat:SetDuration(options.duration)
-    f.startAnim = options.startAnim
 end
 
 local ProcGlowDefaults = {
@@ -900,9 +907,6 @@ local ProcGlowDefaults = {
 }
 
 function lib.ProcGlow_Start(r, options)
-    if not procGlowSupported then
-        return
-    end
     if not r then
         return
     end
@@ -933,14 +937,115 @@ function lib.ProcGlow_Start(r, options)
 end
 
 function lib.ProcGlow_Stop(r, key)
-    if not procGlowSupported then
-        return
-    end
-
     key = key or ""
     local f = r["_ProcGlow" .. key]
     if f then
         ProcGlowPool:Release(f)
+    end
+end
+
+-- Backport for ProcGlow on older clients
+if not procGlowSupported then
+    textureList.procGlowAtlas = [[Interface\AddOns\WeakAuras\Media\Textures\UIActionBarFX]]
+    local procGlowCoords = {
+        -- [1]=u1, [2]=u2, [3]=v1, [4]=v2
+        start = {0.000488281, 0.411621, 0.000976562, 0.987305},
+        loop = {0.412598, 0.575195, 0.000976562, 0.391602},
+    }
+
+    local function ProcGlow_OnUpdate(self, elapsed)
+        self.timer = self.timer + elapsed
+
+        if self.state == "start" then
+            local progress = self.timer / 0.7 -- duration 0.7s
+            if progress >= 1 then
+                self.state = "loop"
+                self.timer = 0
+                self.ProcStart:Hide()
+                self.ProcLoop:Show()
+                -- continue to loop part in same frame
+            else
+                local frame = floor(progress * 30) -- 30 frames
+                local atlas_u1, atlas_u2, atlas_v1, atlas_v2 = unpack(procGlowCoords.start)
+                local atlas_u_range = atlas_u2 - atlas_u1
+                local atlas_v_range = atlas_v2 - atlas_v1
+
+                local col = frame % 5
+                local row = floor(frame / 5)
+                local u1 = atlas_u1 + (col / 5) * atlas_u_range
+                local u2 = atlas_u1 + ((col + 1) / 5) * atlas_u_range
+                local v1 = atlas_v1 + (row / 6) * atlas_v_range
+                local v2 = atlas_v1 + ((row + 1) / 6) * atlas_v_range
+                self.ProcStart:SetTexCoord(u1, u2, v1, v2)
+                return
+            end
+        end
+
+        if self.state == "loop" then
+            local progress = (self.timer % self.duration) / self.duration
+            local frame = floor(progress * 30) -- 30 frames
+            local atlas_u1, atlas_u2, atlas_v1, atlas_v2 = unpack(procGlowCoords.loop)
+            local atlas_u_range = atlas_u2 - atlas_u1
+            local atlas_v_range = atlas_v2 - atlas_v1
+
+            local col = frame % 5
+            local row = floor(frame / 5)
+            local u1 = atlas_u1 + (col / 5) * atlas_u_range
+            local u2 = atlas_u1 + ((col + 1) / 5) * atlas_u_range
+            local v1 = atlas_v1 + (row / 6) * atlas_v_range
+            local v2 = atlas_v1 + ((row + 1) / 6) * atlas_v_range
+            self.ProcLoop:SetTexCoord(u1, u2, v1, v2)
+        end
+    end
+
+    InitProcGlow = function(f)
+        f.ProcStart = f:CreateTexture(nil, "ARTWORK")
+        f.ProcStart:SetBlendMode("ADD")
+        f.ProcStart:SetTexture(textureList.procGlowAtlas)
+        f.ProcStart:SetSize(150, 150)
+        f.ProcStart:SetPoint("CENTER")
+
+        f.ProcLoop = f:CreateTexture(nil, "ARTWORK")
+        f.ProcLoop:SetBlendMode("ADD")
+        f.ProcLoop:SetTexture(textureList.procGlowAtlas)
+        f.ProcLoop:SetAllPoints()
+    end
+
+    SetupProcGlow = function(f, options)
+        f.key = "_ProcGlow" .. options.key -- for resetter
+        f.duration = options.duration
+        f.startAnim = options.startAnim
+
+        f:SetScript("OnHide", function(self)
+            self:SetScript("OnUpdate", nil)
+        end)
+        f:SetScript("OnShow", function(self)
+            self.timer = 0
+            if self.startAnim then
+                self.state = "start"
+                local width, height = self:GetSize()
+                self.ProcStart:SetSize((width / 42 * 150) / 1.4, (height / 42 * 150) / 1.4)
+                self.ProcStart:Show()
+                self.ProcLoop:Hide()
+            else
+                self.state = "loop"
+                self.ProcStart:Hide()
+                self.ProcLoop:Show()
+            end
+            self:SetScript("OnUpdate", ProcGlow_OnUpdate)
+            ProcGlow_OnUpdate(self, 0)
+        end)
+        if not options.color then
+            f.ProcStart:SetDesaturated(nil)
+            f.ProcStart:SetVertexColor(1, 1, 1, 1)
+            f.ProcLoop:SetDesaturated(nil)
+            f.ProcLoop:SetVertexColor(1, 1, 1, 1)
+        else
+            f.ProcStart:SetDesaturated(1)
+            f.ProcStart:SetVertexColor(options.color[1], options.color[2], options.color[3], options.color[4])
+            f.ProcLoop:SetDesaturated(1)
+            f.ProcLoop:SetVertexColor(options.color[1], options.color[2], options.color[3], options.color[4])
+        end
     end
 end
 

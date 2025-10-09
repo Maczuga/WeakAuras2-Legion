@@ -4280,9 +4280,9 @@ Private.glow_types = {
   buttonOverlay = L["Action Button Glow"],
 }
 
-if WeakAuras.IsMistsOrRetail() and not WeakAuras.IsLegion() then
-    Private.glow_types.Proc = L["Proc Glow"]
-  end
+if WeakAuras.IsMistsOrRetail() then
+  Private.glow_types.Proc = L["Proc Glow"]
+end
 
 ---@type table<string, string>
 Private.font_sizes = {
