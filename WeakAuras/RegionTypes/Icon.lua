@@ -320,7 +320,6 @@ local function modify(parent, region, data)
     if region.masqueId ~= masqueId then
       region.masqueId = masqueId
       region.MSQGroup = MSQ:Group("WeakAuras", region.masqueId, data.uid);
-      region.MSQGroup:SetName(data.id)
       region.MSQGroup:AddButton(button, {Icon = icon, Cooldown = cooldown}, "WA_Aura", true);
       button.data = data
     end
