@@ -931,20 +931,20 @@ Private.ExecEnv.BossMods.BigWigs = {
         isCooldown = false
         timerType = "cast"
       elseif event == "BigWigs_StartBreak" then
-        addon, duration, _, _, _, text, icon = ...
+        addon, duration, text = ...
         text = text
         spellId = -1
         count = 0
-        icon = icon
+        icon = 134062
         isCooldown = false
         isBarEnabled = true
         timerType = "break"
       elseif event == "BigWigs_StartPull" then
-        addon, duration, _, text, icon = ...
+        addon, duration, text = ...
         text = text
         spellId = -2
         count = 0
-        icon = 136116
+        icon = 132337
         isCooldown = false
         isBarEnabled = true
         timerType = "pull"
