@@ -6,9 +6,6 @@ local Private = select(2, ...)
 
 local L = WeakAuras.L
 local MSQ = LibStub("Masque", true);
-if MSQ then
-  MSQ:AddType("WA_Aura", {"Icon", "Cooldown"})
-end
 
 -- WoW API
 local _G = _G
