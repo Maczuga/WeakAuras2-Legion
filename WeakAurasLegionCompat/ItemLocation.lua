@@ -1,5 +1,5 @@
-ItemLocation = {};
-ItemLocationMixin = {};
+if not ItemLocation then ItemLocation = {}; end
+if not ItemLocationMixin then ItemLocationMixin = {}; end
 
 function ItemLocation:CreateEmpty()
 	local itemLocation = CreateFromMixins(ItemLocationMixin);
