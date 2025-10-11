@@ -3,6 +3,9 @@ if not C_PvP then
     IsWarModeDesired = function()
       return false
     end,
+    IsWarModeActive = function()
+      return false
+    end,
     IsRatedBattleground = IsRatedBattleground,
   }
 end

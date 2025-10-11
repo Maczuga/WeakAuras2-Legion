@@ -22,5 +22,11 @@ if not C_Spell then
     GetSpellPowerCost = GetSpellPowerCost,
     GetSchoolString = GetSchoolString,
     GetSpellLink = GetSpellLink,
+    IsSpellDataCached = function(spellId)
+      return select(1, GetSpellInfo(spellId)) ~= nil
+    end,
+    RequestLoadSpellData = function(spellId)
+      GetSpellInfo(spellId)
+    end,
   }
 end

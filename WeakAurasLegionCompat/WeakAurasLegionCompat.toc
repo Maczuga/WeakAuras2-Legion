@@ -6,7 +6,7 @@
 ## Notes: Compatibility layer between Retail and Legion 7.3.5 for WeakAuras
 ## Notes-esES: Capa de compatibilidad entre Retail y Legion 7.3.5 para WeakAuras
 ## Notes-deDE: Kompatibilitätsschicht zwischen Retail und Legion 7.3.5 für WeakAuras
-## Notes-ruRU: Слой совместимости между Retail и Legion 7.3.5 для WeakAuras
+## Notes-ruRU: Слой совместимости между Retail i Legion 7.3.5 dla WeakAuras
 ## Notes-zhTW: 為WeakAuras提供Retail與Legion 7.3.5之間的相容層
 ## X-Category: Interface Enhancements
 ## Globe-Main: WeakAuras
@@ -24,13 +24,17 @@ Globals\FindBaseSpellByID.lua
 Globals\GetClassAtlas.lua
 Globals\UnitPowerBarID.lua
 Globals\FindBaseSpellByID.lua
+Globals\WorldMapFrame.lua
+Globals\ProjectConstants.lua
 
 Extensions\FrameExtensions.lua
 
 Enum.lua
 
 EnvironmentUtil.lua
+GlobalStrings.lua
 TimeUtil.lua
+Vector2D.lua
 
 Color.lua
 ColorUtil.lua
@@ -44,6 +48,7 @@ Templates/Backdrop.lua
 
 Blizzard_SharedXMLBase\TableUtil.lua
 Blizzard_SharedXMLBase\EnumUtil.lua
+Blizzard_SharedXMLBase\MapUtil.lua
 Blizzard_SharedXMLBase\MathUtil.lua
 Blizzard_SharedXMLBase\CallbackRegistry.lua
 Blizzard_SharedXMLBase\GlobalCallbackRegistry.lua
@@ -57,6 +62,7 @@ API/C_SpecializationInfo.lua
 API/C_CreatureInfo.lua
 API/C_CurrencyInfo.lua
 API/C_Spell.lua
+API/C_SpellBook.lua
 API/C_VoiceChat.lua
 API/C_Item.lua
 API/C_PvP.lua
@@ -64,7 +70,10 @@ API/C_BattleNet.lua
 API/C_Container.lua
 API/C_QuestLog.lua
 API/C_TradeSkillUI.lua
+API/C_UnitAuras.lua
 API/C_DateAndTime.lua
+API/C_GossipInfo.lua
+API/C_TaxiMap.lua
 
 ItemLocation.lua
 Item.lua
