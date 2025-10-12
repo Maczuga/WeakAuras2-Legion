@@ -1,48 +1,6 @@
 if not C_Map then
   local HBD = LibStub("HereBeDragons-1.0")
   local HBDMigrate = LibStub("HereBeDragons-Migrate")
-  local HBD_mapData = HBD.mapData
-
-  -- Helper function to approximate Enum.UIMapType using HereBeDragons data heuristics.
-  local function InferMapType(uiMapId, data)
-      if uiMapId == WORLDMAP_COSMIC_ID then
-          return Enum.UIMapType.Cosmic
-      elseif uiMapId == WORLDMAP_AZEROTH_ID then
-          return Enum.UIMapType.World
-      elseif data.numFloors > 0 then
-          -- Maps with multiple floors are usually instances/dungeons
-          return Enum.UIMapType.Dungeon
-      elseif data.C == 0 and data.Z == 0 and uiMapId ~= WORLDMAP_AZEROTH_ID then
-          -- Continent level map
-          return Enum.UIMapType.Continent
-      elseif data.C > 0 and data.Z >= 0 then
-          -- Standard zone maps
-          return Enum.UIMapType.Zone
-      else
-          return Enum.UIMapType.Orphan
-      end
-  end
-
-  local function GetMapInfoInternal(uiMapId)
-      if not uiMapId or uiMapId < 0 then return nil end
-      local data = HBD_mapData[uiMapId]
-      if not data then return nil end
-
-      local mapType = InferMapType(uiMapId, data)
-      -- Approximate guess for isInstance based on map type or instance/originalInstance mismatch (phasing/micro dungeons)
-      local isInstance = data.instance ~= data.originalInstance or mapType == Enum.UIMapType.Dungeon or mapType == Enum.UIMapType.Micro
-
-      return {
-          mapID = uiMapId,
-          name = data.name,
-          mapType = mapType,
-          areaID = uiMapId, -- In Legion, uiMapId is equivalent to AreaMapID
-          directory = data.mapFile,
-          isInstance = isInstance,
-          defaultDungeonFloor = data.fakefloor or 0,
-          -- Many modern C_Map.GetMapInfo fields are missing as they are not available in the Legion client API.
-      }
-  end
 
   local function getCanonicalMapID(mapID)
     if not mapID then return nil end
@@ -69,8 +27,6 @@ if not C_Map then
       local x_world, y_world, instanceID = HBD:GetPlayerWorldPosition()
       if not x_world or not y_world then return nil, nil end
 
-      -- Use HBD to convert world coordinates back to local (0-1) coordinates for the given map ID (uiMapId).
-      -- We assume floor 0 if not specified, which is generally acceptable for zone maps.
       local x, y = HBD:GetZoneCoordinatesFromWorld(x_world, y_world, uiMapId, 0, true)
 
       return {
@@ -93,11 +49,30 @@ if not C_Map then
         return instanceID, CreateVector2D(worldX, worldY)
     end,
 
-    GetMapInfo = GetMapInfoInternal,
+    GetMapInfo = function(mapId)
+        local mapData = WeakAurasLegionCompat.C_Map_Data[mapId]
+        if not mapData then
+            return nil
+        end
 
-    GetMapInfoFromMapID = GetMapInfoInternal,
+        return mapData
+    end,
+
+    GetMapInfoFromMapID = function(mapId)
+      local mapData = WeakAurasLegionCompat.C_Map_Data[mapId]
+      if not mapData then
+          return nil
+      end
+
+      return mapData
+    end,
+
 
     GetMapNameByID = function(uiMapId)
+        local mapData = WeakAurasLegionCompat.C_Map_Data[uiMapId]
+        if mapData then
+            return mapData.name
+        end
         return HBD:GetLocalizedMap(uiMapId)
     end,
 

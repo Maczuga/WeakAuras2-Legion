@@ -503,6 +503,7 @@ MapMigrationData = {
     [757] = { mapFile = "GrimBatol", [1] = 293},
     [885] = { mapFile = "MogushanPalace", [1] = 453, [2] = 454, [3] = 455},
     [467] = { mapFile = "Zangarmarsh", [0] = 102},
+    [1379] = { mapFile = "Cosmic", [0] = 946},
 }
 
 function SetupMigrationData()

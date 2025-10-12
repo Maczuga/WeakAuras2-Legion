@@ -53,6 +53,7 @@ Blizzard_SharedXMLBase\MathUtil.lua
 Blizzard_SharedXMLBase\CallbackRegistry.lua
 Blizzard_SharedXMLBase\GlobalCallbackRegistry.lua
 
+API/C_Map_Data.lua
 API/C_CVar.lua
 API/C_AddOns.lua
 API/C_Map.lua

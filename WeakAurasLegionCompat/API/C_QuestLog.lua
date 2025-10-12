@@ -1,16 +1,7 @@
 if not C_QuestLog then
-  local function getQuestLogIndexForQuestID(questIDToFind)
-    if not questIDToFind then
-      return nil
-    end
-
-    local numEntries, _ = GetNumQuestLogEntries()
-    for i=1, numEntries do
-      if select(8, GetQuestLogTitle(i)) == questIDToFind then
-        return i
-      end
-    end
-  end
+  local scanningTooltip = CreateFrame("GameTooltip", "WeakAurasLegionCompatQuestScanningTooltip", UIParent, "GameTooltipTemplate")
+  local questTitleCache = {}
+  local scanningTooltipTextLeft1 = _G[scanningTooltip:GetName() .. "TextLeft1"]
 
   C_QuestLog = {
     GetNumQuestLogEntries = GetNumQuestLogEntries,
@@ -58,54 +49,46 @@ if not C_QuestLog then
         isLegendarySort = false,
       }
     end,
-    GetTitleForQuestID = function(questIDToFind)
-      if not questIDToFind then
+    GetTitleForQuestID = function(questID)
+      if not questID then
         return nil
       end
+      if questTitleCache[questID] then
+        return questTitleCache[questID]
+      end
 
-      local numEntries, _ = GetNumQuestLogEntries()
-      for i=1, numEntries do
-        local title, _, _, _, _, _, _, questID = GetQuestLogTitle(i)
-        if questID and questID == questIDToFind then
-          return title
-        end
+      scanningTooltip:SetOwner(UIParent, "ANCHOR_NONE")
+      scanningTooltip:SetHyperlink("quest:"..questID)
+      local title = scanningTooltipTextLeft1:GetText()
+      scanningTooltip:Hide()
+      if title and title ~= RETRIEVING_DATA then
+        questTitleCache[questID] = title
+        return title
       end
     end,
     GetNumQuestObjectives = function(questID)
-      if not questID then
-        return 0
-      end
-
-      local questLogIndex = getQuestLogIndexForQuestID(questID)
-      if not questLogIndex then
-        return 0
-      end
-
-      local numObjectives = 0
-      while true do
-        local description = GetQuestObjectiveInfo(questLogIndex, numObjectives + 1, false)
-        if description and description ~= "" then
-          numObjectives = numObjectives + 1
-        else
-          return numObjectives
-        end
-      end
+      return #C_QuestLog.GetQuestObjectives(questID)
     end,
     GetQuestObjectives = function(questID)
       if not questID then
         return {}
       end
 
-      local questLogIndex = getQuestLogIndexForQuestID(questID)
-      if not questLogIndex then
-        return {}
-      end
-
       local objectives = {}
       local index = 1
+      local lastObjectiveDescription
       while true do
-        local description, type, finished, numFulfilled, numRequired = GetQuestObjectiveInfo(questLogIndex, index, false)
+        local description, type, finished, numFulfilled, numRequired = GetQuestObjectiveInfo(questID, index, false)
+
         if not description or description == "" then
+          break
+        end
+
+        if type and type == "log" then
+          break
+        end
+
+        if description == lastObjectiveDescription then
           break
         end
 
@@ -116,6 +99,7 @@ if not C_QuestLog then
           numRequired = numRequired,
           finished = finished,
         })
+        lastObjectiveDescription = description
         index = index + 1
       end
       return objectives
