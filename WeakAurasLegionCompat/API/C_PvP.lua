@@ -1,11 +1,12 @@
 if not C_PvP then
-  C_PvP = {
-    IsWarModeDesired = function()
-      return false
-    end,
-    IsWarModeActive = function()
-      return false
-    end,
-    IsRatedBattleground = IsRatedBattleground,
-  }
+  C_PvP = {}
 end
+C_PvP.IsWarModeDesired = function()
+  return false
+end
+
+C_PvP.IsWarModeActive = function()
+  return false
+end
+
+C_PvP.IsRatedBattleground = IsRatedBattleground
