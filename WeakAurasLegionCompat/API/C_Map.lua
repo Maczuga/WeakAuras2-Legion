@@ -18,7 +18,18 @@ if not C_Map then
     GetBestMapForUnit = function(unit)
       if unit ~= "player" then return nil end
       local mapID = HBD:GetPlayerZone()
-      return getCanonicalMapID(mapID)
+      local canonicalMapID = getCanonicalMapID(mapID)
+      if not canonicalMapID then return nil end
+
+      local mapInfo = C_Map.GetMapInfo(canonicalMapID)
+      if mapInfo and mapInfo.mapType == Enum.UIMapType.Micro and mapInfo.parentMapID then
+        local parentMapInfo = C_Map.GetMapInfo(mapInfo.parentMapID)
+        if parentMapInfo and bit.band(parentMapInfo.flags, 8) > 0 then
+          return parentMapInfo.mapID
+        end
+      end
+
+      return canonicalMapID
     end,
 
     GetPlayerMapPosition = function(uiMapId, unitToken)
@@ -86,8 +97,25 @@ if not C_Map then
       return {}
     end,
     GetMapChildrenInfo = function(uiMapId)
-      -- Need exact values, so NYI
-      return {}
+      local children = {}
+      if not WeakAurasLegionCompat or not WeakAurasLegionCompat.C_Map_Data then
+        return children
+      end
+
+      for mapID, mapData in pairs(WeakAurasLegionCompat.C_Map_Data) do
+        if mapData.parentMapID == uiMapId then
+          table.insert(children, {
+            mapType = mapData.mapType,
+            mapID = mapData.mapID,
+            name = mapData.name,
+            parentMapID = mapData.parentMapID,
+            flags = mapData.flags,
+          })
+        end
+      end
+
+      table.sort(children, function(a, b) return a.mapID < b.mapID end)
+      return children
     end,
     GetAreaInfo = function(areaID)
       return nil

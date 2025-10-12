@@ -75,31 +75,41 @@ if not C_QuestLog then
       end
 
       local objectives = {}
+      local pendingObjectives = {}
       local index = 1
-      local lastObjectiveDescription
-      while true do
+
+      while index <= 50 do
         local description, type, finished, numFulfilled, numRequired = GetQuestObjectiveInfo(questID, index, false)
 
-        if not description or description == "" then
-          break
-        end
+        if not description then
+          table.insert(pendingObjectives, {
+            text = description,
+            type = type,
+            numFulfilled = numFulfilled,
+            numRequired = numRequired,
+            finished = finished,
+          })
+          if #pendingObjectives >= 3 then
+            break
+          end
+        else
+          for _, obj in ipairs(pendingObjectives) do
+            table.insert(objectives, obj)
+          end
+          pendingObjectives = {}
 
-        if type and type == "log" then
-          break
-        end
+          if type and type == "log" and finished and numFulfilled == numRequired then
+            break
+          end
 
-        if description == lastObjectiveDescription then
-          break
+          table.insert(objectives, {
+            text = description,
+            type = type,
+            numFulfilled = numFulfilled,
+            numRequired = numRequired,
+            finished = finished,
+          })
         end
-
-        table.insert(objectives, {
-          text = description,
-          type = type,
-          numFulfilled = numFulfilled,
-          numRequired = numRequired,
-          finished = finished,
-        })
-        lastObjectiveDescription = description
         index = index + 1
       end
       return objectives

@@ -55,8 +55,10 @@ if not C_GossipInfo then
         return quests
       end
 
+      local gossipQuests = { GetGossipAvailableQuests() }
+
       for i = 1, numQuests do
-        local title, questLevel, isTrivial, frequency, isRepeatable, isLegendary, isIgnored, questID = GetGossipAvailableQuestInfo(i)
+        local title, questLevel, isTrivial, frequency, isRepeatable, isLegendary, isIgnored = select((i - 1) * 7 + 1, unpack(gossipQuests))
 
         if title then
           table.insert(quests, {
@@ -68,9 +70,58 @@ if not C_GossipInfo then
             isComplete = nil,
             isLegendary = isLegendary,
             isIgnored = isIgnored,
-            questID = questID,
+            questID = nil, -- Not available in 735 API
             isImportant = false,
             isMeta = false,
+          })
+        end
+      end
+      return quests
+    end,
+    GetActiveQuests = function()
+      local quests = {}
+      local numQuests = GetNumGossipActiveQuests()
+      if not numQuests or numQuests == 0 then
+        return quests
+      end
+
+      local questTitleToInfo = {}
+      local numEntries, _ = GetNumQuestLogEntries()
+      for i = 1, numEntries do
+        local title, _, _, _, _, _, frequency, questID = GetQuestLogTitle(i)
+        if title and questID then
+          questTitleToInfo[title] = { questID = questID, frequency = frequency }
+        end
+      end
+
+      local gossipQuests = { GetGossipActiveQuests() }
+      for i=1, numQuests do
+        local title, questLevel, isTrivial, isComplete, isLegendary, isIgnored = select((i - 1) * 6 + 1, unpack(gossipQuests))
+
+        local info = questTitleToInfo[title]
+        if title and info then
+          local questFrequency = nil
+          local repeatable = false
+          if info.frequency then
+            if info.frequency == 2 then
+              questFrequency = 0
+              repeatable = true
+            elseif info.frequency == 3 then
+              questFrequency = 1
+              repeatable = true
+            end
+          end
+
+          table.insert(quests, {
+            title = title,
+            questLevel = questLevel,
+            isTrivial = isTrivial,
+            frequency = questFrequency,
+            repeatable = repeatable,
+            isComplete = isComplete,
+            isLegendary = isLegendary,
+            isIgnored = isIgnored,
+            questID = info.questID,
           })
         end
       end
