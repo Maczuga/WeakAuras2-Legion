@@ -127,6 +127,30 @@ if not C_GossipInfo then
       end
       return quests
     end,
+    SelectActiveQuest = function(questID)
+      local numQuests = GetNumGossipActiveQuests()
+      if not numQuests or numQuests == 0 then
+        return
+      end
+
+      local questTitleToQuestID = {}
+      local numEntries, _ = GetNumQuestLogEntries()
+      for i = 1, numEntries do
+        local title, _, _, _, _, _, _, logQuestID = GetQuestLogTitle(i)
+        if title and logQuestID then
+          questTitleToQuestID[title] = logQuestID
+        end
+      end
+
+      local gossipQuests = { GetGossipActiveQuests() }
+      for i = 1, numQuests do
+        local title = select((i - 1) * 6 + 1, unpack(gossipQuests))
+        if title and questTitleToQuestID[title] == questID then
+          SelectGossipActiveQuest(i)
+          return
+        end
+      end
+    end,
   }
 end
 
