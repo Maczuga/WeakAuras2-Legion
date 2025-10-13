@@ -3,9 +3,18 @@ if not C_Item then
     GetItemInfoInstant = GetItemInfoInstant,
     IsEquippedItem = IsEquippedItem,
     GetItemSubClassInfo = GetItemSubClassInfo,
-    GetItemInfo = GetItemInfo,
     GetItemCount = GetItemCount,
+    GetDetailedItemLevelInfo = GetDetailedItemLevelInfo,
   }
+
+  C_Item.GetItemInfo = function(itemIdentifier)
+    local itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount, itemEquipLoc, itemTexture, itemSellPrice, classID, subclassID, bindType, expacID, setID, isCraftingReagent = GetItemInfo(itemIdentifier)
+    if not itemName then
+      return nil
+    end
+
+    return itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount, itemEquipLoc, itemTexture, itemSellPrice, classID, subclassID, bindType, expacID, setID, isCraftingReagent
+  end
 
   C_Item.IsEquippedItemType = function(itemType)
     if not itemType or itemType == "" then
