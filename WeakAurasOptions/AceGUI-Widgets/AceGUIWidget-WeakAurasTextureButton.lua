@@ -37,7 +37,7 @@ local methods = {
   end,
   ["SetTexture"] = function(self, texturePath, name, IsStopMotion)
     self.texture:SetTexCoord(0, 1, 0, 1)
-    local atlasInfo = GetAtlasInfo(texturePath)
+    local atlasInfo = C_Texture.GetAtlasInfo(texturePath)
     if atlasInfo then
       self.texture:SetAtlas(texturePath, false);
       self.texture.IsAtlas = true
