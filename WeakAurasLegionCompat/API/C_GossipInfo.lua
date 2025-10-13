@@ -151,6 +151,26 @@ if not C_GossipInfo then
         end
       end
     end,
+    SelectAvailableQuest = function(questID)
+      local numQuests = GetNumGossipAvailableQuests()
+      if not numQuests or numQuests == 0 then
+        return
+      end
+
+      local questTitle = C_QuestLog.GetTitleForQuestID(questID)
+      if not questTitle then
+        return
+      end
+
+      local gossipQuests = { GetGossipAvailableQuests() }
+      for i = 1, numQuests do
+        local title = select((i - 1) * 7 + 1, unpack(gossipQuests))
+        if title and title == questTitle then
+          SelectGossipAvailableQuest(i)
+          return
+        end
+      end
+    end,
   }
 end
 
