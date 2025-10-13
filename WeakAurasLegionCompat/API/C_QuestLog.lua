@@ -6,6 +6,7 @@ if not C_QuestLog then
   C_QuestLog = {
     GetNumQuestLogEntries = GetNumQuestLogEntries,
     AddQuestWatch = AddQuestWatch,
+    GetLogIndexForQuestID = GetQuestLogIndexByID,
     GetQuestIDForLogIndex = function(i)
       return select(8, GetQuestLogTitle(i))
     end,

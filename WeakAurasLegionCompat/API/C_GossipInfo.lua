@@ -36,7 +36,7 @@ if not C_GossipInfo then
         flags = 0,
         overrideIconID = nil,
         selectOptionWhenOnlyOption = false,
-        orderIndex = index,
+        orderIndex = index - 1,
       }
       table.insert(newOptions, optionInfo)
     end
