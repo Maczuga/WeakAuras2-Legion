@@ -4,6 +4,7 @@ if not C_Item then
     IsEquippedItem = IsEquippedItem,
     GetItemSubClassInfo = GetItemSubClassInfo,
     GetItemCount = GetItemCount,
+    IsItemInRange = IsItemInRange,
     GetDetailedItemLevelInfo = GetDetailedItemLevelInfo,
   }
 

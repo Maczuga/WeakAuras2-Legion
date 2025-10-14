@@ -10,6 +10,12 @@ if not C_QuestLog then
     GetQuestIDForLogIndex = function(i)
       return select(8, GetQuestLogTitle(i))
     end,
+    SetSelectedQuest = function(questID)
+      local questLogIndex = GetQuestLogIndexByID(questID)
+      if questLogIndex and questLogIndex > 0 then
+        SelectQuestLogEntry(questLogIndex)
+      end
+    end,
     IsComplete = IsQuestComplete,
     IsQuestFlaggedCompleted = IsQuestFlaggedCompleted,
     ReadyForTurnIn = function() return false end,
@@ -116,5 +122,13 @@ if not C_QuestLog then
       end
       return objectives
     end,
+    SetAbandonQuest = function(questID)
+      local questLogIndex = GetQuestLogIndexByID(questID)
+      if questLogIndex and questLogIndex > 0 then
+        SelectQuestLogEntry(questLogIndex)
+        SetAbandonQuest()
+      end
+    end,
+    AbandonQuest = AbandonQuest,
   }
 end
