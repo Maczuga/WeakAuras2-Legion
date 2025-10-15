@@ -27,31 +27,6 @@ body:
     required: true
 
 - type: dropdown
-  id: flavor
-  attributes:
-    label: World of Warcraft Flavor
-    description: What version of World of Warcraft are are you running?
-    options:
-      - Retail (Default)
-      - Beta (WoW 11.0)
-      - Classic Era
-      - Cataclysm Classic
-  validations:
-    required: true
-
-- type: dropdown
-  id: region
-  attributes:
-    label: World of Warcraft Region
-    description: Which region are you playing World of Warcraft in?
-    options:
-      - US/NA
-      - EU
-      - TW/Asia
-  validations:
-    required: true
-
-- type: dropdown
   id: testing
   attributes:
     label: Tested with only WeakAuras

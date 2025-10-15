@@ -6168,7 +6168,14 @@ function WeakAuras.SetModel(frame, unused, model_fileId, isUnit, isDisplayInfo)
   elseif isUnit then
     pcall(frame.SetUnit, frame, model_fileId)
   else
-    pcall(frame.SetModel, frame, tonumber(model_fileId))
+    -- Legion and older versions use paths instead of file IDs.
+    -- tonumber will return nill for path.
+    local id = tonumber(model_fileId)
+    if id then
+      pcall(frame.SetModel, frame, id)
+    else
+      pcall(frame.SetModel, frame, model_fileId)
+    end
   end
 end
 

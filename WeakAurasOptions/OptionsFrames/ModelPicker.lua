@@ -213,10 +213,11 @@ local function ConstructModelPicker(frame)
   modelTree:SetCallback("OnGroupSelected", function(self, event, value, fileId)
     local path = string.gsub(value, "\001", "/");
     if(string.lower(string.sub(path, -3, -1)) == ".m2") then
+      local model_reference = WeakAuras.IsLegion() and path or fileId
       if (group.selectedValues.api) then
-        group:PickSt(fileId);
+        group:PickSt(model_reference);
       else
-        group:Pick(fileId);
+        group:Pick(model_reference);
       end
     end
   end);

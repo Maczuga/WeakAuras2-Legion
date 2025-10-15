@@ -74,6 +74,7 @@ if not C_CurrencyInfo then
       }
       return currencyInfo
     end,
+    GetCoinIcon = GetCoinIcon,
     -- Not needed since isAccountTransferable is always false
     -- IsAccountCharacterCurrencyDataReady,
     -- FetchCurrencyDataFromAccountCharacters,
