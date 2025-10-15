@@ -3849,6 +3849,12 @@ Private.event_prototypes = {
             local total = math.max(1, UnitPowerMax(unit, powerType))
           ]])
         end
+      elseif WeakAuras.IsLegion() and powerType == 4 and trigger.unit == 'player' then
+        table.insert(ret, ([[
+          local comboPoint = UnitPower(unit, 4)
+          local power = UnitPower(unit, powerType)
+          local total = math.max(1, UnitPowerMax(unit, powerType))
+        ]]):format(trigger.use_scaleStagger and trigger.scaleStagger or 1))
       elseif WeakAuras.IsMistsOrLegion() and powerType == 99 then
         table.insert(ret, ([[
           local power = UnitStagger(unit) or 0
@@ -3949,7 +3955,7 @@ Private.event_prototypes = {
         test = "true",
         reloadOptions = true,
         enable = function(trigger)
-          return WeakAuras.IsRetail() and not WeakAuras.IsLegion() and trigger.unit == 'player' and trigger.use_powertype and trigger.powertype == 4
+          return WeakAuras.IsRetail() and trigger.unit == 'player' and trigger.use_powertype and trigger.powertype == 4
         end,
         hidden = not WeakAuras.IsRetail()
       },
@@ -3959,7 +3965,7 @@ Private.event_prototypes = {
         display = L["Charged Combo Points"],
         conditionType = "number",
         enable = function(trigger)
-          return WeakAuras.IsRetail() and not WeakAuras.IsLegion() and trigger.unit == 'player'and trigger.use_powertype and trigger.powertype == 4
+          return WeakAuras.IsRetail() and trigger.unit == 'player'and trigger.use_powertype and trigger.powertype == 4
         end,
         hidden = true,
         test = "true"
