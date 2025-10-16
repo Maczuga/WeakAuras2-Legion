@@ -2,7 +2,7 @@ if not C_TaxiMap then
   C_TaxiMap = {}
 end
 
-function C_TaxiMap.GetAllTaxiNodes()
+function C_TaxiMap.GetAllTaxiNodes(uiMapId)
   if not GetAllTaxiNodes then
     return {}
   end
@@ -14,30 +14,32 @@ function C_TaxiMap.GetAllTaxiNodes()
   local currentMapID = GetCurrentMapAreaID()
 
   for slotIndex, oldNode in pairs(oldNodes) do
-    local _, nodeMapID = TaxiNodeName(slotIndex)
-
-    local newType
+    local state
     if oldNode.type == 1 then
-      newType = Enum.FlightPathState.Current
+      state = Enum.FlightPathState.Current
     elseif oldNode.type == 2 then
-      newType = Enum.FlightPathState.Reachable
+      state = Enum.FlightPathState.Reachable
     else
-      newType = Enum.FlightPathState.Unreachable
+      state = Enum.FlightPathState.Unreachable
     end
 
     table.insert(newNodes, {
-      name = oldNode.name,
       nodeID = oldNode.nodeID,
-      mapID = nodeMapID or currentMapID,
-      slot = oldNode.slotIndex,
-      x = oldNode.x,
-      y = oldNode.y,
-      type = newType,
-      isFlightPath = true,
+      position = {
+        x = oldNode.x,
+        y = oldNode.y,
+      },
+      name = oldNode.name,
+      state = state,
+      mapID = currentMapID,
+      slotIndex = oldNode.slotIndex,
+      useSpecialIcon = false,
+      specialIconCostString = nil,
+      isMapLayerTransition = false,
     })
   end
 
-  table.sort(newNodes, function(a, b) return a.slot < b.slot end)
+  table.sort(newNodes, function(a, b) return a.slotIndex < b.slotIndex end)
 
   return newNodes
 end

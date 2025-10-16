@@ -49,9 +49,9 @@ Enum.UIMapType = {
 
 Enum.FlightPathState = {
   Current = 0,
-   Reachable = 1,
-   Unreachable = 2,
- }
+  Reachable = 1,
+  Unreachable = 2,
+}
 
  Enum.InventoryType = {
   IndexNonEquipType = 0,
