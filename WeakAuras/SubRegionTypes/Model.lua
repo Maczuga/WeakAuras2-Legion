@@ -57,6 +57,10 @@ local function PreShow(self)
   local modelId = tonumber(data.model_fileId)
   if modelId then
     pcall(self.SetModel, self, modelId)
+  else
+    -- Legion and older versions use paths instead of file IDs.
+    -- tonumber will return nill for path.
+    pcall(self.SetModel, self, data.model_fileId)
   end
 
   self:ClearTransform()
@@ -125,6 +129,10 @@ local function AcquireModel(region, data)
   local modelId = tonumber(data.model_fileId)
   if modelId then
     pcall(model.SetModel, model, modelId)
+  else
+    -- Legion and older versions use paths instead of file IDs.
+    -- tonumber will return nill for path.
+    pcall(model.SetModel, model, data.model_fileId)
   end
 
   model:ClearTransform()
