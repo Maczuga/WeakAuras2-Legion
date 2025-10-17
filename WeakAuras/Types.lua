@@ -3773,7 +3773,7 @@ local mythic_plus_ignorelist = {
   [15] = true
 }
 
-if WeakAuras.IsRetail() then
+if WeakAuras.IsLegionOrRetail() then
   for i = 1, 255 do
     local r = not mythic_plus_ignorelist[i] and C_ChallengeMode.GetAffixInfo(i)
     if r then
