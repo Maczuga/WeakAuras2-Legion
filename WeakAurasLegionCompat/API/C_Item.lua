@@ -6,6 +6,7 @@ if not C_Item then
     GetItemCount = GetItemCount,
     IsItemInRange = IsItemInRange,
     GetDetailedItemLevelInfo = GetDetailedItemLevelInfo,
+    GetItemSetInfo = GetItemSetInfo,
   }
 
   C_Item.GetItemInfo = function(itemIdentifier)
