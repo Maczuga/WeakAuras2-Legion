@@ -1364,6 +1364,10 @@ loadedFrame:RegisterEvent("LOADING_SCREEN_DISABLED");
 if WeakAuras.IsRetail() then
   loadedFrame:RegisterEvent("ACTIVE_TALENT_GROUP_CHANGED");
   loadedFrame:RegisterEvent("PLAYER_PVP_TALENT_UPDATE");
+elseif WeakAuras.IsLegion() then
+  loadedFrame:RegisterEvent("PLAYER_PVP_TALENT_UPDATE");
+  loadedFrame:RegisterEvent("CHARACTER_POINTS_CHANGED");
+  loadedFrame:RegisterEvent("SPELLS_CHANGED");
 else
   loadedFrame:RegisterEvent("CHARACTER_POINTS_CHANGED");
   loadedFrame:RegisterEvent("SPELLS_CHANGED");

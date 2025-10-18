@@ -2815,12 +2815,9 @@ do
     cdReadyFrame = CreateFrame("Frame");
     cdReadyFrame.inWorld = 0
     Private.frames["Cooldown Trigger Handler"] = cdReadyFrame
-    if WeakAuras.IsRetail() then
+    if WeakAuras.IsLegionOrRetail() then
       cdReadyFrame:RegisterEvent("RUNE_POWER_UPDATE");
       cdReadyFrame:RegisterEvent("PLAYER_TALENT_UPDATE");
-      cdReadyFrame:RegisterEvent("PLAYER_PVP_TALENT_UPDATE");
-    elseif WeakAuras.IsLegion() then
-      cdReadyFrame:RegisterEvent("CHARACTER_POINTS_CHANGED");
       cdReadyFrame:RegisterEvent("PLAYER_PVP_TALENT_UPDATE");
     else
       cdReadyFrame:RegisterEvent("CHARACTER_POINTS_CHANGED");
