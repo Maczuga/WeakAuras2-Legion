@@ -3514,6 +3514,9 @@ do
   end
 
   function Private.ExecEnv.GetEffectiveSpellId(spellId, exactMatch, followoverride)
+    if not WeakAuras.SafeToNumber(spellId) then
+      return
+    end
     if type(spellId) == "string" then
       spellId = select(7, Private.ExecEnv.GetSpellInfo(spellId))
     end
