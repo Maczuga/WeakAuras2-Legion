@@ -1027,7 +1027,17 @@ local function CreatePvPTalentCache()
   --- @type fun(talentId: number): number, string
   local function formatTalent(talentId)
     local _, name, icon, _, _, spellId = GetPvpTalentInfoByID(talentId);
-    return spellId, "|T"..icon..":0|t "..name
+    if spellId and name and icon then
+      return spellId, "|T"..icon..":0|t "..name
+    else
+      print("Unexpected PvP talents cache build error.")
+      print("Please report it: https://github.com/Maczuga/WeakAuras2-Legion/issues")
+      print("Debug info: ")
+      print("talentId: " .. (talentId and talentId or 'nil'))
+      print("name: " .. (name and name or 'nil'))
+      print("icon: " .. (icon and icon or 'nil'))
+      print("spellId: " .. (spellId and spellId or 'nil'))
+    end
   end
 
   if WeakAuras.IsLegion() then
