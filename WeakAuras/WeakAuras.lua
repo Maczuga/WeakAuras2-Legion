@@ -1027,8 +1027,8 @@ local function CreatePvPTalentCache()
   --- @type fun(talentId: number): number, string
   local function formatTalent(talentId)
     local _, name, icon, _, _, spellId = GetPvpTalentInfoByID(talentId);
-      return spellId, "|T"..icon..":0|t "..name
-    end
+    return spellId, "|T"..icon..":0|t "..name
+  end
 
   if WeakAuras.IsLegion() then
     -- Check first CELL, if it returns nothing - it's not ready.
@@ -1039,8 +1039,20 @@ local function CreatePvPTalentCache()
     for tier = 1, MAX_PVP_TALENT_TIERS do
       for column = 1, MAX_PVP_TALENT_COLUMNS do
         local talentId = GetPvpTalentInfo(tier, column, 1);
-        local index, displayText = formatTalent(talentId)
-        Private.pvp_talent_types_specific[player_class][spec][index] = displayText
+        if talentId then
+          local index, displayText = formatTalent(talentId)
+          if index then
+            Private.pvp_talent_types_specific[player_class][spec][index] = displayText
+          end
+        else
+          print("Unexpected PvP talents cache build error.")
+          print("Please report it: https://github.com/Maczuga/WeakAuras2-Legion/issues")
+          print("Debug info: ")
+          print("player_class: " .. player_class)
+          print("spec: " .. spec)
+          print("Tier: " .. tier)
+          print("Column: " .. column)
+        end
       end
     end
   else
