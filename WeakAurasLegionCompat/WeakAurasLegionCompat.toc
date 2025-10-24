@@ -66,6 +66,7 @@ API/C_Spell.lua
 API/C_SpellBook.lua
 API/C_VoiceChat.lua
 API/C_Item.lua
+API/C_LossOfControl.lua
 API/C_PvP.lua
 API/C_BattleNet.lua
 API/C_Container.lua
