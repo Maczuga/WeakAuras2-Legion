@@ -1509,13 +1509,13 @@ local function bestUnit(triggerInfo, bestMatch)
 end
 
 local function roleForTriggerInfo(triggerInfo, unit)
-  if triggerInfo.fetchRole then
+  if triggerInfo.fetchRole and unit then
     return UnitGroupRolesAssigned(unit)
   end
 end
 
 local function markForTriggerInfo(triggerInfo, unit)
-  if triggerInfo.fetchRaidMark then
+  if triggerInfo.fetchRaidMark and unit then
     local rt = GetRaidTargetIndex(unit)
     if rt then
       return "{rt" .. GetRaidTargetIndex(unit) .. "}"
@@ -3854,7 +3854,7 @@ local function GetUnit(guid)
     return nil
   end
   for unit in pairs(guidToUnit[guid]) do
-    if UnitGUID(unit) == guid then
+    if unit and UnitGUID(unit) == guid then
       return unit
     else
       guidToUnit[guid][unit] = nil
