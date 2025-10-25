@@ -98,3 +98,12 @@ if not tCompare then
     return true;
   end
 end
+
+if not MergeTable then
+  function MergeTable(dest, src)
+    for k, v in pairs(src) do
+      dest[k] = v
+    end
+    return dest
+  end
+end
