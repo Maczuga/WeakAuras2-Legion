@@ -18,3 +18,38 @@ if not C_LossOfControl.GetActiveLossOfControlDataCountByUnit then
     return 0
   end
 end
+
+if not C_LossOfControl.GetActiveLossOfControlData then
+  function C_LossOfControl.GetActiveLossOfControlData(index)
+    if not C_LossOfControl.GetEventInfo then
+      return nil
+    end
+
+    local locType, spellID, displayText, iconTexture, startTime, timeRemaining, duration, lockoutSchool, priority, displayType = C_LossOfControl.GetEventInfo(index)
+    if not locType then
+      return nil
+    end
+
+    return {
+      locType = locType,
+      spellID = spellID,
+      displayText = displayText,
+      iconTexture = iconTexture,
+      startTime = startTime,
+      timeRemaining = timeRemaining,
+      duration = duration,
+      lockoutSchool = lockoutSchool,
+      priority = priority,
+      displayType = displayType,
+    }
+  end
+end
+
+if not C_LossOfControl.GetActiveLossOfControlDataByUnit then
+  function C_LossOfControl.GetActiveLossOfControlDataByUnit(unitToken, index)
+    if UnitIsUnit(unitToken, "player") then
+      return C_LossOfControl.GetActiveLossOfControlData(index)
+    end
+    return nil
+  end
+end
