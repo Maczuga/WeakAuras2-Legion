@@ -68,7 +68,7 @@ if not C_CurrencyInfo then
             description = "",
             trackedQuantity = 0,
             isTradeable = false,
-            quality = 1, // TODO - could in theory get from GetCurrencyInfo (last param) but we don't have link nor ID.
+            quality = 1, -- TODO - could in theory get from GetCurrencyInfo (last param) but we don't have link nor ID.
             maxWeeklyQuantity = 0,
             totalEarned = 0,
             discovered = true,
