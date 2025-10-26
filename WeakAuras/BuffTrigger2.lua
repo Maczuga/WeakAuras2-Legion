@@ -2163,6 +2163,9 @@ local function RemoveScanFuncs(triggerInfo, filter, unit, scanFuncName, scanFunc
 end
 
 local function RecheckActive(triggerInfo, unit, unitsToRemoveScan)
+  if not unit then
+    return
+  end
   local isSelf, role, inParty, class
   local unitExists = UnitExistsFixed(unit)
   if unitExists and TriggerInfoApplies(triggerInfo, unit) then

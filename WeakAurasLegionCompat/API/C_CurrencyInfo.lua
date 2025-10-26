@@ -36,7 +36,7 @@ if not C_CurrencyInfo then
 
     ---@type fun(currencyLink: string): number?
     GetCurrencyIDFromLink = function(currencyLink)
-      local currencyID = string.match(currencyLink, "|Hcurrency:(%d+):")
+      local currencyID = string.match(currencyLink, "|Hcurrency:(%d+)|h")
       return tonumber(currencyID)
     end,
 
@@ -45,36 +45,40 @@ if not C_CurrencyInfo then
       ExpandCurrencyList(index, expand and 1 or 0)
     end,
 
-  ---@type fun(index: number): CurrencyInfo
+    ---@type fun(index: number): CurrencyInfo
     GetCurrencyListInfo = function(index)
-      local name, isHeader, isExpanded, isUnused, isWatched, _, icon, _, hasWeeklyLimit, _, _, itemID = GetCurrencyListInfo(index)
-      local currentAmount, earnedThisWeek, weeklyMax, totalMax, isDiscovered, rarity
-      if itemID then
-        _, currentAmount, _, earnedThisWeek, weeklyMax, totalMax, isDiscovered, rarity = GetCurrencyInfo(itemID)
-      end
-      local currencyInfo = {
-        name = name,
-        description = "",
-        isHeader = isHeader,
-        isHeaderExpanded = isExpanded,
-        isTypeUnused = isUnused,
-        isShowInBackpack = isWatched,
-        quantity = currentAmount,
-        trackedQuantity = 0,
-        iconFileID = icon,
-        maxQuantity = totalMax,
-        canEarnPerWeek = hasWeeklyLimit,
-        quantityEarnedThisWeek = earnedThisWeek,
-        isTradeable = false,
-        quality = rarity,
-        maxWeeklyQuantity = weeklyMax,
-        totalEarned = 0,
-        discovered = isDiscovered,
-        useTotalEarnedForMaxQty = false,
-      }
-      return currencyInfo
+        local name, isHeader, isHeaderExpanded, isUnused, isShowInBackpack, quantity, iconFileID, maxQuantity, canEarnPerWeek, quantityEarnedThisWeek, atWeeklyLimit = GetCurrencyListInfo(index)
+
+        if not name then
+            return nil
+        end
+
+        local currencyInfo = {
+            name = name,
+            isHeader = isHeader
+            isHeaderExpanded = isHeaderExpanded,
+            isTypeUnused = isUnused,
+            isShowInBackpack = isShowInBackpack,
+            quantity = quantity,
+            iconFileID = iconFileID,
+            maxQuantity = maxQuantity,
+            canEarnPerWeek = canEarnPerWeek,
+            quantityEarnedThisWeek = quantityEarnedThisWeek,
+
+            description = "",
+            trackedQuantity = 0,
+            isTradeable = false,
+            quality = 1, // TODO - could in theory get from GetCurrencyInfo (last param) but we don't have link nor ID.
+            maxWeeklyQuantity = 0,
+            totalEarned = 0,
+            discovered = true,
+            useTotalEarnedForMaxQty = false,
+        }
+
+        return currencyInfo
     end,
     GetCoinIcon = GetCoinIcon,
+    GetCurrencyListLink = GetCurrencyListLink,
     -- Not needed since isAccountTransferable is always false
     -- IsAccountCharacterCurrencyDataReady,
     -- FetchCurrencyDataFromAccountCharacters,
