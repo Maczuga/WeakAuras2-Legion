@@ -55,7 +55,7 @@ if not C_CurrencyInfo then
 
         local currencyInfo = {
             name = name,
-            isHeader = isHeader
+            isHeader = isHeader,
             isHeaderExpanded = isHeaderExpanded,
             isTypeUnused = isUnused,
             isShowInBackpack = isShowInBackpack,
